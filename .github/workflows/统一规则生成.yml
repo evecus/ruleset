@@ -110,29 +110,46 @@ jobs:
       # =============================================================
       - name: 编译与提交
         run: |
-          # 编译 sing-box srs
-          for f in sing-box/*.json; do 
-            sing-box rule-set compile --output "${f%.json}.srs" "$f"
+          set -euo pipefail
+
+          # 1. 编译 sing-box srs (增加非空检查)
+          for f in sing-box/*.json; do
+            if [ -f "$f" ] && [ $(jq '.rules | length' "$f") -gt 0 ]; then
+              echo "正在编译 Sing-box 规则: $f"
+              sing-box rule-set compile --output "${f%.json}.srs" "$f"
+            else
+              echo "跳过空文件或无效 JSON: $f"
+            fi
           done
           
-          # 编译 mihomo mrs
+          # 2. 编译 mihomo mrs (防止 panic: empty rule)
           for f in mihomo/*.yaml; do
-            TYPE=$([[ "$f" == *"ip"* ]] && echo "ipcidr" || echo "domain")
-            mihomo convert-ruleset "$TYPE" yaml "$f" "${f%.yaml}.mrs"
+            if [ -f "$f" ]; then
+              # 检查文件中是否包含以 "  - " 开头的规则行
+              if grep -q "^  - " "$f"; then
+                echo "正在编译 Mihomo 规则: $f"
+                TYPE=$([[ "$f" == *"ip"* ]] && echo "ipcidr" || echo "domain")
+                mihomo convert-ruleset "$TYPE" yaml "$f" "${f%.yaml}.mrs" || echo "编译 $f 失败，跳过"
+              else
+                echo "跳过空规则文件 (仅有 payload): $f"
+                # 可选：删除空的 YAML 避免上传
+                rm "$f"
+              fi
+            fi
           done
 
-          # Git 提交操作
+          # 3. Git 提交操作
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 【修改点 2】: 显式切换/确认在 master 分支
           git checkout master || git checkout -b master
           
-          git add sing-box/* mihomo/*
+          # 只添加编译后的二进制文件和有效的源文件
+          git add sing-box/*.json sing-box/*.srs || true
+          git add mihomo/*.yaml mihomo/*.mrs || true
           
-          # 检查是否有变动并推送至 origin master
           if ! git diff --cached --quiet; then
-            git commit -m "chore: 完整同步全量/精简 IP 及域名规则 $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "chore: 完整同步规则集 $(date +'%Y-%m-%d %H:%M')"
             git push origin master
           else
             echo "没有发现任何规则变动，跳过推送。"
