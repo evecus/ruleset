@@ -11,8 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout master branch
         uses: actions/checkout@v4
+        with:
+          ref: master        # ← 检出 master 分支
+          fetch-depth: 0
 
       - name: Install mihomo
         run: |
@@ -24,13 +27,11 @@ jobs:
 
       - name: Find and convert rule files
         run: |
-          RULE_DIR="mihomo"
-
+          RULE_DIR="mihomo"   # master 分支根目录下的 mihomo/ 文件夹
           find "$RULE_DIR" -type f \( -name "*_domain.yaml" -o -name "*_domain.text" -o -name "*_ip.yaml" -o -name "*_ip.text" \) | while read FILE; do
             BASENAME=$(basename "$FILE")
             DIRNAME=$(dirname "$FILE")
 
-            # Determine type: domain or ip
             if [[ "$BASENAME" == *_domain.* ]]; then
               TYPE="domain"
             elif [[ "$BASENAME" == *_ip.* ]]; then
@@ -40,7 +41,6 @@ jobs:
               continue
             fi
 
-            # Determine format: yaml or text
             EXT="${BASENAME##*.}"
             if [[ "$EXT" == "yaml" ]]; then
               FORMAT="yaml"
@@ -51,21 +51,18 @@ jobs:
               continue
             fi
 
-            # Output
             OUTPUT="${FILE%.*}.mrs"
-
             echo "Converting $FILE → $OUTPUT"
             mihomo convert-ruleset "$TYPE" "$FORMAT" "$FILE" "$OUTPUT"
           done
 
-      - name: Commit and push changes
+      - name: Commit and push to master
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "actions@github.com"
-
           git add .
           if git commit -m "Auto convert Mihomo rules"; then
-            git push
+            git push origin master
           else
             echo "No changes to commit"
           fi
