@@ -1,4 +1,4 @@
-name: 统一规则集维护中心
+name: 自建规则生成
 
 on:
   workflow_dispatch:
