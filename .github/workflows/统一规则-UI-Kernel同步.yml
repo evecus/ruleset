@@ -99,6 +99,8 @@ jobs:
           curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.json" -o sing-box/cn_domain.json
           curl -L "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.yaml" -o mihomo/ads_domain.yaml
           curl -L "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblocksingbox.json" -o sing-box/ads_domain.json
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.yaml" -o mihomo/ads_domain-lite.yaml
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ads-all.json" -o sing-box/ads_domain-lite.json
 
       - name: 编译与提交至 master 分支
         run: |
