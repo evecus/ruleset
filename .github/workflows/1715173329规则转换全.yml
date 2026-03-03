@@ -1,4 +1,4 @@
-name: 1715173329规则转换
+name: 1715173329规则转换全
 
 on:
   workflow_dispatch:
