@@ -1,4 +1,5 @@
 name: 统一规则-UI-Kernel同步
+
 on:
   workflow_dispatch:
   schedule:
@@ -223,12 +224,14 @@ jobs:
 
       - name: 上传 YAML & JSON 至 laws 分支
         run: |
-          cd dest
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
+          # 重新 clone laws 分支保证基于最新 HEAD
+          git clone --depth 1 --branch laws \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
+            /tmp/laws_repo_j3
 
-          git fetch origin laws || true
-          git checkout -B laws origin/laws 2>/dev/null || git checkout -b laws
+          cd /tmp/laws_repo_j3
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           rm -rf MetaCubeX/
           cp -r /tmp/MetaCubeX/ .
@@ -244,9 +247,14 @@ jobs:
 
       - name: 上传 MRS & SRS 至 master 分支
         run: |
-          cd dest
-          git fetch origin master || true
-          git checkout -B master origin/master 2>/dev/null || git checkout -b master
+          # 重新 clone master 分支保证基于最新 HEAD（Job1 已推送）
+          git clone --depth 1 --branch master \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
+            /tmp/master_repo_j3
+
+          cd /tmp/master_repo_j3
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           rm -rf MetaCubeX/
           cp -r /tmp/MetaCubeX/ .
@@ -342,15 +350,18 @@ jobs:
 
       - name: 3. 上传 JSON/YAML 至 laws 分支
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-
+          # 备份生成结果
           mkdir -p /tmp/generated_files
           cp -r 1715173329/ /tmp/generated_files/
 
-          git fetch origin laws || true
-          # 强制同步到远端最新（Job3 可能已推送新 commit）
-          git checkout -B laws origin/laws 2>/dev/null || git checkout -b laws
+          # 重新 clone laws 分支，保证基于远端最新 HEAD（Job3 已推送）
+          git clone --depth 1 --branch laws \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
+            /tmp/laws_repo
+
+          cd /tmp/laws_repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           rm -rf 1715173329/
           cp -r /tmp/generated_files/1715173329/ .
@@ -360,13 +371,20 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "Update: 同步 JSON 与 YAML (laws)"
             git push origin laws
+          else
+            echo "laws 分支无变化，跳过推送。"
           fi
 
       - name: 4. 上传 SRS/MRS 至 master 分支
         run: |
-          git fetch origin master || true
-          # 强制同步到远端最新（Job1/Job3 可能已推送新 commit）
-          git checkout -B master origin/master 2>/dev/null || git checkout -b master
+          # 重新 clone master 分支，保证基于远端最新 HEAD（Job1/Job3 已推送）
+          git clone --depth 1 --branch master \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
+            /tmp/master_repo
+
+          cd /tmp/master_repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           rm -rf 1715173329/
           cp -r /tmp/generated_files/1715173329/ .
@@ -376,6 +394,8 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "Update: 同步 SRS 与 MRS (master)"
             git push origin master
+          else
+            echo "master 分支无变化，跳过推送。"
           fi
 
   # ============================================================
