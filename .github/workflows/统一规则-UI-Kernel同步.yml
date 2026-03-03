@@ -136,7 +136,6 @@ jobs:
 
           if ! git diff --cached --quiet; then
             git commit -m "chore: 完整同步规则集 $(date +'%Y-%m-%d %H:%M')"
-            git pull --rebase origin master
             git push origin master
           else
             echo "没有发现任何规则变动，跳过推送。"
@@ -239,7 +238,6 @@ jobs:
           git add MetaCubeX/
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Auto-update GeoData (Source only): $(date +'%Y-%m-%d %H:%M:%S')"
-            git pull --rebase origin laws
             git push origin laws
           else
             echo "No changes for laws branch."
@@ -258,7 +256,6 @@ jobs:
           git add MetaCubeX/
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Auto-update GeoData (Binary only): $(date +'%Y-%m-%d %H:%M:%S')"
-            git pull --rebase origin master
             git push origin master
           else
             echo "No changes for master branch."
@@ -362,7 +359,6 @@ jobs:
           git add 1715173329/
           if ! git diff --staged --quiet; then
             git commit -m "Update: 同步 JSON 与 YAML (laws)"
-            git pull --rebase origin laws
             git push origin laws
           fi
 
@@ -378,7 +374,6 @@ jobs:
           git add 1715173329/
           if ! git diff --staged --quiet; then
             git commit -m "Update: 同步 SRS 与 MRS (master)"
-            git pull --rebase origin master
             git push origin master
           fi
 
@@ -492,10 +487,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 删除所有旧版内核文件，只保留本次最新版
-          git rm -f mihomo-linux-*.gz sing-box-*.tar.gz 2>/dev/null || true
+          # 从 git 索引中移除所有旧版内核文件（--cached 只删索引，不删工作区文件）
+          git ls-files 'mihomo-linux-*.gz' 'sing-box-*.tar.gz' | xargs git rm --cached -f 2>/dev/null || true
 
-          # 暂存本次下载的所有内核文件
+          # 暂存本次下载的所有内核文件（新文件 + 替换旧文件）
           git add mihomo-linux-*.gz sing-box-*.tar.gz
 
           if git diff --cached --quiet; then
