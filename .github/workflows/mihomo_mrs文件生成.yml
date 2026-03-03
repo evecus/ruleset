@@ -11,11 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout master branch
+      - name: Checkout master branch (仅 mihomo 目录)
         uses: actions/checkout@v4
         with:
           ref: master
           fetch-depth: 0
+          sparse-checkout: mihomo
+          sparse-checkout-cone-mode: false
 
       - name: Install mihomo
         run: |
@@ -29,7 +31,6 @@ jobs:
         run: |
           find mihomo -type f -name "*.yaml" | while read FILE; do
             OUTPUT="${FILE%.yaml}.mrs"
-            # 先尝试 domain，再尝试 ipcidr，哪个成功用哪个，错误全部静默
             mihomo convert-ruleset domain yaml "$FILE" "$OUTPUT" 2>/dev/null || \
             mihomo convert-ruleset ipcidr yaml "$FILE" "$OUTPUT" 2>/dev/null || \
             echo "跳过（两种格式均失败）: $FILE"
@@ -39,7 +40,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "actions@github.com"
-          git add mihomo/*.mrs
+          git add mihomo/*.mrs || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
