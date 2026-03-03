@@ -417,101 +417,76 @@ jobs:
           ref: kernel
           fetch-depth: 0
 
-      - name: 获取 mihomo 最新版本及文件名
-        id: mihomo
+      - name: 下载内核并提交至 kernel 分支
         run: |
-          # 获取版本号
-          VER=$(curl -fsSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" \
-            | jq -r '.tag_name' | sed 's/^v//')
-          echo "mihomo 版本: $VER"
+          set -euo pipefail
 
-          # 从 release assets 中动态查找 linux-amd64 文件名
-          # v1.19.20+ 改名为 amd64-v3，旧版为 amd64，通过 API 精确匹配避免猜名
-          ASSETS=$(curl -fsSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" \
-            | jq -r '.assets[].name')
+          # ── 1. 获取版本号 ──────────────────────────────────────────
+          MH_API=$(curl -fsSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest")
+          MH_VER=$(echo "$MH_API" | jq -r '.tag_name' | sed 's/^v//')
+          echo "mihomo 版本: $MH_VER"
 
-          # 优先匹配 linux-amd64-v3（新命名，≥v1.19.20），其次匹配 linux-amd64（旧命名）
-          AMD64_FILE=$(echo "$ASSETS" | grep -E "^mihomo-linux-amd64-v3-v" | head -1)
-          if [ -z "$AMD64_FILE" ]; then
-            AMD64_FILE=$(echo "$ASSETS" | grep -E "^mihomo-linux-amd64-v${VER}\.gz$" | head -1)
+          SB_API=$(curl -fsSL "https://api.github.com/repos/SagerNet/sing-box/releases/latest")
+          SB_VER=$(echo "$SB_API" | jq -r '.tag_name' | sed 's/^v//')
+          echo "sing-box 版本: $SB_VER"
+
+          # ── 2. 从 release assets 动态查找 mihomo 文件名 ────────────
+          ASSETS=$(echo "$MH_API" | jq -r '.assets[].name')
+          echo "--- mihomo assets ---"
+          echo "$ASSETS" | grep "linux" || true
+
+          # amd64: 优先 amd64-v3（≥v1.19.20），其次 amd64（旧版）
+          MH_AMD64=$(echo "$ASSETS" | grep -E "^mihomo-linux-amd64-v3-v[0-9]" | grep "\.gz$" | head -1)
+          if [ -z "$MH_AMD64" ]; then
+            MH_AMD64=$(echo "$ASSETS" | grep -E "^mihomo-linux-amd64-v[0-9]" | grep "\.gz$" | grep -v "v1-\|v2-\|v3-" | head -1)
           fi
 
           # arm64
-          ARM64_FILE=$(echo "$ASSETS" | grep -E "^mihomo-linux-arm64-v${VER}\.gz$" | head -1)
+          MH_ARM64=$(echo "$ASSETS" | grep -E "^mihomo-linux-arm64-v[0-9]" | grep "\.gz$" | head -1)
 
-          echo "amd64 文件: $AMD64_FILE"
-          echo "arm64 文件: $ARM64_FILE"
-          echo "ver=$VER"           >> "$GITHUB_OUTPUT"
-          echo "amd64=$AMD64_FILE"  >> "$GITHUB_OUTPUT"
-          echo "arm64=$ARM64_FILE"  >> "$GITHUB_OUTPUT"
+          echo "mihomo amd64 文件: $MH_AMD64"
+          echo "mihomo arm64 文件: $MH_ARM64"
 
-      - name: 获取 sing-box 最新版本号
-        id: singbox
-        run: |
-          VER=$(curl -fsSL "https://api.github.com/repos/SagerNet/sing-box/releases/latest" \
-            | jq -r '.tag_name' | sed 's/^v//')
-          echo "sing-box 版本: $VER"
-          echo "ver=$VER" >> "$GITHUB_OUTPUT"
+          [ -z "$MH_AMD64" ] && { echo "❌ 未找到 mihomo amd64 文件"; exit 1; }
+          [ -z "$MH_ARM64" ] && { echo "❌ 未找到 mihomo arm64 文件"; exit 1; }
 
-      - name: 下载 mihomo 内核 (amd64 & arm64)
-        env:
-          MH_VER:   ${{ steps.mihomo.outputs.ver }}
-          AMD64:    ${{ steps.mihomo.outputs.amd64 }}
-          ARM64:    ${{ steps.mihomo.outputs.arm64 }}
-        run: |
-          BASE="https://github.com/MetaCubeX/mihomo/releases/download/v${MH_VER}"
-          echo "正在下载 mihomo amd64: $AMD64"
-          curl -fL "$BASE/$AMD64" -o "$AMD64"
-          echo "正在下载 mihomo arm64: $ARM64"
-          curl -fL "$BASE/$ARM64" -o "$ARM64"
-          ls -lh mihomo-linux-*.gz
+          # ── 3. 下载所有内核 ────────────────────────────────────────
+          MH_BASE="https://github.com/MetaCubeX/mihomo/releases/download/v${MH_VER}"
+          SB_BASE="https://github.com/SagerNet/sing-box/releases/download/v${SB_VER}"
 
-      - name: 下载 sing-box 内核 (amd64 & arm64)
-        env:
-          SB_VER: ${{ steps.singbox.outputs.ver }}
-        run: |
-          BASE="https://github.com/SagerNet/sing-box/releases/download/v${SB_VER}"
-          AMD64_FILE="sing-box-${SB_VER}-linux-amd64.tar.gz"
-          ARM64_FILE="sing-box-${SB_VER}-linux-arm64.tar.gz"
-          echo "正在下载 sing-box amd64: $AMD64_FILE"
-          curl -fL "$BASE/$AMD64_FILE" -o "$AMD64_FILE"
-          echo "正在下载 sing-box arm64: $ARM64_FILE"
-          curl -fL "$BASE/$ARM64_FILE" -o "$ARM64_FILE"
-          ls -lh sing-box-*.tar.gz
+          echo "下载: $MH_AMD64"
+          curl -fL "$MH_BASE/$MH_AMD64" -o "$MH_AMD64"
 
-      - name: 验证下载文件完整性
-        env:
-          AMD64:  ${{ steps.mihomo.outputs.amd64 }}
-          ARM64:  ${{ steps.mihomo.outputs.arm64 }}
-          SB_VER: ${{ steps.singbox.outputs.ver }}
-        run: |
-          MIN_SIZE=1000000  # 最小 1MB，防止下载到错误页
-          for f in \
-            "$AMD64" \
-            "$ARM64" \
-            "sing-box-${SB_VER}-linux-amd64.tar.gz" \
-            "sing-box-${SB_VER}-linux-arm64.tar.gz"; do
+          echo "下载: $MH_ARM64"
+          curl -fL "$MH_BASE/$MH_ARM64" -o "$MH_ARM64"
+
+          SB_AMD64="sing-box-${SB_VER}-linux-amd64.tar.gz"
+          SB_ARM64="sing-box-${SB_VER}-linux-arm64.tar.gz"
+
+          echo "下载: $SB_AMD64"
+          curl -fL "$SB_BASE/$SB_AMD64" -o "$SB_AMD64"
+
+          echo "下载: $SB_ARM64"
+          curl -fL "$SB_BASE/$SB_ARM64" -o "$SB_ARM64"
+
+          # ── 4. 验证文件大小 ────────────────────────────────────────
+          MIN_SIZE=1000000
+          for f in "$MH_AMD64" "$MH_ARM64" "$SB_AMD64" "$SB_ARM64"; do
             SIZE=$(stat -c%s "$f")
             if [ "$SIZE" -lt "$MIN_SIZE" ]; then
               echo "❌ 文件过小，疑似下载失败: $f (${SIZE} bytes)"
               exit 1
-            else
-              echo "✅ $f ($(numfmt --to=iec $SIZE))"
             fi
+            echo "✅ $f ($(numfmt --to=iec $SIZE))"
           done
 
-      - name: 清理旧版内核文件并提交至 kernel 分支
-        env:
-          MH_VER: ${{ steps.mihomo.outputs.ver }}
-          SB_VER: ${{ steps.singbox.outputs.ver }}
-        run: |
+          # ── 5. 提交至 kernel 分支 ──────────────────────────────────
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 从 git 索引中移除所有旧版内核文件（--cached 只删索引，不删工作区文件）
+          # 从索引移除旧版（--cached 不删工作区文件）
           git ls-files 'mihomo-linux-*.gz' 'sing-box-*.tar.gz' | xargs git rm --cached -f 2>/dev/null || true
 
-          # 暂存本次下载的所有内核文件（新文件 + 替换旧文件）
           git add mihomo-linux-*.gz sing-box-*.tar.gz
 
           if git diff --cached --quiet; then
