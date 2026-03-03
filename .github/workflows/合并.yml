@@ -1,4 +1,4 @@
-name: 合并proxydomain
+name: 合并proxy
 
 on:
   workflow_dispatch:
