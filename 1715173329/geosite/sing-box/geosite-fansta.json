@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "2023aga.oen.tw",
+        "aga-expo.com",
+        "cosfans-tw.com",
+        "fansta.me"
+      ]
+    }
+  ]
+}
