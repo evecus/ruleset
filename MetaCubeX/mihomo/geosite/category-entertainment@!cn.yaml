@@ -1,5 +1,4 @@
 payload:
-    - +.webnovel.com
     - +.bytedapm.com
     - +.byteoversea.com
     - +.muscdn.com
@@ -22,6 +21,7 @@ payload:
     - +.tiktokv.us
     - +.tiktokw.eu
     - +.tiktokw.us
+    - +.ttcdn-us.com
     - +.ttlivecdn.com
     - +.ttoverseaus.net
     - +.ttwstatic.com
@@ -36,3 +36,4 @@ payload:
     - roovza.launches.appsflyersdk.com
     - roovza.skadsdk.appsflyersdk.com
     - +.analytics.tiktok.com
+    - +.webnovel.com
