@@ -471,6 +471,9 @@ jobs:
           echo "下载: $SB_ARM64"
           curl -fL "$SB_BASE/$SB_ARM64" -o "$SB_ARM64"
 
+          echo "下载sing-box-ref1nd-dev"
+          curl -fL https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-dev-linux-arm64.tar.gz -o sing-box-ref1nd-dev-linux-arm64.tar.gz
+
           # ── 4. 验证文件大小 ────────────────────────────────────────
           MIN_SIZE=1000000
           for f in "$MH_AMD64" "$MH_ARM64" "$SB_AMD64" "$SB_ARM64"; do
@@ -487,9 +490,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # 从索引移除旧版（--cached 不删工作区文件）
-          git ls-files 'mihomo-linux-*.gz' 'sing-box-*.tar.gz' | xargs git rm --cached -f 2>/dev/null || true
+          git ls-files 'mihomo-linux-*.gz' 'sing-box-*.tar.gz' 'sing-box-ref1nd-dev-linux-arm64.tar.gz' | xargs git rm --cached -f 2>/dev/null || true
 
-          git add mihomo-linux-*.gz sing-box-*.tar.gz
+          git add mihomo-linux-*.gz sing-box-*.tar.gz sing-box-ref1nd-dev-linux-arm64.tar.gz
 
           if git diff --cached --quiet; then
             echo "内核版本无变化，跳过推送。"
