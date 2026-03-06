@@ -490,8 +490,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git rm -rf . --quiet
-          git clean -fd
+          git rm -rf --cached . --quiet
           
           git add mihomo-linux-*.gz sing-box-ref1nd-*.tar.gz
 
