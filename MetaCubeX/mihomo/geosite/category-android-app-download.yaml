@@ -1,4 +1,5 @@
 payload:
+    - +.apkcombo.com
     - +.apkmirror.com
     - +.apkpure.com
     - +.apkpure.net
@@ -6,4 +7,3 @@ payload:
     - +.cdnpure.com
     - +.pureapk.com
     - +.winudf.com
-    - +.apkcombo.com
