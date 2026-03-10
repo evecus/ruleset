@@ -850,6 +850,7 @@ payload:
   - +.caiyun.com
   - +.caiyunai.com
   - +.caiyunapp.com
+  - +.calorietech.com
   - +.camcard.com
   - +.camscanner.com
   - +.cang.com
@@ -1396,6 +1397,7 @@ payload:
   - +.douyincdn.com
   - +.douyinfe.com
   - +.douyinliving.com
+  - +.douyinpay.com
   - +.douyinpic.com
   - +.douyinstatic.com
   - +.douyinvod.com
@@ -2002,6 +2004,7 @@ payload:
   - +.heiyan.com
   - +.heiyanimg.com
   - +.heiyu.space
+  - +.helipay.com
   - +.hello-inc.com
   - +.hellobike.com
   - +.hellofont.cn
@@ -2322,6 +2325,7 @@ payload:
   - +.ipchaxun.com
   - +.ipchaxun.net
   - +.iphone-8.com.cn
+  - +.iplark.com
   - +.iplaysoft.com
   - +.ipod.com.cn
   - +.ipplus360.com
@@ -2330,6 +2334,7 @@ payload:
   - +.ipshu.com
   - +.ipshudi.com
   - +.ipssh.net
+  - +.ipw.cn
   - +.iranshao.com
   - +.ireader.com
   - +.iresearch.cn
@@ -2570,6 +2575,8 @@ payload:
   - +.ke.com
   - +.keboyunxiao.com
   - +.kechuang.org
+  - +.keep.com
+  - +.keep.com.cn
   - +.keepcdn.com
   - +.kejet.net
   - +.kekeniu.com
@@ -3659,6 +3666,7 @@ payload:
   - +.shengyizhuanjia.com
   - +.shenmayouxi.com
   - +.sheui.com
+  - +.shfft.com
   - +.shgsec.com
   - +.shhxzq.com
   - +.shidianbaike.com
@@ -4262,6 +4270,7 @@ payload:
   - +.wggames.cn
   - +.whccb.com
   - +.whlovehome.com
+  - +.whois.pconline.com.cn
   - +.wicresoft.com
   - +.win007.com
   - +.win7china.com
