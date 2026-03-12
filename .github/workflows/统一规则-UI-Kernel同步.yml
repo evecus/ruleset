@@ -73,6 +73,7 @@ jobs:
           FILES=("google.yaml" "meta.yaml" "facebook.yaml" "paypal.yaml" "youtube.yaml" "instagram.yaml" "bloomberg.yaml" "category-ai-cn.yaml" "hbo.yaml" "google-gemini.yaml" "twitch.yaml" "hulu.yaml" "tiktok.yaml" "bbc.yaml" "github.yaml" "spotify.yaml" "discord.yaml" "primevideo.yaml" "netflix.yaml" "x.yaml" "openai.yaml" "twitter.yaml" "line.yaml" "wikimedia.yaml" "telegram.yaml" "archive.yaml" "whatsapp.yaml" "reddit.yaml" "wsj.yaml" "google-play.yaml" "slack.yaml" "nytimes.yaml" "anthropic.yaml" "perplexity.yaml" "quora.yaml" "reuters.yaml" "messenger.yaml" "clubhouse.yaml" "internet-archive.yaml" "zaobao.yaml" "medium.yaml" "threads.yaml" "xai.yaml")
           for file in "${FILES[@]}"; do
             curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/$file" -o "temp_work/$file"
+            curl -sL "https://raw.githubusercontent.com/evecus/rules_set/refs/heads/master/mihomo/proxy.yaml" -o "temp_work/proxy.yaml"
             grep -E '^\s*-\s*"?\+\.' "temp_work/$file" | sed -E 's/^[[:space:]]*- "?\+\.//; s/"$//; s/^\.*//' >> temp_build/suffix.txt || true
             grep -E '^\s*-\s*[^+. ]' "temp_work/$file" | grep -v "payload:" | sed -E 's/^[[:space:]]*- "//; s/^[[:space:]]*- //; s/"$//' >> temp_build/exact.txt || true
           done
