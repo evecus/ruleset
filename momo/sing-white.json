@@ -1,0 +1,163 @@
+{
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "/etc/momo/run/cache.db",
+      "store_fakeip": false
+    },
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "/etc/momo/run/ui",
+      "external_ui_download_url": "https://cf.166001.xyz/ui/meta.zip",
+      "external_ui_download_detour": "直连",
+      "secret": "1234",
+      "default_mode": "rule"
+    }
+  },
+  "route": {
+    "rules": [
+      {
+        "inbound": "dns-in",
+        "action": "hijack-dns"
+      },
+      {
+        "rule_set": "ads",
+        "action": "reject"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "直连"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "默认代理"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "直连"
+      },
+      {
+        "rule_set": "dsite",
+        "outbound": "直连"
+      },
+      {
+        "rule_set": "psite",
+        "outbound": "默认代理"
+      },
+      {
+        "action": "resolve",
+        "match_only": true
+      },
+      {
+        "rule_set": "dip",
+        "outbound": "直连"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "dsite",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cf.166001.xyz/sing/dsite.srs",
+        "download_detour": "直连"
+      },
+      {
+        "tag": "psite",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cf.166001.xyz/sing/psite.srs",
+        "download_detour": "直连"
+      },
+      {
+        "tag": "dip",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cf.166001.xyz/dip.srs",
+        "download_detour": "直连"
+      },
+      {
+        "tag": "ads",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://cf.166001.xyz/sing/ads.srs",
+        "download_detour": "直连"
+      }
+    ],
+    "final": "默认代理",
+    "auto_detect_interface": true,
+    "default_domain_resolver": {
+      "server": "google-dns"
+    }
+  },
+  "inbounds": [
+    {
+      "tag": "dns-in",
+      "type": "direct",
+      "listen": "::",
+      "listen_port": 1153
+    },
+    {
+      "tag": "tproxy-in",
+      "type": "tproxy",
+      "listen": "::",
+      "listen_port": 7899
+    }
+  ],
+  "dns": {
+    "servers": [
+      {
+        "tag": "ali-dns",
+        "type": "tcp",
+        "server": "223.5.5.5",
+        "server_port": 53
+      },
+      {
+        "tag": "dns-res",
+        "type": "udp",
+        "server": "223.5.5.5",
+        "server_port": 53
+      },
+      {
+        "tag": "google-dns",
+        "type": "https",
+        "server": "8.8.4.4",
+        "detour": "默认代理",
+        "path": "/dns-query",
+        "domain_resolver": "dns-res"
+      }
+    ],
+    "rules": [
+      {
+        "clash_mode": "direct",
+        "server": "ali-dns"
+      },
+      {
+        "clash_mode": "global",
+        "server": "google-dns"
+      },
+      {
+        "rule_set": "dsite",
+        "server": "ali-dns",
+        "strategy": "ipv4_only"
+      }
+    ],
+    "final": "google-dns",
+    "strategy": "ipv4_only",
+    "independent_cache": true,
+    "reverse_mapping": true
+  },
+  "outbounds": [
+    {
+      "tag": "默认代理",
+      "type": "selector",
+      "outbounds": []
+    },
+    {
+      "tag": "直连",
+      "type": "direct"
+    }
+  ],
+  "log": {
+    "disabled": true
+  }
+}
