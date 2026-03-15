@@ -29,9 +29,6 @@ jobs:
 
       - name: Convert all yaml to mrs
         run: |
-          # 1. 确认 mihomo 是否安装成功
-          mihomo -v || { echo "Mihomo 未安装或无法运行"; exit 1; }
-
           # 2. 检查是否有 yaml 文件
           FILES=$(find mihomo -type f -name "*.yaml")
           if [ -z "$FILES" ]; then
