@@ -10,6 +10,8 @@ payload:
     - +.tamtam.chat
     - +.youla.io
     - +.youla.ru
+    - +.dzen.ru
+    - +.dzeninfra.ru
     - +.imgsmail.ru
     - +.mail.ru
     - +.ok.ru
@@ -51,5 +53,3 @@ payload:
     - +.vkuservideo.net
     - +.vkuservideo.ru
     - +.vkvideo.ru
-    - +.dzen.ru
-    - +.dzeninfra.ru
