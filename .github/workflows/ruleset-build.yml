@@ -2,8 +2,8 @@ name: Build and Release Ruleset
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # 每天 UTC 02:00 自动执行
-  workflow_dispatch:        # 支持手动触发
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -14,170 +14,118 @@ jobs:
       - name: Install jq
         run: sudo apt-get install -y jq
 
-      - name: Install yq (Go 版)
+      - name: Install yq
         run: |
-          YQ_VER=$(curl -s https://api.github.com/repos/mikefarah/yq/releases/latest \
-            | jq -r .tag_name)
-          wget -q "https://github.com/mikefarah/yq/releases/download/${YQ_VER}/yq_linux_amd64" \
-            -O /usr/local/bin/yq
-          chmod +x /usr/local/bin/yq
+          YQ_VER=$(curl -s https://api.github.com/repos/mikefarah/yq/releases/latest | jq -r .tag_name)
+          sudo wget -q "https://github.com/mikefarah/yq/releases/download/${YQ_VER}/yq_linux_amd64" -O /usr/local/bin/yq
+          sudo chmod +x /usr/local/bin/yq
 
       - name: Install sing-box
         run: |
-          SB_VER=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest \
-            | jq -r .tag_name)
-          wget -q "https://github.com/SagerNet/sing-box/releases/download/${SB_VER}/sing-box-${SB_VER#v}-linux-amd64.tar.gz" \
-            -O /tmp/sing-box.tar.gz
+          SB_VER=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest | jq -r .tag_name)
+          wget -q "https://github.com/SagerNet/sing-box/releases/download/${SB_VER}/sing-box-${SB_VER#v}-linux-amd64.tar.gz" -O /tmp/sing-box.tar.gz
           tar -xzf /tmp/sing-box.tar.gz -C /tmp
           sudo mv /tmp/sing-box-*/sing-box /usr/local/bin/sing-box
-          sing-box version
 
       - name: Install mihomo
         run: |
-          MI_VER=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
-            | jq -r .tag_name)
-          wget -q "https://github.com/MetaCubeX/mihomo/releases/download/${MI_VER}/mihomo-linux-amd64-${MI_VER}.gz" \
-            -O /tmp/mihomo.gz
+          MI_VER=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | jq -r .tag_name)
+          wget -q "https://github.com/MetaCubeX/mihomo/releases/download/${MI_VER}/mihomo-linux-amd64-${MI_VER}.gz" -O /tmp/mihomo.gz
           gunzip /tmp/mihomo.gz
           sudo mv /tmp/mihomo /usr/local/bin/mihomo
           sudo chmod +x /usr/local/bin/mihomo
 
-      # ── 2. 安装合并脚本 m / n ────────────────────────────────────────
-      - name: Install merge scripts (m and n)
-        run: |
-          # ---------- m：合并 sing-box JSON 规则集 ----------
-          cat > /tmp/m << 'SCRIPT_M'
-#!/bin/bash
-if [ "$#" -lt 3 ]; then
-  echo "用法: m 输入1.json 输入2.json [输入3.json ...] 输出.json"
-  exit 1
-fi
-output_file="${@: -1}"
-input_files=("${@:1:$#-1}")
-echo "正在合并 ${#input_files[@]} 个文件 到 $output_file..."
-jq -s '
-{
-  version: 1,
-  rules: [
-    {
-      domain: ([.[].rules[].domain // []] | flatten | unique | del(select(. == null or . == ""))),
-      domain_suffix: ([.[].rules[].domain_suffix // []] | flatten | unique | del(select(. == null or . == ""))),
-      ip_cidr: ([.[].rules[].ip_cidr // []] | flatten | unique | del(select(. == null or . == "")))
-    }
-  ]
-} | .rules[0] |= with_entries(select(.value | length > 0))
-' "${input_files[@]}" > "$output_file"
-if [ $? -eq 0 ]; then
-  echo "✅ 合并成功！文件已保存至: $output_file"
-else
-  echo "❌ 合并失败，请检查输入文件格式。"
-  exit 1
-fi
-SCRIPT_M
-
-          # ---------- n：合并 mihomo YAML 规则集 ----------
-          cat > /tmp/n << 'SCRIPT_N'
-#!/bin/bash
-if [ "$#" -lt 3 ]; then
-  echo "用法: n 输入1.yaml 输入2.yaml [输入n.yaml] 输出.yaml"
-  exit 1
-fi
-output_file="${@: -1}"
-input_files=("${@:1:$#-1}")
-echo "正在合并 YAML 规则集到 $output_file..."
-yq ea '
-  .payload = (
-    [.payload[]] | unique | sort_by(sub("^([^\+])", "0${1}") | sub("^(\+)", "1${1}"))
-  ) | select(fi == 0)
-' "${input_files[@]}" > "$output_file"
-if [ $? -ne 0 ]; then
-  echo "尝试备选兼容模式..."
-  yq ea '.payload = ([.payload[]] | unique) | .payload sort_by(.) | select(fi == 0)' \
-    "${input_files[@]}" > "$output_file"
-fi
-if [ $? -eq 0 ]; then
-  echo "✅ 合并成功！"
-else
-  echo "❌ 合并失败，请检查 yq 是否为最新版本。"
-  exit 1
-fi
-SCRIPT_N
-
-          sudo mv /tmp/m /usr/local/bin/m
-          sudo mv /tmp/n /usr/local/bin/n
-          sudo chmod +x /usr/local/bin/m /usr/local/bin/n
-
-      # ── 3. 构建 sing-box 规则（JSON + SRS）───────────────────────────
+      # ── 2. 构建 sing-box 规则（JSON + SRS）───────────────────────────
       - name: Build sing-box rules
         run: |
           set -e
           BASE="https://raw.githubusercontent.com/evecus/ruleset/refs/heads/master/sing-box"
-          mkdir -p /tmp/sing && cd /tmp/sing
+          mkdir -p /tmp/sing
+          cd /tmp/sing
 
           wget -q "$BASE/cn_ip4-lite.json"
           wget -q "$BASE/cn_ip-lite.json"
           wget -q "$BASE/direct_ip.json"
           wget -q "$BASE/foreign_ip4.json"
-          mv foreign_ip4.json pip.json
-          m cn_ip4-lite.json direct_ip.json dip.json
-          m cn_ip-lite.json  direct_ip.json dip6.json
-          rm cn_ip4-lite.json direct_ip.json cn_ip-lite.json
-
           wget -q "$BASE/cn_domain.json"
           wget -q "$BASE/cn_domain-lite.json"
           wget -q "$BASE/direct.json"
-          m cn_domain.json      direct.json dsite.json
-          m cn_domain-lite.json direct.json dsite-lite.json
-          rm cn_domain.json direct.json cn_domain-lite.json
-
           wget -q "$BASE/foreign_domain-lite.json"
           wget -q "$BASE/proxy.json"
           wget -q "$BASE/ads_domain-lite.json"
-          m proxy.json foreign_domain-lite.json psite.json
-          rm proxy.json foreign_domain-lite.json
+
+          merge_json() {
+            local output="${@: -1}"
+            local inputs=("${@:1:$#-1}")
+            jq -s '{
+              version: 1,
+              rules: [{
+                domain:        ([.[].rules[].domain        // []] | flatten | unique | map(select(. != null and . != ""))),
+                domain_suffix: ([.[].rules[].domain_suffix // []] | flatten | unique | map(select(. != null and . != ""))),
+                ip_cidr:       ([.[].rules[].ip_cidr       // []] | flatten | unique | map(select(. != null and . != "")))
+              }]
+            } | .rules[0] |= with_entries(select(.value | length > 0))
+            ' "${inputs[@]}" > "$output"
+          }
+
+          mv foreign_ip4.json    pip.json
           mv ads_domain-lite.json ads.json
+
+          merge_json cn_ip4-lite.json    direct_ip.json dip.json
+          merge_json cn_ip-lite.json     direct_ip.json dip6.json
+          merge_json cn_domain.json      direct.json    dsite.json
+          merge_json cn_domain-lite.json direct.json    dsite-lite.json
+          merge_json proxy.json foreign_domain-lite.json psite.json
+
+          rm cn_ip4-lite.json cn_ip-lite.json direct_ip.json
+          rm cn_domain.json cn_domain-lite.json direct.json
+          rm proxy.json foreign_domain-lite.json
 
           echo "正在转换 SRS 文件..."
           for file in *.json; do
             output="${file%.json}.srs"
-            if sing-box rule-set compile "$file" -o "$output"; then
-              echo "成功: $file -> $output"
-            else
-              echo "失败: $file" && exit 1
-            fi
+            sing-box rule-set compile "$file" -o "$output"
+            echo "成功: $file -> $output"
           done
-
           echo "sing-box 规则构建完成，共 $(ls | wc -l) 个文件。"
 
-      # ── 4. 构建 mihomo 规则（YAML + MRS）────────────────────────────
+      # ── 3. 构建 mihomo 规则（YAML + MRS）────────────────────────────
       - name: Build mihomo rules
         run: |
           set -e
           BASE="https://raw.githubusercontent.com/evecus/ruleset/refs/heads/master/mihomo"
-          mkdir -p /tmp/mi && cd /tmp/mi
+          mkdir -p /tmp/mi
+          cd /tmp/mi
 
           wget -q "$BASE/cn_ip4-lite.yaml"
           wget -q "$BASE/cn_ip-lite.yaml"
           wget -q "$BASE/direct_ip.yaml"
           wget -q "$BASE/foreign_ip4.yaml"
-          mv foreign_ip4.yaml pip.yaml
-          n cn_ip4-lite.yaml direct_ip.yaml dip.yaml
-          n cn_ip-lite.yaml  direct_ip.yaml dip6.yaml
-          rm cn_ip4-lite.yaml direct_ip.yaml cn_ip-lite.yaml
-
           wget -q "$BASE/cn_domain.yaml"
           wget -q "$BASE/cn_domain-lite.yaml"
           wget -q "$BASE/direct.yaml"
-          n cn_domain.yaml      direct.yaml dsite.yaml
-          n cn_domain-lite.yaml direct.yaml dsite-lite.yaml
-          rm cn_domain.yaml direct.yaml cn_domain-lite.yaml
-
           wget -q "$BASE/foreign_domain-lite.yaml"
           wget -q "$BASE/proxy.yaml"
           wget -q "$BASE/ads_domain-lite.yaml"
-          n proxy.yaml foreign_domain-lite.yaml psite.yaml
-          rm proxy.yaml foreign_domain-lite.yaml
+
+          merge_yaml() {
+            local output="${@: -1}"
+            local inputs=("${@:1:$#-1}")
+            yq ea '.payload = ([.payload[]] | unique | sort) | select(fi == 0)' "${inputs[@]}" > "$output"
+          }
+
+          mv foreign_ip4.yaml    pip.yaml
           mv ads_domain-lite.yaml ads.yaml
+
+          merge_yaml cn_ip4-lite.yaml    direct_ip.yaml dip.yaml
+          merge_yaml cn_ip-lite.yaml     direct_ip.yaml dip6.yaml
+          merge_yaml cn_domain.yaml      direct.yaml    dsite.yaml
+          merge_yaml cn_domain-lite.yaml direct.yaml    dsite-lite.yaml
+          merge_yaml proxy.yaml foreign_domain-lite.yaml psite.yaml
+
+          rm cn_ip4-lite.yaml cn_ip-lite.yaml direct_ip.yaml
+          rm cn_domain.yaml cn_domain-lite.yaml direct.yaml
+          rm proxy.yaml foreign_domain-lite.yaml
 
           echo "开始批量转换 YAML 为 MRS..."
           for file in *.yaml; do
@@ -185,44 +133,38 @@ SCRIPT_N
             filename="${file%.yaml}"
             output="${filename}.mrs"
             if [[ "$filename" =~ [Ii][Pp] ]]; then
-              echo "IP 类型规则: $file -> $output"
               mihomo convert-ruleset ipcidr yaml "$file" "$output"
             else
-              echo "域名类型规则: $file -> $output"
               mihomo convert-ruleset domain yaml "$file" "$output"
             fi
+            echo "成功: $file -> $output"
           done
-
           echo "mihomo 规则构建完成，共 $(ls | wc -l) 个文件。"
 
-      # ── 5. 推送到 release 分支 ────────────────────────────────────────
-      - name: Checkout release branch
-        uses: actions/checkout@v4
-        with:
-          ref: release          # 不存在时由下一步创建
-          fetch-depth: 0
-          path: repo
-
-      - name: Ensure release branch exists
-        working-directory: repo
+      # ── 4. 检出 release 分支并推送 ───────────────────────────────────
+      - name: Checkout or create release branch
         run: |
-          git fetch origin release 2>/dev/null || {
-            echo "release 分支不存在，正在从当前 HEAD 创建..."
+          git clone --depth=1 --branch=release \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
+            repo 2>/dev/null || {
+            git clone --depth=1 \
+              "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
+              repo
+            cd repo
             git checkout --orphan release
             git rm -rf . --quiet || true
-            git commit --allow-empty -m "init release branch"
+            git commit --allow-empty -m "init: release branch"
             git push origin release
+            cd ..
           }
 
-      - name: Copy built files into repo
+      - name: Copy built files
         run: |
           mkdir -p repo/sing repo/mihomo
-          # sing：JSON + SRS
           cp /tmp/sing/*.json repo/sing/
           cp /tmp/sing/*.srs  repo/sing/
-          # mihomo：YAML + MRS
-          cp /tmp/mi/*.yaml repo/mihomo/
-          cp /tmp/mi/*.mrs  repo/mihomo/
+          cp /tmp/mi/*.yaml   repo/mihomo/
+          cp /tmp/mi/*.mrs    repo/mihomo/
 
       - name: Commit and push
         working-directory: repo
