@@ -162,7 +162,7 @@ jobs:
 
       - name: Copy built files
         run: |
-          mkdir -p repo/sing repo/mihomo
+          mkdir -p repo/sing-box repo/mihomo
           cp /tmp/sing/*.json repo/sing-box/
           cp /tmp/sing/*.srs  repo/sing-box/
           cp /tmp/mi/*.yaml   repo/mihomo/
