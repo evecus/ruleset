@@ -2,7 +2,7 @@ payload:
     - cueme-api.quark.cn
     - ai.zhaomi.cn
     - +.metaso.cn
-    - +.askdiandian.com
+    - +.hi-butterfly.cn
     - +.qianwen.com
     - +.qwen.ai
     - +.qwenlm.ai
@@ -16,14 +16,14 @@ payload:
     - +.kimi.com
     - +.xiezuocat.com
     - +.moonshot.cn
-    - +.pixeldance.com
-    - +.picpic-ai.cn
-    - +.myparallelstory.com
-    - +.maoxiangai.com
+    - +.yoma.cn
+    - +.trae.guru
+    - +.trae.cn
+    - +.tcwqqdy.guru
     - +.hailuoai.com
     - +.minimaxi.com
     - +.xingyeai.com
-    - +.hi-butterfly.cn
+    - +.mcprev.cn
     - +.baichuan-ai.com
     - +.botvip.cn
     - +.liblib.art
@@ -31,26 +31,14 @@ payload:
     - +.n.cn
     - +.namiso.com
     - +.miaoyanai.com
-    - +.doudou.com
+    - +.miaibox.com
     - +.meta.law
-    - +.mcdemo.show
+    - +.askdiandian.com
     - +.moonshot.ai
     - +.faxingbao.com
-    - +.marscode.cn
-    - +.mcbaas.work
-    - +.rwkv.cn
-    - +.mchost.guru
-    - +.mcprev.cn
-    - +.tcwqqdy.guru
-    - +.trae.cn
-    - +.trae.guru
-    - +.yoma.cn
-    - +.doubaocdn.com
-    - +.doubao.com
-    - +.miaibox.com
     - +.xiaoaiassist.com
     - +.xiaomimimo.com
-    - +.rwkv.com
+    - +.rwkv.cn
     - +.diandianlife.top
     - +.deepseek.com
     - +.butterfly-static.cn
@@ -60,10 +48,22 @@ payload:
     - +.cozebaas.cn
     - +.cozefn.cn
     - +.cozeide.cn
-    - +.trae.com.cn
-    - +.marscode.com.cn
+    - +.doubao.com
+    - +.doubaocdn.com
+    - +.rwkv.com
+    - +.maoxiangai.com
+    - +.myparallelstory.com
+    - +.picpic-ai.cn
+    - +.pixeldance.com
+    - +.doudou.com
+    - +.marscode.cn
+    - +.mcbaas.work
+    - +.mcdemo.show
+    - +.mchost.guru
     - +.hunyuan.tencent.com
     - +.xinghuo.xfyun.cn
     - +.yiyan.baidu.com
     - +.tongyi.aliyun.com
     - +.qianwen.aliyun.com
+    - +.marscode.com.cn
+    - +.trae.com.cn

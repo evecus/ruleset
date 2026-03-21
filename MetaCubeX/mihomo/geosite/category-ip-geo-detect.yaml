@@ -48,8 +48,8 @@ payload:
     - +.ip-score.com
     - +.ip.me
     - +.ip.sb
-    - +.2ip.io
-    - +.ip2location.com
+    - +.ip2c.org
+    - +.ipgeolocation.io
     - +.ip2location.io
     - +.ip2ruscity.com
     - +.ip4.me
@@ -68,9 +68,9 @@ payload:
     - +.ipchicken.com
     - +.ipdata.co
     - +.ipecho.net
-    - +.ip2c.org
+    - +.ipregistry.co
     - +.2ip.ru
-    - +.realip.cc
+    - +.ip2location.com
     - +.ipify.org
     - +.ipinfo.io
     - +.ipleak.net
@@ -81,7 +81,7 @@ payload:
     - +.iplocation.net
     - +.ipqualityscore.com
     - +.ipquery.io
-    - +.ipregistry.co
+    - +.2ip.io
     - +.iproyal.com
     - +.ipstack.com
     - +.ipverify.com
@@ -100,7 +100,7 @@ payload:
     - +.mylocation.org
     - +.osint.sh
     - +.proxycheck.io
-    - +.ipgeolocation.io
+    - +.realip.cc
     - +.seeip.org
     - +.showmyip.com
     - +.showmyipaddress.com
@@ -128,6 +128,7 @@ payload:
     - +.wtfismyip.com
     - +.ipip.net
     - +.my.ipinfo.app
+    - +.ip.hetzner.com
     - +.ip.mail.ru
     - +.ip.nic.ru
     - +.ip.tyk.nu

@@ -1,6 +1,6 @@
 payload:
-    - +.gcloudcstest.com
-    - +.proximabeta.com
+    - +.gcloudcstestonly.com
+    - +.pubghelper.com
     - +.arcaea.cn
     - +.astral-vector.com
     - +.forevernine.com
@@ -20,6 +20,13 @@ payload:
     - +.winegame.net
     - +.wo1wan.com
     - +.ycgame.com
+    - +.dobest.com
+    - +.langrenclub.com
+    - +.sanguosha.com
+    - +.xhlsgs.com
+    - +.xinwuji.com
+    - +.yokaverse.com
+    - +.zhuoyou.com
     - +.3304399.com
     - +.3304399.net
     - +.3839.com
@@ -83,32 +90,24 @@ payload:
     - +.yxhapi.com
     - +.yxhhdl.com
     - +.yxhimg.com
-    - +.sl916.com
-    - +.cowlevel.net
-    - +.cdncl.net
-    - +.mhystatic.com
-    - +.mhyurl.cn
-    - +.mihayo.com
-    - +.mihayou.com
-    - +.mihoyo.com
-    - +.mihoyocg.com
-    - +.mihoyogift.com
-    - +.mihoyomall.com
-    - +.miyoushe.com
-    - +.benghuai.com
-    - +.bh3.com
-    - +.bhsr.com
-    - +.themisweeps.com
-    - +.yuanshen.com
-    - +.juequling.com
+    - +.bilibiligame.cn
+    - +.bilibiligame.co
+    - +.bilibiligame.net
+    - +.biligame.co
+    - +.biligame.com
+    - +.biligame.net
+    - +.kurogames.com
+    - +.aki-game.com
+    - +.tiancity.com
+    - +.tiancitycdn.com
     - +.videoxiaoyouxi.com
     - +.nagcloudcs.com
     - +.gameloop.com
     - +.gcloudcs.com
-    - +.xhlsgs.com
+    - +.gcloudcstest.com
+    - +.cowlevel.net
     - +.9xgame.com
-    - +.ffbuddy.com
-    - +.gcloudsdk.com
+    - +.gotolink.net
     - +.gcloudsvcs.com
     - +.gdtimg.com
     - +.goto-game.com
@@ -129,8 +128,8 @@ payload:
     - +.metalrevolution.com
     - +.midasbuy.com
     - +.wcbygame.com
-    - +.gcloudcstestonly.com
-    - +.pubghelper.com
+    - +.proximabeta.com
+    - +.gclouddolphin.com
     - +.pubgno1.cn
     - +.pubgtool.com
     - +.qqgameapp.com
@@ -160,8 +159,8 @@ payload:
     - +.mszdld.com
     - +.mszdld.net
     - +.gamebonfire.com
-    - +.gclouddolphin.com
-    - +.gotolink.net
+    - +.ffbuddy.com
+    - +.gcloudsdk.com
     - +.17roco.com
     - +.gtgres.com
     - +.realcybertron.com
@@ -181,33 +180,34 @@ payload:
     - +.scsentry.cn
     - +.supercellcommunity.cn
     - +.supercellsupport.cn
-    - +.tiancity.com
-    - +.tiancitycdn.com
-    - +.dobest.com
-    - +.langrenclub.com
-    - +.sanguosha.com
+    - +.vrzwk.cn
+    - +.vrzwk.com
+    - +.vrzwk.net
     - +.vrzwk.top
-    - +.7k7k.com
-    - +.xinwuji.com
-    - +.yokaverse.com
-    - +.zhuoyou.com
     - +.9game.cn
-    - +.bilibiligame.cn
-    - +.bilibiligame.co
-    - +.bilibiligame.net
-    - +.biligame.co
-    - +.biligame.com
-    - +.biligame.net
+    - +.juequling.com
+    - +.sl916.com
+    - +.7k7k.com
+    - +.cdncl.net
     - +.hero.com
     - +.herogame.com
     - +.heroesports.com
     - +.shyxhy.com
     - +.yingxiong.com
-    - +.kurogames.com
-    - +.aki-game.com
-    - +.vrzwk.cn
-    - +.vrzwk.com
-    - +.vrzwk.net
+    - +.mhystatic.com
+    - +.mhyurl.cn
+    - +.mihayo.com
+    - +.mihayou.com
+    - +.mihoyo.com
+    - +.mihoyocg.com
+    - +.mihoyogift.com
+    - +.mihoyomall.com
+    - +.miyoushe.com
+    - +.benghuai.com
+    - +.bh3.com
+    - +.bhsr.com
+    - +.themisweeps.com
+    - +.yuanshen.com
     - +.werepository.com.cn
     - +.wegame.com.cn
     - +.gouhuo.qq.com
