@@ -53,6 +53,7 @@ jobs:
           wget -q "$BASE/foreign_domain-lite.json"
           wget -q "$BASE/proxy.json"
           wget -q "$BASE/ads_domain-lite.json"
+          wget https://raw.githubusercontent.com/evecus/ruleset/refs/heads/master/sing-box/foreign_domain.json -O psite-full.json
 
           merge_json() {
             local output="${@: -1}"
@@ -107,6 +108,7 @@ jobs:
           wget -q "$BASE/foreign_domain-lite.yaml"
           wget -q "$BASE/proxy.yaml"
           wget -q "$BASE/ads_domain-lite.yaml"
+          wget https://raw.githubusercontent.com/evecus/ruleset/refs/heads/master/mihomo/foreign_domain.yaml -O psite-full.yaml
 
           merge_yaml() {
             local output="${@: -1}"
