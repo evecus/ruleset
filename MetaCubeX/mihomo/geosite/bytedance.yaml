@@ -10,7 +10,7 @@ payload:
     - p7-juejin.byteimg.com
     - p8-juejin.byteimg.com
     - p9-juejin.byteimg.com
-    - +.ifeilian.cn
+    - +.mcdemo.show
     - +.betaband.net
     - +.activity-dy.com
     - +.activity01.com
@@ -41,7 +41,7 @@ payload:
     - +.bdsagslb.com
     - +.bdsagslbtest.com
     - +.bdzjdsagslb.com
-    - +.ifeilian.com
+    - +.mchost.guru
     - +.betadance.net
     - +.bfcdnbf.com
     - +.bfcdnrd.com
@@ -157,7 +157,7 @@ payload:
     - +.iluckysf.net
     - +.itmanager.club
     - +.itoutiaoliving.com
-    - +.inspirecloud.cn
+    - +.mcprev.cn
     - +.jokecommunity.com
     - +.jokecommunity.net
     - +.jstti.com
@@ -315,12 +315,40 @@ payload:
     - +.faceu.com
     - +.ulikecam.com
     - +.rsproxy.cn
+    - +.activity-zhendingtech.com
+    - +.changdunovel.com
+    - +.fanqienovel.com
+    - +.fanqieopen.com
+    - +.fanqieopenpic.com
+    - +.fanqieopenstatic.com
+    - +.fanqieopenvod.com
+    - +.fanqiesdk.com
+    - +.fanqiesdkpic.com
+    - +.fanqiesdkstatic.com
+    - +.fanqiesdkvod.com
+    - +.fqnovel-op.com
+    - +.fqnovel.com
+    - +.fqnovelim.com
+    - +.fqnovelop.com
+    - +.fqnovelpic.com
+    - +.fqnovelstatic.com
+    - +.fqnovelvod.com
+    - +.ihaohaoxuexi.com
+    - +.muyewx.com
+    - +.novelfm.com
+    - +.novelfmpic.com
+    - +.novelfmstatic.com
+    - +.novelfmvod.com
+    - +.qznovel.com
+    - +.qznovelpic.com
+    - +.qznovelstatic.com
+    - +.qznovelvod.com
     - +.doudou.com
     - +.marscode.cn
     - +.mcbaas.work
-    - +.mcdemo.show
-    - +.mchost.guru
-    - +.mcprev.cn
+    - +.zijiedj.com
+    - +.99uri.com
+    - +.jokecommunity.cn
     - +.tcwqqdy.guru
     - +.trae.cn
     - +.trae.guru
@@ -346,9 +374,9 @@ payload:
     - +.emr-volces.com
     - +.feilian.cn
     - +.iccvlog.com
-    - +.zijiedj.com
-    - +.99uri.com
-    - +.jokecommunity.cn
+    - +.ifeilian.cn
+    - +.ifeilian.com
+    - +.inspirecloud.cn
     - +.inspirecloud.com
     - +.isealsuite.com
     - +.ivolces.com
@@ -552,39 +580,11 @@ payload:
     - +.woaihuoshan.com
     - +.wohst8.com
     - +.douyinpay.com
-    - +.activity-zhendingtech.com
+    - +.juejin.cn
     - +.dongchediapp.com
     - +.dongchedi.com
     - +.dcdapp.com
     - +.dcarvod.com
-    - +.changdunovel.com
-    - +.fanqienovel.com
-    - +.fanqieopen.com
-    - +.fanqieopenpic.com
-    - +.fanqieopenstatic.com
-    - +.fanqieopenvod.com
-    - +.fanqiesdk.com
-    - +.fanqiesdkpic.com
-    - +.fanqiesdkstatic.com
-    - +.fanqiesdkvod.com
-    - +.fqnovel-op.com
-    - +.fqnovel.com
-    - +.fqnovelim.com
-    - +.fqnovelop.com
-    - +.fqnovelpic.com
-    - +.fqnovelstatic.com
-    - +.fqnovelvod.com
-    - +.ihaohaoxuexi.com
-    - +.muyewx.com
-    - +.novelfm.com
-    - +.novelfmpic.com
-    - +.novelfmstatic.com
-    - +.novelfmvod.com
-    - +.qznovel.com
-    - +.qznovelpic.com
-    - +.qznovelstatic.com
-    - +.qznovelvod.com
-    - +.juejin.cn
     - +.juejin.im
     - +.xitu.io
     - +.baseopendev.com
@@ -714,13 +714,6 @@ payload:
     - +.pglstatp-toutiao.com
     - +.sf3-ttcdn-tos.pstatp.com
     - +.shoppingads.cn
-    - +.coze.com
-    - +.marscode.com
-    - +.trae.ai
-    - +.cici.com
-    - +.ciciai.com
-    - +.ciciaicdn.com
-    - +.dola.com
     - ads3-normal-hl.zijieapi.com
     - ads3-normal.zijieapi.com
     - ads5-normal-hl.zijieapi.com
@@ -773,3 +766,10 @@ payload:
     - roovza.launches.appsflyersdk.com
     - roovza.skadsdk.appsflyersdk.com
     - +.analytics.tiktok.com
+    - +.coze.com
+    - +.marscode.com
+    - +.trae.ai
+    - +.cici.com
+    - +.ciciai.com
+    - +.ciciaicdn.com
+    - +.dola.com

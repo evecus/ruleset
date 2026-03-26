@@ -143,9 +143,9 @@ payload:
     - www.gstatic.com
     - www.pxcc.com
     - xn--flw351e.com
-    - firebase-settings.crashlytics.com
-    - +.ggpht.cn
     - redirector.c.play.google.com
+    - +.ggpht.cn
+    - firebase-settings.crashlytics.com
     - pki-goog.l.google.com
     - c.pki.goog
     - i.pki.goog
