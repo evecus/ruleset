@@ -10,6 +10,8 @@ payload:
     - time.amazonaws.cn
     - time.izatcloud.net
     - time.xtracloud.net
+    - izattime.qcomgeo2.com
+    - xtratime.qcomgeo2.com
     - ntp.tencent.com
     - ntp1.tencent.com
     - ntp2.tencent.com
