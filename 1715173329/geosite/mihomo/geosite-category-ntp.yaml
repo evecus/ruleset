@@ -40,6 +40,7 @@ payload:
   - +.pool.ntp.org
   - +.s2csntp.miz.nao.ac.jp
   - +.time.nrc.ca
+  - izattime.qcomgeo2.com
   - ntp-b.nist.gov
   - ntp-c.colorado.edu
   - ntp-d.nist.gov
@@ -108,3 +109,4 @@ payload:
   - utcnist.colorado.edu
   - utcnist2.colorado.edu
   - utcnist3.colorado.edu
+  - xtratime.qcomgeo2.com

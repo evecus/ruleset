@@ -3,6 +3,7 @@ payload:
   - +.ntp.neu.edu.cn
   - +.ntp.ntsc.ac.cn
   - +.ntp.org.cn
+  - izattime.qcomgeo2.com
   - ntp.aliyun.com
   - ntp.tencent.com
   - ntp1.aliyun.com
@@ -20,3 +21,4 @@ payload:
   - time.amazonaws.cn
   - time.izatcloud.net
   - time.xtracloud.net
+  - xtratime.qcomgeo2.com
