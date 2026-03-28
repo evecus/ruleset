@@ -1,26 +1,8 @@
 payload:
     - discord-attachments-uploads-prd.storage.googleapis.com
     - hammerandchisel.ssl.zendesk.com
-    - +.signalusers.org
-    - +.pm.me
-    - +.joinclubhouse.com
-    - +.keybase.io
-    - +.keybaseapi.com
-    - +.mail.com
-    - +.ui-portal.de
-    - +.uicdn.com
-    - +.uimserv.net
-    - +.whispersystems.org
-    - +.proton.me
-    - +.protonmail.ch
-    - +.protonmail.com
-    - +.protonstatus.com
-    - +.protontech.ch
-    - +.protonvpn.ch
-    - +.protonvpn.com
-    - +.protonweb.com
-    - +.dis.gd
-    - +.temp-mail.org
+    - +.tg.dev
+    - +.discord.new
     - +.discord.com
     - +.discord.design
     - +.discord.dev
@@ -28,7 +10,7 @@ payload:
     - +.discord.gift
     - +.discord.gifts
     - +.discord.media
-    - +.discord.new
+    - +.ton.org
     - +.discord.store
     - +.discord.tools
     - +.discord-activities.com
@@ -38,7 +20,7 @@ payload:
     - +.discordmerch.com
     - +.discordpartygames.com
     - +.discordsays.com
-    - +.discordstatus.com
+    - +.tx.me
     - +.airhorn.solutions
     - +.airhornbot.com
     - +.bigbeans.solutions
@@ -58,7 +40,7 @@ payload:
     - +.line-scdn.net
     - +.linecorp.com
     - +.linefriends.com
-    - +.clubhouse.com
+    - +.linetv.tw
     - +.linegame.jp
     - +.gcld-line.com
     - +.linemyshop.com
@@ -69,25 +51,14 @@ payload:
     - +.signal.me
     - +.signal.tube
     - +.signal.org
-    - +.linetv.tw
-    - +.clubhouseapi.com
-    - +.discord.co
-    - +.viber.com
-    - +.viber.co
-    - +.viber.me
-    - +.vbcdn.com
-    - +.vbcdn.net
-    - +.freenode.net
-    - +.intercom.com
-    - +.intercom.io
-    - +.intercomassets.com
-    - +.intercomcdn.com
+    - +.signalusers.org
+    - +.whispersystems.org
     - +.cdn-telegram.org
     - +.comments.app
     - +.contest.com
     - +.fragment.com
     - +.graph.org
-    - +.quiz.directory
+    - +.dis.gd
     - +.t.me
     - +.tdesktop.com
     - +.telega.one
@@ -98,10 +69,19 @@ payload:
     - +.telegram.org
     - +.telegram.space
     - +.telesco.pe
-    - +.tg.dev
-    - +.ton.org
-    - +.tx.me
+    - +.quiz.directory
+    - +.discord.co
+    - +.discordstatus.com
     - +.usercontent.dev
+    - +.intercom.com
+    - +.intercom.io
+    - +.intercomassets.com
+    - +.intercomcdn.com
+    - +.viber.com
+    - +.viber.co
+    - +.viber.me
+    - +.vbcdn.com
+    - +.vbcdn.net
     - +.wa.me
     - +.whatsapp-plus.info
     - +.whatsapp-plus.me
@@ -113,6 +93,12 @@ payload:
     - +.whatsapp.org
     - +.whatsapp.tv
     - +.whatsappbrand.com
+    - +.temp-mail.org
+    - +.freenode.net
+    - +.mail.com
+    - +.ui-portal.de
+    - +.uicdn.com
+    - +.uimserv.net
     - +.arewereadyyet.com
     - +.cinny.in
     - +.element.io
@@ -126,6 +112,20 @@ payload:
     - +.m.me
     - +.messenger.com
     - +.nbabot.net
+    - +.clubhouse.com
+    - +.clubhouseapi.com
+    - +.joinclubhouse.com
+    - +.keybase.io
+    - +.keybaseapi.com
+    - +.pm.me
+    - +.proton.me
+    - +.protonmail.ch
+    - +.protonmail.com
+    - +.protonstatus.com
+    - +.protontech.ch
+    - +.protonvpn.ch
+    - +.protonvpn.com
+    - +.protonweb.com
     - +.slack-core.com
     - +.slack-edge.com
     - +.slack-files.com
