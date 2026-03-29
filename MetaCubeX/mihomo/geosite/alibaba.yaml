@@ -84,7 +84,7 @@ payload:
     - +.rexpos.cn
     - +.shenjing.com
     - +.shuqi.com
-    - +.cibntv.net
+    - +.uczzd.cn
     - +.shuqireader.com
     - +.sparenode.com
     - +.supet.com
@@ -141,7 +141,7 @@ payload:
     - +.iuynfg.com
     - +.alikmd.com
     - +.95095.com
-    - +.myalicdn.com
+    - +.mxhichina.com
     - +.koubei.com
     - +.wandoujia.com
     - +.wdjimg.com
@@ -153,13 +153,14 @@ payload:
     - +.kaolacdn.com
     - +.lydaas.cn
     - +.lydaas.com
-    - +.soku.com
-    - +.mmstat.com
-    - +.ykimg.com
+    - +.ucweb.com
+    - +.uc123.com
+    - +.uc.cn
     - +.lydaas.net
     - +.lydass.cn
-    - +.youku.com
+    - +.teambitionapis.com
     - +.lydass.net
+    - +.9game.cn
     - +.alibabadns.com
     - +.alicdn.com
     - +.alicloudapi.com
@@ -199,9 +200,10 @@ payload:
     - +.kunlunta.com
     - +.kunlunvi.com
     - +.kunlunwe.com
-    - +.mxhichina.com
     - +.xiami.net
-    - +.kumiao.com
+    - +.myalicdn.com
+    - +.teambition.net
+    - +.teambition.com
     - +.elenet.me
     - +.elemecdn.com
     - +.elemecdn.cn
@@ -212,14 +214,12 @@ payload:
     - +.doservice.com
     - +.ztna-dingtalk.com
     - +.lwurl.to
+    - +.alicloudccp.com
+    - +.alipan.com
+    - +.aliyundrive.cloud
+    - +.aliyundrive.com
+    - +.aliyundrive.net
     - +.laiwang.com
-    - +.uc.cn
-    - +.uc123.com
-    - +.ucweb.com
-    - +.uczzd.cn
-    - +.teambition.com
-    - +.teambition.net
-    - +.teambitionapis.com
     - +.cnzz.com
     - +.mobmore.com
     - +.puata.info
@@ -230,13 +230,12 @@ payload:
     - +.umtrack.com
     - +.uyunad.com
     - +.whalecloud.com
-    - +.9game.cn
-    - +.alicloudccp.com
-    - +.alipan.com
-    - +.aliyundrive.cloud
-    - +.aliyundrive.com
-    - +.aliyundrive.net
-    - +.dingtalkcloud.com
+    - +.kumiao.com
+    - +.youku.com
+    - +.ykimg.com
+    - +.mmstat.com
+    - +.soku.com
+    - +.cibntv.net
     - +.a-map.cn
     - +.a-map.co
     - +.a-map.link
@@ -251,12 +250,13 @@ payload:
     - +.cainiao.com
     - +.cainiaoyizhan.com
     - +.guoguo-app.com
-    - +.dingtalkapps.com
+    - +.dingtalkcloud.com
     - +.ddurl.to
     - +.dingding.xin
     - +.dingtalk.cn
     - +.dingtalk.com
     - +.dingtalk.net
+    - +.dingtalkapps.com
     - +.saee.org.cn
     - +.oss-cn-nanjing.aliyuncs.com
     - +.cainiao.com.cn
@@ -307,14 +307,6 @@ payload:
     - +.tns.simba.taobao.com
     - +.track.lc.quark.cn
     - +.v6-adashx.ut.taobao.com
-    - +.alibabacloud.co.in
-    - +.alibabacloud.com
-    - +.alibabacloud.com.au
-    - +.alibabacloud.com.hk
-    - +.alibabacloud.com.my
-    - +.alibabacloud.com.sg
-    - +.alibabacloud.com.tw
-    - +.alicloud.com
     - +.oss-ap-northeast-1.aliyuncs.com
     - +.oss-ap-northeast-2.aliyuncs.com
     - +.oss-ap-south-1.aliyuncs.com
@@ -339,8 +331,6 @@ payload:
     - +.baichuan-sdk.alicdn.com
     - +.nbsdk-baichuan.alicdn.com
     - +.tce.alicdn.com
-    - +.ads.uc.cn
-    - +.adslot.uc.cn
     - +.aaid.umeng.com
     - +.alog.umeng.com
     - +.alog.umengcloud.com
@@ -363,15 +353,6 @@ payload:
     - +.utoken.umeng.com
     - +.w.cnzz.com
     - +.z.gds.cnzz.com
-    - +.adashx.ut.amap.com
-    - +.dualstack-logs.amap.com
-    - +.logs.amap.com
-    - +.optimus-ads.amap.com
-    - +.v6-adashx.ut.amap.com
-    - +.v6-adashx.ut.cainiao.com
-    - +.adashx.ut.ele.me
-    - +.h-adashx.ut.ele.me
-    - +.v6-adashx.ut.ele.me
     - +.ad.api.3g.youku.com
     - +.ad.api.mobile.youku.com
     - +.ad.mobile.youku.com
@@ -393,3 +374,22 @@ payload:
     - +.v6-adashx.ut.youku.com
     - +.yk-ssp.ad.youku.com
     - +.ykad-data.youku.com
+    - +.alibabacloud.co.in
+    - +.alibabacloud.com
+    - +.alibabacloud.com.au
+    - +.alibabacloud.com.hk
+    - +.alibabacloud.com.my
+    - +.alibabacloud.com.sg
+    - +.alibabacloud.com.tw
+    - +.alicloud.com
+    - +.adashx.ut.amap.com
+    - +.dualstack-logs.amap.com
+    - +.logs.amap.com
+    - +.optimus-ads.amap.com
+    - +.v6-adashx.ut.amap.com
+    - +.v6-adashx.ut.cainiao.com
+    - +.adashx.ut.ele.me
+    - +.h-adashx.ut.ele.me
+    - +.v6-adashx.ut.ele.me
+    - +.ads.uc.cn
+    - +.adslot.uc.cn
