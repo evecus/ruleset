@@ -33,6 +33,8 @@ payload:
   - +.kinorium.com
   - +.lenta.com
   - +.lenta.tech
+  - +.medsi.com
+  - +.medsi.pro
   - +.memealerts.com
   - +.moex.com
   - +.mosmetro.tech
@@ -62,6 +64,7 @@ payload:
   - +.ru.net
   - +.sberbank.com
   - +.sistema-capital.com
+  - +.smartmed.pro
   - +.smotreshka.tv
   - +.t1.cloud
   - +.tamtam.chat

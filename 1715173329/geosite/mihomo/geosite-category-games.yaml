@@ -397,6 +397,7 @@ payload:
   - +.mariosupersluggers.com
   - +.masseffect.com
   - +.masseffectarchives.com
+  - +.masteroforion.com
   - +.maxis.com
   - +.me4399.com
   - +.metalrevolution.com
@@ -820,6 +821,8 @@ payload:
   - +.vrzwk.top
   - +.wanmei.com
   - +.wanwan4399.com
+  - +.wargaming.com
+  - +.wargaming.net
   - +.wariolandshakeit.com
   - +.wariowarediy.com
   - +.warnerbrosgames.com
@@ -834,6 +837,8 @@ payload:
   - +.wegame.com.cn
   - +.wegameplus.com
   - +.werepository.com.cn
+  - +.wgcdn.co
+  - +.wgcrowd.io
   - +.wii-u.com
   - +.wiifit.com
   - +.wiifitu.com
@@ -848,7 +853,13 @@ payload:
   - +.wo1wan.com
   - +.worldflipper.akamaized.net
   - +.worldflipper.jp
+  - +.worldoftanks.com
+  - +.worldoftanks.eu
   - +.worldofwarcraft.com
+  - +.worldofwarplanes.com
+  - +.worldofwarships.com
+  - +.wotblitz.com
+  - +.wowsblitz.com
   - +.wtmobile.com
   - +.xbox.co
   - +.xbox.com

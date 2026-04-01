@@ -745,6 +745,7 @@ payload:
   - +.marvelsuperwar.com
   - +.masseffect.com
   - +.masseffectarchives.com
+  - +.masteroforion.com
   - +.max.com
   - +.maxgo.com
   - +.maxis.com
@@ -1375,6 +1376,8 @@ payload:
   - +.vrv.co
   - +.wallhaven.cc
   - +.wanuxi.com
+  - +.wargaming.com
+  - +.wargaming.net
   - +.wariolandshakeit.com
   - +.wariowarediy.com
   - +.warnerbrosgames.com
@@ -1387,6 +1390,8 @@ payload:
   - +.wbinsights.com
   - +.webnovel.com
   - +.weverse.io
+  - +.wgcdn.co
+  - +.wgcrowd.io
   - +.wheelpop.com
   - +.whvn.cc
   - +.wide-youtube.l.google.com
@@ -1405,7 +1410,13 @@ payload:
   - +.wmsjsteam.com
   - +.worldflipper.akamaized.net
   - +.worldflipper.jp
+  - +.worldoftanks.com
+  - +.worldoftanks.eu
   - +.worldofwarcraft.com
+  - +.worldofwarplanes.com
+  - +.worldofwarships.com
+  - +.wotblitz.com
+  - +.wowsblitz.com
   - +.ws-blau.com
   - +.ws-tcg.com
   - +.wtmobile.com

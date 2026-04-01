@@ -14,6 +14,7 @@ payload:
   - +.gbiz
   - +.gle
   - +.gmail
+  - +.gmo
   - +.godaddy
   - +.goo
   - +.goog
@@ -52,6 +53,7 @@ payload:
   - +.zappos
   - +.01.org
   - +.0emm.com
+  - +.1-account.com
   - +.100beatscheap.com
   - +.1010.com.hk
   - +.10xfotolia.com
@@ -127,6 +129,7 @@ payload:
   - +.2mdn-cn.net
   - +.2mdn.net
   - +.2o7.net
+  - +.30d.jp
   - +.360autodesk.com
   - +.360nexus.com
   - +.360nexus.net
@@ -194,6 +197,7 @@ payload:
   - +.acmvalidationsaws.com
   - +.acpica.com
   - +.acrobat.com
+  - +.adam.jp
   - +.adaptivecards.io
   - +.adbecrsl.com
   - +.addthis.com
@@ -357,6 +361,7 @@ payload:
   - +.alienware.ro
   - +.alienware.se
   - +.alienware.us
+  - +.alive-project.com
   - +.aliveipc.com
   - +.aliveitsm.com
   - +.aliveprofiler.com
@@ -366,6 +371,7 @@ payload:
   - +.alivevm.com
   - +.alivevmax.com
   - +.alivevue.com
+  - +.alphassl.com
   - +.altera.co.jp
   - +.altera.com
   - +.alteraforum.com
@@ -487,6 +493,7 @@ payload:
   - +.anexia.at
   - +.anexia.com
   - +.angulardart.org
+  - +.animary.jp
   - +.ankarazirvesi2018.com
   - +.annstores.net
   - +.antenna.co.kr
@@ -907,6 +914,7 @@ payload:
   - +.atlassian-dev.net
   - +.atlassian.com
   - +.atlassian.net
+  - +.atokara.jp
   - +.atom.io
   - +.atscaleconference.com
   - +.att-bundles.com
@@ -1227,6 +1235,7 @@ payload:
   - +.bandgirlz.com
   - +.bandpage.com
   - +.bandwagonhost.com
+  - +.banksy.tokyo
   - +.barefootnetworks.com
   - +.barkadahansasmartone.com
   - +.baselinestudy.com
@@ -1657,6 +1666,7 @@ payload:
   - +.brandelectronic.com
   - +.brandproducts1688.com
   - +.brands098.com
+  - +.brantect.com
   - +.brazilpartneruniversity.com
   - +.brazzer.com
   - +.brazzers.com
@@ -1808,6 +1818,7 @@ payload:
   - +.careersatfb.com
   - +.carekit.org
   - +.carstagram.com
+  - +.cashmart.jp
   - +.casque-fr.com
   - +.casquebeatsbydrdresolohd.com
   - +.casquebeatsdocteurdre.com
@@ -1914,6 +1925,7 @@ payload:
   - +.chinacloudapi.cn
   - +.chinacloudapp.cn
   - +.chinacloudsites.cn
+  - +.chintaidx.com
   - +.chips.com
   - +.chomp.com
   - +.chrome.com
@@ -1973,6 +1985,7 @@ payload:
   - +.clarity.ms
   - +.clco.cc
   - +.clearlinux.org
+  - +.click-sec.com
   - +.click-url.com
   - +.clickedu.co.uk
   - +.climate-server.com
@@ -1985,6 +1998,7 @@ payload:
   - +.cloudcone.net
   - +.cloudcraze.com
   - +.cloudcredibility.com
+  - +.cloudec.jp
   - +.cloudfront-cn.net
   - +.cloudfront-test.cn
   - +.cloudfront.cn
@@ -2012,11 +2026,14 @@ payload:
   - +.cobrasearch.com
   - +.codespot.com
   - +.codethemicrobit.com
+  - +.coeteco.jp
   - +.collabora.co.uk
   - +.collabora.com
   - +.collabora.org
   - +.collaboraoffice.com
   - +.collector.github.com
+  - +.colleee.net
+  - +.colorme-repeat.jp
   - +.colorprotechnology.com
   - +.comm-verse.com
   - +.como-hackearfacebook.com
@@ -2028,6 +2045,7 @@ payload:
   - +.componentkit.org
   - +.compresspdf.new
   - +.connect-in-canada.com
+  - +.conoha.jp
   - +.conscrypt.com
   - +.conscrypt.org
   - +.constructware.com
@@ -2050,6 +2068,7 @@ payload:
   - +.corelstore.com
   - +.coreml.net
   - +.coreoptics.net
+  - +.coreserver.jp
   - +.cortanaanalytics.com
   - +.cortanaskills.com
   - +.cosmosdb.info
@@ -2124,6 +2143,7 @@ payload:
   - +.dealsbeatsblackfriday.com
   - +.debug.com
   - +.debugproject.com
+  - +.decopri.net
   - +.deepfreeze.co.uk
   - +.deepfreeze.com
   - +.deepfreeze.com.br
@@ -2309,6 +2329,7 @@ payload:
   - +.demandware.com
   - +.demdex.net
   - +.demoprint.com
+  - +.dentry.jp
   - +.dependabot.com
   - +.deps.dev
   - +.deps.info
@@ -2533,10 +2554,12 @@ payload:
   - +.dynamoreach.com
   - +.dzen.ru
   - +.dzeninfra.ru
+  - +.e-estate.jp
   - +.earphonescheapest.com
   - +.earpod.net
   - +.earthdell.com
   - +.easic.com
+  - +.easy-signing.com
   - +.ebookforipad.com
   - +.ebuyheadphones.com
   - +.ecgapp.com.cn
@@ -2552,6 +2575,7 @@ payload:
   - +.education-cadcam.com
   - +.efproject.net
   - +.einstein.com
+  - +.ekiten.jp
   - +.elasticbeanstalk.com
   - +.elderscrolls.com
   - +.emac.co.in
@@ -2565,10 +2589,12 @@ payload:
   - +.enablementadobe.com
   - +.energystarbuildings.com
   - +.engkoo.com
+  - +.enpay.co.jp
   - +.enpirion.com
   - +.enterprisepaging.com
   - +.episodic.com
   - +.eprintsw.com
+  - +.epsilon.jp
   - +.eraofconnection.com
   - +.esbeatsbydrebuy.com
   - +.esmarthealth.com
@@ -2851,6 +2877,7 @@ payload:
   - +.familyds.net
   - +.familyds.org
   - +.famosascalvas.com
+  - +.fanspot.jp
   - +.faronics.ca
   - +.faronics.co.uk
   - +.faronics.com
@@ -2938,6 +2965,8 @@ payload:
   - +.fifthns.com
   - +.finalcutpro.com
   - +.financeleadsonline.com
+  - +.fincode.jp
+  - +.find-a.jp
   - +.find-apple.com
   - +.findmybeats.com
   - +.findmyipad.com
@@ -2955,6 +2984,7 @@ payload:
   - +.fitbit.com
   - +.five-d.com
   - +.flameunleashed.com
+  - +.flatt.tech
   - +.flic.kr
   - +.flickr.com
   - +.flickr.net
@@ -3031,6 +3061,7 @@ payload:
   - +.fscebook.com
   - +.ftcdn.net
   - +.fuchsia.dev
+  - +.fulloutsourcing.jp
   - +.fundaiphone5s.com
   - +.fundraisingwithfacebook.com
   - +.funnyfacebook.org
@@ -3046,6 +3077,7 @@ payload:
   - +.g.dev
   - +.g.page
   - +.gacebook.com
+  - +.gaikaex.com
   - +.galaxyappstore.com
   - +.galaxymobile.jp
   - +.game-platform.net
@@ -3078,12 +3110,14 @@ payload:
   - +.geospatialimaging.com
   - +.geospatialinfo.com
   - +.gerritcodereview.com
+  - +.gesoten.com
   - +.get.app
   - +.get.dev
   - +.get.how
   - +.get.new
   - +.get.page
   - +.get.rsvp
+  - +.get.shop
   - +.getboxer.com
   - +.getbumptop.com
   - +.getbuzzsaw.com
@@ -3130,9 +3164,54 @@ payload:
   - +.gkecnapps.cn
   - +.gleline.com
   - +.globaledu.org
+  - +.globalsign-media.com
+  - +.globalsign.be
+  - +.globalsign.ch
+  - +.globalsign.cloud
+  - +.globalsign.cn
+  - +.globalsign.co.uk
+  - +.globalsign.com
+  - +.globalsign.com.au
+  - +.globalsign.com.br
+  - +.globalsign.com.hk
+  - +.globalsign.com.sg
+  - +.globalsign.es
+  - +.globalsign.eu
+  - +.globalsign.fr
+  - +.globalsign.net
+  - +.globalsign.nl
+  - +.globalsigncdn.com
   - +.gmail.com
   - +.gmnetworks.net
+  - +.gmo-aozora.com
+  - +.gmo-app.jp
+  - +.gmo-c.jp
+  - +.gmo-clinic-map.com
+  - +.gmo-connect.com
+  - +.gmo-cybersecurity.com
+  - +.gmo-digitalpay.jp
+  - +.gmo-fg.com
+  - +.gmo-healthtech.com
+  - +.gmo-insight.jp
+  - +.gmo-mobilepay.jp
+  - +.gmo-office.com
+  - +.gmo-official.shop
+  - +.gmo-pa.com
+  - +.gmo-pg.com
+  - +.gmo-ps.com
+  - +.gmo-rakurakuhp.jp
+  - +.gmo-rast.co.jp
+  - +.gmo-research.ai
+  - +.gmo-sol.jp
+  - +.gmo-vp.com
+  - +.gmo.jp
+  - +.gmo.media
+  - +.gmoask.jp
+  - +.gmobb.jp
+  - +.gmocloud.com
   - +.gmodules.com
+  - +.gmosign.com
+  - +.gmossp.jp
   - +.go-lang.com
   - +.go-lang.net
   - +.go-lang.org
@@ -3151,6 +3230,7 @@ payload:
   - +.golang.org
   - +.gonglchuangl.net
   - +.goo.gl
+  - +.good-apps.jp
   - +.goodsdunk.net
   - +.goodsrv.de
   - +.googel.com
@@ -3412,6 +3492,7 @@ payload:
   - +.googlr.com
   - +.goolge.com
   - +.gooogle.com
+  - +.goope.jp
   - +.gopayment.com
   - +.gopayments.com
   - +.gopivotal.com
@@ -3467,6 +3548,7 @@ payload:
   - +.hackfacebookid.com
   - +.hackharassment.com
   - +.hacklang.org
+  - +.hakaru.ai
   - +.haplorrhini.com
   - +.happysrv.de
   - +.hashicorp.com
@@ -3493,6 +3575,7 @@ payload:
   - +.hellosmartbook.com
   - +.heptio.cn
   - +.heptio.com
+  - +.heteml.jp
   - +.hetzner-cloud.de
   - +.hetzner.cloud
   - +.hetzner.com
@@ -3546,6 +3629,7 @@ payload:
   - +.horizontalglue.com
   - +.horizontalsystems.com
   - +.hotbeatsonsale.com
+  - +.hotel-reviewn.com
   - +.hotmail.co
   - +.hotmail.com
   - +.hotmail.eu
@@ -3830,6 +3914,7 @@ payload:
   - +.imtagram.com
   - +.incentivetravelgifts.com
   - +.indiaipad.com
+  - +.infoq.jp
   - +.infraworks.com
   - +.ingads.com
   - +.inkchoice.com
@@ -4230,6 +4315,8 @@ payload:
   - +.ipodtouch.co
   - +.ipodtouch.com
   - +.ipple.com
+  - +.iprad-ryoma.com
+  - +.ird.co.jp
   - +.ischool.com
   - +.iskoot.com
   - +.islamiccenterofnewlondon.com
@@ -4295,11 +4382,13 @@ payload:
   - +.jsati.com
   - +.jsatmobile.com
   - +.jwide.co.kr
+  - +.jword.jp
   - +.jwt.ms
   - +.kaggle.com
   - +.kaggle.io
   - +.kaggle.net
   - +.kaggleusercontent.com
+  - +.kaipoke.jp
   - +.kakao.co.kr
   - +.kakao.com
   - +.kakao.vc
@@ -4323,6 +4412,8 @@ payload:
   - +.kakaostyle.com
   - +.kakaotalk.jp
   - +.kakaovx.com
+  - +.kantan.game
+  - +.karabako-gmo.com
   - +.karechat.ai
   - +.kaspersky-labs.com
   - +.kaspersky.be
@@ -4392,16 +4483,20 @@ payload:
   - +.kingstagram.com
   - +.kinopoisk-ru.clstorage.net
   - +.kinopoisk.ru
+  - +.kireipass.jp
   - +.klik.me
   - +.knoxemm.com
   - +.kobbeatssbydredk.com
   - +.kopfhorergunstigshop.com
+  - +.koukoku.jp
   - +.kpinsurances.com
   - +.krosspictures.com
   - +.krux.com
   - +.kscisco.com
   - +.kubeacademy.com
   - +.kubeapps.com
+  - +.kumagai.com
+  - +.kumapon.jp
   - +.kumo.com
   - +.kynogon.com
   - +.l-msedge.net
@@ -4476,6 +4571,7 @@ payload:
   - +.logitechio.com.cn
   - +.logosfilm.co.kr
   - +.lojaiphone.com.br
+  - +.lolipop.jp
   - +.lookinside.com
   - +.louisvuitton.cn
   - +.louisvuitton.com
@@ -4557,12 +4653,15 @@ payload:
   - +.mailchimp.com
   - +.mairbeats.com
   - +.makeanything.com
+  - +.makeappli.jp
   - +.makebettercode.com
   - +.makecode.org
   - +.makeeu.com
   - +.makeitopen.com
   - +.makeitrealcontest.com
+  - +.makerepeater.jp
   - +.makesenseofdata.com
+  - +.makeshop.jp
   - +.makingstartshere.com
   - +.maktoob.com
   - +.mallheadphone.com
@@ -4629,6 +4728,7 @@ payload:
   - +.media-amazon.com
   - +.media-imdb.com
   - +.mediafiles-cisco.com
+  - +.medical-reserve.co.jp
   - +.medicalimplants-cadcam.com
   - +.meet.new
   - +.meetfasttrack.com
@@ -4639,6 +4739,7 @@ payload:
   - +.melon.com
   - +.memealerts.com
   - +.men.com
+  - +.meo-dash.com
   - +.mepn.com
   - +.meraki-go.com
   - +.meraki.hk
@@ -4655,6 +4756,7 @@ payload:
   - +.metrics.duolingo.com
   - +.mfg-inspector.com
   - +.mgmt-azure-api.cn
+  - +.michill.jp
   - +.microbit.org
   - +.microsoft-falcon.io
   - +.microsoft-give.com
@@ -4787,6 +4889,7 @@ payload:
   - +.minecraft.net
   - +.minecraftservices.com
   - +.minecraftshop.com
+  - +.minne.com
   - +.mktdns.com
   - +.mkto-c0100.com
   - +.mktorest.com
@@ -4948,6 +5051,7 @@ payload:
   - +.multiplydiversity.com
   - +.musickit.net
   - +.musixmatch.com
+  - +.muumuu-domain.com
   - +.mvk.com
   - +.mxlogin.com
   - +.mxmcdn.net
@@ -5074,6 +5178,7 @@ payload:
   - +.nomachine.com
   - +.nomadproject.io
   - +.nomulus.foo
+  - +.nomyne.com
   - +.nonlinearnastran.com
   - +.now-ashare.com
   - +.now-tv.com
@@ -5181,12 +5286,17 @@ payload:
   - +.ogp.me
   - +.ok.ru
   - +.okcdn.ru
+  - +.okiwine.jp
+  - +.omakase.in
   - +.omekinteractive.com
   - +.omnitek.tv
   - +.omniture.com
   - +.omtrdc.net
   - +.on.here
   - +.on2.com
+  - +.onamae-desktop.com
+  - +.onamae-office.com
+  - +.onamae.com
   - +.onbeatsbydresale.com
   - +.oneapi.com
   - +.oneapi.io
@@ -5248,10 +5358,13 @@ payload:
   - +.orithegame.com
   - +.orthopaedic-cadcam.com
   - +.orthotics-cadcam.com
+  - +.osaipo.jp
+  - +.oshiete.ai
   - +.ospray.net
   - +.ospray.org
   - +.ospserver.net
   - +.ouroath.com
+  - +.out-app-purchase.com
   - +.outingsapp.com
   - +.outletbeatsshop.com
   - +.outlook.cn
@@ -5294,6 +5407,7 @@ payload:
   - +.pdf.new
   - +.pentium.com
   - +.pentium.net
+  - +.pepabo.com
   - +.perfectkickz.net
   - +.personeelsland.com
   - +.phncdn.com
@@ -5323,6 +5437,7 @@ payload:
   - +.plasticlabs.com
   - +.plastics-cadcam.com
   - +.platform.dell.com
+  - +.playads.jp
   - +.playfab.com
   - +.playfabapi.com
   - +.playshow.io
@@ -5338,6 +5453,7 @@ payload:
   - +.pmem.org
   - +.pmem.us
   - +.pocketbiketrader.com
+  - +.pointtown.com
   - +.polymer-project.org
   - +.polymerproject.org
   - +.porkbun.com
@@ -5374,6 +5490,8 @@ payload:
   - +.powershellgallery.com
   - +.powersrv.de
   - +.powersunitedvr.com
+  - +.prcm.jp
+  - +.pricesearch.jp
   - +.prime-video.com
   - +.primeday.cn
   - +.primeday.com.cn
@@ -5509,6 +5627,7 @@ payload:
   - +.renderingtoolkit.org
   - +.renovacionoffice.com
   - +.renovacionxboxlive.com
+  - +.renshu.com
   - +.repo.new
   - +.repsneakermall.com
   - +.repswing.com
@@ -5622,6 +5741,9 @@ payload:
   - +.securitypreview.com
   - +.sena.co.kr
   - +.sensorynetworks.com
+  - +.seo-dash.net
+  - +.seodirector.ai
+  - +.seotimes.jp
   - +.sequence.com
   - +.servercontrolpanel.de
   - +.serverlesslibrary.net
@@ -5640,9 +5762,11 @@ payload:
   - +.sharepointonline.com
   - +.shazam.com
   - +.sheets.new
+  - +.shisho.dev
   - +.shoers.com
   - +.shoestop2.com
   - +.shop-headphones.net
+  - +.shop-pro.jp
   - +.shopalienware.com
   - +.shopbeatsdre.com
   - +.shopbydre.com
@@ -5664,6 +5788,7 @@ payload:
   - +.shotgunvfx.com
   - +.shotwithgeforce.com
   - +.shownote.com
+  - +.shuminavi.net
   - +.siege-amazon.com
   - +.sign.new
   - +.signalbar.com
@@ -5691,6 +5816,7 @@ payload:
   - +.skyperfectjsat.space
   - +.skyperfectv.co.jp
   - +.slides.new
+  - +.smaad.net
   - +.smart-edge.com
   - +.smart-edge.info
   - +.smart-edge.io
@@ -5728,6 +5854,7 @@ payload:
   - +.socialcam.com
   - +.socialcammail.com
   - +.socialkam.com
+  - +.sokuresu.ai
   - +.solostudioksale.com
   - +.solutionstation.com
   - +.solveforx.com
@@ -5901,6 +6028,7 @@ payload:
   - +.sustainabledesigncouncil.net
   - +.sustainthesound.com
   - +.suxiebu.com
+  - +.suzuri.jp
   - +.svc.ms
   - +.sverigebeatsbydrdre.com
   - +.sway-cdn.com
@@ -5931,6 +6059,7 @@ payload:
   - +.tamtam.chat
   - +.tandberg-china.com
   - +.tandberg.com
+  - +.taxel.media
   - +.teamviewer.cn
   - +.teamviewer.com
   - +.teamviewer.us
@@ -5945,8 +6074,10 @@ payload:
   - +.telega.info
   - +.telega.me
   - +.tellmewhygame.com
+  - +.tenbin.ai
   - +.tenbyfotolia.com
   - +.tensorflow.org
+  - +.tenten.vn
   - +.terraform.io
   - +.terragraph.com
   - +.texture.com
@@ -6003,12 +6134,14 @@ payload:
   - +.topbeatsforsale.com
   - +.toplayerserver.com
   - +.topobase.com
+  - +.toritonssl.com
   - +.touchid.tv
   - +.touchid.wang
   - +.touchsmartpc.com
   - +.touchsmartpc.net
   - +.touchsmartpc.org
   - +.toutapp.com
+  - +.townwifi.jp
   - +.toy-cadcam.com
   - +.toycadcam.com
   - +.tracking-location.com
@@ -6028,6 +6161,7 @@ payload:
   - +.trustedanalytics.com
   - +.trustedanalytics.net
   - +.trusteddwg.com
+  - +.trustlogin.com
   - +.tryalias.com
   - +.trydesign.com
   - +.tryfunctions.com
@@ -6096,6 +6230,8 @@ payload:
   - +.v8project.org
   - +.vagrantcloud.com
   - +.vagrantup.com
+  - +.value-domain.com
+  - +.value-server.com
   - +.valuegb.com
   - +.vastenm.com
   - +.vaultproject.io
@@ -6269,6 +6405,8 @@ payload:
   - +.vultr.com
   - +.vzw.com
   - +.wa.me
+  - +.waccas.com
+  - +.wadax.ne.jp
   - +.wallet.com
   - +.wasdj.com
   - +.wattpad.com
@@ -6467,6 +6605,7 @@ payload:
   - +.xn--ztsq84g.cn
   - +.xo.com
   - +.xplr.co
+  - +.xrea.com
   - +.xscale.com
   - +.xtracloud.cn
   - +.xtracloud.net
@@ -6868,8 +7007,10 @@ payload:
   - +.ytimg.com
   - +.yusercontent.com
   - +.z.cn
+  - +.z.com
   - +.zdxbeta.net
   - +.zdxcloud.net
+  - +.zeibit.ai
   - +.zigzag.kr
   - +.zipcine.com
   - +.zpagov.net
@@ -6884,6 +7025,7 @@ payload:
   - +.zscalerthree.net
   - +.zscalertwo.net
   - +.zscloud.net
+  - +.ztrendlab.com
   - +.zuckerberg.com
   - +.zuckerberg.net
   - +.zukunftswerkstatt.de
@@ -6987,6 +7129,7 @@ payload:
   - cdn-cn3.apple-mapkit.com
   - cdn-cn4.apple-mapkit.com
   - cdn.apple-mapkit.com
+  - cdn.globalsigncdn.com.cdn.cloudflare.net
   - cdn.js7k.com
   - cdn.marketplaceimages.windowsphone.com
   - cdn1.apple-mapkit.com
@@ -7041,6 +7184,7 @@ payload:
   - crashlyticsreports-pa.googleapis.com
   - crl-lb.apple.com.akadns.net
   - crl.apple.com
+  - crl.globalsign.net
   - crl.kaspersky.com
   - crl.microsoft.com
   - crl.pki.goog

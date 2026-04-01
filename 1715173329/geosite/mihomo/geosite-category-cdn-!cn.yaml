@@ -125,6 +125,9 @@ payload:
   - +.foundationdns.com
   - +.foundationdns.net
   - +.foundationdns.org
+  - +.gcdn.co
+  - +.gcore.com
+  - +.gcore.pro
   - +.iamakamai.com
   - +.iamakamai.net
   - +.imagedelivery.net
