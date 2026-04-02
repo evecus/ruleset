@@ -116,7 +116,6 @@ jobs:
           }
 
           mv foreign_ip4.yaml    pip.yaml
-          mv ads_domain-lite.yaml ads.yaml
 
           merge_yaml cn_ip4-lite.yaml    direct_ip.yaml dip.yaml
           merge_yaml cn_ip-lite.yaml     direct_ip.yaml dip6.yaml
