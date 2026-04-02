@@ -70,7 +70,6 @@ jobs:
           }
 
           mv foreign_ip4.json    pip.json
-          mv ads_domain-lite.json ads.json
 
           merge_json cn_ip4-lite.json    direct_ip.json dip.json
           merge_json cn_ip-lite.json     direct_ip.json dip6.json
