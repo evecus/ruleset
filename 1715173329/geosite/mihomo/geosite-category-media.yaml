@@ -60,6 +60,8 @@ payload:
   - +.asahicom.jp
   - +.asakonet.co.jp
   - +.atnext.com
+  - +.autoesporte.com
+  - +.autoesporte.com.br
   - +.aweencore.com
   - +.awetv.com
   - +.axios.com
@@ -100,6 +102,7 @@ payload:
   - +.bestrecipes.com.au
   - +.bgov.com
   - +.bgr.in
+  - +.bhfm.com.br
   - +.bidi.net.uk
   - +.bigbigchannel.com.hk
   - +.bigbigshop.com
@@ -185,7 +188,9 @@ payload:
   - +.cairnspost.com.au
   - +.careerfundas.com
   - +.careerjournal.com
+  - +.cartola.com.br
   - +.casoneexchange.com
+  - +.cbn.com.br
   - +.cbs.com
   - +.cbsaavideo.com
   - +.cbscorporation.com
@@ -304,6 +309,8 @@ payload:
   - +.encoretvb.com
   - +.engadget.com
   - +.epicreads.com
+  - +.epoca.com.br
+  - +.epocanegocios.com.br
   - +.epoch.cloud
   - +.epoch.org.il
   - +.epochbase.com
@@ -563,6 +570,7 @@ payload:
   - +.fxnetwork.com
   - +.fxnetworks.com
   - +.g-tvapp.com
+  - +.g1.com.br
   - +.ganjing.com
   - +.ganjing.world
   - +.ganjingworld.com
@@ -582,12 +590,21 @@ payload:
   - +.globalriskregulator.com
   - +.globalvoices.org
   - +.globalvoicesonline.org
+  - +.globo.com
+  - +.globo.com.br
+  - +.globoplay.com
+  - +.globoplay.com.br
+  - +.globoradio.com.br
+  - +.globoreporter.com.br
+  - +.globorural.com.br
   - +.gnews.org
   - +.goldcoastbulletin.com.au
   - +.golos-ameriki.ru
   - +.golosameriki.com
   - +.gooddaychicago.com
   - +.gotraffic.net
+  - +.gshow.com
+  - +.gshow.com.br
   - +.gtv.org
   - +.gtv1.org
   - +.gtvmediagroupfairfund.com
@@ -664,6 +681,7 @@ payload:
   - +.ind.sh
   - +.india.com
   - +.indiancolleges.com
+  - +.infoglobo.com.br
   - +.infotimes.com.tw
   - +.infowars.com
   - +.infowarsmedia.com
@@ -939,6 +957,8 @@ payload:
   - +.nytstyle.com
   - +.oanencore.com
   - +.oann.com
+  - +.oghost.com.br
+  - +.oglobo.com.br
   - +.omghk.com
   - +.omoplanet.com
   - +.on.cc
@@ -959,6 +979,8 @@ payload:
   - +.passiontimes.hk
   - +.pcmarket.com.hk
   - +.peacocktv.com
+  - +.pegn.com
+  - +.pegn.com.br
   - +.pensions-expert.com
   - +.peoplenews.tw
   - +.persagg.com
@@ -980,6 +1002,7 @@ payload:
   - +.quicktake.video
   - +.racked.com
   - +.radiofarda.com
+  - +.radioglobo.com.br
   - +.radiomango.fm
   - +.radiomarsho.com
   - +.radiosvoboda.org
@@ -1027,6 +1050,13 @@ payload:
   - +.reuters.tv
   - +.reutersagency.cn
   - +.reutersmedia.net
+  - +.revistaepoca.com
+  - +.revistaepoca.com.br
+  - +.revistagalileu.com.br
+  - +.revistapegn.com
+  - +.revistapegn.com.br
+  - +.revistaquem.com.br
+  - +.revistavalor.com.br
   - +.rexcha.com
   - +.rfa.org
   - +.rferl.org
@@ -1067,6 +1097,7 @@ payload:
   - +.setn.com
   - +.settv.com.tw
   - +.severreal.org
+  - +.sgr.com.br
   - +.sharpdaily.tw
   - +.shelfstuff.com
   - +.shenyun.com
@@ -1144,6 +1175,8 @@ payload:
   - +.techatbloomberg.com
   - +.technews.tw
   - +.techradar.com
+  - +.techtudo.com
+  - +.techtudo.com.br
   - +.teenchoice.com
   - +.testonfox.com
   - +.the-japan-news.com
@@ -1246,6 +1279,8 @@ payload:
   - +.udnfunlife.com
   - +.ulifestyle.com.hk
   - +.umagazine.com.hk
+  - +.umsoplaneta.com
+  - +.umsoplaneta.com.br
   - +.universalorlando.com
   - +.universalpictures.com
   - +.universalpicturesinternational.com
@@ -1256,6 +1291,10 @@ payload:
   - +.urduvoa.com
   - +.usatoday.com
   - +.usatodaynetworkservice.com
+  - +.valor.com.br
+  - +.valoreconomico.com.br
+  - +.valorinveste.com
+  - +.valorinveste.com.br
   - +.vanitaonline.com
   - +.vanitha.in
   - +.vanithaveedu.com
@@ -1343,6 +1382,7 @@ payload:
   - +.wsjwine.com
   - +.wujieliulan.com
   - +.xinsheng.net
+  - +.xuxaverso.com.br
   - +.xwbo.com
   - +.ycombinator.com
   - +.ydn.com.tw
