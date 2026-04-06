@@ -2,9 +2,8 @@ payload:
     - amp.akamaized.net
     - +.lfai.foundation
     - +.linuxfoundation.org
-    - +.kernel.org
-    - +.linux.org
     - +.openjsf.org
+    - +.electronjs.org
     - +.jquery.com
     - +.jquerymobile.com
     - +.jqueryui.com
@@ -14,5 +13,6 @@ payload:
     - +.ampproject.com
     - +.ampproject.net
     - +.ampproject.org
-    - +.electronjs.org
+    - +.kernel.org
+    - +.linux.org
     - cdn.ampproject.org

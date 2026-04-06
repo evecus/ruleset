@@ -10,7 +10,7 @@ payload:
     - p7-juejin.byteimg.com
     - p8-juejin.byteimg.com
     - p9-juejin.byteimg.com
-    - +.huoshanvideo.net
+    - +.fqnovelvod.com
     - +.betaband.net
     - +.activity-dy.com
     - +.activity01.com
@@ -41,7 +41,7 @@ payload:
     - +.bdsagslb.com
     - +.bdsagslbtest.com
     - +.bdzjdsagslb.com
-    - +.huoshanvod.com
+    - +.ihaohaoxuexi.com
     - +.betadance.net
     - +.bfcdnbf.com
     - +.bfcdnrd.com
@@ -157,7 +157,7 @@ payload:
     - +.iluckysf.net
     - +.itmanager.club
     - +.itoutiaoliving.com
-    - +.huoshanxiaoshipin.cn
+    - +.muyewx.com
     - +.jokecommunity.com
     - +.jokecommunity.net
     - +.jstti.com
@@ -315,6 +315,51 @@ payload:
     - +.faceu.com
     - +.ulikecam.com
     - +.rsproxy.cn
+    - +.butterfly-static.cn
+    - +.butterflyai.cn
+    - +.coze.cn
+    - +.coze.site
+    - +.cozebaas.cn
+    - +.cozefn.cn
+    - +.cozeide.cn
+    - +.doubao.com
+    - +.doubaocdn.com
+    - +.hi-butterfly.cn
+    - +.maoxiangai.com
+    - +.myparallelstory.com
+    - +.picpic-ai.cn
+    - +.pixeldance.com
+    - +.activity-zhendingtech.com
+    - +.changdunovel.com
+    - +.fanqienovel.com
+    - +.fanqieopen.com
+    - +.fanqieopenpic.com
+    - +.fanqieopenstatic.com
+    - +.fanqieopenvod.com
+    - +.fanqiesdk.com
+    - +.fanqiesdkpic.com
+    - +.fanqiesdkstatic.com
+    - +.fanqiesdkvod.com
+    - +.fqnovel-op.com
+    - +.fqnovel.com
+    - +.fqnovelim.com
+    - +.fqnovelop.com
+    - +.fqnovelpic.com
+    - +.fqnovelstatic.com
+    - +.zijiedj.com
+    - +.99uri.com
+    - +.jokecommunity.cn
+    - +.novelfm.com
+    - +.novelfmpic.com
+    - +.novelfmstatic.com
+    - +.novelfmvod.com
+    - +.qznovel.com
+    - +.qznovelpic.com
+    - +.qznovelstatic.com
+    - +.qznovelvod.com
+    - +.juejin.cn
+    - +.juejin.im
+    - +.xitu.io
     - +.activity-wbsj.com
     - +.aihst8.com
     - +.amemv.cn
@@ -346,9 +391,9 @@ payload:
     - +.huoshanstatic.com
     - +.huoshante8.com
     - +.huoshanvideo.cn
-    - +.zijiedj.com
-    - +.99uri.com
-    - +.jokecommunity.cn
+    - +.huoshanvideo.net
+    - +.huoshanvod.com
+    - +.huoshanxiaoshipin.cn
     - +.huoshanxiaoshipin.net
     - +.huoshanzhibo.cn
     - +.huoshanzhibo.com
@@ -379,34 +424,6 @@ payload:
     - +.woaihuoshan.com
     - +.wohst8.com
     - +.douyinpay.com
-    - +.doudou.com
-    - +.marscode.cn
-    - +.mcbaas.work
-    - +.mcdemo.show
-    - +.mchost.guru
-    - +.mcprev.cn
-    - +.tcwqqdy.guru
-    - +.trae.cn
-    - +.trae.guru
-    - +.yoma.cn
-    - +.butterfly-static.cn
-    - +.xitu.io
-    - +.juejin.im
-    - +.juejin.cn
-    - +.qznovelvod.com
-    - +.butterflyai.cn
-    - +.coze.cn
-    - +.coze.site
-    - +.cozebaas.cn
-    - +.cozefn.cn
-    - +.cozeide.cn
-    - +.doubao.com
-    - +.doubaocdn.com
-    - +.hi-butterfly.cn
-    - +.maoxiangai.com
-    - +.myparallelstory.com
-    - +.picpic-ai.cn
-    - +.pixeldance.com
     - +.baseopendev.com
     - +.bytecloud.com
     - +.byteoc.com
@@ -490,12 +507,25 @@ payload:
     - +.larksuitecdn.com
     - +.larksuiteimg-boe.com
     - +.larksuiteimg-pre.com
-    - +.qznovelstatic.com
-    - +.qznovelpic.com
-    - +.qznovel.com
-    - +.novelfmvod.com
-    - +.novelfmstatic.com
-    - +.novelfmpic.com
+    - +.doudou.com
+    - +.dongchediapp.com
+    - +.dongchedi.com
+    - +.dcdapp.com
+    - +.dcarvod.com
+    - +.dcarstatic.com
+    - +.dcarlive.com
+    - +.dcarimg.com
+    - +.marscode.cn
+    - +.mcbaas.work
+    - +.mcdemo.show
+    - +.mchost.guru
+    - +.mcprev.cn
+    - +.tcwqqdy.guru
+    - +.trae.cn
+    - +.trae.guru
+    - +.yoma.cn
+    - +.dcarapi.com
+    - +.zvip.cn
     - +.aigc-cloud.com
     - +.bdegnine.com
     - +.bplslb.com
@@ -644,39 +674,9 @@ payload:
     - +.zebracdn.com
     - +.zjytxd.cn
     - +.zjytxp.cn
-    - +.zvip.cn
-    - +.dcarapi.com
-    - +.dcarimg.com
-    - +.dcarlive.com
-    - +.dcarstatic.com
-    - +.dcarvod.com
-    - +.dcdapp.com
-    - +.dongchedi.com
-    - +.dongchediapp.com
-    - +.activity-zhendingtech.com
-    - +.changdunovel.com
-    - +.fanqienovel.com
-    - +.fanqieopen.com
-    - +.fanqieopenpic.com
-    - +.fanqieopenstatic.com
-    - +.fanqieopenvod.com
-    - +.fanqiesdk.com
-    - +.fanqiesdkpic.com
-    - +.fanqiesdkstatic.com
-    - +.fanqiesdkvod.com
-    - +.fqnovel-op.com
-    - +.fqnovel.com
-    - +.fqnovelim.com
-    - +.fqnovelop.com
-    - +.fqnovelpic.com
-    - +.fqnovelstatic.com
-    - +.fqnovelvod.com
-    - +.ihaohaoxuexi.com
-    - +.muyewx.com
-    - +.novelfm.com
-    - +.okr.com.cn
     - +.trae.com.cn
     - +.marscode.com.cn
+    - +.okr.com.cn
     - +.qishuimusic.com.cn
     - +.qishui.com.cn
     - +.gogokid.com.cn
@@ -714,6 +714,28 @@ payload:
     - +.pglstatp-toutiao.com
     - +.sf3-ttcdn-tos.pstatp.com
     - +.shoppingads.cn
+    - ads3-normal-hl.zijieapi.com
+    - ads3-normal.zijieapi.com
+    - ads5-normal-hl.zijieapi.com
+    - ads5-normal.zijieapi.com
+    - log3-applog-hl.fqnovel.com
+    - log3-applog.fqnovel.com
+    - log5-applog-hl.fqnovel.com
+    - log5-applog.fqnovel.com
+    - p3-ad-sign.byteimg.com
+    - p6-ad-sign.byteimg.com
+    - p9-ad-sign.byteimg.com
+    - rtlog3-applog-hl.fqnovel.com
+    - rtlog3-applog.fqnovel.com
+    - rtlog5-applog-hl.fqnovel.com
+    - rtlog5-applog.fqnovel.com
+    - +.coze.com
+    - +.marscode.com
+    - +.trae.ai
+    - +.cici.com
+    - +.ciciai.com
+    - +.ciciaicdn.com
+    - +.dola.com
     - +.bytedapm.com
     - +.byteoversea.com
     - +.muscdn.com
@@ -751,25 +773,3 @@ payload:
     - roovza.launches.appsflyersdk.com
     - roovza.skadsdk.appsflyersdk.com
     - +.analytics.tiktok.com
-    - +.coze.com
-    - +.marscode.com
-    - +.trae.ai
-    - +.cici.com
-    - +.ciciai.com
-    - +.ciciaicdn.com
-    - +.dola.com
-    - ads3-normal-hl.zijieapi.com
-    - ads3-normal.zijieapi.com
-    - ads5-normal-hl.zijieapi.com
-    - ads5-normal.zijieapi.com
-    - log3-applog-hl.fqnovel.com
-    - log3-applog.fqnovel.com
-    - log5-applog-hl.fqnovel.com
-    - log5-applog.fqnovel.com
-    - p3-ad-sign.byteimg.com
-    - p6-ad-sign.byteimg.com
-    - p9-ad-sign.byteimg.com
-    - rtlog3-applog-hl.fqnovel.com
-    - rtlog3-applog.fqnovel.com
-    - rtlog5-applog-hl.fqnovel.com
-    - rtlog5-applog.fqnovel.com
