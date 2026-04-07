@@ -31,6 +31,7 @@ payload:
   - +.admob-cn.com
   - +.admob.com
   - +.ads-twitter.com
+  - +.ads.yandex
   - +.ads.youtube.com
   - +.adsense.com
   - +.adsensecustomsearchads.com
@@ -128,6 +129,7 @@ payload:
   - +.beibao.cn
   - +.beibao.com
   - +.beibao.com.cn
+  - +.berizaryad.ru
   - +.bgov.com
   - +.bidi.net.uk
   - +.bigbeans.solutions
@@ -332,11 +334,13 @@ payload:
   - +.claude.com
   - +.claudemcpclient.com
   - +.claudeusercontent.com
+  - +.clck.ru
   - +.click-url.com
   - +.cloudburstresearch.com
   - +.cloudfunctions.net
   - +.cloudproxy.app
   - +.cloudrobotics.com
+  - +.clstorage.net
   - +.clubhouse.com
   - +.clubhouseapi.com
   - +.cms-twdigitalassets.com
@@ -424,6 +428,7 @@ payload:
   - +.draftjs.org
   - +.dui.ai
   - +.duiopen.com
+  - +.elama.ru
   - +.elpionero.es
   - +.eotarchive.org
   - +.episodic.com
@@ -1344,7 +1349,6 @@ payload:
   - +.keytransparency.org
   - +.kimi.com
   - +.kingstagram.com
-  - +.kinopoisk-ru.clstorage.net
   - +.kinopoisk.ru
   - +.klik.me
   - +.krakenjs.com
@@ -1413,6 +1417,7 @@ payload:
   - +.meta.com
   - +.meta.law
   - +.metaso.cn
+  - +.meteum.ai
   - +.mfg-inspector.com
   - +.miaibox.com
   - +.miaoyanai.com
@@ -1806,6 +1811,7 @@ payload:
   - +.screenwisetrendspanel.com
   - +.secure-paypal.info
   - +.securepaypal.info
+  - +.shedevrum.ai
   - +.sheets.new
   - +.shopfacebook.com
   - +.simility.com
@@ -1824,6 +1830,7 @@ payload:
   - +.snapseed.com
   - +.solveforx.com
   - +.sora.com
+  - +.sourcecraft.dev
   - +.speedtest.net
   - +.sportsfacebook.com
   - +.sportstream.com
@@ -1841,6 +1848,7 @@ payload:
   - +.sslpaypal.org
   - +.stadia.dev
   - +.startupjournal.com
+  - +.static-storage.net
   - +.stcroixmosquito.com
   - +.stcroixmosquitoproject.com
   - +.studywatchbyverily.com
@@ -2079,13 +2087,15 @@ payload:
   - +.xoom.us
   - +.xoomcom.com
   - +.xplr.co
+  - +.ya.cc
   - +.ya.ru
   - +.yads.tech
   - +.yandex
   - +.yandex-bank.net
-  - +.yandex-images.clstorage.net
+  - +.yandex-metrica.ru
   - +.yandex-team.ru
   - +.yandex.aero
+  - +.yandex.asia
   - +.yandex.az
   - +.yandex.by
   - +.yandex.cloud
@@ -2107,6 +2117,7 @@ payload:
   - +.yandex.lt
   - +.yandex.lv
   - +.yandex.md
+  - +.yandex.mobi
   - +.yandex.net
   - +.yandex.org
   - +.yandex.pl
@@ -2121,12 +2132,14 @@ payload:
   - +.yandexadexchange.net
   - +.yandexcloud.net
   - +.yandexcom.net
+  - +.yandexlyceum.ru
   - +.yandexmetrica.com
   - +.yandexwebcache.net
   - +.yandexwebcache.org
   - +.yastat.net
   - +.yastatic-net.ru
   - +.yastatic.net
+  - +.yccdn.ru
   - +.yiyan.baidu.com
   - +.yogalayout.com
   - +.yoma.cn
@@ -2315,9 +2328,16 @@ payload:
   - 2mdn-cn.net
   - 2mdn.net
   - adeventtracker.spotify.com
+  - adfox.yandex.ru
+  - adfstat.yandex.ru
   - admob-cn.com
+  - ads.yandex.com
+  - ads.yandex.ru
+  - adsdk.yandex.ru
   - adservice.google.com
   - adstudio-assets.scdn.co
+  - adv.yandex.com
+  - adv.yandex.ru
   - ai.google.dev
   - ai.zhaomi.cn
   - alkalicore-pa.clients6.google.com
@@ -2330,11 +2350,15 @@ payload:
   - alt6-mtalk.google.com
   - alt7-mtalk.google.com
   - alt8-mtalk.google.com
+  - amc.yandex.ru
+  - an.yandex.ru
   - analytics.google.com
+  - analytics.mobile.yandex.net
   - android.googlesource.com
   - antigravity-pa.googleapis.com
   - antigravity.googleapis.com
   - aod-pod-uk-live.akamaized.net
+  - api.appmetrica.yandex.ru
   - app-analytics-services.com
   - app-measurement-cn.com
   - app-measurement.com
@@ -2350,6 +2374,8 @@ payload:
   - beacons3.gvt2.com
   - bloodhound.spotify.com
   - browser-intake-datadoghq.com
+  - browser-updater.yandex.net
+  - bs.yandex.ru
   - c.admob.com
   - c.android.clients.google.com
   - c.pki.goog
@@ -2357,6 +2383,8 @@ payload:
   - cache.pack.google.com
   - cdn-spotify-experiments.conductrics.com
   - checkin.gstatic.com
+  - clck.yandex.net
+  - clck.yandex.ru
   - clickserve.cc-dt.com
   - clickserve.dartsearch.net
   - clickserver.googleads.com
@@ -2368,6 +2396,8 @@ payload:
   - cnappinstall.googleadapis.com
   - connectivitycheck.gstatic.com
   - content.googleadapis.com
+  - counter.yandex.net
+  - counter.yandex.ru
   - crashlyticsreports-pa.googleapis.com
   - crl.pki.goog
   - crls.pki.goog
@@ -2474,10 +2504,14 @@ payload:
   - images-fe.ssl-images-amazon.com
   - images-na.ssl-images-amazon.com
   - imasdk.googleapis.com
+  - informer.yandex.ru
   - l2-uberproxy.corp.google.com
   - logger-dev.corp.google.com
   - logger.corp.google.com
   - login.corp.google.com
+  - mc.yandex.com
+  - mc.yandex.ru
+  - metrika.yandex.ru
   - monitoring.qpdp1.net
   - msh.amazon.co.uk
   - mtalk-dev.google.com
@@ -2497,6 +2531,8 @@ payload:
   - p16-tiktokcdn-com.akamaized.net
   - pagead-googlehosted.l.google.com
   - performanceparameters.googleapis.com
+  - pix.yandex.ru
+  - pixel.yandex.net
   - pki-goog.l.google.com
   - pki.google.com
   - ppl-ai-file-upload.s3.amazonaws.com
@@ -2529,6 +2565,9 @@ payload:
   - redirector.offline-maps.gvt1.com
   - redirector.snap.gvt1.com
   - redirector.xn--ngstr-lra8j.com
+  - report-partners.appmetrica.yandex.net
+  - report.ap.yandex-net.ru
+  - report.appmetrica.yandex.net
   - roovza-launches.appsflyersdk.com
   - roovza.inapps.appsflyersdk.com
   - roovza.launches.appsflyersdk.com
@@ -2661,5 +2700,5 @@ payload:
   - www.pxcc.com
   - www.recaptcha.net
   - xn--flw351e.com
-  - yandex-pogoda.static-storage.net
+  - yabs.yandex.ru
   - yt3.googleusercontent.com
