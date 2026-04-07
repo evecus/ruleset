@@ -1065,6 +1065,7 @@ payload:
   - +.cloudfront-cn.net
   - +.cloudfront-test.cn
   - +.cloudfront.cn
+  - +.cloudru.cn
   - +.cloudxns.com
   - +.cls.cn
   - +.cma.cn
@@ -3743,6 +3744,7 @@ payload:
   - +.skycn.com
   - +.skydweller.cn
   - +.skypixel.com
+  - +.skywt.cn
   - +.sl916.com
   - +.slk1.net
   - +.sllssrq.com
@@ -3923,6 +3925,7 @@ payload:
   - +.t9tms.com
   - +.tacool.com
   - +.tadu.com
+  - +.tai3.cn
   - +.taichuan.com
   - +.taichuan.net
   - +.taihe.com

@@ -3,11 +3,18 @@
   "rules": [
     {
       "domain_suffix": [
+        "emias.info",
+        "emias.ru",
+        "klinikabudzdorov.ru",
+        "lk.emias.mos.ru",
         "medsi-premium.ru",
         "medsi.com",
         "medsi.pro",
         "medsi.ru",
-        "smartmed.pro"
+        "mosgorzdrav.ru",
+        "polyclinika.ru",
+        "smartmed.pro",
+        "vipmed.ru"
       ]
     }
   ]

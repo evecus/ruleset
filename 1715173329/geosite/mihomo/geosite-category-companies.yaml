@@ -255,6 +255,7 @@ payload:
   - +.adobexdplatform.com
   - +.ads-api.duolingo.com
   - +.ads.yahoo.com
+  - +.ads.yandex
   - +.ads.youtube.com
   - +.adsense.com
   - +.adsensecustomsearchads.com
@@ -1516,6 +1517,7 @@ payload:
   - +.behance.net
   - +.behindthescreenz.com
   - +.bellsouth.net
+  - +.berizaryad.ru
   - +.berkanawireless.com
   - +.best4bim.com
   - +.bestbeats4u.com
@@ -1983,6 +1985,7 @@ payload:
   - +.civilsoftware.net
   - +.civitai.com
   - +.clarity.ms
+  - +.clck.ru
   - +.clco.cc
   - +.clearlinux.org
   - +.click-sec.com
@@ -2015,6 +2018,7 @@ payload:
   - +.cloupia.com
   - +.cloupia.net
   - +.clova.ai
+  - +.clstorage.net
   - +.clusterconnection.com
   - +.cmhalq.com
   - +.cmpaas.com
@@ -2576,6 +2580,7 @@ payload:
   - +.efproject.net
   - +.einstein.com
   - +.ekiten.jp
+  - +.elama.ru
   - +.elasticbeanstalk.com
   - +.elderscrolls.com
   - +.emac.co.in
@@ -4481,7 +4486,6 @@ payload:
   - +.kindleoasisnews.com
   - +.kindleproject.com
   - +.kingstagram.com
-  - +.kinopoisk-ru.clstorage.net
   - +.kinopoisk.ru
   - +.kireipass.jp
   - +.klik.me
@@ -4753,6 +4757,7 @@ payload:
   - +.metabora.io
   - +.metacloud.com
   - +.metamind.io
+  - +.meteum.ai
   - +.metrics.duolingo.com
   - +.mfg-inspector.com
   - +.mgmt-azure-api.cn
@@ -5761,6 +5766,7 @@ payload:
   - +.sharepoint.com
   - +.sharepointonline.com
   - +.shazam.com
+  - +.shedevrum.ai
   - +.sheets.new
   - +.shisho.dev
   - +.shoers.com
@@ -5958,6 +5964,7 @@ payload:
   - +.sonystoragemedia.co.jp
   - +.sonytc.co.jp
   - +.soso7778.com
+  - +.sourcecraft.dev
   - +.sovec.net
   - +.spacemail.com
   - +.spaceship.com
@@ -5987,6 +5994,7 @@ payload:
   - +.starship-ent.com
   - +.start.com
   - +.static-cisco.com
+  - +.static-storage.net
   - +.static-verizon.com
   - +.staticflickr.com
   - +.statuspage.io
@@ -6610,6 +6618,7 @@ payload:
   - +.xtracloud.cn
   - +.xtracloud.net
   - +.xuite.net
+  - +.ya.cc
   - +.ya.ru
   - +.yads.tech
   - +.yahoo-news.com.hk
@@ -6773,9 +6782,10 @@ payload:
   - +.yamaxun.com
   - +.yammer.com
   - +.yandex-bank.net
-  - +.yandex-images.clstorage.net
+  - +.yandex-metrica.ru
   - +.yandex-team.ru
   - +.yandex.aero
+  - +.yandex.asia
   - +.yandex.az
   - +.yandex.by
   - +.yandex.cloud
@@ -6797,6 +6807,7 @@ payload:
   - +.yandex.lt
   - +.yandex.lv
   - +.yandex.md
+  - +.yandex.mobi
   - +.yandex.net
   - +.yandex.org
   - +.yandex.pl
@@ -6811,12 +6822,14 @@ payload:
   - +.yandexadexchange.net
   - +.yandexcloud.net
   - +.yandexcom.net
+  - +.yandexlyceum.ru
   - +.yandexmetrica.com
   - +.yandexwebcache.net
   - +.yandexwebcache.org
   - +.yastat.net
   - +.yastatic-net.ru
   - +.yastatic.net
+  - +.yccdn.ru
   - +.yho.com
   - +.yimg.com
   - +.yimg.jp
@@ -7053,12 +7066,19 @@ payload:
   - activation-v2.kaspersky.com
   - adcdownload.apple.com
   - adcdownload.apple.com.akadns.net
+  - adfox.yandex.ru
+  - adfstat.yandex.ru
   - adobe-dns-1.adobe.com
   - adobe-dns-2.adobe.com
   - adobe-dns-3.adobe.com
   - adobe-dns-4.adobe.com
   - adobe-dns.adobe.com
   - adobeereg.com
+  - ads.yandex.com
+  - ads.yandex.ru
+  - adsdk.yandex.ru
+  - adv.yandex.com
+  - adv.yandex.ru
   - afcs.dell.com
   - ai.google.dev
   - alkalicore-pa.clients6.google.com
@@ -7071,6 +7091,7 @@ payload:
   - alt6-mtalk.google.com
   - alt7-mtalk.google.com
   - alt8-mtalk.google.com
+  - amc.yandex.ru
   - amp-api-edge-lb-cn.itunes-apple.com.akadns.net
   - amp-api-edge-lb.itunes-apple.com.akadns.net
   - amp-api-edge.apps.apple.com
@@ -7080,13 +7101,16 @@ payload:
   - amp-api.apps.apple.com
   - amp-api.media.apple.com
   - amp-api.music.apple.com
+  - an.yandex.ru
   - analytics.google.com
+  - analytics.mobile.yandex.net
   - android.googlesource.com
   - antigravity-pa.googleapis.com
   - antigravity.googleapis.com
   - aod-ssl.itunes.apple.com
   - aod.itunes.apple.com
   - api-edge.apps.apple.com
+  - api.appmetrica.yandex.ru
   - api.viu.now.com
   - app-site-association.cdn-apple.com
   - appldnld.apple.com
@@ -7117,6 +7141,8 @@ payload:
   - bingsettingssearch.trafficmanager.net
   - bj1.api.bing.com
   - bookkeeper.itunes.apple.com
+  - browser-updater.yandex.net
+  - bs.yandex.ru
   - build.microsoft.com
   - c.admob.com
   - c.android.clients.google.com
@@ -7157,6 +7183,8 @@ payload:
   - cl4.apple.com
   - cl5-cdn.origin-apple.com.akadns.net
   - cl5.apple.com
+  - clck.yandex.net
+  - clck.yandex.ru
   - clickserve.cc-dt.com
   - clickserve.dartsearch.net
   - clickserver.googleads.com
@@ -7181,6 +7209,8 @@ payload:
   - configuration.apple.com.akadns.net
   - connectivitycheck.gstatic.com
   - content.googleadapis.com
+  - counter.yandex.net
+  - counter.yandex.ru
   - crashlyticsreports-pa.googleapis.com
   - crl-lb.apple.com.akadns.net
   - crl.apple.com
@@ -7358,6 +7388,7 @@ payload:
   - inappcheck-cn.itunes-apple.com.akadns.net
   - inappcheck-lb.itunes-apple.com.akadns.net
   - inappcheck.itunes.apple.com
+  - informer.yandex.ru
   - ingest.apple-studies.com
   - init-kt.apple.com
   - init-p01md-lb.push-apple.com.akadns.net
@@ -7424,11 +7455,14 @@ payload:
   - logger.corp.google.com
   - login.corp.google.com
   - maps.apple.com
+  - mc.yandex.com
+  - mc.yandex.ru
   - mdn.mozillademos.org
   - mdr.ksn.kaspersky-labs.com
   - mesu-cdn.apple.com.akadns.net
   - mesu-china.apple.com.akadns.net
   - mesu.apple.com
+  - metrika.yandex.ru
   - misc-assets.itunes.apple.com
   - ml.cdn-apple.com
   - monitoring.qpdp1.net
@@ -7499,6 +7533,8 @@ payload:
   - pd-nk.itunes.apple.com
   - pd.itunes.apple.com
   - performanceparameters.googleapis.com
+  - pix.yandex.ru
+  - pixel.yandex.net
   - pki-goog.l.google.com
   - pki.google.com
   - play-edge.itunes.apple.com
@@ -7546,6 +7582,9 @@ payload:
   - redirector.snap.gvt1.com
   - redirector.xn--ngstr-lra8j.com
   - refresh-bkg.activation-v2.kaspersky.com
+  - report-partners.appmetrica.yandex.net
+  - report.ap.yandex-net.ru
+  - report.appmetrica.yandex.net
   - res-1.cdn.office.net
   - res.cdn.office.net
   - reserve-prime.apple.com
@@ -7880,6 +7919,6 @@ payload:
   - www.recaptcha.net
   - www.support.apple.com
   - xp.apple.com
-  - yandex-pogoda.static-storage.net
+  - yabs.yandex.ru
   - youla-web-static.mrgcdn.ru
   - yt3.googleusercontent.com

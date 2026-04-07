@@ -1,6 +1,21 @@
 payload:
   - +.hsbc
   - +.114bank.co.jp
+  - +.21-school.ru
+  - +.2gis.ae
+  - +.2gis.am
+  - +.2gis.az
+  - +.2gis.by
+  - +.2gis.com
+  - +.2gis.com.cy
+  - +.2gis.cz
+  - +.2gis.ge
+  - +.2gis.kg
+  - +.2gis.kz
+  - +.2gis.ru
+  - +.2gis.tj
+  - +.2gis.ua
+  - +.2gis.uz
   - +.77bank.co.jp
   - +.82bank.co.jp
   - +.a-bank.jp
@@ -8,10 +23,12 @@ payload:
   - +.ablmm.com
   - +.aboutschwab.com
   - +.abr.ru
+  - +.afisha.ru
   - +.agdbank.com
   - +.agri-bank.com
   - +.akita-bank.co.jp
   - +.alfabank.ru
+  - +.alfabank.st
   - +.ansarbank.com
   - +.aozorabank.co.jp
   - +.ashikagabank.co.jp
@@ -27,20 +44,28 @@ payload:
   - +.bmi.ir
   - +.boj.or.jp
   - +.bpi.ir
+  - +.bps-sberbank.by
   - +.bsi.ir
   - +.cbbank.com.mm
   - +.cbi.ir
   - +.cbm.com.mm
   - +.cdn-tinkoff.ru
+  - +.centraluniversity.ru
   - +.chibabank.co.jp
   - +.chibakogyo-bank.co.jp
   - +.chid.com.mm
   - +.chikubank.co.jp
   - +.chugokubank.co.jp
   - +.citibank.co.jp
+  - +.citydrive.ru
+  - +.cloud.ru
+  - +.cloudru.cn
+  - +.cu.ru
   - +.daiichibank.co.jp
   - +.day24.ir
   - +.dbo-dengi.online
+  - +.dolyame.ru
+  - +.eapteka.ru
   - +.edbi.ir
   - +.enbank.ir
   - +.fibank.bg
@@ -61,9 +86,12 @@ payload:
   - +.futunn.com
   - +.futustatic.com
   - +.fxcorporate.com
+  - +.gazprombank.com
+  - +.gazprombank.investments
   - +.gazprombank.ru
   - +.gbank.com.mm
   - +.ghbi.ir
+  - +.giga.chat
   - +.gpb.ru
   - +.gunmabank.co.jp
   - +.hibank24.com
@@ -131,6 +159,7 @@ payload:
   - +.ibkr.ie
   - +.ibkrguides.com
   - +.ibllc.com
+  - +.id.ru
   - +.ifastcapital.com.my
   - +.ifastcorp.com
   - +.ifastfinancial.co.in
@@ -172,6 +201,7 @@ payload:
   - +.kinki.co.jp
   - +.kitakyushubank.co.jp
   - +.kiyobank.co.jp
+  - +.kuper.ru
   - +.kyotobank.co.jp
   - +.lbctrl.com
   - +.lbkrs.com
@@ -188,6 +218,8 @@ payload:
   - +.meawallet.app
   - +.meb.gov.mm
   - +.mebank.ir
+  - +.megamarket.ru
+  - +.megamarket.tech
   - +.micb.gov.mm
   - +.michinokubank.co.jp
   - +.mie.co.jp
@@ -216,9 +248,18 @@ payload:
   - +.ogakikyoritsu.co.jp
   - +.oitabank.co.jp
   - +.okinawabank.co.jp
+  - +.okko.sport
+  - +.okko.tv
+  - +.otello.ru
   - +.parsian-bank.com
+  - +.payment.ru
   - +.paypay-bank.co.jp
+  - +.phoenix-ca.ru
+  - +.playfamily.ru
+  - +.pochtabank.ru
   - +.postbank.ir
+  - +.psb-ocenka.ru
+  - +.psb.ru
   - +.psbank.ru
   - +.qmb.ir
   - +.rakuten-bank.co.jp
@@ -231,12 +272,31 @@ payload:
   - +.ryukyubank.co.jp
   - +.sagabank.co.jp
   - +.saitama-resona.co.jp
+  - +.samokat.ru
   - +.saninbank.co.jp
   - +.sb24.com
   - +.sbank.ir
+  - +.sber-bank.by
+  - +.sber.pro
   - +.sber.ru
+  - +.sberauto.com
+  - +.sberbank-insurance.ru
   - +.sberbank.com
   - +.sberbank.ru
+  - +.sberbankins.ru
+  - +.sbercloud.ru
+  - +.sbercloud.tech
+  - +.sberdevices.ru
+  - +.sberdisk.ru
+  - +.sberhealth.ru
+  - +.sberindex.ru
+  - +.sberleasing.ru
+  - +.sberlogistics.ru
+  - +.sbermarketing.ru
+  - +.sbermegamarket.ru
+  - +.sbermobile.ru
+  - +.sberpb.ru
+  - +.sbertroika.ru
   - +.sbishinseibank.co.jp
   - +.sc.com
   - +.schwab.co.uk
@@ -262,13 +322,23 @@ payload:
   - +.smedevelopmentbank.com.mm
   - +.smtb.jp
   - +.sonybank.jp
+  - +.spasibosb.ru
+  - +.spasibosberbank.ru
   - +.standardchartered.com
   - +.surugabank.co.jp
+  - +.t-bank-app.ru
+  - +.t-j.ru
+  - +.t-static.ru
+  - +.t-technologies.ru
   - +.tajimabank.co.jp
   - +.tbank-online.com
   - +.tbank.ru
   - +.tech26.de
   - +.tejaratbank.ir
+  - +.tinkoff-group.com
+  - +.tinkoff.ru
+  - +.tinkoffjournal.ru
+  - +.tinsurance.ru
   - +.tochigibank.co.jp
   - +.tochka-tech.com
   - +.tochka.com
@@ -282,6 +352,7 @@ payload:
   - +.tsukubabank.co.jp
   - +.tuncommercialbank.com
   - +.uab.com.mm
+  - +.unidraw.io
   - +.vtb.ru
   - +.waveomoney.com.mm
   - +.wbrks.com
@@ -292,5 +363,15 @@ payload:
   - +.yokohamabank.co.jp
   - +.yomabank.com
   - +.ysx-mm.com
+  - +.zvuk-b2b.com
+  - +.zvuk.com
+  - clickstream.sberbank.ru
+  - edu.tinkoff.ru
+  - education.tbank.ru
+  - error-tracking.megamarket.tech
+  - sberpro.vedomosti.ru
+  - sentry.sberauto.com
   - standchartbank.sc.omtrdc.net
   - standchartbank.tt.omtrdc.net
+  - tracing-http.megamarket.tech
+  - visor.sberbank.ru
