@@ -1,0 +1,7 @@
+payload:
+    - +.sbermarketing.ru
+    - clickstream.sberbank.ru
+    - error-tracking.megamarket.tech
+    - sentry.sberauto.com
+    - tracing-http.megamarket.tech
+    - visor.sberbank.ru
