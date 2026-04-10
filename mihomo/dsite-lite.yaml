@@ -312,6 +312,7 @@ payload:
   - +.91.com
   - +.917.com
   - +.91danji.com
+  - +.91shenfan.com
   - +.91yunxiao.com
   - +.95306.cn
   - +.95311.com
@@ -496,6 +497,7 @@ payload:
   - +.antutu.com
   - +.antutu.net
   - +.anxia.com
+  - +.anytocopy.com
   - +.anywlan.com
   - +.anzhuo.cn
   - +.ao-x.ac.cn
@@ -587,6 +589,7 @@ payload:
   - +.awsapps.cn
   - +.awsapps.com.cn
   - +.awsstatic.cn
+  - +.awstme.top
   - +.azchcdna.com
   - +.azchcdnb.com
   - +.azchcdnc.com
@@ -812,6 +815,7 @@ payload:
   - +.bmac.com.cn
   - +.bobbns.com
   - +.bobo.com
+  - +.bochaai.com
   - +.boe.com
   - +.boe.com.cn
   - +.bohejiasuqi.com
@@ -1275,6 +1279,7 @@ payload:
   - +.danji6.com
   - +.danjuanfunds.com
   - +.daocloud.io
+  - +.daocloud.vip
   - +.daojia.com
   - +.daovoice.io
   - +.dash.cloudflare.com
@@ -1793,6 +1798,7 @@ payload:
   - +.gameloop.com
   - +.gamemei.com
   - +.gamepack.cn
+  - +.gamepp.com
   - +.gameres.com
   - +.gamersky.com
   - +.gamewower.com
@@ -2047,6 +2053,7 @@ payload:
   - +.hexin.com.cn
   - +.hexun.com
   - +.heytea.com
+  - +.hezuvip.com
   - +.hf-aw.cn
   - +.hf-aw.com
   - +.hffunds.cn
@@ -2579,6 +2586,7 @@ payload:
   - +.jyeoo.net
   - +.jyimg.com
   - +.jyzq.cn
+  - +.jzagile.com
   - +.jzfz.net
   - +.jzsec.com
   - +.jztvnews.com
@@ -2821,6 +2829,7 @@ payload:
   - +.letv.com
   - +.letvcdn.com
   - +.letvimg.com
+  - +.lg3000.top
   - +.lgstatic.com
   - +.lhzq.com
   - +.lianjia.com
@@ -3333,6 +3342,7 @@ payload:
   - +.orayer.com
   - +.orayimg.com
   - +.orient-fund.com
+  - +.osbdf.com
   - +.oschina.net
   - +.oshwhub.com
   - +.ottcn.com
@@ -3456,6 +3466,7 @@ payload:
   - +.qcc.com
   - +.qcds.com
   - +.qceventscenter.com.cn
+  - +.qchannel03.cn
   - +.qd-metro.com
   - +.qd.ink
   - +.qd8.com
@@ -3660,6 +3671,7 @@ payload:
   - +.scm121.cn
   - +.scm121.com
   - +.scoregg.com
+  - +.scratch5.com
   - +.scsentry.cn
   - +.scsjb.cn
   - +.sczsxx.com
@@ -3820,6 +3832,7 @@ payload:
   - +.sou.cn
   - +.sou.com
   - +.soufunimg.com
+  - +.soulteary.com
   - +.souqian.com
   - +.southcn.com
   - +.southmoney.com
@@ -4052,6 +4065,7 @@ payload:
   - +.tiexue.net
   - +.tigeek.net.cn
   - +.tikv.org
+  - +.timbrd.com
   - +.timedoo.com
   - +.timibase.com
   - +.tingyun.com
@@ -4084,6 +4098,7 @@ payload:
   - +.tongyi.com
   - +.tools.team
   - +.topthink.com
+  - +.topwd.top
   - +.tosot.com.cn
   - +.touqikan.com
   - +.touying.com
@@ -4341,6 +4356,7 @@ payload:
   - +.whlovehome.com
   - +.whois.pconline.com.cn
   - +.wicresoft.com
+  - +.wildfirechat.net
   - +.win007.com
   - +.win7china.com
   - +.win8.net
@@ -4425,6 +4441,7 @@ payload:
   - +.wuuxiang.com
   - +.wuximediaglobal.com
   - +.wuyou.net
+  - +.wxdw.top
   - +.wxsbank.com
   - +.wxzq.com
   - +.wywyx.com
@@ -4450,6 +4467,7 @@ payload:
   - +.xf-fund.com
   - +.xfdown.com
   - +.xfyun.cn
+  - +.xgzb.top
   - +.xhby.net
   - +.xhlsgs.com
   - +.xiachufang.com
@@ -4750,6 +4768,7 @@ payload:
   - +.yxwsgame.com
   - +.yy.com
   - +.yyds.co
+  - +.yyshub.top
   - +.yystatic.com
   - +.yystv.cn
   - +.yytcdn.com
@@ -4772,6 +4791,7 @@ payload:
   - +.zbjimg.com
   - +.zcjbgame.com
   - +.zcmbc.com.cn
+  - +.zctnet.top
   - +.zczj.com
   - +.zdfans.com
   - +.zdmimg.com
