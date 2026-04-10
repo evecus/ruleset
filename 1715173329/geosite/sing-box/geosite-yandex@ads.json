@@ -2,44 +2,49 @@
   "version": 2,
   "rules": [
     {
-      "domain": [
+      "domain_suffix": [
+        "adfox.ru",
         "adfox.yandex.ru",
         "adfstat.yandex.ru",
+        "admetrica.ru",
+        "ads.yandex",
         "ads.yandex.com",
         "ads.yandex.ru",
+        "ads.yango.com",
         "adsdk.yandex.ru",
         "adv.yandex.com",
         "adv.yandex.ru",
         "amc.yandex.ru",
         "an.yandex.ru",
         "analytics.mobile.yandex.net",
-        "api.appmetrica.yandex.ru",
+        "appmetrica.yandex.com",
+        "appmetrica.yandex.net",
+        "appmetrica.yandex.ru",
+        "appmetrica.yango.com",
         "browser-updater.yandex.net",
         "bs.yandex.ru",
+        "clck.yandex.com",
         "clck.yandex.net",
         "clck.yandex.ru",
+        "clck.yango.com",
         "counter.yandex.net",
         "counter.yandex.ru",
         "informer.yandex.ru",
         "mc.yandex.com",
+        "mc.yandex.net",
         "mc.yandex.ru",
+        "mc.yango.com",
         "metrika.yandex.ru",
         "pix.yandex.ru",
         "pixel.yandex.net",
-        "report-partners.appmetrica.yandex.net",
         "report.ap.yandex-net.ru",
-        "report.appmetrica.yandex.net",
-        "yabs.yandex.ru"
-      ],
-      "domain_suffix": [
-        "adfox.ru",
-        "admetrica.ru",
-        "ads.yandex",
         "webvisor.com",
         "webvisor.org",
+        "yabs.yandex.ru",
         "yads.tech",
         "yandex-metrica.ru",
-        "yandexmetrica.com"
+        "yandexmetrica.com",
+        "yango-ads.com"
       ]
     }
   ]
