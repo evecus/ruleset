@@ -3,7 +3,7 @@ payload:
     - ipv4-check-perf.radar.cloudflare.com
     - ipv6-check-perf.radar.cloudflare.com
     - +.ipgeolocation.io
-    - +.find-my-ip.net
+    - +.checkip.org
     - +.2ip.ua
     - +.51degrees.com
     - +.abstractapi.com
@@ -19,7 +19,7 @@ payload:
     - +.db-ip.com
     - +.extreme-ip-lookup.com
     - +.find-my-ip.com
-    - +.ipinfo.io
+    - +.find-my-ip.net
     - +.findip.net
     - +.flagfox.net
     - +.fraudguard.io
@@ -27,7 +27,7 @@ payload:
     - +.freegeoip.app
     - +.freeipapi.com
     - +.geodatatool.com
-    - +.geojs.io
+    - +.2ip.io
     - +.geolocation-db.com
     - +.geoplugin.com
     - +.geoplugin.net
@@ -70,9 +70,9 @@ payload:
     - +.ipecho.net
     - +.ipfind.io
     - +.ipfinder.io
-    - +.2ip.io
-    - +.checkip.org
+    - +.geojs.io
     - +.2ip.ru
+    - +.myipaddress.com
     - +.ipleak.net
     - +.ipligence.com
     - +.iplocate.io
@@ -96,9 +96,10 @@ payload:
     - +.myip.ms
     - +.myip.ru
     - +.myip.wtf
-    - +.myipaddress.com
+    - +.ipinfo.io
     - +.myiplookup.com
     - +.mylocation.org
+    - +.nodedata.io
     - +.osint.sh
     - +.proxycheck.io
     - +.realip.cc
