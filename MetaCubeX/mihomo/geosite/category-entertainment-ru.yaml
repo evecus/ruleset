@@ -1,6 +1,6 @@
 payload:
     - +.start.ru
-    - +.okko.tv
+    - +.wink.ru
     - +.cdnvideo.ru
     - +.kinorium.com
     - +.24h.tv
@@ -12,8 +12,6 @@ payload:
     - +.trbcdn.net
     - +.cdnvideohub.com
     - +.smotreshka.tv
-    - +.restream-media.net
-    - +.wink.ru
     - +.rutube.ru
     - +.rutubelist.ru
     - +.rtbcdn.ru
@@ -21,4 +19,6 @@ payload:
     - +.tvigle.ru
     - +.playfamily.ru
     - +.okko.sport
+    - +.okko.tv
+    - +.restream-media.net
     - +.kinopoisk-ru.clstorage.net

@@ -1,4 +1,10 @@
 payload:
+    - +.sbermarketing.ru
+    - clickstream.sberbank.ru
+    - error-tracking.megamarket.tech
+    - sentry.sberauto.com
+    - tracing-http.megamarket.tech
+    - visor.sberbank.ru
     - +.adfox.ru
     - +.admetrica.ru
     - +.ads.yandex
@@ -41,9 +47,3 @@ payload:
     - +.pixel.yandex.net
     - +.report.ap.yandex-net.ru
     - +.yabs.yandex.ru
-    - +.sbermarketing.ru
-    - clickstream.sberbank.ru
-    - error-tracking.megamarket.tech
-    - sentry.sberauto.com
-    - tracing-http.megamarket.tech
-    - visor.sberbank.ru
