@@ -1,6 +1,8 @@
 payload:
-  - clickstream.sberbank.ru
-  - error-tracking.megamarket.tech
-  - sentry.sberauto.com
-  - tracing-http.megamarket.tech
-  - visor.sberbank.ru
+  - +.ads.neon.click
+  - +.clickstream.sberbank.ru
+  - +.error-tracking.megamarket.tech
+  - +.sbermarketing.ru
+  - +.sentry.sberauto.com
+  - +.tracing-http.megamarket.tech
+  - +.visor.sberbank.ru

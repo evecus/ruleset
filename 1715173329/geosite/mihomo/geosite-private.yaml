@@ -104,6 +104,7 @@ payload:
   - +.d.f.ip6.arpa
   - +.hiwifi.com
   - +.home.arpa
+  - +.kis.v2.scr.kaspersky-labs.com
   - +.leike.cc
   - +.localhost.ptlogin2.qq.com
   - +.localhost.sec.qq.com
@@ -118,6 +119,7 @@ payload:
   - +.zte.home
   - asusrouter.com
   - instant.arubanetworks.com
+  - local.adguard.org
   - miwifi.com
   - oasisauth.h3c.com
   - router.asus.com
