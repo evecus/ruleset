@@ -6,7 +6,7 @@ payload:
   - +.admetrica.ru
   - +.ads-gate.wildberries.ru
   - +.ads-media.wildberries.ru
-  - +.ads.neon.click
+  - +.ads.sber.ru
   - +.ads.wildberries.ru
   - +.ads.x5media.ru
   - +.ads.yandex
@@ -44,10 +44,8 @@ payload:
   - +.api.carrottrack.app
   - +.api.dashly.app
   - +.api.dashlytrack.app
-  - +.api.e.mindbox.ru
   - +.api.mindbox.cloud
   - +.api.mindbox.ru
-  - +.api.s.mindbox.ru
   - +.appmetrica.yandex.com
   - +.appmetrica.yandex.net
   - +.appmetrica.yandex.ru
@@ -62,15 +60,21 @@ payload:
   - +.clickstream.sberbank.ru
   - +.counter.yandex.net
   - +.counter.yandex.ru
+  - +.e.mindbox.ru
   - +.error-tracking.megamarket.tech
+  - +.g.mindbox.ru
   - +.google-analytics-suite.ozon.ru
   - +.informer.yandex.ru
   - +.loyalnost-adv.ozon.ru
+  - +.marketing-info.wildberries.ru
+  - +.marketplace-sentry.wb.ru
   - +.mc.yandex.com
   - +.mc.yandex.net
   - +.mc.yandex.ru
   - +.mc.yango.com
+  - +.metrics.21-school.ru
   - +.metrika.yandex.ru
+  - +.neon.click
   - +.new-adv.ozon.ru
   - +.pix.yandex.ru
   - +.pixel.yandex.net
@@ -78,6 +82,7 @@ payload:
   - +.questions-adv.ozon.ru
   - +.report.ap.yandex-net.ru
   - +.roistat.com
+  - +.s.mindbox.ru
   - +.sbermarketing.ru
   - +.sentry.mindbox.ru
   - +.sentry.ozon.ru

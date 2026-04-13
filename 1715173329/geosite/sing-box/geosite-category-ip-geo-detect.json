@@ -4,6 +4,8 @@
     {
       "domain": [
         "checkip.amazonaws.com",
+        "checkip.dyn.com",
+        "checkip.dyndns.org",
         "ip.comss.net",
         "ipv4-check-perf.radar.cloudflare.com",
         "ipv6-check-perf.radar.cloudflare.com"

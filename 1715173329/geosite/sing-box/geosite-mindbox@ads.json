@@ -6,10 +6,11 @@
         "api-js.mindbox.ru",
         "api-ru.mindbox.cloud",
         "api-staging.mindbox.ru",
-        "api.e.mindbox.ru",
         "api.mindbox.cloud",
         "api.mindbox.ru",
-        "api.s.mindbox.ru",
+        "e.mindbox.ru",
+        "g.mindbox.ru",
+        "s.mindbox.ru",
         "sentry.mindbox.ru",
         "sentry.popmechanic.ru"
       ]
