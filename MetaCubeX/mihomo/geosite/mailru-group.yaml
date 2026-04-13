@@ -12,13 +12,6 @@ payload:
     - +.telega.me
     - +.youla.io
     - +.youla.ru
-    - +.dzen.ru
-    - +.dzeninfra.ru
-    - +.imgsmail.ru
-    - +.mail.ru
-    - +.ok.ru
-    - +.okcdn.ru
-    - +.mycdn.me
     - +.cdn-vk.ru
     - +.mradx.net
     - +.mvk.com
@@ -55,3 +48,10 @@ payload:
     - +.vkuservideo.net
     - +.vkuservideo.ru
     - +.vkvideo.ru
+    - +.dzen.ru
+    - +.dzeninfra.ru
+    - +.imgsmail.ru
+    - +.mail.ru
+    - +.ok.ru
+    - +.okcdn.ru
+    - +.mycdn.me
