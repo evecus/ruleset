@@ -352,6 +352,7 @@ payload:
   - +.claude.com
   - +.claudemcpclient.com
   - +.claudeusercontent.com
+  - +.clawhub-mirror.com
   - +.clck.ru
   - +.clck.yandex.com
   - +.clck.yandex.net
@@ -367,6 +368,7 @@ payload:
   - +.clubhouseapi.com
   - +.cms-twdigitalassets.com
   - +.cobrasearch.com
+  - +.codebuddy.cn
   - +.codespot.com
   - +.collector.github.com
   - +.collegejournal.com
@@ -1853,6 +1855,7 @@ payload:
   - +.sheets.new
   - +.shopfacebook.com
   - +.simility.com
+  - +.skillhub.cn
   - +.slack-core.com
   - +.slack-edge.com
   - +.slack-files.com
@@ -2372,6 +2375,7 @@ payload:
   - +.youtubemobilesupport.com
   - +.yt.be
   - +.ytimg.com
+  - +.yuanqi.tencent.com
   - +.z.ai
   - +.zaobao.com
   - +.zaobao.com.sg

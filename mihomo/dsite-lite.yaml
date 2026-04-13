@@ -31,11 +31,14 @@ payload:
   - +.116cd.net
   - +.119you.com
   - +.12306.cn
+  - +.12315.cn
+  - +.12321.cn
   - +.123245.com
   - +.123254.com
   - +.123294.com
   - +.123624.com
   - +.123641.com
+  - +.12365auto.com
   - +.123842.com
   - +.123860.com
   - +.123912.com
@@ -1054,6 +1057,7 @@ payload:
   - +.cjsc.com
   - +.ckd.im
   - +.ckxx.net
+  - +.clawhub-mirror.com
   - +.cleargrass.com
   - +.click.gamersky.com
   - +.click.hunantv.com
@@ -1119,6 +1123,7 @@ payload:
   - +.cnweblog.com
   - +.cocodiy.com
   - +.code666.com
+  - +.codebuddy.cn
   - +.codechina.net
   - +.codeloop.top
   - +.coding.me
@@ -1263,6 +1268,8 @@ payload:
   - +.dadajiasu.com
   - +.dadighost.com
   - +.daguzhe.com
+  - +.daheapp.com
+  - +.dahebao.cn
   - +.dajiabao.com
   - +.dajie.com
   - +.dajieimg.com
@@ -2686,6 +2693,7 @@ payload:
   - +.kuaidilab.com
   - +.kuaiduizuoye.com
   - +.kuaihou.com
+  - +.kuaiji.com
   - +.kuaikanmanhua.com
   - +.kuaishou.cn
   - +.kuaishou.com
@@ -3778,6 +3786,7 @@ payload:
   - +.sinopecsales.com
   - +.sipeed.com
   - +.sjwyx.com
+  - +.skillhub.cn
   - +.skimit.net
   - +.skycn.com
   - +.skydweller.cn
@@ -4720,6 +4729,7 @@ payload:
   - +.ytzq.com
   - +.yuanbei.biz
   - +.yuanfudao.com
+  - +.yuanqi.tencent.com
   - +.yuanshen.com
   - +.yuansouti.com
   - +.yuantiku.com
@@ -4809,6 +4819,7 @@ payload:
   - +.zealer.com
   - +.zeekrlife.com
   - +.zgbk.com
+  - +.zgbznet.com.cn
   - +.zgcbank.com
   - +.zggbdszt.cn
   - +.zggbdszt.com.cn
