@@ -14,17 +14,9 @@ payload:
     - +.safechat.com
     - +.sis001.com
     - +.v2ex.com
-    - +.2ch.net
-    - +.5ch.net
-    - +.linux.do
-    - +.ldstatic.com
-    - +.5i01.com
-    - +.mobile01.com
-    - +.qr.ae
-    - +.quora.com
-    - +.quoracdn.net
-    - +.poe.com
-    - +.poecdn.net
+    - +.4cdn.org
+    - +.4chan.org
+    - +.4channel.org
     - +.maintracker.org
     - +.rutracker.cc
     - +.rutracker.cr
@@ -33,29 +25,14 @@ payload:
     - +.rutracker.nl
     - +.rutracker.org
     - +.rutrk.org
-    - +.4cdn.org
-    - +.4chan.org
-    - +.4channel.org
-    - +.broadbandreports.com
-    - +.dslr.net
-    - +.dslreports.com
-    - +.habr.com
-    - +.habrastorage.org
-    - +.hkgolden.com
-    - +.hkgolden.media
-    - +.ptt.cc
-    - +.ptt2.cc
-    - +.ptt3.cc
-    - +.soyjak.party
-    - +.soyjak.st
-    - +.xda-cdn.com
-    - +.xda-developers.com
-    - +.xdaforums.com
-    - +.xdaimages.com
     - +.dcard.cc
     - +.dcard.io
     - +.dcard.link
     - +.dcard.tw
+    - +.hkgolden.com
+    - +.hkgolden.media
+    - +.linux.do
+    - +.ldstatic.com
     - +.pimg.tw
     - +.pixanalytics.com
     - +.pixfs.net
@@ -64,19 +41,14 @@ payload:
     - +.pixnet.pro
     - +.pixnet.tw
     - +.pixplug.in
-    - +.ck101.com
-    - +.ckcdn.com
-    - +.ckck.fun
-    - +.dzen.ru
-    - +.dzeninfra.ru
-    - +.lih.kg
-    - +.lihkg.com
-    - +.22112211.xyz
-    - +.deepflood.com
-    - +.nodeget.com
-    - +.nodeimage.com
-    - +.nodequality.com
-    - +.nodeseek.com
+    - +.ptt.cc
+    - +.ptt2.cc
+    - +.ptt3.cc
+    - +.qr.ae
+    - +.quora.com
+    - +.quoracdn.net
+    - +.poe.com
+    - +.poecdn.net
     - +.redd.it
     - +.reddit.com
     - +.redditblog.com
@@ -87,6 +59,25 @@ payload:
     - +.redditspace.com
     - +.redditstatic.com
     - +.redditstatus.com
+    - +.soyjak.party
+    - +.soyjak.st
+    - +.2ch.net
+    - +.5ch.net
+    - +.broadbandreports.com
+    - +.dslr.net
+    - +.dslreports.com
+    - +.dzen.ru
+    - +.dzeninfra.ru
+    - +.habr.com
+    - +.habrastorage.org
+    - +.5i01.com
+    - +.mobile01.com
+    - +.22112211.xyz
+    - +.deepflood.com
+    - +.nodeget.com
+    - +.nodeimage.com
+    - +.nodequality.com
+    - +.nodeseek.com
     - +.6park.com
     - +.6parkbbs.com
     - +.6parknews.com
@@ -94,6 +85,17 @@ payload:
     - +.popo8.com
     - +.parkvv.com
     - +.xwbo.com
+    - +.ck101.com
+    - +.ckcdn.com
+    - +.ckck.fun
+    - +.lih.kg
+    - +.lihkg.com
+    - +.xda-cdn.com
+    - +.xda-developers.com
+    - +.xdaforums.com
+    - +.xdaimages.com
     - +.pixinsight.com.tw
     - +.reddit.app.link
     - +.reddit.map.fastly.net
+    - +.log.dzen.ru
+    - +.ms.dzen.ru

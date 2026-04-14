@@ -1,7 +1,7 @@
 payload:
     - +.gmo
-    - +.jword.jp
-    - +.gmo-sol.jp
+    - +.kaipoke.jp
+    - +.gmosign.com
     - +.adam.jp
     - +.alive-project.com
     - +.animary.jp
@@ -21,7 +21,6 @@ payload:
     - +.dentry.jp
     - +.e-estate.jp
     - +.ekiten.jp
-    - +.globalsign.eu
     - +.epsilon.jp
     - +.fanspot.jp
     - +.fincode.jp
@@ -38,7 +37,7 @@ payload:
     - +.gmo-connect.com
     - +.gmo-cybersecurity.com
     - +.gmo-digitalpay.jp
-    - +.1-account.com
+    - +.gmo-fg.com
     - +.gmo-healthtech.com
     - +.gmo-insight.jp
     - +.gmo-mobilepay.jp
@@ -48,28 +47,29 @@ payload:
     - +.gmo-pg.com
     - +.gmo-ps.com
     - +.gmo-rakurakuhp.jp
-    - +.globalsign.fr
     - +.gmo-research.ai
-    - +.globalsign.be
+    - +.gmo-sol.jp
     - +.gmo-vp.com
     - +.gmo.jp
     - +.gmo.media
     - +.gmoask.jp
     - +.gmobb.jp
     - +.gmocloud.com
-    - +.gmosign.com
+    - +.gmopg.jp
+    - +.kantan.game
     - +.gmossp.jp
-    - +.good-apps.jp
+    - +.globalsign.eu
     - +.goope.jp
     - +.hakaru.ai
     - +.heteml.jp
     - +.hotel-reviewn.com
     - +.infoq.jp
     - +.iprad-ryoma.com
+    - +.jword.jp
+    - +.1-account.com
+    - +.good-apps.jp
     - +.30d.jp
-    - +.gmo-fg.com
-    - +.kaipoke.jp
-    - +.kantan.game
+    - +.shop-pro.jp
     - +.karabako-gmo.com
     - +.kireipass.jp
     - +.koukoku.jp
@@ -79,6 +79,8 @@ payload:
     - +.makeappli.jp
     - +.makerepeater.jp
     - +.makeshop.jp
+    - +.globalsign.fr
+    - +.globalsign.be
     - +.globalsign.net
     - +.meo-dash.com
     - +.michill.jp
@@ -103,7 +105,6 @@ payload:
     - +.seodirector.ai
     - +.seotimes.jp
     - +.shisho.dev
-    - +.shop-pro.jp
     - +.shuminavi.net
     - +.smaad.net
     - +.sokuresu.ai

@@ -38,7 +38,7 @@ payload:
     - +.megamarket.tech
     - +.sberauto.com
     - +.sberbank-insurance.ru
-    - +.okko.tv
+    - +.2gis.ua
     - +.sbercloud.tech
     - +.sberdevices.ru
     - +.sberdisk.ru
@@ -54,7 +54,7 @@ payload:
     - +.sberpb.ru
     - +.sbertroika.ru
     - +.afisha.ru
-    - +.okko.sport
+    - +.2gis.tj
     - +.cloud.ru
     - +.cloudru.cn
     - +.eaptechka.online
@@ -67,13 +67,13 @@ payload:
     - +.gitverse.ru
     - +.jivo.chat
     - +.jivo.ru
-    - +.playfamily.ru
+    - +.2gis.kg
     - +.jivochat.com
-    - +.2gis.ua
+    - +.2gis.kz
     - +.sber-bank.by
     - +.sbercloud.ru
-    - +.2gis.tj
-    - +.2gis.kg
+    - +.2gis.ru
+    - +.2gis.ge
     - +.jivochat.de
     - +.jivochat.es
     - +.jivochat.ng
@@ -96,6 +96,9 @@ payload:
     - +.sbertech.ru
     - +.zvuk-b2b.com
     - +.zvuk.com
+    - +.playfamily.ru
+    - +.okko.sport
+    - +.okko.tv
     - +.2gis.cz
     - +.2gis.ae
     - +.2gis.az
@@ -103,9 +106,6 @@ payload:
     - +.2gis.com
     - +.2gis.uz
     - +.2gis.am
-    - +.2gis.ge
-    - +.2gis.ru
-    - +.2gis.kz
     - +.cu.ru
     - +.centraluniversity.ru
     - +.xn--h1ao.site
@@ -215,13 +215,13 @@ payload:
     - +.tpension.ru
     - +.travel-tec.ru
     - +.unidraw.io
+    - +.jivochat.com.co
     - +.jivochat.com.br
     - +.jivochat.co.in
-    - +.2gis.com.cy
     - +.jivochat.co.za
     - +.jivochat.com.pe
     - +.jivochat.com.tr
-    - +.jivochat.com.co
+    - +.2gis.com.cy
     - +.alfabank.oavdo.amc
     - +.neon.click
     - +.sbermarketing.ru

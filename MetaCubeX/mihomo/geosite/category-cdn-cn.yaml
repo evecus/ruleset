@@ -5,16 +5,6 @@ payload:
     - +.jiashule.com
     - +.jiasule.com
     - +.yunaq.com
-    - +.qbox.me
-    - +.qiniu.com
-    - +.qiniucdn.com
-    - +.qiniudn.com
-    - +.qiniudns.com
-    - +.qiniup.com
-    - +.qnsdk.com
-    - +.qnssl.com
-    - +.staticfile.net
-    - +.staticfile.org
     - +.aicdn.com
     - +.upai.com
     - +.upaiyun.com
@@ -69,6 +59,16 @@ payload:
     - +.flxdns.cn
     - +.mcadn.cn
     - +.tlgslb.cn
+    - +.qbox.me
+    - +.qiniu.com
+    - +.qiniucdn.com
+    - +.qiniudn.com
+    - +.qiniudns.com
+    - +.qiniup.com
+    - +.qnsdk.com
+    - +.qnssl.com
+    - +.staticfile.net
+    - +.staticfile.org
     - +.dfyun.com.cn
     - +.fastcdn.com.cn
     - +.cf-china.info
