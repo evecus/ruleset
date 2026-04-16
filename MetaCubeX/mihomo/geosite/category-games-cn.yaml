@@ -1,6 +1,6 @@
 payload:
-    - +.qq163.com
-    - +.gcloudsvcs.com
+    - +.7k7k.com
+    - +.9xgame.com
     - +.arcaea.cn
     - +.astral-vector.com
     - +.feihuo.com
@@ -21,28 +21,14 @@ payload:
     - +.winegame.net
     - +.wo1wan.com
     - +.ycgame.com
+    - +.sl916.com
+    - +.cowlevel.net
+    - +.cdncl.net
     - +.hero.com
     - +.herogame.com
     - +.heroesports.com
     - +.shyxhy.com
     - +.yingxiong.com
-    - +.kurogames.com
-    - +.aki-game.com
-    - +.mhystatic.com
-    - +.mhyurl.cn
-    - +.mihayo.com
-    - +.mihayou.com
-    - +.mihoyo.com
-    - +.mihoyocg.com
-    - +.mihoyogift.com
-    - +.mihoyomall.com
-    - +.miyoushe.com
-    - +.benghuai.com
-    - +.bh3.com
-    - +.bhsr.com
-    - +.themisweeps.com
-    - +.yuanshen.com
-    - +.juequling.com
     - +.vrzwk.cn
     - +.vrzwk.com
     - +.vrzwk.net
@@ -101,13 +87,13 @@ payload:
     - +.i3839.com
     - +.ihykb.com
     - +.img4399.com
-    - +.7k7k.com
+    - +.mail4399.com
     - +.maindown4399.com
     - +.me4399.com
     - +.my4399.com
-    - +.skydweller.cn
-    - +.9xgame.com
-    - +.mail4399.com
+    - +.mysiteres.com
+    - +.nzsiteres.com
+    - +.qq163.com
     - +.qq163.net
     - +.tuer123.com
     - +.wanwan4399.com
@@ -117,9 +103,29 @@ payload:
     - +.yxhapi.com
     - +.yxhhdl.com
     - +.yxhimg.com
-    - +.cowlevel.net
-    - +.cdncl.net
-    - +.sl916.com
+    - +.bilibiligame.cn
+    - +.bilibiligame.co
+    - +.bilibiligame.net
+    - +.biligame.co
+    - +.biligame.com
+    - +.biligame.net
+    - +.kurogames.com
+    - +.aki-game.com
+    - +.mhystatic.com
+    - +.mhyurl.cn
+    - +.mihayo.com
+    - +.mihayou.com
+    - +.mihoyo.com
+    - +.mihoyocg.com
+    - +.mihoyogift.com
+    - +.mihoyomall.com
+    - +.miyoushe.com
+    - +.benghuai.com
+    - +.bh3.com
+    - +.bhsr.com
+    - +.themisweeps.com
+    - +.yuanshen.com
+    - +.juequling.com
     - +.videoxiaoyouxi.com
     - +.nagcloudcs.com
     - +.gameloop.com
@@ -128,7 +134,7 @@ payload:
     - +.gcloudcstestonly.com
     - +.gclouddolphin.com
     - +.gcloudsdk.com
-    - +.nzsiteres.com
+    - +.gcloudsvcs.com
     - +.gdtimg.com
     - +.goto-game.com
     - +.yxdmgame.com
@@ -154,7 +160,7 @@ payload:
     - +.pubgtool.com
     - +.qqgameapp.com
     - +.rmwxgame.com
-    - +.mysiteres.com
+    - +.skydweller.cn
     - +.syxlgame.com
     - +.tencent-gcloud.com
     - +.tencentstart.com
@@ -203,12 +209,6 @@ payload:
     - +.tiancity.com
     - +.tiancitycdn.com
     - +.9game.cn
-    - +.bilibiligame.cn
-    - +.bilibiligame.co
-    - +.biligame.net
-    - +.bilibiligame.net
-    - +.biligame.co
-    - +.biligame.com
     - +.werepository.com.cn
     - +.wegame.com.cn
     - +.gouhuo.qq.com
