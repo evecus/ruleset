@@ -21,10 +21,21 @@ payload:
     - +.ssrpass.pw
     - +.stc-server.com
     - +.hutao.cloud
-    - +.cylink.pro
-    - +.cylink0122.icu
+    - +.n3ro.lol
+    - +.n3ro.net
+    - +.n3ro.wtf
+    - +.paofu.cloud
+    - +.paofuyun.me
+    - +.shadowsocks.com
+    - +.shadowsocks.nl
     - +.hitun.io
     - +.xn--90wwvt03e.com
+    - +.duyaoss.com
+    - +.duyaossr.com
+    - +.squirrelvpn.com
+    - +.squirrelgroup.net
+    - +.cylink.pro
+    - +.cylink0122.icu
     - +.justmysocks.net
     - +.justmysocks1.net
     - +.justmysocks2.net
@@ -34,28 +45,15 @@ payload:
     - +.nexitcore.com
     - +.surflite.co
     - +.surflite.net
-    - +.duyaoss.com
-    - +.duyaossr.com
-    - +.squirrelvpn.com
-    - +.squirrelgroup.net
-    - +.airport-gov-cn.com
-    - +.cnix-gov-cn.com
-    - +.xn--d4ty0ojsqzfd.com
-    - +.928.plus
-    - +.zind.cloud
-    - +.boslife.biz
-    - +.boslife.net
     - +.dlercloud.com
     - +.dlercloud.org
     - +.dlercloud.me
     - +.dleris.best
-    - +.n3ro.lol
-    - +.n3ro.net
-    - +.n3ro.wtf
-    - +.paofu.cloud
-    - +.paofuyun.me
-    - +.shadowsocks.com
-    - +.shadowsocks.nl
+    - +.boslife.biz
+    - +.boslife.net
+    - +.airport-gov-cn.com
+    - +.cnix-gov-cn.com
+    - +.xn--d4ty0ojsqzfd.com
     - +.vilavpn.com
     - +.vilavpn.xyz
     - +.vilavpn1.xyz
@@ -65,3 +63,5 @@ payload:
     - +.vilavpn5.xyz
     - +.vilavpn6.xyz
     - +.vilavpn7.xyz
+    - +.928.plus
+    - +.zind.cloud

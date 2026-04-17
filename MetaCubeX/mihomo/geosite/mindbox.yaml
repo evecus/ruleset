@@ -11,13 +11,13 @@ payload:
     - +.popmechanic.io
     - +.popmechanic.ru
     - +.summitceo.ru
-    - +.api-js.mindbox.ru
-    - +.api-ru.mindbox.cloud
-    - +.api-staging.mindbox.ru
-    - +.api.mindbox.cloud
-    - +.api.mindbox.ru
     - +.e.mindbox.ru
     - +.g.mindbox.ru
     - +.s.mindbox.ru
-    - +.sentry.mindbox.ru
-    - +.sentry.popmechanic.ru
+    - api-js.mindbox.ru
+    - api-ru.mindbox.cloud
+    - api-staging.mindbox.ru
+    - api.mindbox.cloud
+    - api.mindbox.ru
+    - sentry.mindbox.ru
+    - sentry.popmechanic.ru

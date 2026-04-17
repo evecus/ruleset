@@ -350,7 +350,7 @@ payload:
     - +.huoshanvideo.cn
     - +.pstatp.com
     - +.99uri.com
-    - +.sms18.com
+    - +.iccvlog.com
     - +.huoshanxiaoshipin.net
     - +.huoshanzhibo.cn
     - +.huoshanzhibo.com
@@ -409,6 +409,9 @@ payload:
     - +.qznovelpic.com
     - +.qznovelstatic.com
     - +.qznovelvod.com
+    - +.juejin.cn
+    - +.juejin.im
+    - +.xitu.io
     - +.baseopendev.com
     - +.bytecloud.com
     - +.byteoc.com
@@ -492,14 +495,26 @@ payload:
     - +.larksuitecdn.com
     - +.larksuiteimg-boe.com
     - +.larksuiteimg-pre.com
-    - +.aigc-cloud.com
-    - +.yoma.cn
-    - +.trae.guru
-    - +.trae.cn
-    - +.tcwqqdy.guru
-    - +.mcprev.cn
-    - +.mchost.guru
+    - +.doudou.com
+    - +.pixeldance.com
+    - +.picpic-ai.cn
+    - +.myparallelstory.com
+    - +.maoxiangai.com
+    - +.hi-butterfly.cn
+    - +.doubaocdn.com
+    - +.doubao.com
+    - +.marscode.cn
+    - +.mcbaas.work
     - +.mcdemo.show
+    - +.mchost.guru
+    - +.mcprev.cn
+    - +.tcwqqdy.guru
+    - +.trae.cn
+    - +.trae.guru
+    - +.yoma.cn
+    - +.cozeide.cn
+    - +.cozefn.cn
+    - +.aigc-cloud.com
     - +.bdegnine.com
     - +.bplslb.com
     - +.bpltm.com
@@ -519,7 +534,7 @@ payload:
     - +.dycloud.run
     - +.emr-volces.com
     - +.feilian.cn
-    - +.iccvlog.com
+    - +.huoshanxiaoshipin.cn
     - +.ifeilian.cn
     - +.ifeilian.com
     - +.inspirecloud.cn
@@ -534,7 +549,7 @@ payload:
     - +.qingfuwu.cn
     - +.qingfuwu.com
     - +.slbauto.com
-    - +.huoshanxiaoshipin.cn
+    - +.sms18.com
     - +.toutiaopanapi.com
     - +.toutiaopan.com
     - +.ttgslb.com
@@ -661,27 +676,12 @@ payload:
     - +.coze.cn
     - +.coze.site
     - +.cozebaas.cn
-    - +.cozefn.cn
-    - +.cozeide.cn
-    - +.doubao.com
-    - +.doubaocdn.com
-    - +.hi-butterfly.cn
-    - +.maoxiangai.com
-    - +.myparallelstory.com
-    - +.picpic-ai.cn
-    - +.pixeldance.com
-    - +.juejin.cn
-    - +.juejin.im
-    - +.xitu.io
-    - +.doudou.com
-    - +.marscode.cn
-    - +.mcbaas.work
+    - +.trae.com.cn
+    - +.marscode.com.cn
     - +.okr.com.cn
     - +.qishuimusic.com.cn
     - +.qishui.com.cn
     - +.gogokid.com.cn
-    - +.marscode.com.cn
-    - +.trae.com.cn
     - +.larksuite.com.ttdns1.com
     - +.larksuite.com.ttdns2.com
     - +.byteglb.com
@@ -731,13 +731,6 @@ payload:
     - rtlog3-applog.fqnovel.com
     - rtlog5-applog-hl.fqnovel.com
     - rtlog5-applog.fqnovel.com
-    - +.coze.com
-    - +.marscode.com
-    - +.trae.ai
-    - +.cici.com
-    - +.ciciai.com
-    - +.ciciaicdn.com
-    - +.dola.com
     - +.bytedapm.com
     - +.byteoversea.com
     - +.muscdn.com
@@ -775,3 +768,10 @@ payload:
     - roovza.launches.appsflyersdk.com
     - roovza.skadsdk.appsflyersdk.com
     - +.analytics.tiktok.com
+    - +.coze.com
+    - +.marscode.com
+    - +.trae.ai
+    - +.cici.com
+    - +.ciciai.com
+    - +.ciciaicdn.com
+    - +.dola.com

@@ -1,4 +1,5 @@
 payload:
+    - mvideo.edna.io
     - +.av.ru
     - +.auchan.ru
     - +.bristol.ru
@@ -15,7 +16,6 @@ payload:
     - +.fix-price.com
     - +.lenta.com
     - +.lenta.tech
-    - +.magnit.ru
     - +.metro-cc.ru
     - +.krasnoeibeloe.ru
     - +.rostics.ru
@@ -26,6 +26,10 @@ payload:
     - +.sushiwok.ru
     - +.winelab.ru
     - +.vkusvill.ru
+    - +.acmvid.com
+    - +.mvideo.ru
+    - +.oskelly.co
+    - +.oskelly.ru
     - +.5ka.ru
     - +.5post.market
     - +.abonementx5.ru
@@ -58,5 +62,12 @@ payload:
     - +.x5q.ru
     - +.x5static.net
     - +.x5w.ru
-    - +.ads.x5media.ru
-    - +.sentry.x5.ru
+    - +.sokolov.io
+    - +.sokolov.ru
+    - +.kazanexpress.ru
+    - +.magnit.com
+    - +.magnit.ru
+    - +.mm.ru
+    - ads.x5.ru
+    - ads.x5media.ru
+    - sentry.x5.ru
