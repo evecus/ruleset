@@ -2,7 +2,7 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
+      "domain": [
         "ads-gate.wildberries.ru",
         "ads-media.wildberries.ru",
         "ads.wildberries.ru",
@@ -14,12 +14,16 @@
         "advert-media-api.wildberries.ru",
         "analytics-stage.wildberries.ru",
         "analytics.wildberries.ru",
+        "marketing-info.wildberries.ru",
+        "marketplace-sentry.wb.ru",
+        "sentry.wb.ru",
+        "web-analytics.wildberries.ru"
+      ],
+      "domain_suffix": [
         "digital-wb.ru",
         "digitalwb.ru",
         "etradebook.ru",
         "geobasket.ru",
-        "marketing-info.wildberries.ru",
-        "marketplace-sentry.wb.ru",
         "mp.world",
         "onlyjobs.ru",
         "paywb.com",
@@ -29,7 +33,6 @@
         "rwbautomation.ru",
         "rwbautomation.tech",
         "rwbgeo.ru",
-        "sentry.wb.ru",
         "vamzakaz.ru",
         "velberis.ru",
         "vildberis.ru",
@@ -63,7 +66,6 @@
         "wbtek.ru",
         "wbwh.ru",
         "wbwh.tech",
-        "web-analytics.wildberries.ru",
         "weildberries.ru",
         "welberris.ru",
         "weldberies.ru",

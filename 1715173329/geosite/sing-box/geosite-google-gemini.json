@@ -40,7 +40,8 @@
         "opal.google",
         "opal.google.com",
         "proactivebackend-pa.googleapis.com",
-        "robinfrontend-pa.googleapis.com"
+        "robinfrontend-pa.googleapis.com",
+        "stitch.withgoogle.com"
       ]
     }
   ]

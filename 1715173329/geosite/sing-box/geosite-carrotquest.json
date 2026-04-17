@@ -2,7 +2,7 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
+      "domain": [
         "api-eu.carrotquest.app",
         "api-eu.carrotquest.io",
         "api-ru.carrotquest.app",
@@ -13,7 +13,9 @@
         "api.carrotquest.io",
         "api.carrottrack.app",
         "api.dashly.app",
-        "api.dashlytrack.app",
+        "api.dashlytrack.app"
+      ],
+      "domain_suffix": [
         "carrot-mail.io",
         "carrotquest-mail.io",
         "carrotquest.app",
