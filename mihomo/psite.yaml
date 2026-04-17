@@ -26,7 +26,6 @@ payload:
   - +.acheterfollowersinstagram.com
   - +.adfox.ru
   - +.adfox.yandex.ru
-  - +.adfstat.yandex.ru
   - +.adgoogle.net
   - +.admeld.com
   - +.admetrica.ru
@@ -34,11 +33,8 @@ payload:
   - +.admob.com
   - +.ads-twitter.com
   - +.ads.yandex
-  - +.ads.yandex.com
   - +.ads.yandex.ru
-  - +.ads.yango.com
   - +.ads.youtube.com
-  - +.adsdk.yandex.ru
   - +.adsense.com
   - +.adsensecustomsearchads.com
   - +.adsenseformobileapps.com
@@ -66,11 +62,9 @@ payload:
   - +.amazonprimevideos.com
   - +.amazonvideo.cc
   - +.amazonvideo.com
-  - +.amc.yandex.ru
   - +.an.yandex.ru
   - +.analytics-alv.google.com
   - +.analytics.facebook.com
-  - +.analytics.mobile.yandex.net
   - +.analytics.tiktok.com
   - +.android
   - +.android.com
@@ -294,7 +288,6 @@ payload:
   - +.brightline.tv
   - +.brocaproject.com
   - +.brotli.org
-  - +.browser-updater.yandex.net
   - +.bs.yandex.ru
   - +.buck.build
   - +.buckbuild.com
@@ -354,10 +347,7 @@ payload:
   - +.claudeusercontent.com
   - +.clawhub-mirror.com
   - +.clck.ru
-  - +.clck.yandex.com
-  - +.clck.yandex.net
   - +.clck.yandex.ru
-  - +.clck.yango.com
   - +.click-url.com
   - +.cloudburstresearch.com
   - +.cloudfunctions.net
@@ -383,7 +373,6 @@ payload:
   - +.coova.net
   - +.coova.org
   - +.copilot-telemetry.githubusercontent.com
-  - +.counter.yandex.net
   - +.counter.yandex.ru
   - +.coze.cn
   - +.coze.site
@@ -1310,7 +1299,6 @@ payload:
   - +.impermium.com
   - +.imstagram.com
   - +.imtagram.com
-  - +.informer.yandex.ru
   - +.instaadder.com
   - +.instachecker.com
   - +.instafallow.com
@@ -1429,10 +1417,7 @@ payload:
   - +.material.io
   - +.max.com
   - +.maxgo.com
-  - +.mc.yandex.com
-  - +.mc.yandex.net
   - +.mc.yandex.ru
-  - +.mc.yango.com
   - +.mcbaas.work
   - +.mcdemo.show
   - +.mchost.guru
@@ -1453,6 +1438,8 @@ payload:
   - +.meta.law
   - +.metaso.cn
   - +.meteum.ai
+  - +.metrika.yandex.com
+  - +.metrika.yandex.net
   - +.metrika.yandex.ru
   - +.mfg-inspector.com
   - +.miaibox.com
@@ -1753,10 +1740,8 @@ payload:
   - +.picpic-ai.cn
   - +.ping0.cc
   - +.pittpatt.com
-  - +.pix.yandex.ru
   - +.pixate.com
   - +.pixel.facebook.com
-  - +.pixel.yandex.net
   - +.pixeldance.com
   - +.play-fe.googleapis.com
   - +.play-games.googleusercontent.com
@@ -1827,7 +1812,6 @@ payload:
   - +.redkix.com
   - +.registerhulu.com
   - +.repo.new
-  - +.report.ap.yandex-net.ru
   - +.reut.rs
   - +.reuters.com
   - +.reuters.tv
@@ -1892,6 +1876,7 @@ payload:
   - +.static-storage.net
   - +.stcroixmosquito.com
   - +.stcroixmosquitoproject.com
+  - +.stitch.withgoogle.com
   - +.studywatchbyverily.com
   - +.studywatchbyverily.org
   - +.stxmosquito.com
@@ -2390,7 +2375,11 @@ payload:
   - 2mdn-cn.net
   - 2mdn.net
   - adeventtracker.spotify.com
+  - adfstat.yandex.ru
   - admob-cn.com
+  - ads.yandex.com
+  - ads.yango.com
+  - adsdk.yandex.ru
   - adservice.google.com
   - adstudio-assets.scdn.co
   - ai.google.dev
@@ -2405,7 +2394,9 @@ payload:
   - alt6-mtalk.google.com
   - alt7-mtalk.google.com
   - alt8-mtalk.google.com
+  - amc.yandex.ru
   - analytics.google.com
+  - analytics.mobile.yandex.net
   - android.googlesource.com
   - antigravity-pa.googleapis.com
   - antigravity.googleapis.com
@@ -2432,6 +2423,9 @@ payload:
   - cache.pack.google.com
   - cdn-spotify-experiments.conductrics.com
   - checkin.gstatic.com
+  - clck.yandex.com
+  - clck.yandex.net
+  - clck.yango.com
   - clickserve.cc-dt.com
   - clickserve.dartsearch.net
   - clickserver.googleads.com
@@ -2549,10 +2543,14 @@ payload:
   - images-fe.ssl-images-amazon.com
   - images-na.ssl-images-amazon.com
   - imasdk.googleapis.com
+  - informer.yandex.ru
   - l2-uberproxy.corp.google.com
   - logger-dev.corp.google.com
   - logger.corp.google.com
   - login.corp.google.com
+  - mc.yandex.com
+  - mc.yandex.net
+  - mc.yango.com
   - monitoring.qpdp1.net
   - msh.amazon.co.uk
   - mtalk-dev.google.com
@@ -2572,6 +2570,7 @@ payload:
   - p16-tiktokcdn-com.akamaized.net
   - pagead-googlehosted.l.google.com
   - performanceparameters.googleapis.com
+  - pixel.yandex.com
   - pki-goog.l.google.com
   - pki.google.com
   - ppl-ai-file-upload.s3.amazonaws.com
@@ -2604,6 +2603,7 @@ payload:
   - redirector.offline-maps.gvt1.com
   - redirector.snap.gvt1.com
   - redirector.xn--ngstr-lra8j.com
+  - report.ap.yandex-net.ru
   - roovza-launches.appsflyersdk.com
   - roovza.inapps.appsflyersdk.com
   - roovza.launches.appsflyersdk.com
