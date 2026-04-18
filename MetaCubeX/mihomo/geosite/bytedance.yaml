@@ -10,7 +10,7 @@ payload:
     - p7-juejin.byteimg.com
     - p8-juejin.byteimg.com
     - p9-juejin.byteimg.com
-    - +.huoshanvideo.net
+    - +.fqnovelvod.com
     - +.bdns-test.com
     - +.activity-dy.com
     - +.activity01.com
@@ -35,7 +35,7 @@ payload:
     - +.bdns-gtm-01.net
     - +.bdns-gtm-pressure.com
     - +.bdns-restore.net
-    - +.huoshanvod.com
+    - +.ihaohaoxuexi.com
     - +.bdns-test.net
     - +.bdppe.net
     - +.bdsagslb.com
@@ -317,6 +317,58 @@ payload:
     - +.faceu.com
     - +.ulikecam.com
     - +.rsproxy.cn
+    - +.butterfly-static.cn
+    - +.butterflyai.cn
+    - +.coze.cn
+    - +.coze.site
+    - +.cozebaas.cn
+    - +.cozefn.cn
+    - +.cozeide.cn
+    - +.doubao.com
+    - +.doubaocdn.com
+    - +.hi-butterfly.cn
+    - +.maoxiangai.com
+    - +.myparallelstory.com
+    - +.picpic-ai.cn
+    - +.pixeldance.com
+    - +.activity-zhendingtech.com
+    - +.changdunovel.com
+    - +.fanqienovel.com
+    - +.fanqieopen.com
+    - +.fanqieopenpic.com
+    - +.fanqieopenstatic.com
+    - +.fanqieopenvod.com
+    - +.fanqiesdk.com
+    - +.fanqiesdkpic.com
+    - +.fanqiesdkstatic.com
+    - +.fanqiesdkvod.com
+    - +.fqnovel-op.com
+    - +.fqnovel.com
+    - +.fqnovelim.com
+    - +.fqnovelop.com
+    - +.fqnovelpic.com
+    - +.fqnovelstatic.com
+    - +.pstatp.com
+    - +.99uri.com
+    - +.byte-dns.net
+    - +.novelfm.com
+    - +.novelfmpic.com
+    - +.novelfmstatic.com
+    - +.novelfmvod.com
+    - +.qznovel.com
+    - +.qznovelpic.com
+    - +.qznovelstatic.com
+    - +.qznovelvod.com
+    - +.doudou.com
+    - +.marscode.cn
+    - +.mcbaas.work
+    - +.mcdemo.show
+    - +.mchost.guru
+    - +.mcprev.cn
+    - +.tcwqqdy.guru
+    - +.trae.cn
+    - +.trae.guru
+    - +.yoma.cn
     - +.activity-wbsj.com
     - +.aihst8.com
     - +.amemv.cn
@@ -348,9 +400,9 @@ payload:
     - +.huoshanstatic.com
     - +.huoshante8.com
     - +.huoshanvideo.cn
-    - +.pstatp.com
-    - +.99uri.com
-    - +.iccvlog.com
+    - +.huoshanvideo.net
+    - +.huoshanvod.com
+    - +.huoshanxiaoshipin.cn
     - +.huoshanxiaoshipin.net
     - +.huoshanzhibo.cn
     - +.huoshanzhibo.com
@@ -381,35 +433,11 @@ payload:
     - +.woaihuoshan.com
     - +.wohst8.com
     - +.douyinpay.com
-    - +.activity-zhendingtech.com
-    - +.changdunovel.com
-    - +.fanqienovel.com
-    - +.fanqieopen.com
-    - +.fanqieopenpic.com
-    - +.fanqieopenstatic.com
-    - +.fanqieopenvod.com
-    - +.fanqiesdk.com
-    - +.fanqiesdkpic.com
-    - +.fanqiesdkstatic.com
-    - +.fanqiesdkvod.com
-    - +.fqnovel-op.com
-    - +.fqnovel.com
-    - +.fqnovelim.com
-    - +.fqnovelop.com
-    - +.fqnovelpic.com
-    - +.fqnovelstatic.com
-    - +.fqnovelvod.com
-    - +.ihaohaoxuexi.com
-    - +.muyewx.com
-    - +.novelfm.com
-    - +.novelfmpic.com
-    - +.novelfmstatic.com
-    - +.novelfmvod.com
-    - +.qznovel.com
-    - +.qznovelpic.com
-    - +.qznovelstatic.com
-    - +.qznovelvod.com
     - +.juejin.cn
+    - +.dongchediapp.com
+    - +.dongchedi.com
+    - +.dcdapp.com
+    - +.dcarvod.com
     - +.juejin.im
     - +.xitu.io
     - +.baseopendev.com
@@ -495,31 +523,18 @@ payload:
     - +.larksuitecdn.com
     - +.larksuiteimg-boe.com
     - +.larksuiteimg-pre.com
-    - +.doudou.com
-    - +.pixeldance.com
-    - +.picpic-ai.cn
-    - +.myparallelstory.com
-    - +.maoxiangai.com
-    - +.hi-butterfly.cn
-    - +.doubaocdn.com
-    - +.doubao.com
-    - +.marscode.cn
-    - +.mcbaas.work
-    - +.mcdemo.show
-    - +.mchost.guru
-    - +.mcprev.cn
-    - +.tcwqqdy.guru
-    - +.trae.cn
-    - +.trae.guru
-    - +.yoma.cn
-    - +.cozeide.cn
-    - +.cozefn.cn
+    - +.dcarstatic.com
+    - +.dcarlive.com
+    - +.dcarimg.com
+    - +.dcarapi.com
+    - +.zvip.cn
+    - +.zjytxp.cn
     - +.aigc-cloud.com
     - +.bdegnine.com
     - +.bplslb.com
     - +.bpltm.com
     - +.byte-dns.com
-    - +.byte-dns.net
+    - +.muyewx.com
     - +.bytehouse.cn
     - +.byteinspire.cn
     - +.byteinspire.com
@@ -534,7 +549,7 @@ payload:
     - +.dycloud.run
     - +.emr-volces.com
     - +.feilian.cn
-    - +.huoshanxiaoshipin.cn
+    - +.iccvlog.com
     - +.ifeilian.cn
     - +.ifeilian.com
     - +.inspirecloud.cn
@@ -661,26 +676,11 @@ payload:
     - +.ytxptz.cn
     - +.zebracdn.com
     - +.zjytxd.cn
-    - +.zjytxp.cn
-    - +.zvip.cn
-    - +.dcarapi.com
-    - +.dcarimg.com
-    - +.dcarlive.com
-    - +.dcarstatic.com
-    - +.dcarvod.com
-    - +.dcdapp.com
-    - +.dongchedi.com
-    - +.dongchediapp.com
-    - +.butterfly-static.cn
-    - +.butterflyai.cn
-    - +.coze.cn
-    - +.coze.site
-    - +.cozebaas.cn
-    - +.trae.com.cn
-    - +.marscode.com.cn
     - +.okr.com.cn
     - +.qishuimusic.com.cn
     - +.qishui.com.cn
+    - +.trae.com.cn
+    - +.marscode.com.cn
     - +.gogokid.com.cn
     - +.larksuite.com.ttdns1.com
     - +.larksuite.com.ttdns2.com
@@ -716,6 +716,13 @@ payload:
     - +.pglstatp-toutiao.com
     - +.sf3-ttcdn-tos.pstatp.com
     - +.shoppingads.cn
+    - +.coze.com
+    - +.marscode.com
+    - +.trae.ai
+    - +.cici.com
+    - +.ciciai.com
+    - +.ciciaicdn.com
+    - +.dola.com
     - ads3-normal-hl.zijieapi.com
     - ads3-normal.zijieapi.com
     - ads5-normal-hl.zijieapi.com
@@ -768,10 +775,3 @@ payload:
     - roovza.launches.appsflyersdk.com
     - roovza.skadsdk.appsflyersdk.com
     - +.analytics.tiktok.com
-    - +.coze.com
-    - +.marscode.com
-    - +.trae.ai
-    - +.cici.com
-    - +.ciciai.com
-    - +.ciciaicdn.com
-    - +.dola.com
