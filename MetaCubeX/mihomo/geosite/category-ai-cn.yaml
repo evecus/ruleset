@@ -2,14 +2,14 @@ payload:
     - cueme-api.quark.cn
     - ai.zhaomi.cn
     - +.aispeech.com
-    - +.askdiandian.com
-    - +.xiaomimimo.com
+    - +.xiaoaiassist.com
+    - +.diandianlife.top
     - +.qianwen.com
     - +.qwen.ai
     - +.rwkv.cn
-    - +.xiaoaiassist.com
+    - +.askdiandian.com
     - +.tongyi.com
-    - +.miaibox.com
+    - +.xiaomimimo.com
     - +.tiangong.cn
     - +.bigmodel.cn
     - +.chatglm.cn
@@ -24,8 +24,8 @@ payload:
     - +.minimaxi.com
     - +.xingyeai.com
     - +.codebuddy.cn
+    - +.miaibox.com
     - +.yoma.cn
-    - +.trae.guru
     - +.baichuan-ai.com
     - +.botvip.cn
     - +.liblib.art
@@ -38,13 +38,11 @@ payload:
     - +.metaso.cn
     - +.xiezuocat.com
     - +.qwenlm.ai
-    - +.trae.cn
     - +.rwkv.com
+    - +.deepseek.com
     - +.clawhub-mirror.com
     - +.skillhub.cn
     - +.duiopen.com
-    - +.diandianlife.top
-    - +.deepseek.com
     - +.butterfly-static.cn
     - +.butterflyai.cn
     - +.coze.cn
@@ -66,10 +64,12 @@ payload:
     - +.mchost.guru
     - +.mcprev.cn
     - +.tcwqqdy.guru
-    - +.trae.com.cn
+    - +.trae.cn
+    - +.trae.guru
     - +.yuanqi.tencent.com
-    - +.hunyuan.tencent.com
     - +.marscode.com.cn
+    - +.trae.com.cn
+    - +.hunyuan.tencent.com
     - +.xinghuo.xfyun.cn
     - +.yiyan.baidu.com
     - +.tongyi.aliyun.com
