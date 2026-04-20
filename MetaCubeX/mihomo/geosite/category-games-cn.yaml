@@ -1,6 +1,6 @@
 payload:
-    - +.maindown4399.com
-    - +.4399api.net
+    - +.17roco.com
+    - +.hero.com
     - +.arcaea.cn
     - +.astral-vector.com
     - +.feihuo.com
@@ -21,8 +21,31 @@ payload:
     - +.winegame.net
     - +.wo1wan.com
     - +.ycgame.com
-    - +.kurogames.com
-    - +.aki-game.com
+    - +.tiancity.com
+    - +.tiancitycdn.com
+    - +.dobest.com
+    - +.langrenclub.com
+    - +.sanguosha.com
+    - +.xhlsgs.com
+    - +.xinwuji.com
+    - +.yokaverse.com
+    - +.zhuoyou.com
+    - +.sl916.com
+    - +.mhystatic.com
+    - +.mhyurl.cn
+    - +.mihayo.com
+    - +.mihayou.com
+    - +.mihoyo.com
+    - +.mihoyocg.com
+    - +.mihoyogift.com
+    - +.mihoyomall.com
+    - +.miyoushe.com
+    - +.benghuai.com
+    - +.bh3.com
+    - +.bhsr.com
+    - +.themisweeps.com
+    - +.yuanshen.com
+    - +.juequling.com
     - +.videoxiaoyouxi.com
     - +.nagcloudcs.com
     - +.gameloop.com
@@ -78,13 +101,13 @@ payload:
     - +.robloxdev.cn
     - +.nextstudios.com
     - +.nextworkshop.net
-    - +.mszdld.cn
+    - +.7k7k.com
     - +.mszdld.com
     - +.mszdld.net
     - +.gamebonfire.com
-    - +.ffbuddy.com
-    - +.gotolink.net
-    - +.17roco.com
+    - +.4399api.com
+    - +.9xgame.com
+    - +.mszdld.cn
     - +.gtgres.com
     - +.realcybertron.com
     - +.wegame.com
@@ -101,14 +124,18 @@ payload:
     - +.scescdn.cn
     - +.scid.cn
     - +.scsentry.cn
-    - +.zhuoyou.com
-    - +.supercellsupport.cn
-    - +.yokaverse.com
-    - +.xinwuji.com
-    - +.funnycore.com
-    - +.9xgame.com
     - +.supercellcommunity.cn
-    - +.xhlsgs.com
+    - +.supercellsupport.cn
+    - +.cowlevel.net
+    - +.cdncl.net
+    - +.gotolink.net
+    - +.herogame.com
+    - +.heroesports.com
+    - +.biligame.net
+    - +.shyxhy.com
+    - +.yingxiong.com
+    - +.kurogames.com
+    - +.aki-game.com
     - +.vrzwk.cn
     - +.vrzwk.com
     - +.vrzwk.net
@@ -127,8 +154,8 @@ payload:
     - +.4399.cn
     - +.4399.com
     - +.4399.net
-    - +.4399api.com
-    - +.sanguosha.com
+    - +.ffbuddy.com
+    - +.4399api.net
     - +.4399biule.com
     - +.4399dmw.com
     - +.4399er.com
@@ -154,14 +181,14 @@ payload:
     - +.buke999.com
     - +.bx1k.com
     - +.edu4399.com
-    - +.langrenclub.com
+    - +.funnycore.com
     - +.guoping123.com
     - +.haohaowan.net
     - +.i3839.com
     - +.ihykb.com
     - +.img4399.com
     - +.mail4399.com
-    - +.7k7k.com
+    - +.maindown4399.com
     - +.me4399.com
     - +.my4399.com
     - +.mysiteres.com
@@ -182,37 +209,10 @@ payload:
     - +.bilibiligame.net
     - +.biligame.co
     - +.biligame.com
-    - +.biligame.net
-    - +.sl916.com
-    - +.cowlevel.net
-    - +.cdncl.net
-    - +.hero.com
-    - +.herogame.com
-    - +.heroesports.com
-    - +.shyxhy.com
-    - +.yingxiong.com
-    - +.mhystatic.com
-    - +.mhyurl.cn
-    - +.mihayo.com
-    - +.mihayou.com
-    - +.mihoyo.com
-    - +.mihoyocg.com
-    - +.mihoyogift.com
-    - +.mihoyomall.com
-    - +.miyoushe.com
-    - +.benghuai.com
-    - +.bh3.com
-    - +.bhsr.com
-    - +.themisweeps.com
-    - +.yuanshen.com
-    - +.juequling.com
-    - +.tiancity.com
-    - +.tiancitycdn.com
-    - +.dobest.com
+    - +.werepository.com.cn
+    - +.wegame.com.cn
     - +.gouhuo.qq.com
     - +.roblox.qq.com
-    - +.roco.qq.com
-    - +.wegame.com.cn
-    - +.werepository.com.cn
     - +.goto-game.net.cn
+    - +.roco.qq.com
     - +.log-upload.mihoyo.com
