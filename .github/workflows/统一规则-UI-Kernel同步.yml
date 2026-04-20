@@ -480,7 +480,27 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git checkout --orphan temp-kernel
+          # 暂存新下载的文件到临时目录，防止切换分支时被 git checkout 冲掉
+          mkdir -p /tmp/new_kernels
+          cp mihomo-linux-*.gz sing-box-*.tar.gz /tmp/new_kernels/
+
+          # 切换到远程的 kernel 分支
+          # 如果本地没有 kernel 分支，则从远程追踪
+          git fetch origin kernel
+          git checkout kernel || git checkout -b kernel origin/kernel
+
+          # 将新文件考回根目录
+          cp /tmp/new_kernels/* .
+
+          # 检查是否有文件变动
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "✅ 内核文件无变化，跳过推送。"
+            exit 0
+          fi
+
+          # 正常添加并提交
           git add mihomo-linux-*.gz sing-box-*.tar.gz
-          git commit -m "chore: 更新内核 mihomo-v${MH_VER} & sing-box-ref1nd-dev ($(date +'%Y-%m-%d'))"
-          git push origin temp-kernel:kernel
+          git commit -m "chore: 更新内核 mihomo-v${MH_VER} & sing-box-v${SB_VER} ($(date +'%Y-%m-%d'))"
+          
+          # 推送回远程 kernel 分支
+          git push origin kernel
