@@ -458,19 +458,19 @@ jobs:
           SB_BASE="https://github.com/SagerNet/sing-box/releases/download/v${SB_VER}"
 
           echo "下载: $MH_AMD64"
-          curl -fL "$MH_BASE/$MH_AMD64" -o "$MH_AMD64"
+          curl -fL "$MH_BASE/$MH_AMD64" -o mihomo-linux-amd64.gz
 
           echo "下载: $MH_ARM64"
-          curl -fL "$MH_BASE/$MH_ARM64" -o "$MH_ARM64"
+          curl -fL "$MH_BASE/$MH_ARM64" -o mihomo-linux-arm64.gz
 
-          SB_AMD64="sing-box-${SB_VER}-linux-amd64.tar.gz"
-          SB_ARM64="sing-box-${SB_VER}-linux-arm64.tar.gz"
+          SB_AMD64="sing-box-${SB_VER}-linux-amd64-glibc.tar.gz"
+          SB_ARM64="sing-box-${SB_VER}-linux-arm64-glibc.tar.gz"
 
           echo "下载: $SB_AMD64"
-          curl -fL "$SB_BASE/$SB_AMD64" -o "$SB_AMD64"
+          curl -fL "$SB_BASE/$SB_AMD64" -o sing-box-linux-amd64-glibc.tar.gz
 
           echo "下载: $SB_ARM64"
-          curl -fL "$SB_BASE/$SB_ARM64" -o "$SB_ARM64"
+          curl -fL "$SB_BASE/$SB_ARM64" -o sing-box-linux-arm64-glibc.tar.gz
 
       
 
