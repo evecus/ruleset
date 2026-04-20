@@ -480,7 +480,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          # 1. 创建一个全新的孤儿分支（不带历史记录）
           git checkout --orphan temp-kernel
+
+          # 2. 彻底清空暂存区和工作目录中属于旧分支的文件
+          # git rm -rf . 会删除当前目录下受 git 管理的所有文件，但不会删除你刚刚下载的 .gz 和 .tar.gz
+          git rm -rf . --quiet
+
+          # 3. 确保只添加你下载的新内核文件
           git add mihomo-linux-*.gz sing-box-*.tar.gz
-          git commit -m "chore: 更新内核 mihomo-v${MH_VER} & sing-box-ref1nd-dev ($(date +'%Y-%m-%d'))"
+          
+          # 4. 提交更改
+          git commit -m "chore: 更新内核 mihomo-v${MH_VER} & sing-box-v${SB_VER} ($(date +'%Y-%m-%d'))"
+
+          # 5. 强制推送到远程 kernel 分支，覆盖旧的所有内容
           git push origin temp-kernel:kernel --force
