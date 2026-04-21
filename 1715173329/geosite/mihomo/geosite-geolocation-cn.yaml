@@ -70,6 +70,7 @@ payload:
   - +.17u.net
   - +.17usoft.com
   - +.17usoft.net
+  - +.17van.com
   - +.17zuoye.cn
   - +.17zuoye.com
   - +.17zuoye.net
@@ -351,6 +352,7 @@ payload:
   - +.acadn.com
   - +.accuratead.cn
   - +.accxiaoheihe.com
+  - +.acepanel.net
   - +.acer.com.cn
   - +.acetaffy.club
   - +.acfun.cn
@@ -403,8 +405,10 @@ payload:
   - +.aicdn.com
   - +.aichaoxing.com
   - +.aichongzoo.cn
+  - +.aidream.website
   - +.aiemy.com
   - +.aiganggu.com
+  - +.aigodlike.com
   - +.aihst8.com
   - +.aihuishou.com
   - +.aiketour.com
@@ -687,6 +691,7 @@ payload:
   - +.bambulab.com
   - +.bamenzhushou.com
   - +.bangongziyuan.com
+  - +.bankcomm.cn
   - +.bankcomm.com
   - +.bankofbeijing.com.cn
   - +.banmaaike.com
@@ -694,6 +699,7 @@ payload:
   - +.baofeng.net
   - +.baomitu.com
   - +.baoxianshichang.com
+  - +.batchat.com
   - +.battlecare.net
   - +.baydn.com
   - +.bbbcdns.com
@@ -962,6 +968,7 @@ payload:
   - +.chesicc.net
   - +.chesicc.net.cn
   - +.chesicc.org.cn
+  - +.chessease.net
   - +.cheyisou.com
   - +.china-chair.com
   - +.china-nengyuan.com
@@ -1030,6 +1037,7 @@ payload:
   - +.chugou360.com
   - +.chuimg.com
   - +.chujingapp.com
+  - +.chushi.cool
   - +.chushou.tv
   - +.chuyu.me
   - +.cib-fund.com.cn
@@ -1126,6 +1134,7 @@ payload:
   - +.cofool.com
   - +.coindog.com
   - +.conac.cn
+  - +.cone-x.com
   - +.connectcommerce.cn
   - +.connectcommerce.com.cn
   - +.connectedcommerce.cn
@@ -1357,6 +1366,7 @@ payload:
   - +.dingxiang-inc.com
   - +.diopic.net
   - +.ditu.live.com
+  - +.divoiotcloud.com
   - +.diyiyou.com
   - +.dj99.com
   - +.djdjapp.com
@@ -1498,6 +1508,7 @@ payload:
   - +.e.kuaishou.com
   - +.e.stat.ykimg.com
   - +.e0n.cn
+  - +.eagsen.com
   - +.easec.com.cn
   - +.easesale.com
   - +.easiu.com
@@ -1584,12 +1595,15 @@ payload:
   - +.essence.com.cn
   - +.et-api.com
   - +.et001.com
+  - +.et0731.com
   - +.etnet.com.cn
   - +.etnetchina.com.cn
   - +.ets100.com
   - +.everbright.com
   - +.ewww.com.cn
+  - +.excelbbx.net
   - +.excelhome.net
+  - +.exiliumgf.com
   - +.expreview.com
   - +.extfans.com
   - +.eziot.com
@@ -1938,6 +1952,7 @@ payload:
   - +.guancha.cn
   - +.guanggaoad.youku.com
   - +.guanggaotongapp.cn
+  - +.guangyapan.com
   - +.guanhaobio.com
   - +.guanyierp.com
   - +.guazi.com
@@ -1959,6 +1974,7 @@ payload:
   - +.gupzs.com
   - +.gushiwen.org
   - +.guzhangting.com
+  - +.gvgoo.com
   - +.gvt1-cn.com
   - +.gvt2-cn.com
   - +.gw.com.cn
@@ -2226,6 +2242,7 @@ payload:
   - +.hxfy888.com
   - +.hxsd.com
   - +.hxzq.cn
+  - +.hybiome.com
   - +.hytung.cn
   - +.hzdtv.tv
   - +.hzman.net
@@ -2302,6 +2319,7 @@ payload:
   - +.ihuoshanvod.com
   - +.ihykb.com
   - +.ijiandao.com
+  - +.ijingyi.com
   - +.ijinshan.com
   - +.ikafan.com
   - +.ikanchai.com
@@ -2412,6 +2430,7 @@ payload:
   - +.jbcz.tv
   - +.jchat.io
   - +.jdair.net
+  - +.jduoduo.com
   - +.jet-ego.com
   - +.jet-logistics.com
   - +.jetlogistic.com
@@ -2421,6 +2440,7 @@ payload:
   - +.jia.com
   - +.jiameng.com
   - +.jianbihua.com
+  - +.jiangningwater.com
   - +.jianguoyun.com
   - +.jianshu.com
   - +.jianshu.io
@@ -2449,6 +2469,7 @@ payload:
   - +.jin10.com
   - +.jinantimes.com.cn
   - +.jindidata.com
+  - +.jingheiot.com
   - +.jinglingbiaozhu.com
   - +.jinianbi.com
   - +.jinrishici.com
@@ -2523,6 +2544,7 @@ payload:
   - +.jsdmirror.com
   - +.jsehealth.com
   - +.jsfund.cn
+  - +.jsj.top
   - +.jslife.net
   - +.jsrdgg.com
   - +.jsterp.cn
@@ -2585,6 +2607,8 @@ payload:
   - +.kafan.cn
   - +.kaifayun.com
   - +.kaifubiao.com
+  - +.kaihong.com
+  - +.kaipanhong.com
   - +.kaipuyun.cn
   - +.kaipuyun.com
   - +.kaipuyun.com.cn
@@ -2836,6 +2860,7 @@ payload:
   - +.lietou-static.com
   - +.lietou.com
   - +.lieyunwang.com
+  - +.lightmake.site
   - +.lightonus.com
   - +.likuso.com
   - +.limestart.cn
@@ -2971,6 +2996,7 @@ payload:
   - +.mayi.com
   - +.mayihr.com
   - +.mbalib.com
+  - +.mblyun.com
   - +.mcadn.cn
   - +.mcbaas.work
   - +.mcbang.com
@@ -3009,6 +3035,7 @@ payload:
   - +.meiwulist.com
   - +.meizu.cn
   - +.meizu.com
+  - +.meloong.com
   - +.mengtuoshi.wang
   - +.merach.com
   - +.meta.law
@@ -3049,6 +3076,7 @@ payload:
   - +.midea.com.cn
   - +.mideaepayuat.com
   - +.miercn.com
+  - +.mifon.com
   - +.mihayo.com
   - +.mihayou.com
   - +.mihoyo.com
@@ -3385,6 +3413,7 @@ payload:
   - +.phpweblog.net
   - +.piaoliang.com
   - +.picpic-ai.cn
+  - +.piedaochuan.top
   - +.pigai.org
   - +.pinduoduo.com
   - +.pinduoduo.net
@@ -3701,6 +3730,7 @@ payload:
   - +.shang360.com
   - +.shangc.net
   - +.shanghairc.com
+  - +.shanghongbei.com
   - +.shangshi360.com
   - +.shangyexinzhi.com
   - +.shangzhibo.tv
@@ -3960,7 +3990,9 @@ payload:
   - +.taikanglife.com
   - +.taikangzhijia.com
   - +.taipingfund.com.cn
+  - +.tajiduo.com
   - +.takungpao.com
+  - +.talk-cloud.net
   - +.talkingdata.com
   - +.talkinggame.com
   - +.tangeche.com
@@ -4018,6 +4050,7 @@ payload:
   - +.thinkprinter.cn
   - +.thinkprinter.com.cn
   - +.thinkprinter.net
+  - +.thmnet.com
   - +.ths123.com
   - +.thsi.cn
   - +.thtf.com.cn
@@ -4030,6 +4063,7 @@ payload:
   - +.tianjimedia.com
   - +.tianjin-air.com
   - +.tianlailive.com
+  - +.tianlala.com
   - +.tianpeng.com
   - +.tianqi.com
   - +.tianqistatic.com
@@ -4074,6 +4108,7 @@ payload:
   - +.tom.com
   - +.tongdun.net
   - +.tongfangpc.com
+  - +.tongkask.com
   - +.tongtaiamc.com
   - +.tongxianghuicn.com
   - +.tongxuepie.com
@@ -4236,6 +4271,7 @@ payload:
   - +.vancl.com
   - +.vanclimg.com
   - +.vanho.cn
+  - +.vanjee.net
   - +.vaptcha.com
   - +.vaptcha.net
   - +.variflight.com
@@ -4436,6 +4472,7 @@ payload:
   - +.xafc.com
   - +.xbext.com
   - +.xbiao.com
+  - +.xboxfan.com
   - +.xboxlive.cn
   - +.xcc.cn
   - +.xcsc.com
@@ -4665,6 +4702,7 @@ payload:
   - +.youyiwms.com
   - +.youzan.com
   - +.youzanyun.com
+  - +.youzhiyouxing.com
   - +.youzu.com
   - +.yoyojie.com
   - +.yoyou.com
@@ -4759,6 +4797,7 @@ payload:
   - +.yzwb.net
   - +.yzyxgame.com
   - +.z-bank.com
+  - +.z-tek.com
   - +.z.ai
   - +.z.cn
   - +.z28j.com
@@ -4829,6 +4868,7 @@ payload:
   - +.zhiding.cn
   - +.zhiding.com.cn
   - +.zhidx.com
+  - +.zhiexa.com
   - +.zhifang.com
   - +.zhihang100.com
   - +.zhihu-web-analytics.zhihu.com
@@ -4922,6 +4962,7 @@ payload:
   - +.zygbdszt.net.cn
   - +.zyh365.com
   - +.zyhe.com.cn
+  - +.zysou.com
   - +.zzdtec.com
   - +.zztfly.com
   - 265.com
