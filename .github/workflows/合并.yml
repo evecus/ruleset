@@ -10,7 +10,7 @@ on:
       do_yaml:
         description: '是否合并 YAML (勾选表示是)'
         type: boolean
-        default: true
+        default: false
       json_urls:
         description: 'JSON 链接 (空格分隔，不填则使用预设)'
         required: false
@@ -28,11 +28,11 @@ on:
       json_filename:
         description: 'JSON 文件名'
         required: false
-        default: 'foreign_domain-all'
+        default: 'geosite-gfw'
       yaml_filename:
         description: 'YAML 文件名'
         required: false
-        default: 'foreign_domain-all'
+        default: 'foreign_domain-'
 
 jobs:
   merge_process:
@@ -42,9 +42,8 @@ jobs:
       # 预设链接集
       # ==========================================
       DEFAULT_JSON_URLS: |
-        https://raw.githubusercontent.com/evecus/files/refs/heads/main/singbox-rules/proxy.json
-        https://raw.githubusercontent.com/evecus/files/refs/heads/main/singbox-rules/foreign_domain-lite.json
-        https://raw.githubusercontent.com/evecus/files/refs/heads/main/singbox-rules/foreign_domain.json
+        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/gfw.json
+        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/geolocation-!cn.json
       DEFAULT_YAML_URLS: |
         https://raw.githubusercontent.com/evecus/files/refs/heads/main/mihomo-rules/foreign_domain-lite.yaml
         https://raw.githubusercontent.com/evecus/files/refs/heads/main/mihomo-rules/foreign_domain.yaml
@@ -151,4 +150,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add .
           git commit -m "Auto-merge rules: $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          git push origin main
+          git branch -M master
+          git push origin master --force
