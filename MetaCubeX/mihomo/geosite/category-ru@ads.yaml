@@ -79,16 +79,6 @@ payload:
     - mc.yango.com
     - pixel.yandex.com
     - report.ap.yandex-net.ru
-    - +.e.mindbox.ru
-    - +.g.mindbox.ru
-    - +.s.mindbox.ru
-    - api-js.mindbox.ru
-    - api-ru.mindbox.cloud
-    - api-staging.mindbox.ru
-    - api.mindbox.cloud
-    - api.mindbox.ru
-    - sentry.mindbox.ru
-    - sentry.popmechanic.ru
     - +.ad.mail.ru
     - +.ads.viqeo.tv
     - +.adsadvisor.io
@@ -141,6 +131,8 @@ payload:
     - top-staging.mail.ru
     - whiteline.mail.ru
     - xray.mail.ru
+    - +.log.dzen.ru
+    - +.ms.dzen.ru
     - +.adv.vk.com
     - +.analytics.vk.com
     - +.ms.vk.com
@@ -156,8 +148,16 @@ payload:
     - analytics.vk.ru
     - stats.vk-portal.net
     - target.vk.com
-    - +.log.dzen.ru
-    - +.ms.dzen.ru
+    - +.e.mindbox.ru
+    - +.g.mindbox.ru
+    - +.s.mindbox.ru
+    - api-js.mindbox.ru
+    - api-ru.mindbox.cloud
+    - api-staging.mindbox.ru
+    - api.mindbox.cloud
+    - api.mindbox.ru
+    - sentry.mindbox.ru
+    - sentry.popmechanic.ru
     - +.ads.sber.ru
     - +.clickstream.sberbank.ru
     - +.neon.click
@@ -178,8 +178,8 @@ payload:
     - api.carrottrack.app
     - api.dashly.app
     - api.dashlytrack.app
-    - metrika.kontur.ru
-    - sentry.kontur.host
     - ads.x5.ru
     - ads.x5media.ru
     - sentry.x5.ru
+    - metrika.kontur.ru
+    - sentry.kontur.host
