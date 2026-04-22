@@ -32,7 +32,7 @@ on:
       yaml_filename:
         description: 'YAML 文件名'
         required: false
-        default: 'foreign_domain-'
+        default: 'foreign_domain'
 
 jobs:
   merge_process:
@@ -149,6 +149,15 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
+          git stash
+
+          # 4. 切换到 master 分支
+          git checkout master
+          
+          # 5. 把刚才生成的规则文件拿回来覆盖/添加进去
+          git stash pop || echo "No changes to pop"
+
+          # 6. 提交并推送
+          git add .
           git commit -m "Auto-merge rules: $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          git branch -M master
-          git push origin master --force
+          git push origin master
