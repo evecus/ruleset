@@ -151,4 +151,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add .
           git commit -m "Auto-merge rules: $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
-          git push origin master
+          git push origin main
