@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "cn.bing.com",
+        "dash.cloudflare.com"
+      ],
+      "domain_suffix": [
+        "dash.cloudflare.com",
+        "668599.xyz",
+        "955500.xyz"
+      ]
+    }
+  ]
+}
