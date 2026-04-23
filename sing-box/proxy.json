@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "zeabur.com",
+        "www.google.com"
+      ],
+      "domain_suffix": [
+        "ip.sb"
+      ]
+    }
+  ]
+}
