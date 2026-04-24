@@ -17,6 +17,7 @@
       ],
       "domain_suffix": [
         "ai.studio",
+        "aicode.googleapis.com",
         "aida.googleapis.com",
         "aisandbox-pa.googleapis.com",
         "aistudio.google.com",
