@@ -1,24 +1,88 @@
 payload:
+    - fbcdn-a.akamaihd.net
     - e122475.dscg.akamaiedge.net
     - licdn.cn.cdn20.com
     - linkedin.sc.omtrdc.net
-    - fbcdn-a.akamaihd.net
     - st-ok-pts.cdn-vk.ru
     - st-ok.cdn-vk.ru
-    - +.faceboooik.com
-    - +.facebookswagemea.com
+    - +.facebooklikeexchange.com
+    - +.facebookexchange.com
     - +.joinmastodon.org
     - +.mastodon.online
     - +.mastodon.social
     - +.pawoo.net
-    - +.bsky.app
-    - +.bsky.network
-    - +.bsky.social
-    - +.bizographics.com
-    - +.licdn.com
-    - +.linkedin.at
-    - +.linkedin.com
-    - +.lnkd.in
+    - +.achat-followers-instagram.com
+    - +.acheter-followers-instagram.com
+    - +.acheterdesfollowersinstagram.com
+    - +.acheterfollowersinstagram.com
+    - +.bookstagram.com
+    - +.carstagram.com
+    - +.cdninstagram.com
+    - +.chickstagram.com
+    - +.ig.me
+    - +.igcdn.com
+    - +.igsonar.com
+    - +.igtv.com
+    - +.imstagram.com
+    - +.imtagram.com
+    - +.instaadder.com
+    - +.instachecker.com
+    - +.instafallow.com
+    - +.instafollower.com
+    - +.instagainer.com
+    - +.instagda.com
+    - +.instagify.com
+    - +.instagmania.com
+    - +.instagor.com
+    - +.instagram-brand.com
+    - +.instagram-engineering.com
+    - +.instagram-help.com
+    - +.instagram-press.com
+    - +.instagram-press.net
+    - +.instagram.com
+    - +.instagramci.com
+    - +.instagramcn.com
+    - +.instagramdi.com
+    - +.instagramhashtags.net
+    - +.instagramhilecim.com
+    - +.instagramhilesi.org
+    - +.instagramium.com
+    - +.instagramizlenme.com
+    - +.instagramkusu.com
+    - +.instagramlogin.com
+    - +.instagramm.com
+    - +.instagramn.com
+    - +.instagrampartners.com
+    - +.instagramphoto.com
+    - +.instagramq.com
+    - +.instagramsepeti.com
+    - +.instagramtakipcisatinal.net
+    - +.instagramtakiphilesi.com
+    - +.instagramtips.com
+    - +.instagramtr.com
+    - +.instagran.com
+    - +.instagranm.com
+    - +.instagrem.com
+    - +.instagrm.com
+    - +.instagtram.com
+    - +.instagy.com
+    - +.instamgram.com
+    - +.instangram.com
+    - +.instanttelegram.com
+    - +.instaplayer.net
+    - +.instastyle.tv
+    - +.instgram.com
+    - +.intagram.com
+    - +.intagrm.com
+    - +.intgram.com
+    - +.kingstagram.com
+    - +.lnstagram-help.com
+    - +.theinstagramhack.com
+    - +.oninstagram.com
+    - +.online-instagram.com
+    - +.onlineinstagram.com
+    - +.web-instagram.net
+    - +.wwwinstagram.com
     - +.misskey.io
     - +.misskeyusercontent.jp
     - +.oekakiskey.com
@@ -38,9 +102,11 @@ payload:
     - +.misskey.design
     - +.misskey.flowers
     - +.9ineverse.com
-    - +.threads.com
-    - +.threads.net
-    - +.mvk.com
+    - +.facebooklivestaging.net
+    - +.vk.cc
+    - +.vk.com
+    - +.vk.design
+    - +.vk.link
     - +.vine.co
     - +.twvid.com
     - +.twttr.net
@@ -51,14 +117,6 @@ payload:
     - +.twitterinc.com
     - +.twitterflightschool.com
     - +.twitter.com
-    - +.periscope.tv
-    - +.pscp.tv
-    - +.twittercommunity.com
-    - +.twitter.biz
-    - +.vk.cc
-    - +.vk.com
-    - +.vk.design
-    - +.vk.link
     - +.vk.ru
     - +.vkontakte.com
     - +.vkontakte.ru
@@ -91,6 +149,9 @@ payload:
     - +.vkpay.com
     - +.vkpay.io
     - +.vkpay.ru
+    - +.bsky.app
+    - +.bsky.network
+    - +.bsky.social
     - +.aboutfacebook.com
     - +.accessfacebookfromschool.com
     - +.acebooik.com
@@ -102,7 +163,7 @@ payload:
     - +.atlasdmt.com
     - +.atlasonepoint.com
     - +.buyingfacebooklikes.com
-    - +.faceboop.com
+    - +.careersatfb.com
     - +.celebgramme.com
     - +.china-facebook.com
     - +.click-url.com
@@ -223,13 +284,13 @@ payload:
     - +.facebookdusexe.org
     - +.facebookemail.com
     - +.facebookenespanol.com
-    - +.facebookexchange.com
+    - +.facebooklive.com
     - +.facebookexchange.net
     - +.facebookfacebook.com
     - +.facebookflow.com
     - +.facebookgames.com
     - +.facebookgraphsearch.com
-    - +.facebookgraphsearch.info
+    - +.onlyfans.com
     - +.facebookgroups.com
     - +.facebookhome.cc
     - +.facebookhome.com
@@ -238,9 +299,9 @@ payload:
     - +.facebooki.com
     - +.facebookinc.com
     - +.facebookland.com
-    - +.facebooklikeexchange.com
-    - +.facebooklive.com
-    - +.facebooklivestaging.net
+    - +.facebookgraphsearch.info
+    - +.truthsocial.com
+    - +.mvk.com
     - +.facebooklivestaging.org
     - +.facebooklogin.com
     - +.facebooklogin.info
@@ -284,13 +345,13 @@ payload:
     - +.facebookstudios.org
     - +.facebooksupplier.com
     - +.facebooksuppliers.com
-    - +.faceboook.com
+    - +.facebookswagemea.com
     - +.facebookswagstore.com
     - +.facebooksz.com
     - +.facebookthreads.net
     - +.facebooktv.net
     - +.facebooktv.org
-    - +.onlyfans.com
+    - +.facebookvacation.com
     - +.facebookw.com
     - +.facebookworld.com
     - +.facebool.com
@@ -299,9 +360,9 @@ payload:
     - +.faceboom.com
     - +.faceboon.com
     - +.faceboonk.com
-    - +.facebookvacation.com
-    - +.truthsocial.com
-    - +.careersatfb.com
+    - +.faceboooik.com
+    - +.faceboook.com
+    - +.faceboop.com
     - +.faceboot.com
     - +.faceboox.com
     - +.facebopk.com
@@ -484,83 +545,20 @@ payload:
     - +.redkix.com
     - +.workplace.com
     - +.workplaceusecases.com
-    - +.achat-followers-instagram.com
-    - +.acheter-followers-instagram.com
-    - +.acheterdesfollowersinstagram.com
-    - +.acheterfollowersinstagram.com
-    - +.bookstagram.com
-    - +.carstagram.com
-    - +.cdninstagram.com
-    - +.chickstagram.com
-    - +.ig.me
-    - +.igcdn.com
-    - +.igsonar.com
-    - +.igtv.com
-    - +.imstagram.com
-    - +.imtagram.com
-    - +.instaadder.com
-    - +.instachecker.com
-    - +.instafallow.com
-    - +.instafollower.com
-    - +.instagainer.com
-    - +.instagda.com
-    - +.instagify.com
-    - +.instagmania.com
-    - +.instagor.com
-    - +.instagram-brand.com
-    - +.instagram-engineering.com
-    - +.instagram-help.com
-    - +.instagram-press.com
-    - +.instagram-press.net
-    - +.instagram.com
-    - +.instagramci.com
-    - +.instagramcn.com
-    - +.instagramdi.com
-    - +.instagramhashtags.net
-    - +.instagramhilecim.com
-    - +.instagramhilesi.org
-    - +.instagramium.com
-    - +.instagramizlenme.com
-    - +.instagramkusu.com
-    - +.instagramlogin.com
-    - +.instagramm.com
-    - +.instagramn.com
-    - +.instagrampartners.com
-    - +.instagramphoto.com
-    - +.instagramq.com
-    - +.instagramsepeti.com
-    - +.instagramtakipcisatinal.net
-    - +.instagramtakiphilesi.com
-    - +.instagramtips.com
-    - +.instagramtr.com
-    - +.instagran.com
-    - +.instagranm.com
-    - +.instagrem.com
-    - +.instagrm.com
-    - +.instagtram.com
-    - +.instagy.com
-    - +.instamgram.com
-    - +.instangram.com
-    - +.instanttelegram.com
-    - +.instaplayer.net
-    - +.instastyle.tv
-    - +.instgram.com
-    - +.intagram.com
-    - +.intagrm.com
-    - +.intgram.com
-    - +.kingstagram.com
-    - +.lnstagram-help.com
-    - +.theinstagramhack.com
-    - +.oninstagram.com
-    - +.online-instagram.com
-    - +.onlineinstagram.com
-    - +.web-instagram.net
-    - +.wwwinstagram.com
-    - +.mixi.jp
-    - +.mixi.net
+    - +.bizographics.com
+    - +.licdn.com
+    - +.linkedin.at
+    - +.linkedin.com
+    - +.lnkd.in
+    - +.periscope.tv
+    - +.pscp.tv
+    - +.twittercommunity.com
+    - +.twitter.biz
     - +.twitpic.com
     - +.twimg.com
     - +.tweetdeck.com
+    - +.mixi.jp
+    - +.mixi.net
     - +.tellapart.com
     - +.apiok.ru
     - +.insideok.ru
@@ -571,31 +569,33 @@ payload:
     - +.okl.lt
     - +.oktech.ru
     - +.okcdn.ru
+    - +.threads.com
+    - +.threads.net
     - +.twitter.jp
     - +.x.com
     - +.cms-twdigitalassets.com
     - +.t.co
-    - +.l-0005.l-msedge.net
-    - +.msk.ilnk.info
-    - +.mixi.co.jp
-    - +.mi.mashiro.site
-    - +.mi.nakn.jp
+    - +.misskey.noellabo.jp
     - +.misskey.04.si
-    - +.mk.yopo.work
-    - +.msk.kitazawa.me
-    - +.mi.kochudaho.me
+    - +.mixi.co.jp
     - +.labo.wovs.tk
-    - +.misskey.yukineko.me
+    - +.mi.kochudaho.me
+    - +.mi.mashiro.site
+    - +.msk.ilnk.info
+    - +.mi.nakn.jp
+    - +.l-0005.dc-msedge.net
+    - +.l-0005.l-msedge.net
+    - +.mk.yopo.work
+    - +.mof.kemomi.me
     - +.mk.shrimpia.network
+    - +.misskey.yukineko.me
     - +.misskey.always-we-need.games
     - +.misskey.ranranhome.info
-    - +.misskey.noellabo.jp
+    - +.msk.kitazawa.me
     - +.misskey.gamelore.fun
-    - +.mof.kemomi.me
-    - +.l-0005.dc-msedge.net
     - +.twitter.map.fastly.net
-    - +.licdn.cn
-    - +.linkedin.cn
+    - +.graph.instagram.com
+    - +.graph-fallback.instagram.com
     - +.adv.vk.com
     - +.analytics.vk.com
     - +.ms.vk.com
@@ -614,6 +614,6 @@ payload:
     - +.analytics.facebook.com
     - +.facebookads.com
     - +.pixel.facebook.com
-    - +.graph.instagram.com
-    - +.graph-fallback.instagram.com
+    - +.licdn.cn
+    - +.linkedin.cn
     - +.ads-twitter.com
