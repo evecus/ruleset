@@ -1,5 +1,4 @@
 payload:
-    - firebase-settings.crashlytics.com
     - +.cdn.jetbrains.com
     - +.download-cdn.jetbrains.com.cn
     - cdn.ampproject.org
@@ -10,3 +9,4 @@ payload:
     - +.microsoftreactor.cn
     - +.microsoftreactor.com.cn
     - +.reactorms.com.cn
+    - firebase-settings.crashlytics.com
