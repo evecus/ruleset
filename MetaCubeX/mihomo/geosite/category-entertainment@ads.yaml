@@ -1,9 +1,9 @@
 payload:
-    - +.log-upload-os.hoyoverse.com
+    - +.analytics.tiktok.com
     - disney.my.sentry.io
+    - +.log-upload-os.hoyoverse.com
     - +.ads.youtube.com
     - adeventtracker.spotify.com
     - adstudio-assets.scdn.co
     - bloodhound.spotify.com
-    - +.analytics.tiktok.com
     - +.ads-pixiv.net
