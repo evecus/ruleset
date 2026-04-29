@@ -1,18 +1,20 @@
 payload:
-    - +.cdnvideo.ru
-    - +.cdnvideohub.com
-    - +.trbcdn.net
-    - +.kinorium.com
+    - +.viju.ru
     - +.24h.tv
+    - +.cdnvideo.ru
+    - +.kinorium.com
+    - +.promodj.com
     - +.amediateka.ru
     - +.beeline.tv
-    - +.ivi.ru
+    - +.kinopoisk.ru
     - +.premier.one
     - +.smotreshka.tv
     - +.start.ru
     - +.tvigle.ru
-    - +.viju.ru
-    - +.promodj.com
+    - +.trbcdn.net
+    - +.cdnvideohub.com
+    - +.ivi.ru
+    - +.rtbcdn.ru
     - +.okkoapi.tv
     - +.playfamily.ru
     - +.okko.sport
@@ -21,6 +23,4 @@ payload:
     - +.wink.ru
     - +.rutube.ru
     - +.rutubelist.ru
-    - +.rtbcdn.ru
-    - +.kinopoisk.ru
     - +.kinopoisk-ru.clstorage.net
