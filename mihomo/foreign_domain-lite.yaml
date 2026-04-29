@@ -76,6 +76,7 @@ payload:
   - +.anthropic.com
   - +.antigravity-unleash.goog
   - +.antigravity.google
+  - +.api-building.fun
   - +.api.ai
   - +.apigee.com
   - +.app-analytics-services-att.com
@@ -290,6 +291,7 @@ payload:
   - +.bs.yandex.ru
   - +.buck.build
   - +.buckbuild.com
+  - +.building.fun
   - +.bumpshare.com
   - +.bumptop.ca
   - +.bumptop.com
@@ -372,11 +374,21 @@ payload:
   - +.coova.org
   - +.copilot-telemetry.githubusercontent.com
   - +.counter.yandex.ru
+  - +.coze-dns-01.com
   - +.coze.cn
+  - +.coze.email
   - +.coze.site
+  - +.cozeapp.net
   - +.cozebaas.cn
+  - +.cozebuild.com
+  - +.cozecdn.com
+  - +.cozedeploy.com
   - +.cozefn.cn
   - +.cozeide.cn
+  - +.cozesdk.com
+  - +.cozetest.cn
+  - +.cozetest2.cn
+  - +.cozetest3.cn
   - +.crixet.com
   - +.crossmediapanel.com
   - +.crowdtangle.com
@@ -389,6 +401,7 @@ payload:
   - +.dartpad.dev
   - +.dartsearch.net
   - +.dataliberation.org
+  - +.dbbuilding.fun
   - +.dclk
   - +.debug.com
   - +.debugproject.com
@@ -430,6 +443,7 @@ payload:
   - +.docs.new
   - +.dotfacebook.com
   - +.dotfacebook.net
+  - +.doubao-dev.com
   - +.doubao.com
   - +.doubaocdn.com
   - +.doubleclick-cn.net
@@ -1343,6 +1357,7 @@ payload:
   - +.instaplayer.net
   - +.instastyle.tv
   - +.instgram.com
+  - +.instreet.com
   - +.intagram.com
   - +.intagrm.com
   - +.internet.org
@@ -1408,8 +1423,6 @@ payload:
   - +.mail-ads.google.com
   - +.makeitopen.com
   - +.makersuite.google.com
-  - +.manus.im
-  - +.manuscdn.com
   - +.maoxiangai.com
   - +.marketingplatform.google.com
   - +.markzuckerberg.com
@@ -1516,6 +1529,9 @@ payload:
   - +.oaistatic.com
   - +.oaiusercontent.com
   - +.oauthz.com
+  - +.obriccloud.com
+  - +.obricclouddw.com
+  - +.oceancloudapi.com
   - +.octocaptcha.com
   - +.ocul.us
   - +.oculus-china.com
@@ -1827,6 +1843,7 @@ payload:
   - +.rwkv.cn
   - +.rwkv.com
   - +.s-xoom.com
+  - +.safeskill.cn
   - +.savethedate.foo
   - +.saynow.com
   - +.scdn.co
