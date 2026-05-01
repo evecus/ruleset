@@ -1,6 +1,6 @@
 payload:
-    - +.codm.com
-    - +.3839app.net
+    - +.gtgres.com
+    - +.3839apk.com
     - +.arcaea.cn
     - +.astral-vector.com
     - +.feihuo.com
@@ -21,8 +21,15 @@ payload:
     - +.winegame.net
     - +.wo1wan.com
     - +.ycgame.com
-    - +.9game.cn
-    - +.sl916.com
+    - +.cowlevel.net
+    - +.cdncl.net
+    - +.hero.com
+    - +.herogame.com
+    - +.heroesports.com
+    - +.shyxhy.com
+    - +.yingxiong.com
+    - +.kurogames.com
+    - +.aki-game.com
     - +.mhystatic.com
     - +.mhyurl.cn
     - +.mihayo.com
@@ -94,20 +101,20 @@ payload:
     - +.nextstudios.com
     - +.nextworkshop.net
     - +.mszdld.cn
-    - +.mszdld.com
+    - +.7k7k.com
     - +.mszdld.net
     - +.gamebonfire.com
     - +.ffbuddy.com
-    - +.gotolink.net
-    - +.17roco.com
-    - +.gtgres.com
-    - +.7k7k.com
+    - +.4399youpai.com
+    - +.9xgame.com
+    - +.mszdld.com
+    - +.realcybertron.com
     - +.wegame.com
     - +.anticheatexpert.com
     - +.tcfmglobal.com
-    - +.5054399.com
-    - +.9xgame.com
-    - +.realcybertron.com
+    - +.battlecare.net
+    - +.wegameplus.com
+    - +.codm.com
     - +.brawlstars.cn
     - +.haydaypop.cn
     - +.labycore.cn
@@ -118,17 +125,13 @@ payload:
     - +.scsentry.cn
     - +.supercellcommunity.cn
     - +.supercellsupport.cn
-    - +.vrzwk.cn
-    - +.vrzwk.com
-    - +.vrzwk.net
-    - +.vrzwk.top
     - +.3304399.com
-    - +.biligame.net
     - +.3304399.net
     - +.3839.com
-    - +.3839apk.com
+    - +.17roco.com
     - +.3839app.com
-    - +.wegameplus.com
+    - +.vrzwk.top
+    - +.3839app.net
     - +.3839img.com
     - +.3839pay.com
     - +.3839pic.com
@@ -151,10 +154,10 @@ payload:
     - +.4399sj.com
     - +.4399swf.com
     - +.4399wanju.com
-    - +.4399youpai.com
+    - +.gotolink.net
     - +.4399youxi.com
     - +.4399yyy.com
-    - +.battlecare.net
+    - +.5054399.com
     - +.5054399.net
     - +.5wyxi.com
     - +.71acg.com
@@ -186,17 +189,13 @@ payload:
     - +.yxhapi.com
     - +.yxhhdl.com
     - +.yxhimg.com
-    - +.cowlevel.net
-    - +.cdncl.net
-    - +.hero.com
-    - +.herogame.com
-    - +.heroesports.com
-    - +.shyxhy.com
-    - +.yingxiong.com
-    - +.kurogames.com
-    - +.aki-game.com
-    - +.tiancity.com
-    - +.tiancitycdn.com
+    - +.bilibiligame.cn
+    - +.bilibiligame.co
+    - +.bilibiligame.net
+    - +.biligame.co
+    - +.biligame.com
+    - +.biligame.net
+    - +.sl916.com
     - +.dobest.com
     - +.langrenclub.com
     - +.sanguosha.com
@@ -204,11 +203,12 @@ payload:
     - +.xinwuji.com
     - +.yokaverse.com
     - +.zhuoyou.com
-    - +.bilibiligame.cn
-    - +.bilibiligame.co
-    - +.bilibiligame.net
-    - +.biligame.co
-    - +.biligame.com
+    - +.9game.cn
+    - +.tiancity.com
+    - +.tiancitycdn.com
+    - +.vrzwk.cn
+    - +.vrzwk.com
+    - +.vrzwk.net
     - +.werepository.com.cn
     - +.wegame.com.cn
     - +.gouhuo.qq.com
