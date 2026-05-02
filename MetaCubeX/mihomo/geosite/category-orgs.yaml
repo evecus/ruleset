@@ -23,10 +23,6 @@ payload:
     - +.who.int
     - +.wi-fi.org
     - +.wto.org
-    - +.ccstatic.org
-    - +.creativecommons.org
-    - +.creativecommons.engineering
-    - +.licensebuttons.net
     - +.ieee.org
     - +.ieee.tv
     - +.tryengineering.org
@@ -92,9 +88,10 @@ payload:
     - +.osmfoundation.org
     - +.stateofthemap.com
     - +.stateofthemap.org
-    - +.paskoocheh.com
-    - +.rolfoundation.org
-    - +.rolsociety.org
+    - +.ccstatic.org
+    - +.creativecommons.org
+    - +.creativecommons.engineering
+    - +.licensebuttons.net
     - +.csis.org
     - +.emojipedia.org
     - +.worldemojiawards.com
@@ -120,6 +117,8 @@ payload:
     - +.grapheneos.social
     - +.seamlessupdate.app
     - +.vanadium.app
+    - +.paskoocheh.com
+    - +.ppy.sh
     - +.acousticbrainz.org
     - +.bookbrainz.org
     - +.coverartarchive.org
@@ -128,4 +127,5 @@ payload:
     - +.messybrainz.org
     - +.metabrainz.org
     - +.musicbrainz.org
-    - +.ppy.sh
+    - +.rolfoundation.org
+    - +.rolsociety.org
