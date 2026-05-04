@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
+        "digitalocean-ui.com",
         "digitalocean.com",
         "digitaloceanspaces.com",
         "do.co",
