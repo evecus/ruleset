@@ -4,10 +4,11 @@
     {
       "domain": [
         "zeabur.com",
-        "www.google.com"
+        "www.google.com",
+        "api.ip.sb"
       ],
       "domain_suffix": [
-        "ip.sb"
+        "googlevideo.com"
       ]
     }
   ]
