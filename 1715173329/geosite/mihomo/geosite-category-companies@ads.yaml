@@ -1,6 +1,7 @@
 payload:
   - +.2mdn-cn.net
   - +.2mdn.net
+  - +.a.mts.ru
   - +.ad.mail.ru
   - +.adfox.ru
   - +.adfox.yandex.ru
@@ -109,6 +110,7 @@ payload:
   - +.msads.net
   - +.myadx.net
   - +.nelreports.net
+  - +.obs.mts.ru
   - +.pagead.l.google.com
   - +.partnerad.l.google.com
   - +.pixel.facebook.com
@@ -201,6 +203,7 @@ payload:
   - sentry.dev-my.com
   - sentry.dev-my.games
   - sentry.hetzner.company
+  - sentry.iptv.rt.ru
   - sentry.mindbox.ru
   - sentry.popmechanic.ru
   - sentry.rustore.ru
