@@ -1,0 +1,43 @@
+name: 统一规则-UI-Kernel同步
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  download-ui:
+    name: 下载并同步 UI 压缩包
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout ui branch
+        uses: actions/checkout@v4
+        with:
+          ref: ui
+          fetch-depth: 0
+
+      
+      - name: 下载 UI Zip 文件
+        run: |
+          echo "正在下载 MetaCubeXD..."
+          curl -L "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip" -o "meta.zip"
+          echo "正在下载 Zashboard..."
+          ZASH_API=$(curl -fsSL "https://api.github.com/repos/Zephyruso/zashboard/releases/latest")
+          ZASH_VER=$(echo "$ZASH_API" | jq -r '.tag_name' | tr -d '\r\n ')
+          echo "zash_ui版本: $ZASH_VER"
+          curl -L "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip" -o "zash.zip"
+
+
+      - name: 提交至 ui 分支
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add meta.zip zash.zip
+          if git diff --cached --quiet; then
+            echo "文件内容无变化，跳过推送。"
+          else
+            git commit -m "chore: 自动更新 UI 压缩包 ($(date +'%Y-%m-%d %H:%M'))"
+            git push origin ui
+          fi
