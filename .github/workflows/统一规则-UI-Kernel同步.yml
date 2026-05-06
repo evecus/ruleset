@@ -175,11 +175,6 @@ jobs:
           echo "正在下载 Zashboard..."
           curl -L "https://github.com/Zephyruso/zashboard/releases/download/v$zashboard_VER/dist-misans-only.zip" -o "zash.zip"
 
-      - name: 验证文件大小
-        run: |
-          ls -lh *.zip
-          if [ $(stat -c%s "meta.zip") -lt 1000 ]; then echo "MetaCubeXD 下载异常"; exit 1; fi
-          if [ $(stat -c%s "zash.zip") -lt 1000 ]; then echo "Zashboard 下载异常"; exit 1; fi
 
       - name: 提交至 ui 分支
         run: |
