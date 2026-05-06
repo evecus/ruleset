@@ -1,4 +1,4 @@
- [rules]( https://fastly.jsdelivr.net/gh/evecus/ruleset@master/) 
+[rules]( https://fastly.jsdelivr.net/gh/evecus/ruleset@master/) 
 
 
 rules:   https://fastly.jsdelivr.net/gh/evecus/ruleset@master/
