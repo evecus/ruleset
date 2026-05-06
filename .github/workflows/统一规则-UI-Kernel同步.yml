@@ -162,10 +162,10 @@ jobs:
       - name: 获取UI最新版本
         run: |
           ZASH_API=$(curl -fsSL "https://api.github.com/repos/Zephyruso/zashboard/releases/latest")
-          ZASH_VER=$(echo "$ZASH_API" | jq -r '.tag_name' | sed 's/^v//')
+          ZASH_VER=$(echo "$ZASH_API" | jq -r '.tag_name')
           echo "zash_ui版本: $ZASH_VER"
           metacubexd_API=$(curl -fsSL "https://api.github.com/repos/MetaCubeX/metacubexd/releases/latest")
-          metacubexd_VER=$(echo "$metacubexd_API" | jq -r '.tag_name' | sed 's/^v//')
+          metacubexd_VER=$(echo "$metacubexd_API" | jq -r '.tag_name')
           echo "meta_ui版本: $metacubexd_VER"
 
       - name: 下载 UI Zip 文件
@@ -173,7 +173,7 @@ jobs:
           echo "正在下载 MetaCubeXD..."
           curl -L "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip" -o "meta.zip"
           echo "正在下载 Zashboard..."
-          curl -L "https://github.com/Zephyruso/zashboard/releases/download/v$ZASH_VER/dist-misans-only.zip" -o "zash.zip"
+          curl -L "https://github.com/Zephyruso/zashboard/releases/download/$ZASH_VER/dist-misans-only.zip" -o "zash.zip"
 
 
       - name: 提交至 ui 分支
