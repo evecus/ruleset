@@ -1,4 +1,4 @@
-name: 统一规则-UI-Kernel同步
+name: UI
 
 on:
   workflow_dispatch:
@@ -27,7 +27,7 @@ jobs:
           ZASH_API=$(curl -fsSL "https://api.github.com/repos/Zephyruso/zashboard/releases/latest")
           ZASH_VER=$(echo "$ZASH_API" | jq -r '.tag_name' | tr -d '\r\n ')
           echo "zash_ui版本: $ZASH_VER"
-          curl -L "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip" -o "zash.zip"
+          wget https://github.com/Zephyruso/zashboard/releases/download/$ZASH_API/dist-misans-only.zip -O zash.zip
 
 
       - name: 提交至 ui 分支
