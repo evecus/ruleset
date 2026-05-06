@@ -162,10 +162,10 @@ jobs:
       - name: 获取UI最新版本
         run: |
           ZASH_API=$(curl -fsSL "https://api.github.com/repos/Zephyruso/zashboard/releases/latest")
-          ZASH_VER=$(echo "$ZASH_API" | jq -r '.tag_name')
+          ZASH_VER=$(echo "$ZASH_API" | jq -r '.tag_name' | tr -d '\r\n ')
           echo "zash_ui版本: $ZASH_VER"
           metacubexd_API=$(curl -fsSL "https://api.github.com/repos/MetaCubeX/metacubexd/releases/latest")
-          metacubexd_VER=$(echo "$metacubexd_API" | jq -r '.tag_name')
+          metacubexd_VER=$(echo "$metacubexd_API" | jq -r '.tag_name' | tr -d '\r\n ')
           echo "meta_ui版本: $metacubexd_VER"
 
       - name: 下载 UI Zip 文件
