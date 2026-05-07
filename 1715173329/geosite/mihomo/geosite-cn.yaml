@@ -647,6 +647,7 @@ payload:
   - +.azureprivatedns.cn
   - +.azurerms.cn
   - +.azuresandbox.cn
+  - +.azz.net
   - +.b2clogin.cn
   - +.b3itech.cn
   - +.b3log.org
@@ -1706,7 +1707,6 @@ payload:
   - +.flyme.com
   - +.flymeauto.com
   - +.fm365.com
-  - +.fm3838.com
   - +.fnjiasu.com
   - +.fnnas.com
   - +.fnnas.net
@@ -2251,6 +2251,7 @@ payload:
   - +.huoshanzhibo.cn
   - +.huoshanzhibo.com
   - +.huoshanzhibo.net
+  - +.huotan.net
   - +.hupu.com
   - +.hupucdn.com
   - +.hupun.com
@@ -2394,6 +2395,7 @@ payload:
   - +.ipchaxun.com
   - +.ipchaxun.net
   - +.iphone-8.com.cn
+  - +.ipify.cn
   - +.iplark.com
   - +.iplaysoft.com
   - +.ipod.com.cn
@@ -2799,7 +2801,6 @@ payload:
   - +.laomaotao.net
   - +.laomaotao.org
   - +.lapin365.com
-  - +.larsonlimited.com
   - +.las.ac.cn
   - +.lascn.net
   - +.latepost.com
@@ -4965,8 +4966,6 @@ payload:
   - +.zol-img.com.cn
   - +.zol.com.cn
   - +.zongheng.com
-  - +.zoom3g.com
-  - +.zoomyou.cn
   - +.zpb365.com
   - +.zqrb.cn
   - +.zs-jlc.com
@@ -5207,6 +5206,8 @@ payload:
   - edge.geo.kaspersky.com
   - emmapplecodevice.googleapis.com
   - emoi-cncdn.bing.com
+  - end-api.shallow.ink
+  - end.shallow.ink
   - enrichgw.10010.com
   - epicgames-download1-1251447533.file.myqcloud.com
   - experiments.apple.com

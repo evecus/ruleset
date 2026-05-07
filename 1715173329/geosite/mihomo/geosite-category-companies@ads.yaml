@@ -54,7 +54,6 @@ payload:
   - +.clarity.ms
   - +.clck.yandex.ru
   - +.collector.github.com
-  - +.copilot-telemetry.githubusercontent.com
   - +.counter.yandex.ru
   - +.cxhub.ru
   - +.doubleclick-cn.net
@@ -187,6 +186,8 @@ payload:
   - clck.yandex.net
   - clck.yango.com
   - click.rustore.ru
+  - copilot-telemetry-service.githubusercontent.com
+  - copilot-telemetry.githubusercontent.com
   - informer.yandex.ru
   - mc.yandex.com
   - mc.yandex.net

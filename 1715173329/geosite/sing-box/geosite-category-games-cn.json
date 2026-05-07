@@ -2,6 +2,10 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        "end-api.shallow.ink",
+        "end.shallow.ink"
+      ],
       "domain_suffix": [
         "17roco.com",
         "3304399.com",
