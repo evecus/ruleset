@@ -7,15 +7,15 @@ payload:
     - ipv6-check-perf.radar.cloudflare.com
     - whatismyip.akamai.com
     - +.ipinfo.io
-    - +.checkip.org
+    - +.ipaddress.my
     - +.2ip.ua
     - +.51degrees.com
     - +.abstractapi.com
     - +.apiip.net
     - +.apivoid.com
     - +.bigdatacloud.net
-    - +.check-host.net
-    - +.ipify.org
+    - +.2ip.io
+    - +.checkip.org
     - +.checkip.ru
     - +.country.is
     - +.curlmyip.net
@@ -25,7 +25,7 @@ payload:
     - +.find-my-ip.com
     - +.find-my-ip.net
     - +.findip.net
-    - +.flagfox.net
+    - +.ipligence.com
     - +.fraudguard.io
     - +.fraudlogix.com
     - +.freegeoip.app
@@ -59,12 +59,12 @@ payload:
     - +.ip2location.io
     - +.ip2ruscity.com
     - +.ip4.me
-    - +.2ip.io
+    - +.ip6.me
     - +.ip6only.me
     - +.ip8.com
     - +.ipaddr.site
     - +.ipaddress.com
-    - +.ipaddress.my
+    - +.ipleak.net
     - +.ipaddress.sh
     - +.ipapi.co
     - +.ipapi.com
@@ -76,11 +76,11 @@ payload:
     - +.ipecho.net
     - +.ipfind.io
     - +.ipfinder.io
-    - +.proxycheck.io
+    - +.ipgeolocation.io
+    - +.ipify.org
+    - +.check-host.net
     - +.2ip.ru
-    - +.ip6.me
-    - +.ipleak.net
-    - +.ipligence.com
+    - +.flagfox.net
     - +.iplocate.io
     - +.iplocation.com
     - +.iplocation.io
@@ -110,7 +110,7 @@ payload:
     - +.mylocation.org
     - +.nodedata.io
     - +.osint.sh
-    - +.ipgeolocation.io
+    - +.proxycheck.io
     - +.realip.cc
     - +.seeip.org
     - +.showip.net
@@ -139,16 +139,19 @@ payload:
     - +.wieistmeineip.de
     - +.wtfismyip.com
     - +.ipip.net
-    - +.my.ipinfo.app
-    - +.ip.hetzner.com
+    - +.ipgeo.vercel.app
     - +.ip.mail.ru
     - +.ip.nic.ru
     - +.ip.pe.kr
     - +.ip.tyk.nu
-    - +.ipgeo.vercel.app
+    - +.ip.hetzner.com
     - +.ipv4-internet.yandex.net
     - +.ipv6-internet.yandex.net
+    - +.my.ipinfo.app
     - +.geoip.noc.gov.ru
+    - +.ipv4.internet.yandex.net
+    - +.ipv6.internet.yandex.net
+    - +.ipify.cn
     - +.iplark.com
     - +.ipw.cn
     - +.whois.pconline.com.cn
