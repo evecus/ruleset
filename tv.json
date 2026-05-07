@@ -1,22 +1,6 @@
 {
   "urls": [
     {
-      "url": "http://ok213.top/ok",
-      "name": "🚀OK线路"
-    },
-    {
-      "url": "http://ok213.top/tv",
-      "name": "🚀OK弹幕"
-    },
-    {
-      "url": "https://10352.kstore.vip/ok",
-      "name": "🚀OK备用"
-    },
-    {
-      "url": "https://10352.kstore.vip/tv",
-      "name": "🚀OK弹幕备用"
-    },
-    {
       "url": "http://tv.nxog.top/m",
       "name": "🍳讴歌专线"
     },
@@ -59,6 +43,22 @@
     {
       "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
       "name": "🚀南风线路"
+    },
+    {
+      "url": "http://ok213.top/ok",
+      "name": "🚀OK线路"
+    },
+    {
+      "url": "http://ok213.top/tv",
+      "name": "🚀OK弹幕"
+    },
+    {
+      "url": "https://10352.kstore.vip/ok",
+      "name": "🚀OK备用"
+    },
+    {
+      "url": "https://10352.kstore.vip/tv",
+      "name": "🚀OK弹幕备用"
     },
     {
       "url": "https://git.acwing.com/lw0704/66/-/raw/master/jjzx.json",
