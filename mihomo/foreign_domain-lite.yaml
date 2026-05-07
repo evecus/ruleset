@@ -150,7 +150,6 @@ payload:
   - +.billmelater.net
   - +.binoculus.com
   - +.blink.org
-  - +.blob.core.windows.net
   - +.blogblog.com
   - +.blogger.com
   - +.blogspot.ae
@@ -372,7 +371,6 @@ payload:
   - +.coova.com
   - +.coova.net
   - +.coova.org
-  - +.copilot-telemetry.githubusercontent.com
   - +.counter.yandex.ru
   - +.coze-dns-01.com
   - +.coze.cn
@@ -2455,6 +2453,11 @@ payload:
   - cnappinstall.googleadapis.com
   - connectivitycheck.gstatic.com
   - content.googleadapis.com
+  - copilot-proxy.githubusercontent.com
+  - copilot-telemetry-service.githubusercontent.com
+  - copilot-telemetry.githubusercontent.com
+  - copilot-workspace.githubnext.com
+  - copilotprodattachments.blob.core.windows.net
   - crashlyticsreports-pa.googleapis.com
   - crl.pki.goog
   - crls.pki.goog
@@ -2527,6 +2530,11 @@ payload:
   - g3.gstatic.com
   - github-api.arkoselabs.com
   - github-cloud.s3.amazonaws.com
+  - github-production-release-asset-2e65be.s3.amazonaws.com
+  - github-production-repository-file-5c1aeb.s3.amazonaws.com
+  - github-production-repository-image-32fea6.s3.amazonaws.com
+  - github-production-upload-manifest-file-7fdce7.s3.amazonaws.com
+  - github-production-user-asset-6210df.s3.amazonaws.com
   - go.corp.google.com
   - gonglchuangl.net
   - gongyichuangyi.net
@@ -2599,6 +2607,26 @@ payload:
   - prod-databe.floonet.goog
   - prod.databe.floonet.goog
   - production-openaicom-storage.azureedge.net
+  - productionresultssa0.blob.core.windows.net
+  - productionresultssa1.blob.core.windows.net
+  - productionresultssa10.blob.core.windows.net
+  - productionresultssa11.blob.core.windows.net
+  - productionresultssa12.blob.core.windows.net
+  - productionresultssa13.blob.core.windows.net
+  - productionresultssa14.blob.core.windows.net
+  - productionresultssa15.blob.core.windows.net
+  - productionresultssa16.blob.core.windows.net
+  - productionresultssa17.blob.core.windows.net
+  - productionresultssa18.blob.core.windows.net
+  - productionresultssa19.blob.core.windows.net
+  - productionresultssa2.blob.core.windows.net
+  - productionresultssa3.blob.core.windows.net
+  - productionresultssa4.blob.core.windows.net
+  - productionresultssa5.blob.core.windows.net
+  - productionresultssa6.blob.core.windows.net
+  - productionresultssa7.blob.core.windows.net
+  - productionresultssa8.blob.core.windows.net
+  - productionresultssa9.blob.core.windows.net
   - proxyconfig.corp.google.com
   - publicca.googleapis.com
   - qagpublic.qatp1.net
