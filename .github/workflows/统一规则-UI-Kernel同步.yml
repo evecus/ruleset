@@ -103,6 +103,58 @@ jobs:
           curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.yaml" -o mihomo/ads-lite.yaml
           curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ads-all.json" -o sing-box/ads-lite.json
 
+      - name: 处理 Google 合并规则 (goo)
+        run: |
+          set -euo pipefail
+
+          # --- mihomo: 合并 google.yaml + google-gemini.yaml → goo.yaml ---
+          curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.yaml" \
+            -o temp_work/google_dom.yaml
+          curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google-gemini.yaml" \
+            -o temp_work/google_gemini_dom.yaml
+
+          # 提取 +. 开头的 suffix 条目（去掉 +. 前缀后去重排序）
+          {
+            grep -E '^\s*-\s*"?\+\.' temp_work/google_dom.yaml || true
+            grep -E '^\s*-\s*"?\+\.' temp_work/google_gemini_dom.yaml || true
+          } | sed -E 's/^[[:space:]]*- "?\+\.//; s/"$//' | sort -u > temp_work/goo_suffix.txt
+
+          # 提取精确域名条目（去重排序）
+          {
+            grep -E '^\s*-\s*[^+. ]' temp_work/google_dom.yaml | grep -v "payload:" || true
+            grep -E '^\s*-\s*[^+. ]' temp_work/google_gemini_dom.yaml | grep -v "payload:" || true
+          } | sed -E 's/^[[:space:]]*- "//; s/^[[:space:]]*- //; s/"$//' | sort -u > temp_work/goo_exact.txt
+
+          # 写入 goo.yaml
+          echo "payload:" > mihomo/goo.yaml
+          sed 's/^/  - +./' temp_work/goo_suffix.txt >> mihomo/goo.yaml
+          sed 's/^/  - /'   temp_work/goo_exact.txt  >> mihomo/goo.yaml
+
+          # --- sing-box: 合并 google.json + google-gemini.json → goo.json ---
+          curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.json" \
+            -o temp_work/google_dom.json
+          curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google-gemini.json" \
+            -o temp_work/google_gemini_dom.json
+
+          # 合并两个 JSON：domain 和 domain_suffix 分别去重排序后写入 goo.json
+          jq -s '
+            {
+              version: 2,
+              rules: [{
+                domain: (
+                  [.[].rules[].domain? // [] | .[]]
+                  | map(sub("^\\.+"; ""))
+                  | unique | sort
+                ),
+                domain_suffix: (
+                  [.[].rules[].domain_suffix? // [] | .[]]
+                  | map(sub("^\\.+"; ""))
+                  | unique | sort
+                )
+              }]
+            }
+          ' temp_work/google_dom.json temp_work/google_gemini_dom.json > sing-box/goo.json
+      
       - name: 编译与提交至 master 分支
         run: |
           set -euo pipefail
