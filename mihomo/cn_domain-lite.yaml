@@ -177,6 +177,7 @@ payload:
   - +.3type.cn
   - +.3yx.com
   - +.40017.cn
+  - +.4008-517-517.cn
   - +.40407.com
   - +.423down.com
   - +.42r.cn
@@ -814,6 +815,7 @@ payload:
   - +.bjctyiptv.cn
   - +.bjinfobank.com
   - +.bjyouth.net
+  - +.bkchina.cn
   - +.blogjava.net
   - +.blueaggrestore.com
   - +.bluearchive-cn.com
@@ -1378,6 +1380,7 @@ payload:
   - +.dianping.com
   - +.dianwannan.com
   - +.dianzhenkeji.com
+  - +.dicos.com.cn
   - +.dida365.com
   - +.digicert.cn
   - +.diiing.cn
@@ -2057,6 +2060,7 @@ payload:
   - +.hczq.com
   - +.hdfimg.com
   - +.hdinsightservices.cn
+  - +.hdlcdns.com
   - +.hdns.ksyun.com
   - +.hdyxgame.com
   - +.heavenlywind.cc
@@ -2149,6 +2153,8 @@ payload:
   - +.honor.com.cn
   - +.honorfile.com
   - +.hoopchina.com.cn
+  - +.hophing.cn
+  - +.hophing.com.cn
   - +.hotread.com
   - +.houdao.com
   - +.houyicaiji.com
@@ -2259,6 +2265,7 @@ payload:
   - +.huxiucdn.com
   - +.huya.com
   - +.hwshu.com
+  - +.hwwt8.com
   - +.hx168.com.cn
   - +.hxb.com.cn
   - +.hxfy888.com
@@ -2666,6 +2673,7 @@ payload:
   - +.ketangpai.com
   - +.kexinshe.com
   - +.kf5.com
+  - +.kfc.com.cn
   - +.kfzimg.com
   - +.kgimg.com
   - +.kglink.cn
@@ -2682,6 +2690,7 @@ payload:
   - +.kinghomechina.com
   - +.kingsoft-office-service.com
   - +.kingsoft.com
+  - +.kiwa-tech.com
   - +.kiyuu.club
   - +.kjcdn.com
   - +.kjwugx.com
@@ -2925,6 +2934,7 @@ payload:
   - +.log-upload.mihoyo.com
   - +.log.hunantv.com
   - +.log.v2.hunantv.com
+  - +.logger.qmai.cn
   - +.longhoo.net
   - +.longone.com.cn
   - +.longre.com
@@ -3028,7 +3038,10 @@ payload:
   - +.mcbang.com
   - +.mcbbs.net
   - +.mcchcdn.com
+  - +.mcd.cn
+  - +.mcdchina.net
   - +.mcdemo.show
+  - +.mcdonalds.com.cn
   - +.mchost.guru
   - +.mcmod.cn
   - +.mcprev.cn
@@ -3210,6 +3223,8 @@ payload:
   - +.muzhiwan.com
   - +.mwcdns.com
   - +.mwcloudcdn.com
+  - +.mxbc.com
+  - +.mxbc.net
   - +.my4399.com
   - +.my7v.com
   - +.mybank.cn
@@ -3590,6 +3605,9 @@ payload:
   - +.qlinkto.cn
   - +.qlisten.cn
   - +.qm989.com
+  - +.qmai.cn
+  - +.qmai.com
+  - +.qmimg.cn
   - +.qmniu.com
   - +.qnap.com.cn
   - +.qnsdk.com
@@ -3816,6 +3834,7 @@ payload:
   - +.shumensy.com
   - +.shuoshuokong.com
   - +.shutcm.com
+  - +.shuxinyc.com
   - +.shyxhy.com
   - +.shzq.com
   - +.sichuanair.com
@@ -4169,6 +4188,9 @@ payload:
   - +.tpyzq.com
   - +.tq121.com.cn
   - +.track.sohu.com
+  - +.tracking.mcdonalds.com.cn
+  - +.trackingprd.hwwt8.com
+  - +.trackserver.shuxinyc.com
   - +.tracup.com
   - +.trae.cn
   - +.trae.com.cn
@@ -4798,6 +4820,7 @@ payload:
   - +.yudou.cn
   - +.yuelun.com
   - +.yuketang.cn
+  - +.yumchina.com
   - +.yun.139.com
   - +.yunaq.com
   - +.yunba.io
