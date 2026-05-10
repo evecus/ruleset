@@ -1,5 +1,4 @@
 payload:
-    - csis-prod.s3.amazonaws.com
     - a.ppy.sh
     - assets.ppy.sh
     - c.ppy.sh
@@ -9,6 +8,7 @@ payload:
     - notify.ppy.sh
     - sentry.ppy.sh
     - spectator.ppy.sh
+    - csis-prod.s3.amazonaws.com
     - +.aomedia.org
     - +.atypi.org
     - +.change.org
@@ -24,6 +24,10 @@ payload:
     - +.who.int
     - +.wi-fi.org
     - +.wto.org
+    - +.f-dro1d.org
+    - +.f-droid.com
+    - +.f-droid.org
+    - +.fdroid.org
     - +.attestation.app
     - +.grapheneos.app
     - +.grapheneos.ca
@@ -40,27 +44,6 @@ payload:
     - +.grapheneos.social
     - +.seamlessupdate.app
     - +.vanadium.app
-    - +.nist.gov
-    - +.time.gov
-    - +.openmaps.org
-    - +.openstreetmap.com
-    - +.openstreetmap.net
-    - +.openstreetmap.org
-    - +.openstreetmaps.org
-    - +.osm.org
-    - +.osmfoundation.org
-    - +.stateofthemap.com
-    - +.stateofthemap.org
-    - +.paskoocheh.com
-    - +.csis.org
-    - +.emojipedia.org
-    - +.worldemojiawards.com
-    - +.worldemojiday.com
-    - +.xn--yt8h.la
-    - +.f-dro1d.org
-    - +.f-droid.com
-    - +.f-droid.org
-    - +.fdroid.org
     - +.ieee.org
     - +.ieee.tv
     - +.tryengineering.org
@@ -123,9 +106,26 @@ payload:
     - +.messybrainz.org
     - +.metabrainz.org
     - +.musicbrainz.org
-    - +.ppy.sh
+    - +.nist.gov
+    - +.time.gov
+    - +.openmaps.org
+    - +.openstreetmap.com
+    - +.openstreetmap.net
+    - +.openstreetmap.org
+    - +.openstreetmaps.org
+    - +.osm.org
+    - +.osmfoundation.org
+    - +.stateofthemap.com
+    - +.stateofthemap.org
+    - +.paskoocheh.com
+    - +.emojipedia.org
+    - +.worldemojiawards.com
+    - +.worldemojiday.com
+    - +.xn--yt8h.la
     - +.rolfoundation.org
     - +.rolsociety.org
+    - +.ppy.sh
+    - +.csis.org
     - +.ccstatic.org
     - +.creativecommons.org
     - +.creativecommons.engineering

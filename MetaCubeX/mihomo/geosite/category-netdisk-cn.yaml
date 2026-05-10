@@ -1,6 +1,6 @@
 payload:
-    - +.wss.zone
-    - +.wss.pet
+    - +.wenxiaozhan.net
+    - +.wenxiaozhan.cn
     - +.123panpay.com
     - +.123957.com
     - +.123912.com
@@ -12,19 +12,25 @@ payload:
     - +.123254.com
     - +.123245.com
     - +.123952.com
-    - +.lanzouo.com
+    - +.sq.cc
     - +.ctfile.com
     - +.feimaoyun.com
     - +.filez.com
     - +.guangyapan.com
     - +.jianguoyun.com
-    - +.lanzoul.com
-    - +.aliyundrive.com
-    - +.aliyundrive.cloud
+    - +.lanzouf.com
+    - +.lanzouh.com
+    - +.116cd.net
     - +.weiyun.com
-    - +.alipan.com
+    - +.116cd.com
     - +.yunpan.com
-    - +.lanzoum.com
+    - +.lanzoug.com
+    - +.alipan.com
+    - +.aliyundrive.cloud
+    - +.aliyundrive.com
+    - +.aliyundrive.net
+    - +.116cd.cn
+    - +.c-t.work
     - +.cowcs.com
     - +.cowtransfer.com
     - +.baidupan.com
@@ -35,15 +41,15 @@ payload:
     - +.lanzoub.com
     - +.lanzouc.com
     - +.lanzoue.com
-    - +.lanzouf.com
-    - +.lanzoug.com
-    - +.lanzouh.com
+    - +.115vod.com
+    - +.alicloudccp.com
+    - +.anxia.com
     - +.lanzoui.com
     - +.lanzouj.com
     - +.lanzouk.com
-    - +.alicloudccp.com
-    - +.c-t.work
-    - +.aliyundrive.net
+    - +.lanzoul.com
+    - +.lanzoum.com
+    - +.lanzouo.com
     - +.lanzoup.com
     - +.lanzouq.com
     - +.lanzous.com
@@ -57,15 +63,15 @@ payload:
     - +.woozooo.com
     - +.wenshushu.cn
     - +.wenshushu.com
-    - +.wenxiaozhan.cn
+    - +.123pan.com
     - +.wenxiaozhan.com
-    - +.wenxiaozhan.net
+    - +.123pan.cn
     - +.wss.cc
     - +.wss.email
     - +.wss.ink
-    - +.123pan.com
+    - +.wss.pet
     - +.wss.show
-    - +.123pan.cn
+    - +.wss.zone
     - +.wss1.cn
     - +.115.com
     - +.115cdn.com
@@ -75,15 +81,9 @@ payload:
     - +.115cloud.net
     - +.115img.com
     - +.115meta.com
-    - +.115vod.com
-    - +.116cd.cn
-    - +.116cd.com
-    - +.116cd.net
-    - +.anxia.com
-    - +.sq.cc
     - +.pan.baidu.com
+    - +.yunpan.aliyun.com
     - +.yun.139.com
     - +.pan.xunlei.com
     - +.pan.quark.cn
     - +.cloud.189.cn
-    - +.yunpan.aliyun.com
