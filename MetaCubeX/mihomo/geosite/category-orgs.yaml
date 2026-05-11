@@ -1,4 +1,5 @@
 payload:
+    - csis-prod.s3.amazonaws.com
     - a.ppy.sh
     - assets.ppy.sh
     - c.ppy.sh
@@ -8,7 +9,6 @@ payload:
     - notify.ppy.sh
     - sentry.ppy.sh
     - spectator.ppy.sh
-    - csis-prod.s3.amazonaws.com
     - +.aomedia.org
     - +.atypi.org
     - +.change.org
@@ -24,10 +24,22 @@ payload:
     - +.who.int
     - +.wi-fi.org
     - +.wto.org
+    - +.csis.org
+    - +.emojipedia.org
+    - +.worldemojiawards.com
+    - +.worldemojiday.com
+    - +.xn--yt8h.la
     - +.f-dro1d.org
     - +.f-droid.com
     - +.f-droid.org
     - +.fdroid.org
+    - +.nist.gov
+    - +.time.gov
+    - +.paskoocheh.com
+    - +.ccstatic.org
+    - +.creativecommons.org
+    - +.creativecommons.engineering
+    - +.licensebuttons.net
     - +.attestation.app
     - +.grapheneos.app
     - +.grapheneos.ca
@@ -106,8 +118,6 @@ payload:
     - +.messybrainz.org
     - +.metabrainz.org
     - +.musicbrainz.org
-    - +.nist.gov
-    - +.time.gov
     - +.openmaps.org
     - +.openstreetmap.com
     - +.openstreetmap.net
@@ -117,16 +127,6 @@ payload:
     - +.osmfoundation.org
     - +.stateofthemap.com
     - +.stateofthemap.org
-    - +.paskoocheh.com
-    - +.emojipedia.org
-    - +.worldemojiawards.com
-    - +.worldemojiday.com
-    - +.xn--yt8h.la
+    - +.ppy.sh
     - +.rolfoundation.org
     - +.rolsociety.org
-    - +.ppy.sh
-    - +.csis.org
-    - +.ccstatic.org
-    - +.creativecommons.org
-    - +.creativecommons.engineering
-    - +.licensebuttons.net
