@@ -93,6 +93,7 @@ payload:
   - +.arcaea.cn
   - +.ark.letv.com
   - +.astral-vector.com
+  - +.atianqi.com
   - +.atm.youku.com
   - +.awemeughun.com
   - +.awemeuglang.com
@@ -100,6 +101,8 @@ payload:
   - +.awemeugwave.com
   - +.baofeng.com
   - +.baofeng.net
+  - +.baozou.com
+  - +.baozoumanhua.com
   - +.battlecare.net
   - +.bbtv.cn
   - +.bcfmglobal.com
@@ -132,6 +135,7 @@ payload:
   - +.changdunovel.com
   - +.chat.top
   - +.chuapp.com
+  - +.cibn.cc
   - +.cibntv.net
   - +.ciweimao.com
   - +.click.gamersky.com
@@ -169,6 +173,8 @@ payload:
   - +.dtstatic.com
   - +.duitang.com
   - +.duoshan.com
+  - +.duowan.com
+  - +.dwstatic.com
   - +.e.kuaishou.cn
   - +.e.kuaishou.com
   - +.e.stat.ykimg.com
@@ -177,6 +183,7 @@ payload:
   - +.edu4399.com
   - +.ems.youku.com
   - +.faloo.com
+  - +.fanqiecopyright.com
   - +.fanqienovel.com
   - +.fanqieopen.com
   - +.fanqieopenpic.com
@@ -197,6 +204,7 @@ payload:
   - +.fqnovelpic.com
   - +.fqnovelstatic.com
   - +.fqnovelvod.com
+  - +.fqopenplatform.com
   - +.frp-act.com
   - +.frp-air.com
   - +.frp-all.com
@@ -310,6 +318,7 @@ payload:
   - +.hnbntv.com
   - +.hongshu.com
   - +.hotread.com
+  - +.huajiao.com
   - +.hunaniptv.com
   - +.hunantv.com
   - +.huoshan.com
@@ -353,9 +362,11 @@ payload:
   - +.ihuoshanstatic.com
   - +.ihuoshanvod.com
   - +.ihykb.com
+  - +.ikstatic.cn
   - +.img4399.com
   - +.imgo.tv
   - +.in.th
+  - +.inke.cn
   - +.inkuai.com
   - +.inkwai.com
   - +.ja.gamersky.com
@@ -366,6 +377,7 @@ payload:
   - +.juequling.com
   - +.jvcsmart.cn
   - +.jvcsmart.com.cn
+  - +.kajicam.com
   - +.kesong.co
   - +.kgimg.com
   - +.kglink.cn
@@ -634,6 +646,8 @@ payload:
   - +.yximg.cn
   - +.yximgs.com
   - +.yxwsgame.com
+  - +.yy.com
+  - +.yystatic.com
   - +.yystv.cn
   - +.yzyxgame.com
   - +.zcjbgame.com

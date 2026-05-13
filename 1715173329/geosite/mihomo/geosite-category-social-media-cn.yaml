@@ -8,8 +8,6 @@ payload:
   - +.douban.com
   - +.douban.fm
   - +.doubanio.com
-  - +.duowan.com
-  - +.dwstatic.com
   - +.fanfou.com
   - +.gracg.com
   - +.hoopchina.com.cn
@@ -29,8 +27,6 @@ payload:
   - +.taou.com
   - +.tieba.baidu.com
   - +.tieba.com
-  - +.yy.com
-  - +.yystatic.com
   - +.zhihu-web-analytics.zhihu.com
   - +.zhihu.com
   - +.zhimg.com
