@@ -12,27 +12,27 @@ payload:
     - +.chesicc.com
     - +.chesicc.net
     - +.chsi.cn
+    - +.applysquare.net
+    - +.applysquare.com
+    - +.yuketang.cn
+    - +.rainclassroom.com
     - +.fenbilantian.com
     - +.fenbilantian.cn
     - +.fenbike.com
     - +.fenbike.cn
     - +.fenbi.com
     - +.fbstatic.cn
-    - +.yuantiku.com
-    - +.yuansouti.com
-    - +.yuanfudao.com
-    - +.ybccode.com
     - +.gfbzb.cn
     - +.gfbzb.com
-    - +.xiaoyuankousuan.com
-    - +.banmaaike.com
+    - +.yuantiku.com
+    - +.yuansouti.com
     - +.gfbzb.net
     - +.ncss.cn
-    - +.tongxuepie.com
-    - +.schoopia.com
-    - +.applysquare.net
+    - +.yuanfudao.com
+    - +.ybccode.com
+    - +.xiaoyuankousuan.com
     - +.qgzb.net
-    - +.applysquare.com
+    - +.banmaaike.com
     - +.zbbm.net
     - +.neea.cn
     - +.91yunxiao.com
@@ -65,7 +65,7 @@ payload:
     - +.liulishuo.com
     - +.ictbda.cn
     - +.ictbda.com
-    - +.17zuoye.net
+    - +.tongxuepie.com
     - +.xir.cn
     - +.j-test.com
     - +.nattest-china.com
@@ -76,7 +76,7 @@ payload:
     - +.ketangpai.com
     - +.banxiaoer.com
     - +.yudou.cn
-    - +.xesimg.com
+    - +.koocdn.com
     - +.llscdn.com
     - +.llsserver.com
     - +.magedu.com
@@ -102,10 +102,16 @@ payload:
     - +.zhan.com
     - +.zhihuishu.com
     - +.zjzs.net
+    - +.17zuoye.cn
+    - +.17zuoye.com
+    - +.17zuoye.net
+    - +.llsapp.com
+    - +.koolearn.com
+    - +.koopass.com
     - +.baydn.com
     - +.shanbay.com
     - +.speiyou.com
-    - +.llsapp.com
+    - +.xesimg.com
     - +.xueersi.com
     - +.chinesemooc.org
     - +.cnmooc.org
@@ -114,7 +120,7 @@ payload:
     - +.mooc.cn
     - +.openlearning.com
     - +.pmphmooc.com
-    - +.17zuoye.com
+    - +.schoopia.com
     - +.hugecore.net
     - +.shareintelli.com
     - +.mojidict.com
@@ -123,12 +129,6 @@ payload:
     - +.hjfile.cn
     - +.hujiang.com
     - +.yeshj.com
-    - +.koocdn.com
-    - +.koolearn.com
-    - +.koopass.com
-    - +.rainclassroom.com
-    - +.yuketang.cn
-    - +.17zuoye.cn
     - +.cbern.com.cn
     - +.zbbm.gov.cn
     - +.chinayz.com.cn

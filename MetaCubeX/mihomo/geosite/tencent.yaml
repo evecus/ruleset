@@ -1,6 +1,6 @@
 payload:
-    - +.gtm.pub
-    - +.sccreators.cn
+    - +.gsadds.com
+    - +.haydaypop.cn
     - +.acimg.cn
     - +.apcdns.net
     - +.foxmail.com
@@ -82,9 +82,9 @@ payload:
     - +.wegamedeveloper.com
     - +.weixinbridge.com
     - +.weui.io
-    - +.cnb.cool
     - +.coding.me
     - +.coding.net
+    - +.cnb.cool
     - +.videoxiaoyouxi.com
     - +.nagcloudcs.com
     - +.gameloop.com
@@ -156,10 +156,10 @@ payload:
     - +.wegameplus.com
     - +.codm.com
     - +.brawlstars.cn
-    - +.haydaypop.cn
+    - +.gtm.pub
     - +.labycore.cn
     - +.sccreator.cn
-    - +.hr-welink.com
+    - +.sccreators.cn
     - +.scescdn.cn
     - +.scid.cn
     - +.scsentry.cn
@@ -178,6 +178,7 @@ payload:
     - +.readnovel.com
     - +.rongshuxia.com
     - +.tingbook.com
+    - +.wting.info
     - +.xs.cn
     - +.xs8.cn
     - +.xxsy.net
@@ -209,7 +210,7 @@ payload:
     - +.cloudbase.net
     - +.cloudidaas.com
     - +.cloudsite.vip
-    - +.idcgcloudcs.com
+    - +.cncqcloud.com
     - +.computeinit.com
     - +.coolsite.vip
     - +.dcloudlive.com
@@ -234,10 +235,10 @@ payload:
     - +.gitdrone.cn
     - +.gmedev.cn
     - +.govqcloud.com
-    - +.gsadds.com
-    - +.tencentcdb.com
+    - +.tcdnlive.com
     - +.xn--r70as2s.xn--fiqs8s
-    - +.cncqcloud.com
+    - +.tdnsv12.com
+    - +.idcgcloudcs.com
     - +.iemiq.com
     - +.igtm-meeting-tencent.com
     - +.igtm.pub
@@ -294,7 +295,7 @@ payload:
     - +.tcdlive.com
     - +.tcdnhw.com
     - +.tcdnkcbak.com
-    - +.tcdnlive.com
+    - +.qq.xn--fiqs8s
     - +.tcdnlivebak1.com
     - +.tcdnlivebak2.com
     - +.tcdnos.com
@@ -323,7 +324,7 @@ payload:
     - +.tencentapps.com
     - +.tencentbyod.com
     - +.tencentcdb.cn
-    - +.qq.xn--fiqs8s
+    - +.tencentcdb.com
     - +.dnsv4.com
     - +.cdngot.com
     - +.acctdns.net
@@ -412,7 +413,7 @@ payload:
     - +.tdnsv9.com
     - +.tdnsv10.com
     - +.tdnsv11.com
-    - +.tdnsv12.com
+    - +.hr-welink.com
     - +.tdnsv13.com
     - +.tdnsv14.com
     - +.tdnsv15.com
