@@ -1,4 +1,5 @@
 payload:
+    - csis-prod.s3.amazonaws.com
     - a.ppy.sh
     - assets.ppy.sh
     - c.ppy.sh
@@ -8,7 +9,6 @@ payload:
     - notify.ppy.sh
     - sentry.ppy.sh
     - spectator.ppy.sh
-    - csis-prod.s3.amazonaws.com
     - +.aomedia.org
     - +.atypi.org
     - +.change.org
@@ -24,8 +24,7 @@ payload:
     - +.who.int
     - +.wi-fi.org
     - +.wto.org
-    - +.rolfoundation.org
-    - +.rolsociety.org
+    - +.csis.org
     - +.ieee.org
     - +.ieee.tv
     - +.tryengineering.org
@@ -80,14 +79,6 @@ payload:
     - +.signalprocessingsociety.org
     - +.technologyandsociety.org
     - +.vtsociety.org
-    - +.acousticbrainz.org
-    - +.bookbrainz.org
-    - +.coverartarchive.org
-    - +.critiquebrainz.org
-    - +.listenbrainz.org
-    - +.messybrainz.org
-    - +.metabrainz.org
-    - +.musicbrainz.org
     - +.openmaps.org
     - +.openstreetmap.com
     - +.openstreetmap.net
@@ -97,15 +88,13 @@ payload:
     - +.osmfoundation.org
     - +.stateofthemap.com
     - +.stateofthemap.org
-    - +.paskoocheh.com
     - +.ppy.sh
-    - +.nist.gov
-    - +.time.gov
+    - +.rolfoundation.org
+    - +.rolsociety.org
     - +.ccstatic.org
     - +.creativecommons.org
     - +.creativecommons.engineering
     - +.licensebuttons.net
-    - +.csis.org
     - +.emojipedia.org
     - +.worldemojiawards.com
     - +.worldemojiday.com
@@ -130,3 +119,14 @@ payload:
     - +.grapheneos.social
     - +.seamlessupdate.app
     - +.vanadium.app
+    - +.acousticbrainz.org
+    - +.bookbrainz.org
+    - +.coverartarchive.org
+    - +.critiquebrainz.org
+    - +.listenbrainz.org
+    - +.messybrainz.org
+    - +.metabrainz.org
+    - +.musicbrainz.org
+    - +.nist.gov
+    - +.time.gov
+    - +.paskoocheh.com
