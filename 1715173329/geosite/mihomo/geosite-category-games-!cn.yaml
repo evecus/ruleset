@@ -1,4 +1,5 @@
 payload:
+  - +.konami
   - +.playstation
   - +.xbox
   - +.100classicbooks.com
@@ -9,6 +10,7 @@ payload:
   - +.2ksports.com
   - +.2kweb.online
   - +.3lateral.com
+  - +.573.jp
   - +.ac-pocketcamp.com
   - +.acesofthunder.net
   - +.activematter.game
@@ -223,8 +225,23 @@ payload:
   - +.itch.zone
   - +.joinsquad.com
   - +.joyjoy.net
+  - +.kgisystems.com
   - +.kirbysepicyarn.com
   - +.kirbysuperstarultra.com
+  - +.kiwi.jp
+  - +.konami-igaming.online
+  - +.konami.co.jp
+  - +.konami.com
+  - +.konami.net
+  - +.konami.org
+  - +.konamicrossmedia.com
+  - +.konamigaming.com
+  - +.konamigaming.net
+  - +.konamigaming.online
+  - +.konamionline.com
+  - +.konamiopen.jp
+  - +.konamisportsclub.jp
+  - +.konamistyle.jp
   - +.kraftonde.com
   - +.kyurem.com
   - +.lcsmerch.com
@@ -442,6 +459,8 @@ payload:
   - +.reachthefinals.com
   - +.realityscan.com
   - +.renovacionxboxlive.com
+  - +.resella.jp
+  - +.resellablue.com
   - +.rgpub.io
   - +.riot-games.com
   - +.riot.com
@@ -669,6 +688,7 @@ payload:
   - +.yostar.co.jp
   - +.yostar.net
   - +.yostarplat.com
+  - +.yugioh-card.com
   - +.zenlesszonezero.com
   - +.zynga.com
   - +.zyngaplayersupport.com
