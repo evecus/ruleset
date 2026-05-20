@@ -39,6 +39,7 @@ payload:
   - +.12321.cn
   - +.123245.com
   - +.123254.com
+  - +.123278.com
   - +.123294.com
   - +.123624.com
   - +.123641.com
@@ -229,6 +230,7 @@ payload:
   - +.51kim.com
   - +.51meishu.com
   - +.51nod.com
+  - +.51pptmoban.com
   - +.51selling.com
   - +.51sole.com
   - +.51togic.com
@@ -476,6 +478,7 @@ payload:
   - +.amazonnow.com.cn
   - +.amazonprimevideo.cn
   - +.amazonprimevideo.com.cn
+  - +.amazonwebservices.cn
   - +.amazonwebservices.com.cn
   - +.amazonworkdocs.cn
   - +.amazonworkdocs.com.cn
@@ -501,6 +504,8 @@ payload:
   - +.anquan.org
   - +.anquanke.com
   - +.anruan.com
+  - +.antafu.com
+  - +.antaq.com
   - +.anticheatexpert.com
   - +.antpcdn.com
   - +.antutu.com
@@ -1329,6 +1334,7 @@ payload:
   - +.danjuanfunds.com
   - +.daocloud.io
   - +.daocloud.vip
+  - +.daodoc.com
   - +.daojia.com
   - +.daovoice.io
   - +.data.pharmacodia.com
@@ -1947,6 +1953,7 @@ payload:
   - +.gobasearcher.com
   - +.goka.top
   - +.gold678.com
+  - +.goldhoe.com
   - +.golink.com
   - +.golinkapi.com
   - +.golinkcn.com
@@ -2531,6 +2538,7 @@ payload:
   - +.jikipedia.com
   - +.jin10.com
   - +.jinantimes.com.cn
+  - +.jinchutou.com
   - +.jindidata.com
   - +.jingheiot.com
   - +.jinglingbiaozhu.com
@@ -3751,6 +3759,7 @@ payload:
   - +.saayaa.com
   - +.saduck.top
   - +.safeskill.cn
+  - +.safewk.com
   - +.sagemaker.com.cn
   - +.saibo.com
   - +.samsungeshop.com.cn
@@ -4096,6 +4105,7 @@ payload:
   - +.tangeche.com
   - +.tao123.com
   - +.taoche.com
+  - +.taodocs.com
   - +.taomee.com
   - +.taou.com
   - +.tapnow.top
@@ -4466,6 +4476,7 @@ payload:
   - +.welltrend-edu.com
   - +.wenjuan.com
   - +.wenkeju.com
+  - +.wenkub.com
   - +.wenmingban.com
   - +.wenshushu.cn
   - +.wenshushu.com
@@ -4992,6 +5003,7 @@ payload:
   - +.zhihu-web-analytics.zhihu.com
   - +.zhihu.com
   - +.zhihuishu.com
+  - +.zhijidoc.com
   - +.zhiliaowenda.com.cn
   - +.zhimg.com
   - +.zhipin.com
@@ -5203,12 +5215,10 @@ payload:
   - cn.download.nvidia.com
   - cn.widevine.com
   - cn.windowssearch.com
-  - cnappinstall.googleadapis.com
   - communities.apple.com
   - configuration.apple.com
   - configuration.apple.com.akadns.net
   - connectivitycheck.gstatic.com
-  - content.googleadapis.com
   - crashlyticsreports-pa.googleapis.com
   - crl-lb.apple.com.akadns.net
   - crl.apple.com
@@ -5267,7 +5277,6 @@ payload:
   - download.developer.apple.com
   - download.microsoft.com
   - download.mlcc.google.com
-  - download.qatp1.net
   - download.tensorflow.google.com
   - download.visualstudio.microsoft.com
   - downloaddispatch.itunes.apple.com
@@ -5275,7 +5284,6 @@ payload:
   - ea2cn-prod-outlet.dell.com
   - ea2cn-staging-outlet.dell.com
   - edge.geo.kaspersky.com
-  - emmapplecodevice.googleapis.com
   - emoi-cncdn.bing.com
   - end-api.shallow.ink
   - end.shallow.ink
@@ -5301,7 +5309,6 @@ payload:
   - gbxgateway-dev.dell.com
   - gbxgateway.dell.com
   - geetest.datasink.sensorsdata.cn
-  - go.corp.google.com
   - gog-cdn-fastly.gog.com
   - gog-cdn.akamaized.net
   - gog.qtlglb.com
@@ -5427,16 +5434,12 @@ payload:
   - ksn-url.geoksn.kaspersky.com
   - ksn-verdict-geo.kaspersky-labs.com
   - ksn-verdict.geoksn.kaspersky.com
-  - l2-uberproxy.corp.google.com
   - learn.microsoft.com
   - log-sdk.gifshow.com
   - log3-applog-hl.fqnovel.com
   - log3-applog.fqnovel.com
   - log5-applog-hl.fqnovel.com
   - log5-applog.fqnovel.com
-  - logger-dev.corp.google.com
-  - logger.corp.google.com
-  - login.corp.google.com
   - lv.queniujq.cn
   - maps.apple.com
   - mdr.ksn.kaspersky-labs.com
@@ -5446,7 +5449,6 @@ payload:
   - mesu.apple.com
   - misc-assets.itunes.apple.com
   - ml.cdn-apple.com
-  - monitoring.qpdp1.net
   - moocs.unipus.cn
   - music.apple.com
   - musicstatus.music.apple.com
@@ -5534,16 +5536,9 @@ payload:
   - prod-support.apple-support.akadns.net
   - prod.databe.floonet.goog
   - productcard.gog-statics.com
-  - proxyconfig.corp.google.com
   - publicassets.cdn-apple.com
-  - qagpublic.qatp1.net
-  - qgadmin.qcpp1.net
   - qiao-cn.com
   - qpx.googleflights.net
-  - qualysapi.qatp1.net
-  - qualysguard.qpdp1.net
-  - r.cert.corp.google.com
-  - rapture-prod.corp.google.com
   - recaptcha-cn.net
   - recaptcha.net
   - redirector.bdn.dev
@@ -5593,7 +5588,6 @@ payload:
   - s5.mzstatic.com
   - safebrowsing-cache.google.com
   - safebrowsing.googleapis.com
-  - scanservice1.qcpp1.net
   - scene7-cdn.dell.com
   - sdx.microsoft.com
   - se-edge.itunes.apple.com
@@ -5619,7 +5613,6 @@ payload:
   - ss.bjmu.edu.cn
   - ssl-google-analytics.l.google.com
   - ssl.gstatic.com
-  - sslredirect.corp.google.com
   - st-bak.viv.wanwang.space
   - staging-controlbe.floonet.goog
   - staging-databe.floonet.goog
@@ -5635,15 +5628,9 @@ payload:
   - store.storeimages.apple.com.akadns.net
   - store.storeimages.cdn-apple.com
   - storeedgefd.dsx.mp.microsoft.com
-  - streaming-uberproxy-rotation.corp.google.com
-  - streaming-uberproxy.corp.google.com
   - streamingaudio.itunes.apple.com
   - study.163.com
   - su.itunes.apple.com
-  - sup-ssh-relay.corp.google.com
-  - sup-ssh-relay2.corp.google.com
-  - sup.corp.google.com
-  - sup.l.google.com
   - support-china.apple-support.akadns.net
   - support.apple.com
   - supportassist.dell.com
@@ -5661,7 +5648,6 @@ payload:
   - sylvan.apple.com
   - sync.itunes.apple.com
   - tac.googleapis.com
-  - test.gbugs-qa.chromium.org
   - tf-feedback.itunes.apple.com
   - time.amazonaws.cn
   - time.izatcloud.net
@@ -5669,12 +5655,8 @@ payload:
   - tj-pod1-smp-device.apple.com
   - tlu.dl.delivery.mp.microsoft.com
   - tools.google.com
-  - tools.l.google.com
   - tp.louisvuitton.com
   - trts.baishancdnx.cn
-  - uberproxy-debug4.corp.google.com
-  - uberproxy.corp.google.com
-  - uberproxy6.corp.google.com
   - ubisoftconnect.eo-edgefunctions7.com
   - universal-activity-service.itunes.apple.com
   - update.crashlytics.com
@@ -5713,7 +5695,6 @@ payload:
   - www.recaptcha.net
   - www.support.apple.com
   - www4-static.gog-statics.com
-  - xn--flw351e.com
   - xp.apple.com
   - xtratime.qcomgeo2.com
   - xz.pphimalayanrt.com
