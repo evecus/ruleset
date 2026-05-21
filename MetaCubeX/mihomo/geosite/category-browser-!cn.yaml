@@ -1,7 +1,7 @@
 payload:
     - +.chrome
     - +.librewolf.net
-    - +.firefox.com
+    - +.epicbrowser.com
     - +.basilisk-browser.org
     - +.brave.com
     - +.bromite.org
@@ -12,7 +12,7 @@ payload:
     - +.floorp.app
     - +.iridiumbrowser.de
     - +.kiwibrowser.com
-    - +.torproject.org
+    - +.firefoxusercontent.com
     - +.chromium.org
     - +.pulsebrowser.app
     - +.netsurf-browser.org
@@ -23,8 +23,8 @@ payload:
     - +.vivaldi.com
     - +.waterfox.net
     - +.zen-browser.app
+    - +.torproject.org
     - +.censorship.no
-    - +.epicbrowser.com
     - +.chrome.com
-    - +.firefoxusercontent.com
+    - +.firefox.com
     - +.browser.kagi.com
