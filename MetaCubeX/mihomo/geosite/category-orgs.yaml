@@ -24,12 +24,15 @@ payload:
     - +.who.int
     - +.wi-fi.org
     - +.wto.org
-    - +.rolfoundation.org
-    - +.rolsociety.org
     - +.ccstatic.org
     - +.creativecommons.org
     - +.creativecommons.engineering
     - +.licensebuttons.net
+    - +.nist.gov
+    - +.time.gov
+    - +.paskoocheh.com
+    - +.rolfoundation.org
+    - +.rolsociety.org
     - +.csis.org
     - +.emojipedia.org
     - +.worldemojiawards.com
@@ -55,16 +58,6 @@ payload:
     - +.grapheneos.social
     - +.seamlessupdate.app
     - +.vanadium.app
-    - +.acousticbrainz.org
-    - +.bookbrainz.org
-    - +.coverartarchive.org
-    - +.critiquebrainz.org
-    - +.listenbrainz.org
-    - +.messybrainz.org
-    - +.metabrainz.org
-    - +.musicbrainz.org
-    - +.nist.gov
-    - +.time.gov
     - +.ieee.org
     - +.ieee.tv
     - +.tryengineering.org
@@ -119,6 +112,14 @@ payload:
     - +.signalprocessingsociety.org
     - +.technologyandsociety.org
     - +.vtsociety.org
+    - +.acousticbrainz.org
+    - +.bookbrainz.org
+    - +.coverartarchive.org
+    - +.critiquebrainz.org
+    - +.listenbrainz.org
+    - +.messybrainz.org
+    - +.metabrainz.org
+    - +.musicbrainz.org
     - +.openmaps.org
     - +.openstreetmap.com
     - +.openstreetmap.net
@@ -128,5 +129,4 @@ payload:
     - +.osmfoundation.org
     - +.stateofthemap.com
     - +.stateofthemap.org
-    - +.paskoocheh.com
     - +.ppy.sh
