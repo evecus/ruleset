@@ -1,4 +1,6 @@
 payload:
+    - p3-novel.byteimg.com
+    - p6-novel.byteimg.com
     - p1-juejin.byteimg.com
     - p2-juejin.byteimg.com
     - p3-juejin.byteimg.com
@@ -8,10 +10,8 @@ payload:
     - p7-juejin.byteimg.com
     - p8-juejin.byteimg.com
     - p9-juejin.byteimg.com
-    - p3-novel.byteimg.com
-    - p6-novel.byteimg.com
-    - +.idouyinvod.com
-    - +.fqnovelpic.com
+    - +.betastar.cn
+    - +.baseopendev.com
     - +.activity-dy.com
     - +.activity01.com
     - +.activity02.com
@@ -295,7 +295,7 @@ payload:
     - +.baike.com
     - +.wukong.com
     - +.wukongwenda.cn
-    - +.idouyinpic.com
+    - +.awemeugsoul.com
     - +.365yg.com
     - +.gogokid.com
     - +.hapierxia.com
@@ -317,6 +317,38 @@ payload:
     - +.faceu.com
     - +.ulikecam.com
     - +.rsproxy.cn
+    - +.butterfly-static.cn
+    - +.butterflyai.cn
+    - +.coze-dns-01.com
+    - +.coze.cn
+    - +.coze.email
+    - +.coze.site
+    - +.cozeapp.net
+    - +.cozebaas.cn
+    - +.cozebuild.com
+    - +.cozecdn.com
+    - +.cozedeploy.com
+    - +.cozefn.cn
+    - +.cozeide.cn
+    - +.cozesdk.com
+    - +.cozetest.cn
+    - +.cozetest2.cn
+    - +.cozetest3.cn
+    - +.dbbuilding.fun
+    - +.building.fun
+    - +.instreet.com
+    - +.doubao-dev.com
+    - +.doubao.com
+    - +.doubaocdn.com
+    - +.hi-butterfly.cn
+    - +.maoxiangai.com
+    - +.myparallelstory.com
+    - +.oceancloudapi.com
+    - +.obriccloud.com
+    - +.obricclouddw.com
+    - +.picpic-ai.cn
+    - +.pixeldance.com
+    - +.api-building.fun
     - +.activity-wbsj.com
     - +.aihst8.com
     - +.amemv.cn
@@ -324,9 +356,9 @@ payload:
     - +.amemv.net
     - +.awemeughun.com
     - +.awemeuglang.com
-    - +.awemeugsoul.com
-    - +.awemeugwave.com
-    - +.betastar.cn
+    - +.wukongwenda.com
+    - +.99uri.com
+    - +.fanqienovel.com
     - +.boxdouyin.com
     - +.cookicut.com
     - +.douyin.com
@@ -356,9 +388,9 @@ payload:
     - +.huoshanzhibo.com
     - +.huoshanzhibo.net
     - +.idouyinliving.com
-    - +.wukongwenda.com
-    - +.99uri.com
-    - +.emr-volces.com
+    - +.idouyinpic.com
+    - +.idouyinstatic.com
+    - +.idouyinvod.com
     - +.iesdouyin.com
     - +.iesdouyin.net
     - +.ieshuodong.cn
@@ -381,24 +413,40 @@ payload:
     - +.woaihuoshan.com
     - +.wohst8.com
     - +.douyinpay.com
+    - +.activity-zhendingtech.com
+    - +.changdunovel.com
+    - +.fanqiecopyright.com
+    - +.99uri.cn
+    - +.fanqieopen.com
+    - +.fanqieopenpic.com
+    - +.fanqieopenstatic.com
+    - +.fanqieopenvod.com
+    - +.fanqiesdk.com
+    - +.fanqiesdkpic.com
+    - +.fanqiesdkstatic.com
+    - +.fanqiesdkvod.com
+    - +.fqnovel-op.com
+    - +.fqnovel.com
+    - +.fqnovelim.com
+    - +.fqnovelop.com
+    - +.fqnovelpic.com
+    - +.fqnovelstatic.com
+    - +.fqnovelvod.com
+    - +.fqopenplatform.com
+    - +.ihaohaoxuexi.com
+    - +.muyewx.com
+    - +.novelfm.com
+    - +.novelfmpic.com
+    - +.novelfmstatic.com
+    - +.novelfmvod.com
+    - +.qznovel.com
+    - +.qznovelpic.com
+    - +.qznovelstatic.com
+    - +.qznovelvod.com
     - +.juejin.cn
     - +.juejin.im
     - +.xitu.io
-    - +.doudou.com
-    - +.marscode.cn
-    - +.mcbaas.work
-    - +.mcdemo.show
-    - +.mchost.guru
-    - +.mcprev.cn
-    - +.tcwqqdy.guru
-    - +.trae.cn
-    - +.trae.guru
-    - +.yoma.cn
     - +.aigc-cloud.com
-    - +.dongchediapp.com
-    - +.dongchedi.com
-    - +.dcdapp.com
-    - +.dcarvod.com
     - +.bdegnine.com
     - +.bplslb.com
     - +.bpltm.com
@@ -416,7 +464,7 @@ payload:
     - +.douyincloud.run
     - +.dycloudbk.com
     - +.dycloud.run
-    - +.99uri.cn
+    - +.emr-volces.com
     - +.feilian.cn
     - +.iccvlog.com
     - +.ifeilian.cn
@@ -547,69 +595,7 @@ payload:
     - +.zjytxd.cn
     - +.zjytxp.cn
     - +.zvip.cn
-    - +.butterfly-static.cn
-    - +.butterflyai.cn
-    - +.coze-dns-01.com
-    - +.coze.cn
-    - +.coze.email
-    - +.coze.site
-    - +.cozeapp.net
-    - +.cozebaas.cn
-    - +.cozebuild.com
-    - +.cozecdn.com
-    - +.cozedeploy.com
-    - +.cozefn.cn
-    - +.cozeide.cn
-    - +.cozesdk.com
-    - +.cozetest.cn
-    - +.cozetest2.cn
-    - +.cozetest3.cn
-    - +.dbbuilding.fun
-    - +.building.fun
-    - +.instreet.com
-    - +.doubao-dev.com
-    - +.doubao.com
-    - +.doubaocdn.com
-    - +.hi-butterfly.cn
-    - +.maoxiangai.com
-    - +.myparallelstory.com
-    - +.oceancloudapi.com
-    - +.obriccloud.com
-    - +.obricclouddw.com
-    - +.picpic-ai.cn
-    - +.pixeldance.com
-    - +.api-building.fun
-    - +.activity-zhendingtech.com
-    - +.changdunovel.com
-    - +.fanqiecopyright.com
-    - +.fanqienovel.com
-    - +.fanqieopen.com
-    - +.fanqieopenpic.com
-    - +.fanqieopenstatic.com
-    - +.fanqieopenvod.com
-    - +.fanqiesdk.com
-    - +.fanqiesdkpic.com
-    - +.fanqiesdkstatic.com
-    - +.fanqiesdkvod.com
-    - +.fqnovel-op.com
-    - +.fqnovel.com
-    - +.fqnovelim.com
-    - +.fqnovelop.com
-    - +.idouyinstatic.com
-    - +.fqnovelstatic.com
-    - +.fqnovelvod.com
-    - +.fqopenplatform.com
-    - +.ihaohaoxuexi.com
-    - +.muyewx.com
-    - +.novelfm.com
-    - +.novelfmpic.com
-    - +.novelfmstatic.com
-    - +.novelfmvod.com
-    - +.qznovel.com
-    - +.qznovelpic.com
-    - +.qznovelstatic.com
-    - +.qznovelvod.com
-    - +.baseopendev.com
+    - +.awemeugwave.com
     - +.bytecloud.com
     - +.byteoc.com
     - +.bytewebservice.com
@@ -691,13 +677,27 @@ payload:
     - +.larksuitecdn.com
     - +.larksuiteimg-boe.com
     - +.larksuiteimg-pre.com
+    - +.doudou.com
+    - +.dongchediapp.com
+    - +.dongchedi.com
+    - +.dcdapp.com
+    - +.dcarvod.com
     - +.dcarstatic.com
     - +.dcarlive.com
     - +.dcarimg.com
+    - +.marscode.cn
+    - +.mcbaas.work
+    - +.mcdemo.show
+    - +.mchost.guru
+    - +.mcprev.cn
+    - +.tcwqqdy.guru
+    - +.trae.cn
+    - +.trae.guru
+    - +.yoma.cn
     - +.dcarapi.com
-    - +.okr.com.cn
     - +.trae.com.cn
     - +.marscode.com.cn
+    - +.okr.com.cn
     - +.qishuimusic.com.cn
     - +.qishui.com.cn
     - +.gogokid.com.cn
@@ -735,13 +735,6 @@ payload:
     - +.pglstatp-toutiao.com
     - +.sf3-ttcdn-tos.pstatp.com
     - +.shoppingads.cn
-    - +.coze.com
-    - +.marscode.com
-    - +.trae.ai
-    - +.cici.com
-    - +.ciciai.com
-    - +.ciciaicdn.com
-    - +.dola.com
     - ads3-normal-hl.zijieapi.com
     - ads3-normal.zijieapi.com
     - ads5-normal-hl.zijieapi.com
@@ -757,6 +750,13 @@ payload:
     - rtlog3-applog.fqnovel.com
     - rtlog5-applog-hl.fqnovel.com
     - rtlog5-applog.fqnovel.com
+    - +.coze.com
+    - +.marscode.com
+    - +.trae.ai
+    - +.cici.com
+    - +.ciciai.com
+    - +.ciciaicdn.com
+    - +.dola.com
     - +.bytedapm.com
     - +.byteoversea.com
     - +.muscdn.com
