@@ -144,9 +144,11 @@ payload:
   - adblogger.vk.com
   - adblogger.vk.ru
   - adfstat.yandex.ru
+  - ads-img.mozilla.org
   - ads-integration.rustore.ru
   - ads.dahlmessenger.com
   - ads.icq.com
+  - ads.mozilla.org
   - ads.rustore.ru
   - ads.vk.com
   - ads.vk.ru
@@ -189,6 +191,8 @@ payload:
   - click.rustore.ru
   - copilot-telemetry-service.githubusercontent.com
   - copilot-telemetry.githubusercontent.com
+  - incoming-telemetry.thunderbird.net
+  - incoming.telemetry.mozilla.org
   - informer.yandex.ru
   - mc.yandex.com
   - mc.yandex.net
