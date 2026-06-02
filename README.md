@@ -1,5 +1,5 @@
 ## cdn代理链接
-- [msater]( https://cdn.jsdelivr.net/gh/evecus/ruleset@master/) 
+- [master]( https://cdn.jsdelivr.net/gh/evecus/ruleset@master/) 
 - [ui]( https://cdn.jsdelivr.net/gh/evecus/ruleset@ui/)
 - [tv]( https://cdn.jsdelivr.net/gh/evecus/ruleset@tv/) 
 - [kernel]( https://cdn.jsdelivr.net/gh/evecus/ruleset@kernel/)
