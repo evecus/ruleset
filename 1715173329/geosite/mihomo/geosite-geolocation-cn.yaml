@@ -1038,6 +1038,7 @@ payload:
   - +.chinapostnews.com.cn
   - +.chinapp.net
   - +.chinapubmed.net
+  - +.chinaqw.com
   - +.chinaso.com
   - +.chinasspp.com
   - +.chinastock.com.cn
@@ -1153,6 +1154,7 @@ payload:
   - +.cnr.cn
   - +.cns.com.cn
   - +.cnsciedu.com
+  - +.cnsimg.net
   - +.cnspeedtest.cn
   - +.cnstock.com
   - +.cnsuning.com
@@ -2676,6 +2678,7 @@ payload:
   - +.jvcsmart.cn
   - +.jvcsmart.com.cn
   - +.jvoice.cn
+  - +.jwview.com
   - +.jxedt.com
   - +.jxksw.net
   - +.jxnews.com.cn
@@ -3343,6 +3346,7 @@ payload:
   - +.newniu.com
   - +.news.cn
   - +.news.yxrb.net
+  - +.newsimg.cn
   - +.newupbank.com
   - +.newyx.net
   - +.nextstudios.com
@@ -4203,6 +4207,7 @@ payload:
   - +.tianshucup.com
   - +.tianxiajiameng.cn
   - +.tianxiajiameng.com
+  - +.tianya.net
   - +.tianyancha.com
   - +.tibetairlines.com.cn
   - +.tidb.ai
@@ -4673,6 +4678,7 @@ payload:
   - +.xingyeai.com
   - +.xinhuanet.com
   - +.xinhuaxmt.com
+  - +.xinmeng.info
   - +.xinrenxinshi.com
   - +.xinshipu.com
   - +.xinwuji.com
@@ -4993,6 +4999,7 @@ payload:
   - +.zggqzp.com
   - +.zgjm.org
   - +.zgjsks.com
+  - +.zgjx.cn
   - +.zglxw.com
   - +.zgsydw.com
   - +.zgxytc.com

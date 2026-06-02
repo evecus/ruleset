@@ -52,6 +52,7 @@ payload:
   - +.chinanews.com
   - +.chinanews.com.cn
   - +.chinaott.com
+  - +.chinaqw.com
   - +.citv.net.cn
   - +.ckxx.net
   - +.cls.cn
@@ -60,6 +61,7 @@ payload:
   - +.cnms.net.cn
   - +.cnr.cn
   - +.cns.com.cn
+  - +.cnsimg.net
   - +.cnstock.com
   - +.cntv.cn
   - +.cntv.com.cn
@@ -160,6 +162,7 @@ payload:
   - +.jrjimg.cn
   - +.jsbc.com
   - +.jstv.com
+  - +.jwview.com
   - +.jxnews.com.cn
   - +.jxpp.com
   - +.jztvnews.com
@@ -187,6 +190,7 @@ payload:
   - +.nbd.com.cn
   - +.neweekly.com.cn
   - +.news.cn
+  - +.newsimg.cn
   - +.ofweek.com
   - +.olympicchannelchina.cn
   - +.ottcn.com
@@ -293,6 +297,7 @@ payload:
   - +.xilu.com
   - +.xinhuanet.com
   - +.xinhuaxmt.com
+  - +.xinmeng.info
   - +.xinyan.cn
   - +.xkb.com.cn
   - +.xn--fiq53l6wcx3kp9bc7joo6apn8a.cn
