@@ -17,6 +17,7 @@ payload:
   - +.10jqka.com.cn
   - +.11183.com.cn
   - +.11185.cn
+  - +.11222.cn
   - +.11467.com
   - +.114blog.com
   - +.114chn.com
@@ -254,6 +255,7 @@ payload:
   - +.56.com
   - +.56img.com
   - +.56laile.com
+  - +.56xiniao.com
   - +.58.com
   - +.58.com.cn
   - +.5858.com
@@ -343,6 +345,7 @@ payload:
   - +.9game.cn
   - +.9ht.com
   - +.9xgame.com
+  - +.9xsecndns.cn
   - +.9xu.com
   - +.a2z.org.cn
   - +.a9vg.com
@@ -451,8 +454,11 @@ payload:
   - +.alexafund.com.cn
   - +.ali213.net
   - +.alicloudccp.com
+  - +.aligames.com
   - +.alipan.com
   - +.alittle-tea.com
+  - +.aliwx.com.cn
+  - +.aliwx.net
   - +.aliyundrive.cloud
   - +.aliyundrive.com
   - +.aliyundrive.net
@@ -868,6 +874,7 @@ payload:
   - +.bsclink.cn
   - +.bsurl.cc
   - +.bsurl.cn
+  - +.btghotels.com
   - +.btgtravel.com
   - +.bthhotels.com
   - +.btime.com
@@ -1343,6 +1350,7 @@ payload:
   - +.danji100.com
   - +.danji6.com
   - +.danjuanfunds.com
+  - +.danniao.com
   - +.daocloud.io
   - +.daocloud.vip
   - +.daodoc.com
@@ -1399,6 +1407,7 @@ payload:
   - +.dengguobi.com
   - +.deppon.com
   - +.deppon.com.cn
+  - +.designkit.cn
   - +.develenv.com
   - +.devui.design
   - +.dfham.com
@@ -1417,6 +1426,8 @@ payload:
   - +.diandianqi.com
   - +.dianping.com
   - +.dianwannan.com
+  - +.dianwoda.cn
+  - +.dianwoda.com
   - +.dianzhenkeji.com
   - +.dicos.com.cn
   - +.dida365.com
@@ -1635,6 +1646,7 @@ payload:
   - +.eflycloud.com
   - +.efunds.com.cn
   - +.ehaier.com
+  - +.ejoy.com
   - +.elecfans.com
   - +.elong.com
   - +.elongstatic.com
@@ -2279,6 +2291,8 @@ payload:
   - +.huatu.com
   - +.huaweiapaas.com
   - +.huayingsc.com
+  - +.huazhu.com
+  - +.huazhucorp.com
   - +.hugecore.net
   - +.huijistatic.com
   - +.huijiwiki.com
@@ -2316,6 +2330,7 @@ payload:
   - +.huxiu.com
   - +.huxiucdn.com
   - +.huya.com
+  - +.hworld.com
   - +.hwshu.com
   - +.hwwlyz.com
   - +.hwwt8.com
@@ -2477,6 +2492,7 @@ payload:
   - +.is-cool.com.cn
   - +.iscas.ac.cn
   - +.ishumei.com
+  - +.ishuqi.com
   - +.istoreos.com
   - +.isxtv.com
   - +.it165.net
@@ -2535,6 +2551,7 @@ payload:
   - +.jianyuweb.com
   - +.jianzhi8.com
   - +.jiaodong.net
+  - +.jiaoyimao.cn
   - +.jiaoyimao.com
   - +.jiashule.com
   - +.jiasu.bohe.com
@@ -2560,6 +2577,9 @@ payload:
   - +.jingheiot.com
   - +.jinglingbiaozhu.com
   - +.jinianbi.com
+  - +.jinjiang.com
+  - +.jinjianghotels.com.cn
+  - +.jinjiangonline.net
   - +.jinrishici.com
   - +.jinrongren.net
   - +.jinse.com
@@ -2574,6 +2594,7 @@ payload:
   - +.jiuyue919.com
   - +.jiuzhilan.com
   - +.jj20.com
+  - +.jjtravel.com
   - +.jjwxc.net
   - +.jkbl.com
   - +.jlc-3dp.cn
@@ -2697,6 +2718,7 @@ payload:
   - +.kaifayun.com
   - +.kaifubiao.com
   - +.kaihong.com
+  - +.kaipai.com
   - +.kaipanhong.com
   - +.kaipuyun.cn
   - +.kaipuyun.com
@@ -2784,6 +2806,7 @@ payload:
   - +.ksmobile.com
   - +.ksord.com
   - +.ksosoft.com
+  - +.kspkg.com
   - +.ksyun.com
   - +.ksyuncdn.com
   - +.ksyungslb.com
@@ -2968,6 +2991,7 @@ payload:
   - +.lingkou.cn
   - +.lingkou.com
   - +.lingkou.xyz
+  - +.lingxigames.com
   - +.linka2a.net
   - +.linkvans.com
   - +.linliyz.com
@@ -3126,6 +3150,7 @@ payload:
   - +.meika360.com
   - +.meilishuo.com
   - +.meimingteng.com
+  - +.meipai.com
   - +.meipian.cn
   - +.meipian.me
   - +.meiqia.com
@@ -3136,7 +3161,9 @@ payload:
   - +.meituan.net
   - +.meitudata.com
   - +.meitustat.com
+  - +.meituxiuxiu.com
   - +.meiwulist.com
+  - +.meiyan.com
   - +.meizu.cn
   - +.meizu.com
   - +.meloong.com
@@ -3202,6 +3229,7 @@ payload:
   - +.minisohome.cn
   - +.minsio.cn
   - +.mipcdn.com
+  - +.miraclevision.com
   - +.mirrorcast.cn
   - +.mirrors.yun-idc.com
   - +.miusi.co
@@ -3488,6 +3516,7 @@ payload:
   - +.p2cdn.com
   - +.p2peye.com
   - +.p5w.net
+  - +.paidui.com
   - +.paipaibang.com
   - +.pan.baidu.com
   - +.pan.quark.cn
@@ -3753,6 +3782,7 @@ payload:
   - +.roblox.qq.com
   - +.robloxdev.cn
   - +.robomaster.com
+  - +.roboneo.com
   - +.roborock.com
   - +.rock-chips.com
   - +.rockyenglish.com
@@ -3907,6 +3937,10 @@ payload:
   - +.shuiyaohuo.com
   - +.shumensy.com
   - +.shuoshuokong.com
+  - +.shuqi.com
+  - +.shuqiapi.com
+  - +.shuqiread.com
+  - +.shuqireader.com
   - +.shutcm.com
   - +.shuxinyc.com
   - +.shyxhy.com
@@ -4004,6 +4038,7 @@ payload:
   - +.sq.cc
   - +.sqqnh.cn
   - +.sqqnh.org
+  - +.sqreader.com
   - +.ssajax.cn
   - +.sse.com.cn
   - +.sseinfo.com
@@ -4275,7 +4310,7 @@ payload:
   - +.trae.com.cn
   - +.trae.guru
   - +.trafficmanager.cn
-  - +.travelsky.com
+  - +.travelsky.com.cn
   - +.travelskymobile.cn
   - +.tritoninfo.net
   - +.trjcn.com
@@ -4289,7 +4324,6 @@ payload:
   - +.ttshitu.com
   - +.ttxsapp.com.cn
   - +.tudou.com
-  - +.tudouui.com
   - +.tuer123.com
   - +.tuicool.com
   - +.tuiwen.net
@@ -4518,6 +4552,7 @@ payload:
   - +.wfdata.club
   - +.wggames.cn
   - +.whccb.com
+  - +.whee.com
   - +.whhhealth.com
   - +.whlovehome.com
   - +.whois.pconline.com.cn
@@ -4534,6 +4569,7 @@ payload:
   - +.windowsazurestatus.cn
   - +.windowszj.com
   - +.winegame.net
+  - +.wink.cn
   - +.winos.me
   - +.winwin7.com
   - +.winyoungreading.com
@@ -4750,6 +4786,7 @@ payload:
   - +.xyzfm.space
   - +.xyzq.com.cn
   - +.xzking.com
+  - +.yaduo.com
   - +.yahoo.cn
   - +.yahoo.com.cn
   - +.yahui.cc
@@ -4972,6 +5009,7 @@ payload:
   - +.zbjimg.com
   - +.zcjbgame.com
   - +.zcmbc.com.cn
+  - +.zcool.com.cn
   - +.zctnet.top
   - +.zczj.com
   - +.zdfans.com
@@ -5064,6 +5102,7 @@ payload:
   - +.zhuoyou.com
   - +.zhuoyuegame.com
   - +.zhuye.kim
+  - +.zimgs.cn
   - +.ziroom.com
   - +.ziroomapartment.com
   - +.zixiaomao.com
