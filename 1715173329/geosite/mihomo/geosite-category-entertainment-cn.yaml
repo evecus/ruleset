@@ -48,9 +48,9 @@ payload:
   - +.71acg.com
   - +.71acg.net
   - +.7k7k.com
+  - +.97ting.com
   - +.9game.cn
   - +.9xgame.com
-  - +.9xsecndns.cn
   - +.aamgame.com
   - +.aamgame.mobi
   - +.aamgame.net
@@ -66,10 +66,7 @@ payload:
   - +.acplay.net
   - +.activity-wbsj.com
   - +.activity-zhendingtech.com
-  - +.ad.api.3g.youku.com
-  - +.ad.api.mobile.youku.com
-  - +.ad.mobile.youku.com
-  - +.adashx.ut.youku.com
+  - +.ad.tencentmusic.com
   - +.adbehavior.ximalaya.com
   - +.adbkwai.com
   - +.adkwai.com
@@ -78,6 +75,7 @@ payload:
   - +.adse.ximalaya.com
   - +.adserviceretry.kglink.cn
   - +.adserviceretry.kugou.com
+  - +.adstats.tencentmusic.com
   - +.adukwai.com
   - +.aichongzoo.cn
   - +.aihst8.com
@@ -99,7 +97,6 @@ payload:
   - +.ark.letv.com
   - +.astral-vector.com
   - +.atianqi.com
-  - +.atm.youku.com
   - +.awemeughun.com
   - +.awemeuglang.com
   - +.awemeugsoul.com
@@ -184,11 +181,9 @@ payload:
   - +.dwstatic.com
   - +.e.kuaishou.cn
   - +.e.kuaishou.com
-  - +.e.stat.ykimg.com
   - +.ecukwai.com
   - +.edgesrv.com
   - +.edu4399.com
-  - +.ems.youku.com
   - +.faloo.com
   - +.fanqiecopyright.com
   - +.fanqienovel.com
@@ -304,9 +299,7 @@ payload:
   - +.gotolink.net
   - +.gouhuo.qq.com
   - +.gtgres.com
-  - +.guanggaoad.youku.com
   - +.guoping123.com
-  - +.h-adashx.ut.youku.com
   - +.haidubooks.com
   - +.haohaowan.net
   - +.happyhlddz.com
@@ -389,6 +382,7 @@ payload:
   - +.jvcsmart.com.cn
   - +.kajicam.com
   - +.kesong.co
+  - +.kg.qq.com
   - +.kgimg.com
   - +.kglink.cn
   - +.kjcdn.com
@@ -423,8 +417,8 @@ payload:
   - +.kugouvoice.com
   - +.kugouyouth.com
   - +.kujiang.com
-  - +.kumiao.com
   - +.kurogames.com
+  - +.kurogames.net
   - +.kuwo.cn
   - +.kuyin123.com
   - +.kuyinxiu.com
@@ -452,8 +446,8 @@ payload:
   - +.log.hunantv.com
   - +.log.v2.hunantv.com
   - +.longtugame.com
+  - +.lrts.me
   - +.lsplayer.com
-  - +.lstat.youku.com
   - +.ludosuperstar.cn
   - +.ludoworld.net
   - +.luojilab.com
@@ -483,19 +477,18 @@ payload:
   - +.mihoyogift.com
   - +.mihoyomall.com
   - +.miyoushe.com
-  - +.mmstat.com
-  - +.mobilemsg.youku.com
   - +.mogoo.com
+  - +.monitor.music.qq.com
   - +.morefreegame.com
   - +.motie.com
   - +.motieimg.com
-  - +.msg.youku.com
   - +.msstatic.com
   - +.mszdld.cn
   - +.mszdld.com
   - +.mszdld.net
   - +.mtime.cn
   - +.mtime.com
+  - +.music.qq.com
   - +.muwai.com
   - +.muyewx.com
   - +.my4399.com
@@ -512,12 +505,9 @@ payload:
   - +.novelfmstatic.com
   - +.novelfmvod.com
   - +.nzsiteres.com
-  - +.p-log.ykimg.com
-  - +.passport-log.youku.com
   - +.pearvideo.com
   - +.phira.cn
   - +.pipi.cn
-  - +.pl.youku.com
   - +.podcast.xyz
   - +.ppkankan01.com
   - +.pplive.cn
@@ -539,6 +529,7 @@ payload:
   - +.qq163.com
   - +.qq163.net
   - +.qqgameapp.com
+  - +.qqmusic.com
   - +.qtfm.cn
   - +.quehu.com
   - +.qznovel.com
@@ -546,13 +537,13 @@ payload:
   - +.qznovelstatic.com
   - +.qznovelvod.com
   - +.realcybertron.com
+  - +.report.tencentmusic.com
   - +.res.hunantv.com
   - +.rmwxgame.com
   - +.roblox.cn
   - +.roblox.qq.com
   - +.robloxdev.cn
   - +.roco.qq.com
-  - +.s-adashx.ut.youku.com
   - +.sanguosha.com
   - +.sao.cn
   - +.saolife.com
@@ -575,10 +566,8 @@ payload:
   - +.skydweller.cn
   - +.sl916.com
   - +.smgbb.cn
-  - +.soku.com
   - +.sqreader.com
-  - +.stat.youku.com
-  - +.statis.api.3g.youku.com
+  - +.stat.y.qq.com
   - +.supercachenet.com
   - +.supercachenode.com
   - +.supercellcommunity.cn
@@ -588,6 +577,7 @@ payload:
   - +.taomee.com
   - +.tcfmglobal.com
   - +.tencent-gcloud.com
+  - +.tencentmusic.com
   - +.tencentstart.com
   - +.texasholdemcup.cn
   - +.texasholdemcup.com
@@ -599,15 +589,17 @@ payload:
   - +.tiancity.com
   - +.tiancitycdn.com
   - +.timibase.com
-  - +.tudou.com
+  - +.tingmall.com
+  - +.tmead.y.qq.com
+  - +.tmeadcomm.y.qq.com
   - +.tuer123.com
   - +.tuyoo.com
   - +.u17.com
   - +.u17i.com
   - +.u17t.com
   - +.ucg.cn
+  - +.ultimatemusic.cn
   - +.ultracachenode.com
-  - +.v6-adashx.ut.youku.com
   - +.vgtime.com
   - +.videoxiaoyouxi.com
   - +.viviv.com
@@ -648,17 +640,14 @@ payload:
   - +.xyzcdn.net
   - +.xyzfm.link
   - +.xyzfm.space
+  - +.y.qq.com
   - +.yamibo.com
   - +.ycgame.com
   - +.yeshen.com
   - +.yingxiong.com
   - +.yiyouliao.com
-  - +.yk-ssp.ad.youku.com
-  - +.ykad-data.youku.com
-  - +.ykimg.com
   - +.yokaverse.com
   - +.youba.com
-  - +.youku.com
   - +.youxichaguan.com
   - +.youxiputao.com
   - +.youxituoluo.com
