@@ -182,6 +182,7 @@
         "images-na.ssl-images-amazon.com",
         "imasdk.googleapis.com",
         "informer.yandex.ru",
+        "log.strm.yandex.ru",
         "mc.yandex.com",
         "mc.yandex.net",
         "mc.yango.com",
@@ -367,6 +368,7 @@
         "www.destinationurl.com",
         "www.gstatic.com",
         "www.pxcc.com",
+        "www.quora.com.cdn.cloudflare.net",
         "www.recaptcha.net",
         "yt3.googleusercontent.com"
       ],
@@ -716,6 +718,7 @@
         "claude.ai",
         "claude.com",
         "claudemcpclient.com",
+        "claudemcpcontent.com",
         "claudeusercontent.com",
         "clawhub-mirror.com",
         "clck.ru",
