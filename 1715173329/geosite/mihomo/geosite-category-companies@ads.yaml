@@ -194,6 +194,7 @@ payload:
   - incoming-telemetry.thunderbird.net
   - incoming.telemetry.mozilla.org
   - informer.yandex.ru
+  - log.strm.yandex.ru
   - mc.yandex.com
   - mc.yandex.net
   - mc.yango.com
