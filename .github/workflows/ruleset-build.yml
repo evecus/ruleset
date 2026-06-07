@@ -97,16 +97,16 @@ jobs:
           mkdir -p /tmp/mi
           cd /tmp/mi
 
-          wget -q "$BASE/cn_ip4-lite.yaml"
-          wget -q "$BASE/cn_ip-lite.yaml"
-          wget -q "$BASE/direct_ip.yaml"
-          wget -q "$BASE/foreign_ip4.yaml"
-          wget -q "$BASE/cn_domain.yaml"
-          wget -q "$BASE/cn_domain-lite.yaml"
-          wget -q "$BASE/direct.yaml"
-          wget -q "$BASE/foreign_domain-lite.yaml"
-          wget -q "$BASE/proxy.yaml"
-          wget -q "$BASE/ads.yaml"
+          wget "$BASE/cn_ip4-lite.yaml"
+          wget "$BASE/cn_ip-lite.yaml"
+          wget "$BASE/direct_ip.yaml"
+          wget "$BASE/foreign_ip4.yaml"
+          wget "$BASE/cn_domain.yaml"
+          wget "$BASE/cn_domain-lite.yaml"
+          wget "$BASE/direct.yaml"
+          wget "$BASE/foreign_domain-lite.yaml"
+          wget "$BASE/proxy.yaml"
+          wget "$BASE/ads.yaml"
           wget https://raw.githubusercontent.com/evecus/ruleset/refs/heads/master/mihomo/foreign_domain.yaml -O psite-full.yaml
 
           merge_yaml() {
