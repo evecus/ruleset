@@ -431,6 +431,7 @@ payload:
   - +.aiqicha.baidu.com
   - +.aiqicha.cn
   - +.aiqicha.com
+  - +.air-matters.com
   - +.airchangan.com
   - +.airchina.com.cn
   - +.airchinacargo.com
@@ -524,6 +525,7 @@ payload:
   - +.anywlan.com
   - +.anzhuo.cn
   - +.ao-x.ac.cn
+  - +.aocde.com
   - +.aoruszone.cn
   - +.aoshu.com
   - +.aotrip.net
@@ -942,6 +944,7 @@ payload:
   - +.cdn30.org
   - +.cdncl.net
   - +.cdndo.com
+  - +.cdnmama.com
   - +.cdnmg.com
   - +.ceair.com
   - +.ceati.org.cn
@@ -1176,6 +1179,7 @@ payload:
   - +.cntv.com.cn
   - +.cntvwb.cn
   - +.cnweblog.com
+  - +.cnwza.cn
   - +.cocodiy.com
   - +.code666.com
   - +.codebuddy.cn
@@ -1437,6 +1441,7 @@ payload:
   - +.dianwoda.com
   - +.dianzhenkeji.com
   - +.dicos.com.cn
+  - +.dict.cn
   - +.dida365.com
   - +.digicert.cn
   - +.diiing.cn
@@ -1535,6 +1540,7 @@ payload:
   - +.drp321.com
   - +.dtsbc.com.cn
   - +.dtstatic.com
+  - +.duanshu.com
   - +.duapp.com
   - +.duapp.net
   - +.duapps.com
@@ -1878,6 +1884,7 @@ payload:
   - +.futustatic.com
   - +.fuwai.com
   - +.fuwj.com
+  - +.fxbaogao.com
   - +.fxt365.com
   - +.fxxz.com
   - +.fzaqjy.com
@@ -2012,6 +2019,7 @@ payload:
   - +.goufw.com
   - +.gouhuo.qq.com
   - +.gov.cn
+  - +.govwza.cn
   - +.gowinamc.com
   - +.gpall.cn
   - +.gpall.net
@@ -2185,9 +2193,13 @@ payload:
   - +.hikunpeng.com.cn
   - +.hikunpeng.net
   - +.hikvision.com
+  - +.hisense-home.com
+  - +.hisense.com
   - +.hisensehitachi.com
+  - +.hisensekf.com
   - +.hisilicon.com
   - +.hisilicon.com.cn
+  - +.hismarttv.com
   - +.hitevision-solutions.com
   - +.hitokoto.cn
   - +.hitv.com
@@ -2360,6 +2372,7 @@ payload:
   - +.ibcet.org
   - +.ibidian.com
   - +.ibobscs.com
+  - +.iboxpay.com
   - +.ibuychem.com
   - +.icaidao.com
   - +.ichangtou.com
@@ -2410,6 +2423,7 @@ payload:
   - +.igetui.com
   - +.igexin.com
   - +.ign.com.cn
+  - +.iguopin.com
   - +.igwfmc.com
   - +.ihaohaoxuexi.com
   - +.ihappystudio.cn
@@ -2644,6 +2658,7 @@ payload:
   - +.job5588.com
   - +.job910.com
   - +.jobjm.com
+  - +.joinpay.com
   - +.jomocdn.cn
   - +.jomocdn.net
   - +.jomodns.cn
@@ -2687,6 +2702,7 @@ payload:
   - +.juejin.im
   - +.juequling.com
   - +.jugongdan.com
+  - +.juhaokan.org
   - +.juhuiwan.com
   - +.juhuiwan.com.cn
   - +.juhuiwan.net
@@ -2792,6 +2808,7 @@ payload:
   - +.kkmh.com
   - +.kksmg.com
   - +.kkzj.com
+  - +.klingai.com
   - +.klpbbs.com
   - +.knet.cn
   - +.knewsmart.com
@@ -2937,6 +2954,7 @@ payload:
   - +.leetcode.cn
   - +.legendofzelda.cn
   - +.legendofzelda.com.cn
+  - +.lehuipay.com
   - +.leigod.cn
   - +.leigod.com
   - +.leigodjsq.com
@@ -3106,6 +3124,7 @@ payload:
   - +.maisanqi.com
   - +.maixhub.com
   - +.mala.cn
+  - +.mama.cn
   - +.mamayz.cn
   - +.mamayz.com
   - +.mamecn.com
@@ -3188,6 +3207,7 @@ payload:
   - +.metaso.cn
   - +.mfcteda.com
   - +.mfuns.cn
+  - +.mfuns.net
   - +.mgmt-azure-api.cn
   - +.mgtv.com
   - +.mhystatic.com
@@ -3424,6 +3444,8 @@ payload:
   - +.nintendoswitch.cn
   - +.nintendoswitch.com.cn
   - +.nio.cn
+  - +.nio.com
+  - +.niohome.com
   - +.njcb.com.cn
   - +.njzq.com.cn
   - +.nlark.com
@@ -3564,6 +3586,7 @@ payload:
   - +.phfund.com.cn
   - +.phira.cn
   - +.phoenixcenter.cn
+  - +.php.cn
   - +.phpcomposer.com
   - +.phpweblog.net
   - +.piaoliang.com
@@ -3692,6 +3715,7 @@ payload:
   - +.qingdaochina.org
   - +.qingdaonews.com
   - +.qingping.co
+  - +.qingque.cn
   - +.qingsongchou.com
   - +.qingstor.com
   - +.qingting.fm
@@ -3831,6 +3855,7 @@ payload:
   - +.samsungeshop.com.cn
   - +.sandai.net
   - +.sandisk.cn
+  - +.sangfor.com.cn
   - +.sanguosha.com
   - +.sankuai.com
   - +.sanweihou.com
@@ -4136,6 +4161,7 @@ payload:
   - +.sxgou.cn
   - +.sxl.cn
   - +.sxlcdn.cn
+  - +.sxlcdn.com
   - +.sxsimg.com
   - +.sydw8.com
   - +.synology.cn
@@ -5049,6 +5075,7 @@ payload:
   - +.zdnscloud.org.cn
   - +.zdzq.com.cn
   - +.zealer.com
+  - +.zeekrgroup.com
   - +.zeekrlife.com
   - +.zgbk.com
   - +.zgbznet.com.cn
@@ -5120,6 +5147,7 @@ payload:
   - +.zhuanzhuan.com
   - +.zhuayoukong.com
   - +.zhubajie.com
+  - +.zhuge.com
   - +.zhulang.com
   - +.zhuoyou.com
   - +.zhuoyuegame.com
