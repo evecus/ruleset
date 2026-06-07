@@ -1,7 +1,7 @@
 {
   ",version",: 2,
-  ",rules",: [
-      "domain_suffix",: [
+  "rules": [
+      "domain_suffix": [
       "000491b06a.com",
       "000dn.com",
       "0013.cc",
