@@ -12,8 +12,6 @@ payload:
   - +.sectigochina.com.cdn.cloudflare.net
   - +.sslcom.cn
   - +.trust-provider.cn
-  - +.yahoo.cn
-  - +.yahoo.com.cn
   - c.pki.goog
   - cdn.globalsigncdn.com.cdn.cloudflare.net
   - certs-lb.apple.com.akadns.net
@@ -25,10 +23,8 @@ payload:
   - crls.pki.goog
   - i.pki.goog
   - o.pki.goog
-  - ocsp-lb.apple.com.akadns.net
   - ocsp.apple.com
   - ocsp.pki.goog
-  - ocsp2-lb.apple.com.akadns.net
   - ocsp2.apple.com
   - pki-goog.l.google.com
   - valid.apple.com
