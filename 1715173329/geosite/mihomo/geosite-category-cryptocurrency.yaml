@@ -73,6 +73,7 @@ payload:
   - +.coinalyze.net
   - +.coinbase.com
   - +.coindesk.com
+  - +.coingate.com
   - +.coingecko.com
   - +.coinglass.com
   - +.coinmap.org
@@ -113,12 +114,15 @@ payload:
   - +.huobiasia.vip
   - +.huobigroup.com
   - +.huobitoken.com
+  - +.hyperliquid.xyz
   - +.infura.io
   - +.invity.io
   - +.kraken.com
   - +.kraken.onl
   - +.kucoin.com
   - +.kucoin.plus
+  - +.lighter.exchange
+  - +.lighter.xyz
   - +.localbitcoins.com
   - +.localbitcoinschain.com
   - +.maple.finance
@@ -178,6 +182,7 @@ payload:
   - +.zb.com
   - +.zb.io
   - +.zb.live
+  - +.zklighter.elliot.ai
   - bybit-exchange.github.io
   - bybit.ada.support
   - d3r7nsslvs6aaf.cloudfront.net

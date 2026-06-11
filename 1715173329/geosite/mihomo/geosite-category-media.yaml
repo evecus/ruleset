@@ -2,6 +2,7 @@ payload:
   - +.bbc
   - +.bloomberg
   - +.fox
+  - +.nhk
   - +.sky
   - +.1917live.red
   - +.1degree.com.au
@@ -943,6 +944,9 @@ payload:
   - +.nfsc.global
   - +.nfscdict.com
   - +.nfscofficial.com
+  - +.nhk.jp
+  - +.nhk.or.jp
+  - +.nhkworld.jp
   - +.nikkan-gendai.com
   - +.nikkansports.com
   - +.nikkei-cnbc.co.jp

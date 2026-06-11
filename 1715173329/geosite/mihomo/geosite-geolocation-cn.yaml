@@ -288,6 +288,7 @@ payload:
   - +.6-u.com
   - +.61.com
   - +.6655.com
+  - +.66law.cn
   - +.66wz.com
   - +.68h5.com
   - +.6rooms.com
@@ -413,8 +414,11 @@ payload:
   - +.agoraio.cn
   - +.agoralab.co
   - +.agrantsem.com
+  - +.ahcaijing.com
+  - +.ahcjw.com
   - +.ahfda.com
   - +.ahitv.com
+  - +.ahwang.cn
   - +.aicdn.com
   - +.aichaoxing.com
   - +.aichongzoo.cn
@@ -604,6 +608,7 @@ payload:
   - +.autohome.tel
   - +.autoimg.cn
   - +.autoimg.com.cn
+  - +.avermedia.cn
   - +.avicfund.cn
   - +.avicsec.com
   - +.avlyun.com
@@ -715,6 +720,7 @@ payload:
   - +.baltamatica.org.cn
   - +.bambulab.com
   - +.bamenzhushou.com
+  - +.bandao.cn
   - +.bangongziyuan.com
   - +.bankcomm.cn
   - +.bankcomm.com
@@ -912,6 +918,8 @@ payload:
   - +.cankaoxiaoxi.com
   - +.canon.cn
   - +.canon.com.cn
+  - +.caocao.com.cn
+  - +.caocaokeji.cn
   - +.capitalonline.net
   - +.cardbaobao.com
   - +.carnoc.com
@@ -964,6 +972,7 @@ payload:
   - +.cf-ns.site
   - +.cf-ns.tech
   - +.cfgw.net.cn
+  - +.cfp.cn
   - +.cfsc.com.cn
   - +.cftest5.cn
   - +.cftest6.cn
@@ -1059,6 +1068,7 @@ payload:
   - +.chinatea.com.cn
   - +.chinatowercom.cn
   - +.chinatranslation.net
+  - +.chinaums.com
   - +.chinaunionpay.com
   - +.chinaunionpay.com.cn
   - +.chinaunionpay.net
@@ -1344,6 +1354,7 @@ payload:
   - +.dadajiasu.com
   - +.dadighost.com
   - +.daguzhe.com
+  - +.dahe.cn
   - +.daheapp.com
   - +.dahebao.cn
   - +.dajiabao.com
@@ -2084,9 +2095,12 @@ payload:
   - +.gwm.com.cn
   - +.gxairlines.com
   - +.gxb.io
+  - +.gxtv.cn
+  - +.gxxmt.com
   - +.gyzq.com.cn
   - +.gzcqs.com
   - +.gzctyiptv.cn
+  - +.gztv.com
   - +.gzurl.cn
   - +.gzwanju.com
   - +.gzyowin.com
@@ -2144,6 +2158,7 @@ payload:
   - +.heavenlywind.cc
   - +.hecdn.net
   - +.hefei.cc
+  - +.heimadata.com
   - +.heisha.net
   - +.heiyan.com
   - +.heiyanimg.com
@@ -2302,6 +2317,7 @@ payload:
   - +.huajiao.com
   - +.huajingsec.com
   - +.huajinsc.cn
+  - +.hualv.com
   - +.huangyuhui.net
   - +.huanleguang.com
   - +.huanqiu.com
@@ -2356,6 +2372,7 @@ payload:
   - +.hx168.com.cn
   - +.hxb.com.cn
   - +.hxfy888.com
+  - +.hxnews.com
   - +.hxsd.com
   - +.hxzq.cn
   - +.hybiome.com
@@ -2468,6 +2485,7 @@ payload:
   - +.infinitynewtab.com
   - +.infoq.cn
   - +.inftab.com
+  - +.infzm.com
   - +.ingka-dt.cn
   - +.ingka-internal.cn
   - +.ingka-system.cn
@@ -2511,6 +2529,7 @@ payload:
   - +.is-cool.cn
   - +.is-cool.com.cn
   - +.iscas.ac.cn
+  - +.ishijue.com
   - +.ishumei.com
   - +.ishuqi.com
   - +.istoreos.com
@@ -2776,6 +2795,7 @@ payload:
   - +.kekeniu.com
   - +.kemen.cn
   - +.kepuchina.cn
+  - +.keruyun.com
   - +.kesong.co
   - +.ketangpai.com
   - +.kexinshe.com
@@ -2886,6 +2906,7 @@ payload:
   - +.lady8844.com
   - +.lagou.com
   - +.lancdn.com
+  - +.landian.news
   - +.landian.vip
   - +.landian.xyz
   - +.landiannews.com
@@ -2993,6 +3014,7 @@ payload:
   - +.lg3000.top
   - +.lgstatic.com
   - +.lhzq.com
+  - +.liangtv.cn
   - +.lianjia.com
   - +.lianmishu.com
   - +.liantu.com
@@ -3273,6 +3295,7 @@ payload:
   - +.mmbang.info
   - +.mncmsidlab1.cn
   - +.mndqlib.net
+  - +.mnw.cn
   - +.mob.com
   - +.mobileinternational.com.cn
   - +.mobsdks.com
@@ -3412,6 +3435,7 @@ payload:
   - +.nextvid.net
   - +.nextworkshop.net
   - +.nffund.com
+  - +.nfpeople.com
   - +.nga.cn
   - +.ngabbs.com
   - +.ngacn.cc
@@ -3464,6 +3488,7 @@ payload:
   - +.nowcoder.net
   - +.nowcoder.org
   - +.nowscore.com
+  - +.npsv6.com
   - +.nruan.com
   - +.nssd.cn
   - +.ntalker.com
@@ -3539,6 +3564,7 @@ payload:
   - +.ottcn.com
   - +.oupeng.com
   - +.ourdvsss.com
+  - +.ourjiangsu.com
   - +.ourl.co
   - +.outlook.cn
   - +.owsgo.com
@@ -3652,6 +3678,7 @@ payload:
   - +.pushcfg.com
   - +.pv.hd.sohu.com
   - +.pv.sohu.com
+  - +.pwsannong.com
   - +.py-axa.com
   - +.qbitai.com
   - +.qbox.me
@@ -3869,6 +3896,7 @@ payload:
   - +.scctyiptv.cn
   - +.scdng.com
   - +.scescdn.cn
+  - +.scgchc.com
   - +.schoopia.com
   - +.scid.cn
   - +.sciencechina.cn
@@ -3879,6 +3907,8 @@ payload:
   - +.scratch5.com
   - +.scsentry.cn
   - +.scsjb.cn
+  - +.sctv-tf.com
+  - +.sctv.com
   - +.sczsxx.com
   - +.sda.cn
   - +.sdgdwljt.com
@@ -3953,6 +3983,7 @@ payload:
   - +.shimo.im
   - +.shimonote.com
   - +.shinescan.tech
+  - +.shipin520.com
   - +.shixiseng.com
   - +.shmetro.com
   - +.shobserver.com
@@ -4316,6 +4347,7 @@ payload:
   - +.tmtsmartlife.com
   - +.tmtsmartrun.com
   - +.tnettms.com
+  - +.to8to.com
   - +.tobosu.com
   - +.todesk.cn
   - +.todesk.com
@@ -4420,6 +4452,7 @@ payload:
   - +.ucnaming.com
   - +.ucnaming.info
   - +.ucnaming.net
+  - +.ucppt.com
   - +.udalogistic.cn
   - +.udalogistic.com
   - +.udesk.cn
@@ -4495,6 +4528,8 @@ payload:
   - +.vaptcha.com
   - +.vaptcha.net
   - +.variflight.com
+  - +.vcg.com
+  - +.vcgapi.com
   - +.vcimg.com
   - +.vdolady.com
   - +.veeqi.net
@@ -4758,6 +4793,7 @@ payload:
   - +.xinhuaxmt.com
   - +.xinlishumeng.com
   - +.xinmeng.info
+  - +.xinpianchang.com
   - +.xinrenxinshi.com
   - +.xinshipu.com
   - +.xinwuji.com
@@ -4795,6 +4831,7 @@ payload:
   - +.xnpic.com
   - +.xoyo.com
   - +.xoyocdn.com
+  - +.xpccdn.com
   - +.xpgod.com
   - +.xqfunds.com
   - +.xsa239.com
@@ -5006,6 +5043,7 @@ payload:
   - +.yunfancdn.com
   - +.yunify.com
   - +.yunkanpan.com
+  - +.yunnan.cn
   - +.yunpan.aliyun.com
   - +.yunpan.cn
   - +.yunpan.com
@@ -5084,6 +5122,7 @@ payload:
   - +.zggqzp.com
   - +.zgjm.org
   - +.zgjsks.com
+  - +.zgjtb.com
   - +.zgjx.cn
   - +.zglxw.com
   - +.zgsydw.com

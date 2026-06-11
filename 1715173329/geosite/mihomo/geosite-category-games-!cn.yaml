@@ -146,8 +146,6 @@ payload:
   - +.electronicarts.fr
   - +.embark-studios.com
   - +.embark.games
-  - +.eneba.com
-  - +.eneba.games
   - +.enlisted.net
   - +.epicgames.com
   - +.epicgames.dev
@@ -159,6 +157,7 @@ payload:
   - +.faceit-cdn.net
   - +.faceit.com
   - +.fanatical.com
+  - +.ficgs.com
   - +.fifastreet.com
   - +.fifastreet3.com
   - +.fire-emblem-heroes.com
@@ -182,6 +181,8 @@ payload:
   - +.game-repack.site
   - +.gamepass.com
   - +.gamesfirsthelsinki.com
+  - +.gamesplanet.com
+  - +.gametap.com
   - +.garena.co.id
   - +.garena.co.th
   - +.garena.com
@@ -202,6 +203,7 @@ payload:
   - +.gog-statics.com
   - +.gog.com
   - +.gooblox.com
+  - +.gpstatic.com
   - +.hackyourconsole.com
   - +.hayday.com
   - +.haydaygame.com
@@ -332,7 +334,9 @@ payload:
   - +.nexon.co.jp
   - +.nexon.com
   - +.nexon.io
+  - +.nexon.net
   - +.nexoncdn.co.kr
+  - +.nexongames.co.kr
   - +.nexus-cdn.com
   - +.nexusmods.com
   - +.nfsworld.com
