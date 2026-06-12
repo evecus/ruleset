@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain": [
-        "265.com",
         "2mdn-cn.net",
         "2mdn.net",
         "adeventtracker.spotify.com",
@@ -369,6 +368,7 @@
         "www.gstatic.com",
         "www.pxcc.com",
         "www.quora.com.cdn.cloudflare.net",
+        "www.recaptcha-cn.net",
         "www.recaptcha.net",
         "yt3.googleusercontent.com"
       ],
@@ -377,6 +377,7 @@
         "112263.com",
         "1e100.net",
         "1ucrs.com",
+        "265.com",
         "2mdn-cn.net",
         "2mdn.net",
         "466453.com",
@@ -763,6 +764,7 @@
         "cozetest.cn",
         "cozetest2.cn",
         "cozetest3.cn",
+        "crashlytics.com",
         "crixet.com",
         "crossmediapanel.com",
         "crowdtangle.com",

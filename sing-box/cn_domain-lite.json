@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain": [
-        "265.com",
         "2mdn-cn.net",
         "2mdn.net",
         "a1.mzstatic.com",
@@ -596,6 +595,7 @@
         "www.gstatic.com",
         "www.microsoft.com",
         "www.pxcc.com",
+        "www.recaptcha-cn.net",
         "www.recaptcha.net",
         "www.support.apple.com",
         "www4-static.gog-statics.com",
@@ -705,6 +705,7 @@
         "2345.com",
         "258.com",
         "263.net",
+        "265.com",
         "289.com",
         "2cto.com",
         "2dfire.com",
