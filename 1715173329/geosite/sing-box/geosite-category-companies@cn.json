@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain": [
-        "265.com",
         "2mdn-cn.net",
         "2mdn.net",
         "a1.mzstatic.com",
@@ -502,6 +501,7 @@
         "www.gstatic.com",
         "www.microsoft.com",
         "www.pxcc.com",
+        "www.recaptcha-cn.net",
         "www.recaptcha.net",
         "www.support.apple.com",
         "xp.apple.com"
@@ -510,6 +510,7 @@
         "21vbc.com",
         "21vbluecloud.com",
         "21vbluecloud.net",
+        "265.com",
         "a2z.org.cn",
         "aadrm.cn",
         "aboutamazon.cn",

@@ -9,4 +9,6 @@ payload:
   - +.swiftui.cn
   - +.swiftui.com.cn
   - cdn.ampproject.org
+  - crashlyticsreports-pa.googleapis.com
   - firebase-settings.crashlytics.com
+  - update.crashlytics.com
