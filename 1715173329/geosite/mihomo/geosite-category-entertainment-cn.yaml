@@ -2,6 +2,7 @@ payload:
   - +.11222.cn
   - +.13a.com
   - +.17173.com
+  - +.17173cdn.com
   - +.172mix.com
   - +.17k.com
   - +.17roco.com
@@ -10,6 +11,10 @@ payload:
   - +.1xhh.cn
   - +.3304399.com
   - +.3304399.net
+  - +.37.com
+  - +.37.com.cn
+  - +.37wan.net
+  - +.37wanimg.com
   - +.3839.com
   - +.3839apk.com
   - +.3839app.com
@@ -44,7 +49,9 @@ payload:
   - +.5054399.net
   - +.51zmt.top
   - +.5wyxi.com
+  - +.6.cn
   - +.61.com
+  - +.6rooms.com
   - +.71acg.com
   - +.71acg.net
   - +.7k7k.com
@@ -130,11 +137,13 @@ payload:
   - +.bsbsb.top
   - +.buke999.com
   - +.bx1k.com
+  - +.cbjq.com
   - +.ccw.site
   - +.cdkeynogap.com
   - +.cdncl.net
   - +.cgames.com
   - +.changdunovel.com
+  - +.changyou.com
   - +.chat.top
   - +.chuapp.com
   - +.cibn.cc
@@ -145,6 +154,7 @@ payload:
   - +.codm.com
   - +.cookicut.com
   - +.cowlevel.net
+  - +.cy.com
   - +.da.hunantv.com
   - +.da.mgtv.com
   - +.dandanplay.com
@@ -175,6 +185,7 @@ payload:
   - +.douyutv.com
   - +.dtstatic.com
   - +.duitang.com
+  - +.duoduocdn.com
   - +.duoshan.com
   - +.duowan.com
   - +.dwstatic.com
@@ -196,6 +207,7 @@ payload:
   - +.fanqiesdkvod.com
   - +.fanxingliveshow.com
   - +.feihuo.com
+  - +.fengniao.com
   - +.ffbuddy.com
   - +.forevernine.com
   - +.fqnovel-op.com
@@ -363,6 +375,7 @@ payload:
   - +.ihuoshanvod.com
   - +.ihykb.com
   - +.ikstatic.cn
+  - +.img-space.com
   - +.img4399.com
   - +.imgo.tv
   - +.in.th
@@ -507,6 +520,7 @@ payload:
   - +.pearvideo.com
   - +.phira.cn
   - +.pipi.cn
+  - +.playcool.com
   - +.podcast.xyz
   - +.ppkankan01.com
   - +.pplive.cn
@@ -553,7 +567,11 @@ payload:
   - +.scid.cn
   - +.scsentry.cn
   - +.sdo.com
+  - +.seasungames.cn
+  - +.seasungames.com
+  - +.seasunwbl.com
   - +.sfacg.com
+  - +.sgamer.com
   - +.shengqugames.com
   - +.shoutanjjj.com
   - +.shuhai.com
@@ -579,6 +597,7 @@ payload:
   - +.tencent-gcloud.com
   - +.tencentmusic.com
   - +.tencentstart.com
+  - +.testplus.cn
   - +.texasholdemcup.cn
   - +.texasholdemcup.com
   - +.texasholdemcup.net
@@ -634,8 +653,12 @@ payload:
   - +.ximalaya.com
   - +.xinlishumeng.com
   - +.xinwuji.com
+  - +.xishanju.com
+  - +.xiu123.cn
   - +.xmcdn.com
   - +.xn--owtw8cc49ajfl.cn
+  - +.xoyo.com
+  - +.xoyocdn.com
   - +.xyys.com
   - +.xyzcdn.net
   - +.xyzfm.link
@@ -666,6 +689,8 @@ payload:
   - +.yzyxgame.com
   - +.zcjbgame.com
   - +.zhanqi.tv
+  - +.zhibo8.cc
+  - +.zhibo8.com
   - +.zhulang.com
   - +.zhuoyou.com
   - +.zhuoyuegame.com
