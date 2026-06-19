@@ -10,8 +10,13 @@ permissions:
 
 jobs:
   # ============================================================
-  # Job 1: 自建规则集生成 (原: 统一规则生成.yml)
+  # Job 1: 自建规则集生成
   # 产出 -> master 分支: sing-box/*.json|srs, mihomo/*.yaml|mrs
+  # 规则清单:
+  #   geoip-cn, geoip4-cn, geoip-gfw, geoip4-gfw
+  #   geosite-cn, geosite-ads
+  #   geosite-gfw (合并 gfw + geolocation-!cn，内联逻辑)
+  #   geoip-telegram, geosite-google (直接下载自 MetaCubeX)
   # ============================================================
   build-custom-rules:
     name: 生成自建规则集 (sing-box & mihomo)
@@ -33,134 +38,207 @@ jobs:
           gunzip mihomo-linux-amd64-v1.19.17.gz
           chmod +x mihomo-linux-amd64-v1.19.17
           sudo mv mihomo-linux-amd64-v1.19.17 /usr/local/bin/mihomo
+          pip install requests PyYAML
           sing-box version
           mihomo -v
 
       - name: 自动创建目录
-        run: mkdir -p sing-box mihomo temp_work temp_build temp_ip
+        run: mkdir -p sing-box mihomo temp_work temp_ip
 
-      - name: 处理所有 IP 规则
+      # ── IP 规则 ────────────────────────────────────────────────
+      - name: 处理 IP 规则 (geoip-cn / geoip4-cn / geoip-gfw / geoip4-gfw)
         run: |
           set -euo pipefail
-          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.json" -o sing-box/cn_ip.json
-          jq '.rules[0] |= {ip_cidr: [.ip_cidr[] | select(contains(":") | not)]}' sing-box/cn_ip.json > sing-box/cn_ip4.json
-          curl -L "https://raw.githubusercontent.com/1715173329/IPCIDR-CHINA/refs/heads/rule-set/cn.srs" -o temp_work/cn_lite_raw.srs
-          sing-box rule-set decompile --output sing-box/cn_ip-lite.json temp_work/cn_lite_raw.srs
-          jq '.rules[0] |= {ip_cidr: [.ip_cidr[] | select(contains(":") | not)]}' sing-box/cn_ip-lite.json > sing-box/cn_ip4-lite.json
 
+          # geoip-cn: 下载全量 CN IP
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.json" \
+            -o sing-box/geoip-cn.json
+          # geoip4-cn: 仅保留 IPv4
+          jq '.rules[0] |= {ip_cidr: [.ip_cidr[] | select(contains(":") | not)]}' \
+            sing-box/geoip-cn.json > sing-box/geoip4-cn.json
+
+          # geoip-gfw: 合并 facebook / google / twitter / telegram 的 IP
           IP_FILES=("facebook.yaml" "google.yaml" "twitter.yaml" "telegram.yaml")
           for file in "${IP_FILES[@]}"; do
-            curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/$file" -o "temp_ip/$file"
+            curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/$file" \
+              -o "temp_ip/$file"
             grep -E '^\s*-\s*' "temp_ip/$file" | sed 's/^[[:space:]]*- //' >> temp_ip/all_raw_ips.txt
           done
           grep -v ":" temp_ip/all_raw_ips.txt | sort -u > temp_ip/v4.txt || true
-          grep ":" temp_ip/all_raw_ips.txt | sort -u > temp_ip/v6.txt || true
-          jq -n --rawfile v4 temp_ip/v4.txt --rawfile v6 temp_ip/v6.txt '{version: 2, rules: [{ip_cidr: [($v4|split("\n")[]), ($v6|split("\n")[])] | map(select(length>0))}]}' > sing-box/foreign_ip.json
-          jq -n --rawfile v4 temp_ip/v4.txt '{version: 2, rules: [{ip_cidr: ($v4|split("\n")|map(select(length>0)))}]}' > sing-box/foreign_ip4.json
+          grep  ":" temp_ip/all_raw_ips.txt | sort -u > temp_ip/v6.txt || true
 
-          for f in cn_ip cn_ip4 cn_ip-lite cn_ip4-lite foreign_ip foreign_ip4; do
+          jq -n \
+            --rawfile v4 temp_ip/v4.txt \
+            --rawfile v6 temp_ip/v6.txt \
+            '{version:2, rules:[{ip_cidr:[($v4|split("\n")[]),($v6|split("\n")[])]|map(select(length>0))}]}' \
+            > sing-box/geoip-gfw.json
+          jq -n \
+            --rawfile v4 temp_ip/v4.txt \
+            '{version:2, rules:[{ip_cidr:($v4|split("\n")|map(select(length>0)))}]}' \
+            > sing-box/geoip4-gfw.json
+
+          # 生成对应的 mihomo yaml
+          for f in geoip-cn geoip4-cn geoip-gfw geoip4-gfw; do
             echo "payload:" > "mihomo/$f.yaml"
             jq -r '.rules[].ip_cidr[]?' "sing-box/$f.json" | sed 's/^/  - /' >> "mihomo/$f.yaml"
           done
 
-      - name: 处理精简/修复版域名规则
-        run: |
-          set -euo pipefail
-          curl -L "https://raw.githubusercontent.com/1715173329/sing-geosite/refs/heads/rule-set-unstable/geosite-geolocation-cn.srs" -o temp_work/cn_dom_raw.srs
-          sing-box rule-set decompile --output temp_work/raw_cn_dom.json temp_work/cn_dom_raw.srs
-          jq '{version: .version, rules: [.rules[] | {domain: (.domain | map(sub("^\\.+"; ""))), domain_suffix: (.domain_suffix | map(sub("^\\.+"; "")))} | del(..|nulls)]}' temp_work/raw_cn_dom.json > sing-box/cn_domain-lite.json
-
-          FILES=("google.yaml" "meta.yaml" "yandex.yaml" "facebook.yaml" "paypal.yaml" "youtube.yaml" "instagram.yaml" "bloomberg.yaml" "category-ai-cn.yaml" "hbo.yaml" "google-gemini.yaml" "twitch.yaml" "hulu.yaml" "tiktok.yaml" "bbc.yaml" "github.yaml" "spotify.yaml" "discord.yaml" "primevideo.yaml" "netflix.yaml" "x.yaml" "openai.yaml" "twitter.yaml" "line.yaml" "wikimedia.yaml" "telegram.yaml" "archive.yaml" "whatsapp.yaml" "reddit.yaml" "wsj.yaml" "google-play.yaml" "slack.yaml" "nytimes.yaml" "anthropic.yaml" "perplexity.yaml" "quora.yaml" "reuters.yaml" "messenger.yaml" "clubhouse.yaml" "internet-archive.yaml" "zaobao.yaml" "medium.yaml" "threads.yaml" "xai.yaml")
-          for file in "${FILES[@]}"; do
-            curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/$file" -o "temp_work/$file"
-            curl -sL "https://raw.githubusercontent.com/evecus/rules_set/refs/heads/master/mihomo/proxy.yaml" -o "temp_work/proxy.yaml"
-            grep -E '^\s*-\s*"?\+\.' "temp_work/$file" | sed -E 's/^[[:space:]]*- "?\+\.//; s/"$//; s/^\.*//' >> temp_build/suffix.txt || true
-            grep -E '^\s*-\s*[^+. ]' "temp_work/$file" | grep -v "payload:" | sed -E 's/^[[:space:]]*- "//; s/^[[:space:]]*- //; s/"$//' >> temp_build/exact.txt || true
-          done
-          sort -u temp_build/suffix.txt -o temp_build/s.txt; sort -u temp_build/exact.txt -o temp_build/e.txt
-          jq -n --rawfile s temp_build/s.txt --rawfile e temp_build/e.txt '{version:2, rules:[{domain:($e|split("\n")|map(select(length>0))), domain_suffix:($s|split("\n")|map(select(length>0)))}]}' > sing-box/foreign_domain-lite.json
-
-          for f in cn_domain-lite foreign_domain-lite ads_domain-lite; do
-            echo "payload:" > "mihomo/$f.yaml"
-            jq -r '.rules[].domain_suffix[]?' "sing-box/$f.json" | sed 's/^\.*//; s/^/  - +./' >> "mihomo/$f.yaml" || true
-            jq -r '.rules[].domain[]?' "sing-box/$f.json" | sed 's/^\.*//; s/^/  - /' >> "mihomo/$f.yaml" || true
-          done
-
-      - name: 处理全量域名规则
-        run: |
-          set -euo pipefail
-          curl -L "https://raw.githubusercontent.com/1715173329/sing-geosite/refs/heads/rule-set-unstable/geosite-geolocation-!cn.srs" -o temp_work/f_raw.srs
-          sing-box rule-set decompile --output temp_work/f_raw.json temp_work/f_raw.srs
-          jq '{version: .version, rules: [.rules[] | {domain: (.domain | map(sub("^\\.+"; ""))), domain_suffix: (.domain_suffix | map(sub("^\\.+"; "")))} | del(..|nulls)]}' temp_work/f_raw.json > sing-box/foreign_domain.json
-          echo "payload:" > mihomo/foreign_domain.yaml
-          jq -r '.rules[].domain_suffix[]?' sing-box/foreign_domain.json | sed 's/^\.*//; s/^/  - +./' >> mihomo/foreign_domain.yaml
-          jq -r '.rules[].domain[]?' sing-box/foreign_domain.json | sed 's/^\.*//; s/^/  - /' >> mihomo/foreign_domain.yaml
-
-          wget https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml -O mihomo/cn_domain.yaml
-          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.json" -o sing-box/cn_domain.json
-          curl -L "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-clash.yaml" -o mihomo/ads.yaml
-          curl -L "https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/anti-ad-sing-box.srs" -o sing-box/ads.srs
-          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.yaml" -o mihomo/ads-lite.yaml
-          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ads-all.json" -o sing-box/ads-lite.json
-
-      - name: 处理 Google 合并规则 (goo)
+      # ── 域名规则：geosite-cn / geosite-ads ────────────────────
+      - name: 处理域名规则 (geosite-cn / geosite-ads)
         run: |
           set -euo pipefail
 
-          # --- mihomo: 合并 google.yaml + google-gemini.yaml → goo.yaml ---
-          curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.yaml" \
-            -o temp_work/google_dom.yaml
-          curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google-gemini.yaml" \
-            -o temp_work/google_gemini_dom.yaml
+          # geosite-cn
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.json" \
+            -o sing-box/geosite-cn.json
+          wget "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml" \
+            -O mihomo/geosite-cn.yaml
 
-          # 提取 +. 开头的 suffix 条目（去掉 +. 前缀后去重排序）
-          {
-            grep -E '^\s*-\s*"?\+\.' temp_work/google_dom.yaml || true
-            grep -E '^\s*-\s*"?\+\.' temp_work/google_gemini_dom.yaml || true
-          } | sed -E 's/^[[:space:]]*- "?\+\.//; s/"$//' | sort -u > temp_work/goo_suffix.txt
+          # geosite-ads: 来自 anti-AD
+          # sing-box: 下载已编译的 srs → decompile → 重新 compile
+          curl -L "https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/anti-ad-sing-box.srs" \
+            -o temp_work/ads_raw.srs
+          sing-box rule-set decompile --output temp_work/ads_raw.json temp_work/ads_raw.srs
+          # 规范化：去除域名前导点
+          jq '{version:.version, rules:[.rules[] | {
+                domain:        (if (.domain        | type=="array") then (.domain        | map(sub("^\\.+";""))) else null end),
+                domain_suffix: (if (.domain_suffix | type=="array") then (.domain_suffix | map(sub("^\\.+";""))) else null end)
+              } | del(..|nulls)]}' temp_work/ads_raw.json > sing-box/geosite-ads.json
+          # mihomo: 直接下载 clash yaml
+          curl -L "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-clash.yaml" \
+            -o mihomo/geosite-ads.yaml
 
-          # 提取精确域名条目（去重排序）
-          {
-            grep -E '^\s*-\s*[^+. ]' temp_work/google_dom.yaml | grep -v "payload:" || true
-            grep -E '^\s*-\s*[^+. ]' temp_work/google_gemini_dom.yaml | grep -v "payload:" || true
-          } | sed -E 's/^[[:space:]]*- "//; s/^[[:space:]]*- //; s/"$//' | sort -u > temp_work/goo_exact.txt
+      # ── 域名规则：geosite-gfw (内联合并逻辑) ──────────────────
+      - name: 生成 geosite-gfw (合并 gfw + geolocation-!cn)
+        shell: python
+        run: |
+          import json, os, requests, yaml
 
-          # 写入 goo.yaml
-          echo "payload:" > mihomo/goo.yaml
-          sed 's/^/  - +./' temp_work/goo_suffix.txt >> mihomo/goo.yaml
-          sed 's/^/  - /'   temp_work/goo_exact.txt  >> mihomo/goo.yaml
+          SB_DIR = "sing-box"
+          MH_DIR = "mihomo"
 
-          # --- sing-box: 合并 google.json + google-gemini.json → goo.json ---
-          curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.json" \
-            -o temp_work/google_dom.json
-          curl -sL "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google-gemini.json" \
-            -o temp_work/google_gemini_dom.json
+          # ── sing-box JSON 合并 ──────────────────────────────────
+          JSON_URLS = [
+            "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/gfw.json",
+            "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/geolocation-!cn.json",
+          ]
 
-          # 合并两个 JSON：domain 和 domain_suffix 分别去重排序后写入 goo.json
-          jq -s '
-            {
-              version: 2,
-              rules: [{
-                domain: (
-                  [.[].rules[].domain? // [] | .[]]
-                  | map(sub("^\\.+"; ""))
-                  | unique | sort
-                ),
-                domain_suffix: (
-                  [.[].rules[].domain_suffix? // [] | .[]]
-                  | map(sub("^\\.+"; ""))
-                  | unique | sort
-                )
-              }]
-            }
-          ' temp_work/google_dom.json temp_work/google_gemini_dom.json > sing-box/goo.json
-      
+          all_rules = []
+          ver = 2
+          for url in JSON_URLS:
+            try:
+              r = requests.get(url, timeout=30)
+              d = r.json()
+              if "version" in d: ver = d["version"]
+              if "rules"   in d: all_rules.extend(d["rules"])
+            except Exception as e:
+              print(f"JSON 错误 {url}: {e}")
+
+          # 按字段组合分组，组内 set 去重，输出时排序
+          merged = {}
+          for rule in all_rules:
+            list_keys = tuple(sorted(k for k, v in rule.items() if isinstance(v, list)))
+            if not list_keys:
+              continue
+            if list_keys not in merged:
+              merged[list_keys] = {k: set() for k in list_keys}
+              for k, v in rule.items():
+                if not isinstance(v, list):
+                  merged[list_keys][k] = v
+            for k in list_keys:
+              merged[list_keys][k].update(rule.get(k, []))
+
+          final_rules = []
+          for keys in sorted(merged.keys()):
+            content = merged[keys]
+            new_rule = {k: (sorted(list(v)) if isinstance(v, set) else v) for k, v in content.items()}
+            final_rules.append(new_rule)
+
+          out_json = os.path.join(SB_DIR, "geosite-gfw.json")
+          with open(out_json, "w", encoding="utf-8") as f:
+            json.dump({"version": ver, "rules": final_rules}, f, indent=2, ensure_ascii=False)
+          print(f"JSON 已保存: {out_json}  (共 {len(final_rules)} 条规则组)")
+
+          # ── mihomo YAML 合并 ────────────────────────────────────
+          YAML_URLS = [
+            "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/gfw.yaml",
+            "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/geolocation-!cn.yaml",
+          ]
+
+          def consolidate_domains(payloads):
+            """
+            通配符覆盖去重：
+              +.domain  → 匹配自身及所有子域名
+              domain    → 仅精确匹配
+            去重规则：
+              1) 通配符组内，父级已覆盖的子级剔除
+              2) 精确域名若已被任意通配符覆盖则剔除
+              3) 输出：通配符在前，精确域名在后，各自按字母排序
+            """
+            plain, wildcard = set(), set()
+            for p in payloads:
+              p = (p or "").strip()
+              if not p:
+                continue
+              if p.startswith("+."):
+                wildcard.add(p[2:])
+              else:
+                plain.add(p)
+
+            kept_wc = []
+            for d in sorted(wildcard, key=lambda x: x.count(".")):
+              if not any(d == w or d.endswith("." + w) for w in kept_wc):
+                kept_wc.append(d)
+            kept_wc_set = set(kept_wc)
+
+            kept_plain = [
+              d for d in plain
+              if not any(d == w or d.endswith("." + w) for w in kept_wc_set)
+            ]
+            return sorted(f"+.{d}" for d in kept_wc_set) + sorted(kept_plain)
+
+          all_payloads = set()
+          for url in YAML_URLS:
+            try:
+              r = requests.get(url, timeout=30)
+              d = yaml.safe_load(r.text)
+              if d and "payload" in d:
+                all_payloads.update(d["payload"])
+            except Exception as e:
+              print(f"YAML 错误 {url}: {e}")
+
+          final_payload = consolidate_domains(all_payloads)
+
+          out_yaml = os.path.join(MH_DIR, "geosite-gfw.yaml")
+          with open(out_yaml, "w", encoding="utf-8") as f:
+            yaml.dump({"payload": final_payload}, f, default_flow_style=False, allow_unicode=True)
+          print(f"YAML 已保存: {out_yaml}  (去重前 {len(all_payloads)} 条，去重后 {len(final_payload)} 条)")
+
+      # ── 直接下载：geoip-telegram / geosite-google ──────────────
+      - name: 下载 geoip-telegram 与 geosite-google
+        run: |
+          set -euo pipefail
+
+          # sing-box JSON
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/telegram.json" \
+            -o sing-box/geoip-telegram.json
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/google.json" \
+            -o sing-box/geosite-google.json
+
+          # mihomo YAML
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/telegram.yaml" \
+            -o mihomo/geoip-telegram.yaml
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google.yaml" \
+            -o mihomo/geosite-google.yaml
+
+      # ── 编译并提交至 master 分支 ───────────────────────────────
       - name: 编译与提交至 master 分支
         run: |
           set -euo pipefail
 
+          # sing-box: JSON → SRS
           for f in sing-box/*.json; do
-            if [ -f "$f" ] && [ $(jq '.rules | length' "$f") -gt 0 ]; then
+            if [ -f "$f" ] && [ "$(jq '.rules | length' "$f")" -gt 0 ]; then
               echo "正在编译 Sing-box 规则: $f"
               sing-box rule-set compile --output "${f%.json}.srs" "$f"
             else
@@ -168,6 +246,7 @@ jobs:
             fi
           done
 
+          # mihomo: YAML → MRS
           for f in mihomo/*.yaml; do
             if [ -f "$f" ]; then
               if grep -q "^  - " "$f"; then
@@ -187,7 +266,7 @@ jobs:
           git checkout master || git checkout -b master
 
           git add sing-box/*.json sing-box/*.srs || true
-          git add mihomo/*.yaml mihomo/*.mrs || true
+          git add mihomo/*.yaml  mihomo/*.mrs   || true
 
           if ! git diff --cached --quiet; then
             git commit -m "chore: 完整同步规则集 $(date +'%Y-%m-%d %H:%M')"
@@ -226,7 +305,6 @@ jobs:
           curl -L "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip" -o "meta.zip"
           echo "正在下载 Zashboard..."
           curl -L "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages-misans-only.zip" -o "zash.zip"
-
 
       - name: 提交至 ui 分支
         run: |
@@ -277,13 +355,12 @@ jobs:
           mkdir -p /tmp/MetaCubeX/sing-box/geoip
 
           cp source-meta/geo/geosite/*.{mrs,yaml,json} /tmp/MetaCubeX/mihomo/geosite/ 2>/dev/null || true
-          cp source-meta/geo/geoip/*.{mrs,yaml,json} /tmp/MetaCubeX/mihomo/geoip/ 2>/dev/null || true
-          cp source-sing/geo/geosite/*.{srs,json} /tmp/MetaCubeX/sing-box/geosite/ 2>/dev/null || true
-          cp source-sing/geo/geoip/*.{srs,json} /tmp/MetaCubeX/sing-box/geoip/ 2>/dev/null || true
+          cp source-meta/geo/geoip/*.{mrs,yaml,json}   /tmp/MetaCubeX/mihomo/geoip/   2>/dev/null || true
+          cp source-sing/geo/geosite/*.{srs,json}      /tmp/MetaCubeX/sing-box/geosite/ 2>/dev/null || true
+          cp source-sing/geo/geoip/*.{srs,json}        /tmp/MetaCubeX/sing-box/geoip/   2>/dev/null || true
 
       - name: 上传 YAML & JSON 至 laws 分支
         run: |
-          # 重新 clone laws 分支保证基于最新 HEAD
           git clone --depth 1 --branch laws \
             "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
             /tmp/laws_repo_j3
@@ -306,7 +383,6 @@ jobs:
 
       - name: 上传 MRS & SRS 至 master 分支
         run: |
-          # 重新 clone master 分支保证基于最新 HEAD（Job1 已推送）
           git clone --depth 1 --branch master \
             "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
             /tmp/master_repo_j3
@@ -394,7 +470,7 @@ jobs:
           if [ "$SUCCESS" = "true" ]; then
             grep -E '^[0-9a-fA-F:./]+' "temp_ip/ip_raw.txt" | tr -d '\r' > "temp_ip/ip.txt"
             grep "\." "temp_ip/ip.txt" > "temp_ip/ip4.txt" || true
-            grep ":" "temp_ip/ip.txt" > "temp_ip/ip6.txt" || true
+            grep  ":" "temp_ip/ip.txt" > "temp_ip/ip6.txt" || true
             for file in ip ip4 ip6; do
               if [ -s "temp_ip/$file.txt" ]; then
                 jq -n --rawfile ips "temp_ip/$file.txt" '{version: 2, rules: [{ip_cidr: ($ips | split("\n") | map(select(length > 0)))}] }' > "$SB_DIR/$file.json"
@@ -409,11 +485,9 @@ jobs:
 
       - name: 3. 上传 JSON/YAML 至 laws 分支
         run: |
-          # 备份生成结果
           mkdir -p /tmp/generated_files
           cp -r 1715173329/ /tmp/generated_files/
 
-          # 重新 clone laws 分支，保证基于远端最新 HEAD（Job3 已推送）
           git clone --depth 1 --branch laws \
             "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
             /tmp/laws_repo
@@ -436,7 +510,6 @@ jobs:
 
       - name: 4. 上传 SRS/MRS 至 master 分支
         run: |
-          # 重新 clone master 分支，保证基于远端最新 HEAD（Job1/Job3 已推送）
           git clone --depth 1 --branch master \
             "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
             /tmp/master_repo
@@ -528,35 +601,25 @@ jobs:
           echo "下载: $SB_ARM64"
           curl -fL "$SB_BASE/$SB_ARM64" -o sing-box-linux-arm64-glibc.tar.gz
 
-      
-
           # ── 4. 验证文件大小 ────────────────────────────────────────
 
           # ── 5. 提交至 kernel 分支 ──────────────────────────────────
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 暂存新下载的文件到临时目录，防止切换分支时被 git checkout 冲掉
           mkdir -p /tmp/new_kernels
           cp mihomo-linux-*.gz sing-box-*.tar.gz /tmp/new_kernels/
 
-          # 切换到远程的 kernel 分支
-          # 如果本地没有 kernel 分支，则从远程追踪
           git fetch origin kernel
           git checkout kernel || git checkout -b kernel origin/kernel
 
-          # 将新文件考回根目录
           cp /tmp/new_kernels/* .
 
-          # 检查是否有文件变动
           if [ -z "$(git status --porcelain)" ]; then
             echo "✅ 内核文件无变化，跳过推送。"
             exit 0
           fi
 
-          # 正常添加并提交
           git add mihomo-linux-*.gz sing-box-*.tar.gz
           git commit -m "chore: 更新内核 mihomo-v${MH_VER} & sing-box-v${SB_VER} ($(date +'%Y-%m-%d'))"
-          
-          # 推送回远程 kernel 分支
           git push origin kernel
