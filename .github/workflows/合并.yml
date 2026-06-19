@@ -43,9 +43,11 @@ jobs:
       # ==========================================
       DEFAULT_JSON_URLS: |
         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/gfw.json
+        https://raw.githubusercontent.com/evecus/ruleset/refs/heads/master/sing-box/foreign_domain-lite.json
         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/geolocation-!cn.json
       DEFAULT_YAML_URLS: |
         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/gfw.yaml
+        https://raw.githubusercontent.com/evecus/ruleset/refs/heads/master/mihomo/foreign_domain-lite.yaml
         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/geolocation-!cn.yaml
       # ==========================================
 
