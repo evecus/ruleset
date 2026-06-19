@@ -97,13 +97,7 @@ jobs:
           # geosite-ads: 来自 anti-AD
           # sing-box: 下载已编译的 srs → decompile → 重新 compile
           curl -L "https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/anti-ad-sing-box.srs" \
-            -o temp_work/ads_raw.srs
-          sing-box rule-set decompile --output temp_work/ads_raw.json temp_work/ads_raw.srs
-          # 规范化：去除域名前导点
-          jq '{version:.version, rules:[.rules[] | {
-                domain:        (if (.domain        | type=="array") then (.domain        | map(sub("^\\.+";""))) else null end),
-                domain_suffix: (if (.domain_suffix | type=="array") then (.domain_suffix | map(sub("^\\.+";""))) else null end)
-              } | del(..|nulls)]}' temp_work/ads_raw.json > sing-box/geosite-ads.json
+            -o sing-box/geosite-ads.srs
           # mihomo: 直接下载 clash yaml
           curl -L "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-clash.yaml" \
             -o mihomo/geosite-ads.yaml
