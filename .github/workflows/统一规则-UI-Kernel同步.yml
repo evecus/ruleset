@@ -209,21 +209,29 @@ jobs:
           print(f"YAML 已保存: {out_yaml}  (去重前 {len(all_payloads)} 条，去重后 {len(final_payload)} 条)")
 
       # ── 直接下载：geoip-telegram / geosite-google ──────────────
-      - name: 下载 geoip-telegram 与 geosite-google
+      - name: 下载 geoip-telegram、geosite-google和geoip-telegram
         run: |
           set -euo pipefail
 
           # sing-box JSON
           curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/telegram.json" \
             -o sing-box/geoip-telegram.json
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/private.json" \
+            -o sing-box/geoip-private.json
           curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/google.json" \
             -o sing-box/geosite-google.json
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/google.json" \
+            -o sing-box/geoip-google.json
 
           # mihomo YAML
           curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/telegram.yaml" \
             -o mihomo/geoip-telegram.yaml
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/private.yaml" \
+            -o mihomo/geoip-private.yaml
           curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google.yaml" \
             -o mihomo/geosite-google.yaml
+          curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/google.yaml" \
+            -o mihomo/geoip-google.yaml
 
       # ── 编译并提交至 master 分支 ───────────────────────────────
       - name: 编译与提交至 master 分支
