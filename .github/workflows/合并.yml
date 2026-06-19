@@ -77,16 +77,16 @@ jobs:
           # 解析布尔值输入
           do_json = "${{ github.event.inputs.do_json }}" == "true"
           do_yaml = "${{ github.event.inputs.do_yaml }}" == "true"
-          
+
           input_json = "${{ github.event.inputs.json_urls }}".strip()
           input_yaml = "${{ github.event.inputs.yaml_urls }}".strip()
-          
+
           json_urls = input_json.split() if input_json else os.environ.get('DEFAULT_JSON_URLS', '').split()
           yaml_urls = input_yaml.split() if input_yaml else os.environ.get('DEFAULT_YAML_URLS', '').split()
-          
+
           j_dir = "${{ github.event.inputs.json_dir }}" or "123"
           y_dir = "${{ github.event.inputs.yaml_dir }}" or "456"
-          
+
           json_file = "${{ github.event.inputs.json_filename }}" or "merged_rules"
           yaml_file = "${{ github.event.inputs.yaml_filename }}" or "merged_rules"
 
@@ -94,7 +94,7 @@ jobs:
           if do_json and json_urls:
               print(f"开始处理 JSON，共 {len(json_urls)} 个链接")
               os.makedirs(j_dir, exist_ok=True)
-              
+
               all_rules = []
               ver = 2
               for url in json_urls:
@@ -104,8 +104,8 @@ jobs:
                       if 'version' in d: ver = d['version']
                       if 'rules' in d: all_rules.extend(d['rules'])
                   except Exception as e: print(f"JSON 错误 {url}: {e}")
-              
-              # ...（此处保留之前的智能去重逻辑，为了节省篇幅简写，实际使用时请完整复制）
+
+              # 按字段组合(list_keys)分组，组内用 set 去重，输出时排序
               merged_json_data = {}
               for rule in all_rules:
                   list_keys = tuple(sorted([k for k, v in rule.items() if isinstance(v, list)]))
@@ -115,12 +115,14 @@ jobs:
                       for k, v in rule.items():
                           if not isinstance(v, list): merged_json_data[list_keys][k] = v
                   for k in list_keys: merged_json_data[list_keys][k].update(rule.get(k, []))
-              
+
+              # 按 list_keys 字符串排序，保证每次输出的规则顺序固定
               final_json_rules = []
-              for keys, content in merged_json_data.items():
+              for keys in sorted(merged_json_data.keys()):
+                  content = merged_json_data[keys]
                   new_rule = {k: (sorted(list(v)) if isinstance(v, set) else v) for k, v in content.items()}
                   final_json_rules.append(new_rule)
-              
+
               json_out_name = json_file if json_file.endswith('.json') else f"{json_file}.json"
               with open(os.path.join(j_dir, json_out_name), 'w', encoding='utf-8') as f:
                   json.dump({"version": ver, "rules": final_json_rules}, f, indent=2, ensure_ascii=False)
@@ -129,10 +131,43 @@ jobs:
               print("已跳过 JSON 合并")
 
           # --- 处理 YAML 合并 ---
+          def consolidate_domains(payloads):
+              """
+              按前缀分组并做覆盖去重：
+              - '+.domain' 通配符规则：匹配自身及所有子域名
+              - 'domain'   精确规则：只匹配自身
+              规则：
+              1) 通配符组内部，若父级通配符已覆盖（如 +.bar.com 覆盖 +.foo.bar.com），剔除冗余子级
+              2) 精确域名若已被任意通配符覆盖（自身或子域名），剔除
+              3) 最终输出：通配符在前，精确域名在后，组内各自按字母排序
+              """
+              plain, wildcard = set(), set()
+              for p in payloads:
+                  p = (p or "").strip()
+                  if not p:
+                      continue
+                  if p.startswith('+.'):
+                      wildcard.add(p[2:])
+                  else:
+                      plain.add(p)
+
+              kept_wildcard = []
+              for d in sorted(wildcard, key=lambda x: x.count('.')):
+                  if not any(d == w or d.endswith('.' + w) for w in kept_wildcard):
+                      kept_wildcard.append(d)
+              kept_wildcard_set = set(kept_wildcard)
+
+              kept_plain = [
+                  d for d in plain
+                  if not any(d == w or d.endswith('.' + w) for w in kept_wildcard_set)
+              ]
+
+              return sorted(f'+.{d}' for d in kept_wildcard_set) + sorted(kept_plain)
+
           if do_yaml and yaml_urls:
               print(f"开始处理 YAML，共 {len(yaml_urls)} 个链接")
               os.makedirs(y_dir, exist_ok=True)
-              
+
               all_payloads = set()
               for url in yaml_urls:
                   try:
@@ -140,11 +175,13 @@ jobs:
                       d = yaml.safe_load(r.text)
                       if d and 'payload' in d: all_payloads.update(d['payload'])
                   except Exception as e: print(f"YAML 错误 {url}: {e}")
-              
+
+              final_payload = consolidate_domains(all_payloads)
+
               yaml_out_name = yaml_file if (yaml_file.endswith('.yaml') or yaml_file.endswith('.yml')) else f"{yaml_file}.yaml"
               with open(os.path.join(y_dir, yaml_out_name), 'w', encoding='utf-8') as f:
-                  yaml.dump({"payload": sorted(list(all_payloads))}, f, default_flow_style=False, allow_unicode=True)
-              print(f"YAML 已保存至: {os.path.join(y_dir, yaml_out_name)}")
+                  yaml.dump({"payload": final_payload}, f, default_flow_style=False, allow_unicode=True)
+              print(f"YAML 已保存至: {os.path.join(y_dir, yaml_out_name)}（去重前 {len(all_payloads)} 条，去重后 {len(final_payload)} 条）")
           else:
               print("已跳过 YAML 合并")
 
