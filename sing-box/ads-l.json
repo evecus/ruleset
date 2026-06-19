@@ -1,7 +1,8 @@
 {
-  "version",: 2,
+  "version": 2,
   "rules": [
-      "domain_suffix": [
+  {
+    "domain_suffix": [
       "000491b06a.com",
       "000dn.com",
       "0013.cc",
@@ -105337,5 +105338,6 @@
       "zzzmjfixezere.site",
       "zzztquhwysxyu.website"
     ]
+  }
   ]
 }
