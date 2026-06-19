@@ -10,7 +10,7 @@ on:
       do_yaml:
         description: '是否合并 YAML (勾选表示是)'
         type: boolean
-        default: false
+        default: true
       json_urls:
         description: 'JSON 链接 (空格分隔，不填则使用预设)'
         required: false
@@ -32,7 +32,7 @@ on:
       yaml_filename:
         description: 'YAML 文件名'
         required: false
-        default: 'foreign_domain'
+        default: 'geosite-gfw'
 
 jobs:
   merge_process:
@@ -45,8 +45,8 @@ jobs:
         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/gfw.json
         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/geolocation-!cn.json
       DEFAULT_YAML_URLS: |
-        https://raw.githubusercontent.com/evecus/files/refs/heads/main/mihomo-rules/foreign_domain-lite.yaml
-        https://raw.githubusercontent.com/evecus/files/refs/heads/main/mihomo-rules/foreign_domain.yaml
+        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/gfw.yaml
+        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/geolocation-!cn.yaml
       # ==========================================
 
     steps:
