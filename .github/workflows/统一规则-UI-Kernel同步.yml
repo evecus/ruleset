@@ -53,9 +53,9 @@ jobs:
           # geoip-cn: 下载全量 CN IP
           curl -L "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.json" \
             -o sing-box/geoip-cn.json
-          # geoip4-cn: 仅保留 IPv4
+          # geoip-cn4: 仅保留 IPv4
           jq '.rules[0] |= {ip_cidr: [.ip_cidr[] | select(contains(":") | not)]}' \
-            sing-box/geoip-cn.json > sing-box/geoip4-cn.json
+            sing-box/geoip-cn.json > sing-box/geoip-cn4.json
 
           # geoip-gfw: 合并 facebook / google / twitter / telegram 的 IP
           IP_FILES=("facebook.yaml" "google.yaml" "twitter.yaml" "telegram.yaml")
@@ -75,10 +75,10 @@ jobs:
           jq -n \
             --rawfile v4 temp_ip/v4.txt \
             '{version:2, rules:[{ip_cidr:($v4|split("\n")|map(select(length>0)))}]}' \
-            > sing-box/geoip4-gfw.json
+            > sing-box/geoip-gfw4.json
 
           # 生成对应的 mihomo yaml
-          for f in geoip-cn geoip4-cn geoip-gfw geoip4-gfw; do
+          for f in geoip-cn geoip-cn4 geoip-gfw geoip-gfw4; do
             echo "payload:" > "mihomo/$f.yaml"
             jq -r '.rules[].ip_cidr[]?' "sing-box/$f.json" | sed 's/^/  - /' >> "mihomo/$f.yaml"
           done
