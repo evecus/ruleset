@@ -724,6 +724,8 @@ payload:
   - f3b7q2p3.ssl.hwcdn.net
   - flightsimulator.azureedge.net
   - gamedownloads-rockstargames-com.akamaized.net
+  - gog-cdn-lumen.secure2.footprint.net
+  - gog-cdn.akamaized.net
   - hb.imgix.net
   - lazer.ppy.sh
   - lolstatic-a.akamaihd.net

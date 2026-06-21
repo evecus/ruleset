@@ -3408,6 +3408,7 @@ payload:
   - +.myqnapcloud.cn
   - +.myshow360.net
   - +.mysiteres.com
+  - +.mysqil.com
   - +.mysxl.cn
   - +.myypark.com
   - +.myyx618.com
@@ -5474,10 +5475,7 @@ payload:
   - gbxgateway-dev.dell.com
   - gbxgateway.dell.com
   - geetest.datasink.sensorsdata.cn
-  - gog-cdn-fastly.gog.com
-  - gog-cdn.akamaized.net
   - gog.qtlglb.com
-  - gogalaxy.gog-statics.com
   - gonglchuangl.net
   - gongyichuangyi.net
   - google-analytics-cn.com
@@ -5607,7 +5605,6 @@ payload:
   - lv.queniujq.cn
   - maps.apple.com
   - mdr.ksn.kaspersky-labs.com
-  - menu-static.gog-statics.com
   - mesu-cdn.apple.com.akadns.net
   - mesu-china.apple.com.akadns.net
   - mesu.apple.com
@@ -5696,7 +5693,6 @@ payload:
   - prod-databe.floonet.goog
   - prod-support.apple-support.akadns.net
   - prod.databe.floonet.goog
-  - productcard.gog-statics.com
   - publicassets.cdn-apple.com
   - qiao-cn.com
   - qpx.googleflights.net
@@ -5777,7 +5773,6 @@ payload:
   - staging-controlbe.floonet.goog
   - staging-databe.floonet.goog
   - staging.databe.floonet.goog
-  - static-login.gog-statics.com
   - static.gc.apple.com
   - statics.teams.cdn.office.net
   - stocks-sparkline-lb.apple.com.akadns.net
@@ -5855,7 +5850,6 @@ payload:
   - www.recaptcha-cn.net
   - www.recaptcha.net
   - www.support.apple.com
-  - www4-static.gog-statics.com
   - xp.apple.com
   - xtratime.qcomgeo2.com
   - xz.pphimalayanrt.com
