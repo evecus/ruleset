@@ -201,8 +201,10 @@ payload:
   - +.gloryofheracles.com
   - +.goblocks.com
   - +.goblox.com
+  - +.gog-services.com
   - +.gog-statics.com
   - +.gog.com
+  - +.gogalaxy.com
   - +.gooblox.com
   - +.gpstatic.com
   - +.hackyourconsole.com
@@ -223,6 +225,7 @@ payload:
   - +.hutpromos.com
   - +.hyprsense.com
   - +.industrialtoys.com
+  - +.insights-collector.gog.com
   - +.instituteofwar.org
   - +.itch.io
   - +.itch.zone

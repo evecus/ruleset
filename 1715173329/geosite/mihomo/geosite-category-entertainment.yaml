@@ -212,6 +212,7 @@ payload:
   - +.crunchyroll.com
   - +.crypton.co.jp
   - +.crysis.jp
+  - +.csgo.com.cn
   - +.csgo.wmsj.cn
   - +.cubicmotion.com
   - +.cubicodyssey.game
@@ -362,6 +363,7 @@ payload:
   - +.donkeykongcountryreturns.com
   - +.doom.com
   - +.dota2.com
+  - +.dota2.com.cn
   - +.dota2.wmsj.cn
   - +.dragonage.com
   - +.dragonagekeep.com
@@ -509,8 +511,10 @@ payload:
   - +.go.com
   - +.goblocks.com
   - +.goblox.com
+  - +.gog-services.com
   - +.gog-statics.com
   - +.gog.com
+  - +.gogalaxy.com
   - +.gogo-load.com
   - +.gogoanime.vc
   - +.gogoanime.wiki
@@ -655,6 +659,7 @@ payload:
   - +.indaznlab.com
   - +.industrialtoys.com
   - +.inside-games.jp
+  - +.insights-collector.gog.com
   - +.instituteofwar.org
   - +.internationalsaimoe.com
   - +.iole.tv
