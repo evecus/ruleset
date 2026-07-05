@@ -3,6 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
+        "sina",
+        "weibo",
+        "xn--9krt00a",
         "97973.com",
         "ad.sina.com.cn",
         "ad.us.sinaimg.cn",

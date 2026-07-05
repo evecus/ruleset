@@ -202,6 +202,7 @@
         "end-api.shallow.ink",
         "end.shallow.ink",
         "enrichgw.10010.com",
+        "entitlements-edge.itunes.apple.com",
         "epicgames-download1-1251447533.file.myqcloud.com",
         "experiments.apple.com",
         "f.c2r.ts.cdn.office.net",
@@ -211,6 +212,7 @@
         "fontfiles.googleapis.com",
         "fonts.googleapis.com",
         "fonts.gstatic.com",
+        "fpinit.itunes.apple.com",
         "fta.dell.com",
         "ftaapj.dell.com",
         "ftaemea.dell.com",
@@ -620,8 +622,12 @@
         "xz.pphimalayanrt.com"
       ],
       "domain_suffix": [
+        "anquan",
         "baidu",
+        "shouji",
         "sohu",
+        "xihuan",
+        "yun",
         "0033.cn",
         "00cdn.com",
         "0123456789.com",

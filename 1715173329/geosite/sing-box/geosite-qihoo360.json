@@ -3,6 +3,10 @@
   "rules": [
     {
       "domain_suffix": [
+        "anquan",
+        "shouji",
+        "xihuan",
+        "yun",
         "360-api.cn",
         "360-g.cn",
         "360-g.net",
