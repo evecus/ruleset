@@ -554,6 +554,7 @@ payload:
   - +.anywlan.com
   - +.anzhuo.cn
   - +.aocde.com
+  - +.aorizon.cn
   - +.aoruszone.cn
   - +.aoshu.com
   - +.aotrip.net
@@ -1158,6 +1159,7 @@ payload:
   - +.cjjd19.com
   - +.cjol.com
   - +.cjsc.com
+  - +.cjyun.org
   - +.ckd.im
   - +.ckxx.net
   - +.clawhub-mirror.com
@@ -2209,6 +2211,8 @@ payload:
   - +.haoyouyinxiang.com
   - +.hapjs.org
   - +.happyhlddz.com
+  - +.happyhorse.cn
+  - +.happyshrimp.cn
   - +.harmonyos.com
   - +.haydaypop.cn
   - +.hazq.com
@@ -2442,6 +2446,7 @@ payload:
   - +.hxsd.com
   - +.hxzq.cn
   - +.hybiome.com
+  - +.hydun.com
   - +.hypercachenode.com
   - +.hytung.cn
   - +.hzdtv.tv
@@ -3167,6 +3172,7 @@ payload:
   - +.lotpc.com
   - +.louisvuitton.cn
   - +.loupan.com
+  - +.lovestu.com
   - +.lpl.com.cn
   - +.lppz.com
   - +.lppzimg.com
@@ -3556,6 +3562,8 @@ payload:
   - +.nikerunclub.com.cn
   - +.nikerunning.com.cn
   - +.nikestore.cn
+  - +.nikkigames.cn
+  - +.nikkigames.com.cn
   - +.ningtingche.com
   - +.nintendolabo.cn
   - +.nintendoswitch.cn
@@ -3678,6 +3686,8 @@ payload:
   - +.pan.xunlei.com
   - +.panasonic.cn
   - +.paopaoche.net
+  - +.papegames.cn
+  - +.papegames.com
   - +.papocket.com
   - +.paydxm.com
   - +.pbiwebcontent.cn
@@ -4142,6 +4152,7 @@ payload:
   - +.skypixel.com
   - +.skywt.cn
   - +.sl916.com
+  - +.sleeplesshorizon.cn
   - +.slk1.net
   - +.sllssrq.com
   - +.smartapps.cn
@@ -4337,6 +4348,7 @@ payload:
   - +.talkingdata.com
   - +.talkinggame.com
   - +.tangeche.com
+  - +.tanwan.com
   - +.tao123.com
   - +.taoche.com
   - +.taodocs.com
@@ -4525,6 +4537,8 @@ payload:
   - +.tvmao.com
   - +.tvzhe.com
   - +.twscholar.com
+  - +.twyx.cn
+  - +.twyxh.com
   - +.txrjy.com
   - +.u-cdn.net
   - +.u.tools
@@ -4660,6 +4674,7 @@ payload:
   - +.vipbcw.com
   - +.vipexam.org
   - +.vipstatic.com
+  - +.vistopia.com.cn
   - +.viviv.com
   - +.vobao.com
   - +.voc.com.cn
@@ -4958,6 +4973,7 @@ payload:
   - +.xpccdn.com
   - +.xpgod.com
   - +.xqfunds.com
+  - +.xrbk.cn
   - +.xsa239.com
   - +.xsbapp.cn
   - +.xsdzq.cn
@@ -5019,6 +5035,8 @@ payload:
   - +.yeshen.com
   - +.yeshj.com
   - +.yesky.com
+  - +.yeyou.com
+  - +.yeyoucdn.com
   - +.yfcache.com
   - +.yfcalc.com
   - +.yfcdn.net
@@ -5370,6 +5388,7 @@ payload:
   - +.zuoyebang.cc
   - +.zuoyebang.com
   - +.zway.top
+  - +.zx.com
   - +.zxhgroup.com
   - +.zxsales.cn
   - +.zxxk.com

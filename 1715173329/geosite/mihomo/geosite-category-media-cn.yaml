@@ -2,6 +2,8 @@ payload:
   - +.sohu
   - +.0033.cn
   - +.10jqka.com.cn
+  - +.17173.com
+  - +.17173cdn.com
   - +.21jingji.com
   - +.36dianping.com
   - +.36kr.com
@@ -55,6 +57,7 @@ payload:
   - +.ce.cn
   - +.cfgw.net.cn
   - +.chaindd.com
+  - +.changyou.com
   - +.cheaa.com
   - +.checkzeit.com
   - +.chinaaet.com
@@ -92,6 +95,7 @@ payload:
   - +.cs.com.cn
   - +.ctdsb.net
   - +.ctoutiao.com
+  - +.cy.com
   - +.cyol.com
   - +.cyol.net
   - +.cyzone.cn
@@ -250,6 +254,7 @@ payload:
   - +.peopleapp.com
   - +.phoenixcenter.cn
   - +.pingwest.com
+  - +.playcool.com
   - +.pv.hd.sohu.com
   - +.pv.sohu.com
   - +.qbitai.com
@@ -337,6 +342,8 @@ payload:
   - +.yangshipin.cn
   - +.ycwb.com
   - +.yesky.com
+  - +.yeyou.com
+  - +.yeyoucdn.com
   - +.yicai.com
   - +.ynet.cn
   - +.ynet.com
