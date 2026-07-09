@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "dash.cloudflare.com"
+      ],
+      "domain_suffix": [
+        "bing.com",
+        "dash.cloudflare.com",
+        "freecloud.ltd",
+        "668599.xyz",
+        "166001.xyz"
+      ]
+    }
+  ]
+}
