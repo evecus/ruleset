@@ -709,6 +709,7 @@ payload:
   - +.babytreeimg.com
   - +.badjs.weixinbridge.com
   - +.badou.com
+  - +.baicaf.com
   - +.baichuan-ai.com
   - +.baicizhan.com
   - +.baicizhan.org
@@ -1453,6 +1454,7 @@ payload:
   - +.dcloud.io
   - +.dcloud.net.cn
   - +.dcocsp.cn
+  - +.dcshfu.com
   - +.dd373.com
   - +.ddcorp.net
   - +.ddfresh.net
@@ -2026,6 +2028,7 @@ payload:
   - +.ghsl.cn
   - +.ghxi.com
   - +.ghzq.com.cn
+  - +.gifpay.com
   - +.gifshow.com
   - +.gigabyte.cn
   - +.gijsq.com
@@ -2328,6 +2331,7 @@ payload:
   - +.houyuantuan.com
   - +.howbuy.com
   - +.hpplay.cn
+  - +.hprtupgrade.com
   - +.hpstore.cn
   - +.hqchip.com
   - +.hqdoc.com
@@ -2552,6 +2556,7 @@ payload:
   - +.imsyy.com
   - +.in.th
   - +.incopat.com
+  - +.indeedpower.com
   - +.indienova.com
   - +.inewsweek.cn
   - +.infineon.cn
@@ -2586,6 +2591,7 @@ payload:
   - +.iplark.com
   - +.iplaysoft.com
   - +.ipod.com.cn
+  - +.iposl.com
   - +.ipplus360.com
   - +.iprdp.net
   - +.iprintworks.cn
@@ -3133,6 +3139,7 @@ payload:
   - +.linsn.com
   - +.linuxidc.com
   - +.liqucn.com
+  - +.listenai.com
   - +.litessl.cn
   - +.litessl.com
   - +.liulanqi.net
@@ -3189,6 +3196,7 @@ payload:
   - +.lufaxcdn.com
   - +.lufunds.com
   - +.luhua.cn
+  - +.lulian.cn
   - +.lunwengo.net
   - +.luogu.com.cn
   - +.luojilab.com
@@ -3347,6 +3355,7 @@ payload:
   - +.microsoftreactor.com.cn
   - +.microsoftstore.com.cn
   - +.microsofttranslator-int.cn
+  - +.micun.com
   - +.midasbuy.com
   - +.midea.cn
   - +.midea.com
@@ -3483,6 +3492,7 @@ payload:
   - +.mysqil.com
   - +.myssl-uri.com
   - +.myssl.com
+  - +.mystery0.vip
   - +.mysxl.cn
   - +.myypark.com
   - +.myyx618.com
@@ -4075,6 +4085,7 @@ payload:
   - +.shangzhibo.tv
   - +.shanshuihotel.com
   - +.shanxijianzhuzizhi.com
+  - +.share123.top
   - +.shareintelli.com
   - +.sharejs.com
   - +.sharepoint.cn
@@ -4390,6 +4401,7 @@ payload:
   - +.texasholdemcup.net
   - +.tfzq.com
   - +.tgbus.com
+  - +.tggfl.com
   - +.tgpro.top
   - +.tgprocs.net
   - +.th-music.com
@@ -4407,6 +4419,7 @@ payload:
   - +.thinkprinter.cn
   - +.thinkprinter.com.cn
   - +.thinkprinter.net
+  - +.thispx.com
   - +.thmnet.com
   - +.threatbook.cn
   - +.threatbook.com
@@ -4464,6 +4477,7 @@ payload:
   - +.tmtpost.com
   - +.tmtsmartlife.com
   - +.tmtsmartrun.com
+  - +.tmwanba.com
   - +.tnettms.com
   - +.to8to.com
   - +.tobosu.com
@@ -4585,6 +4599,8 @@ payload:
   - +.uewaf.com
   - +.ufileos.com
   - +.uggame.com
+  - +.ugnas.cloud
+  - +.ugnas.com
   - +.ugslb.cn
   - +.ugslb.com
   - +.ugslb.info
@@ -5431,6 +5447,7 @@ payload:
   - amp-api.apps.apple.com
   - amp-api.media.apple.com
   - amp-api.music.apple.com
+  - amp-api.podcasts.apple.com
   - aod-ssl.itunes.apple.com
   - aod.itunes.apple.com
   - api-edge.apps.apple.com
@@ -5448,7 +5465,6 @@ payload:
   - apptrailers.itunes.apple.com
   - assets1.xboxlive.cn
   - assets2.xboxlive.cn
-  - auth.music.apple.com
   - avail.googleflights.net
   - azuremigrate.download.prss.microsoft.com
   - azuremigratetest.download.prss.microsoft.com
@@ -5847,8 +5863,11 @@ payload:
   - pd.itunes.apple.com
   - performanceparameters.googleapis.com
   - pki-goog.l.google.com
+  - play-edge.itunes.apple.com
   - play.itunes.apple.com
   - play.music.apple.com
+  - podcasts.apple.com
+  - podcasts.itunes.apple.com
   - probe.siri.apple.com
   - prod-controlbe.floonet.goog
   - prod-databe.floonet.goog
