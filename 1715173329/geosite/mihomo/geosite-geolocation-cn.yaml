@@ -64,6 +64,7 @@ payload:
   - +.123pan.com
   - +.123panpay.com
   - +.123u.com
+  - +.133.cn
   - +.13a.com
   - +.1637.com
   - +.16888.com
@@ -104,7 +105,10 @@ payload:
   - +.21vbluecloud.net
   - +.2265.com
   - +.2288.org
+  - +.2345.cc
+  - +.2345.cn
   - +.2345.com
+  - +.2345cdn.net
   - +.258.com
   - +.263.net
   - +.265.com
@@ -185,6 +189,7 @@ payload:
   - +.3839vc.com
   - +.3839video.com
   - +.39.net
+  - +.39yst.com
   - +.3conline.com
   - +.3d66.com
   - +.3dmgame.com
@@ -466,6 +471,7 @@ payload:
   - +.airchinacargo.com
   - +.airguilin.com
   - +.airitilibrary.cn
+  - +.airnut.com
   - +.aisee.tv
   - +.aiskycn.com
   - +.aispeech.com
@@ -942,6 +948,7 @@ payload:
   - +.caiyun.com
   - +.caiyunai.com
   - +.caiyunapp.com
+  - +.caiyuncdn.com
   - +.calorietech.com
   - +.camcard.com
   - +.camscanner.com
@@ -1044,10 +1051,12 @@ payload:
   - +.che168.com
   - +.cheaa.com
   - +.checkzeit.com
+  - +.cheetahfun.com
   - +.chei.com.cn
   - +.chelaile.net.cn
   - +.chememall.com
   - +.chengjiaxiangqin.cn
+  - +.chenshipin.com
   - +.chesicc.cn
   - +.chesicc.com
   - +.chesicc.com.cn
@@ -1130,6 +1139,7 @@ payload:
   - +.chrstatic.com
   - +.chsi.cn
   - +.chsi.com.cn
+  - +.chuanbaoguancha.cn
   - +.chuangcache.com
   - +.chuangcdn.com
   - +.chuangxin.com
@@ -1210,6 +1220,7 @@ payload:
   - +.cnfolimg.com
   - +.cnhbstock.com
   - +.cnht.com.cn
+  - +.cnhubei.com
   - +.cninfo.com.cn
   - +.cnitblog.com
   - +.cnki.com.cn
@@ -1247,6 +1258,8 @@ payload:
   - +.cofeed.com
   - +.cofool.com
   - +.coindog.com
+  - +.colorfulclouds.com
+  - +.colorfulclouds.net
   - +.combofin.com
   - +.comfylink.com
   - +.conac.cn
@@ -1385,6 +1398,7 @@ payload:
   - +.cunchuhulian-ln.cn
   - +.cup.com.cn
   - +.cup62.cn
+  - +.cvte.com
   - +.cwxzx.com
   - +.cxbiji.com
   - +.cxmt.com
@@ -1628,6 +1642,9 @@ payload:
   - +.duoshuo.com
   - +.duote.com
   - +.duowan.com
+  - +.duoyi.com
+  - +.duoyigroup.cn
+  - +.duoyiwangluo.com
   - +.dutenews.com
   - +.dutils.com
   - +.duurl.cn
@@ -1881,6 +1898,7 @@ payload:
   - +.fqnovelvod.com
   - +.fqopenplatform.com
   - +.freebuf.com
+  - +.fromgeek.com
   - +.frontjs.com
   - +.frontrow.com.cn
   - +.frontwize.com
@@ -2120,6 +2138,7 @@ payload:
   - +.gszq.com
   - +.gtags.net
   - +.gtarsc.com
+  - +.gtgjtrip.com
   - +.gtgres.com
   - +.gtja.com
   - +.guabu.com
@@ -2199,6 +2218,7 @@ payload:
   - +.hao123.com
   - +.hao123img.com
   - +.hao222.com
+  - +.hao774.com
   - +.haodf.com
   - +.haofenshu.com
   - +.haohaodoc.com
@@ -2213,6 +2233,7 @@ payload:
   - +.haowenti.net
   - +.haoyouyinxiang.com
   - +.hapjs.org
+  - +.happyelements.com
   - +.happyhlddz.com
   - +.happyhorse.cn
   - +.happyshrimp.cn
@@ -2402,6 +2423,7 @@ payload:
   - +.huayingsc.com
   - +.huazhu.com
   - +.huazhucorp.com
+  - +.hubeidaily.net
   - +.hugecore.net
   - +.huijistatic.com
   - +.huijiwiki.com
@@ -2874,6 +2896,7 @@ payload:
   - +.ke.com
   - +.keboyunxiao.com
   - +.kechuang.org
+  - +.kechuangai.com
   - +.keep.com
   - +.keep.com.cn
   - +.keepcdn.com
@@ -2915,6 +2938,7 @@ payload:
   - +.kkmh.com
   - +.kksmg.com
   - +.kkzj.com
+  - +.kling-ai.com
   - +.klingai.com
   - +.klpbbs.com
   - +.knet.cn
@@ -3037,6 +3061,8 @@ payload:
   - +.las.ac.cn
   - +.lascn.net
   - +.latepost.com
+  - +.lawtime.cn
+  - +.lawtimeimg.com
   - +.lawxp.com
   - +.lawyee.org
   - +.lazycat.cloud
@@ -3102,6 +3128,7 @@ payload:
   - +.letv.com
   - +.letvcdn.com
   - +.letvimg.com
+  - +.leyuansu.com
   - +.lg3000.top
   - +.lgstatic.com
   - +.lhzq.com
@@ -3265,6 +3292,7 @@ payload:
   - +.matpool.net
   - +.max-c.com
   - +.maxadmin.cn
+  - +.maxhub.com
   - +.maxjia.com
   - +.maxonesoft.com
   - +.mayi.com
@@ -3324,6 +3352,7 @@ payload:
   - +.metalrevolution.com
   - +.metaso.cn
   - +.mfcteda.com
+  - +.mfk.com
   - +.mfuns.cn
   - +.mfuns.net
   - +.mgmt-azure-api.cn
@@ -3336,6 +3365,8 @@ payload:
   - +.miaomiaoz.com
   - +.miaomiaozhe.com
   - +.miaopai.com
+  - +.miaoshou.net
+  - +.miaoshoucdn.com
   - +.miaotixing.com
   - +.miaoyanai.com
   - +.miaozhen.com
@@ -3412,6 +3443,9 @@ payload:
   - +.mogucdn.com
   - +.mogujie.com
   - +.moji.com
+  - +.moji001.com
+  - +.moji002.com
+  - +.mojicdn.com
   - +.mojichina.com
   - +.mojidict.com
   - +.mokahr.com
@@ -3530,6 +3564,7 @@ payload:
   - +.netbian.com
   - +.network-auth.cn
   - +.netzz.net
+  - +.newaircloud.com
   - +.newasp.net
   - +.newbandeng.com
   - +.newcoder.com
@@ -3922,6 +3957,7 @@ payload:
   - +.qugame.com
   - +.quickapp.cn
   - +.quickconnect.cn
+  - +.quklive.com
   - +.qunjielong.com
   - +.qunliao.info
   - +.quyaoya.com
@@ -3939,6 +3975,7 @@ payload:
   - +.qznovelpic.com
   - +.qznovelstatic.com
   - +.qznovelvod.com
+  - +.qzwb.com
   - +.r.bing.com
   - +.rainclassroom.com
   - +.rainyun.com
@@ -3981,6 +4018,7 @@ payload:
   - +.rpglogs.cn
   - +.rqnoj.cn
   - +.rrmj.plus
+  - +.rsscc.cn
   - +.rt-mart.com.cn
   - +.rtbasia.com
   - +.ruan8.com
@@ -4023,6 +4061,7 @@ payload:
   - +.sccreator.cn
   - +.sccreators.cn
   - +.scctyiptv.cn
+  - +.scdaily.cn
   - +.scdng.com
   - +.scescdn.cn
   - +.scgchc.com
@@ -4032,6 +4071,7 @@ payload:
   - +.sckg.com
   - +.scm121.cn
   - +.scm121.com
+  - +.scol.com.cn
   - +.scoregg.com
   - +.scratch5.com
   - +.scsentry.cn
@@ -4055,6 +4095,7 @@ payload:
   - +.seeed.cn
   - +.seeed.com.cn
   - +.seeedstudio.com.cn
+  - +.seewo.com
   - +.segmentfault.com
   - +.sencdn.com
   - +.seniverse.com
@@ -4091,6 +4132,7 @@ payload:
   - +.sharepoint.cn
   - +.sharesdk.cn
   - +.shebiaotm.com
+  - +.shedunews.net
   - +.shellpub.com
   - +.shelter-china.com
   - +.shelterdome.net
@@ -4179,6 +4221,7 @@ payload:
   - +.snodehome.cn
   - +.snodehome.com
   - +.snowballsecurities.com
+  - +.snxw.com
   - +.so-quick.cn
   - +.so.com
   - +.sobot.com
@@ -4923,6 +4966,7 @@ payload:
   - +.xiaokaxiu.com
   - +.xiaoluyouxuan.com
   - +.xiaoluzhidian.com
+  - +.xiaomengai.com
   - +.xiaomimimo.com
   - +.xiaomingtaiji.com
   - +.xiaopeng.com
@@ -5012,6 +5056,7 @@ payload:
   - +.xunyou.com
   - +.xunyou.mobi
   - +.xwbank.com
+  - +.xxcb.cn
   - +.xxghh.biz
   - +.xxtmail.com
   - +.xycdn.com
@@ -5060,6 +5105,7 @@ payload:
   - +.yfdts.net
   - +.yfp2p.net
   - +.yfscdn.net
+  - +.ygduoyi.com
   - +.yh31.com
   - +.yhfund.com.cn
   - +.yicai.com
@@ -5362,6 +5408,8 @@ payload:
   - +.zjzsa.com
   - +.zlfund.cn
   - +.zmengzhu.com
+  - +.zmtqsh.cn
+  - +.zmtqsh.com
   - +.znds.com
   - +.zofund.com
   - +.zol-img.com.cn
