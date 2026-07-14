@@ -23,7 +23,6 @@ payload:
   - +.gmail
   - +.gmo
   - +.godaddy
-  - +.goo
   - +.goog
   - +.google
   - +.gucci
@@ -34,11 +33,9 @@ payload:
   - +.hsbc
   - +.ibm
   - +.imdb
-  - +.intel
   - +.intuit
   - +.java
   - +.kindle
-  - +.konami
   - +.microsoft
   - +.mini
   - +.mit
@@ -1369,7 +1366,6 @@ payload:
   - +.alexa.com
   - +.alexanderstreet.com
   - +.alfa.me
-  - +.alfabank.oavdo.amc
   - +.alfabank.ru
   - +.alfabank.st
   - +.alfadirect.ru
@@ -5252,6 +5248,7 @@ payload:
   - +.chatango.com
   - +.chatgpt.com
   - +.chatgpt.livekit.cloud
+  - +.chatgpt.site
   - +.chatgptvideo.xyz
   - +.chatgptvideob.buzz
   - +.chatpdf.com
@@ -13500,6 +13497,7 @@ payload:
   - +.khotruyentranhx.com
   - +.kichiku-doujinko.com
   - +.kichikuou.com
+  - +.kick.com
   - +.kickporn.com
   - +.kickshatchannel.com
   - +.kicksnike1.com
@@ -26453,11 +26451,7 @@ payload:
   - poshtestgallery.cloudapp.net
   - ppl-ai-file-upload.s3.amazonaws.com
   - pplx-res.cloudinary.com
-  - practivate.adobe
   - practivate.adobe.com
-  - practivate.adobe.ipp
-  - practivate.adobe.newoa
-  - practivate.adobe.ntp
   - prd-priconne-redive.akamaized.net
   - preprod-publicca.googleapis.com
   - prodforza.blob.core.windows.net

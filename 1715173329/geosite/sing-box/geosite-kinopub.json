@@ -4,16 +4,21 @@
     {
       "domain_suffix": [
         "ahc.ovh",
+        "api.alador.space",
         "cdn-service.space",
         "cdn2cdn.com",
         "cdn2site.com",
         "gfw.ovh",
         "kino.pub",
+        "kino.watch",
         "kinopub.online",
         "kpdl.link",
+        "m.alador.space",
         "mos-gorsud.co",
         "pushbr.com",
-        "smarttvcdn.online"
+        "smarttvcdn.online",
+        "support-kp.com",
+        "tsx.ovh"
       ]
     }
   ]

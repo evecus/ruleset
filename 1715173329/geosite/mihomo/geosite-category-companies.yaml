@@ -16,7 +16,6 @@ payload:
   - +.gmail
   - +.gmo
   - +.godaddy
-  - +.goo
   - +.goog
   - +.google
   - +.guge
@@ -24,7 +23,6 @@ payload:
   - +.hotmail
   - +.ibm
   - +.imdb
-  - +.intel
   - +.intuit
   - +.java
   - +.kindle
@@ -8170,11 +8168,7 @@ payload:
   - podcasts.apple.com
   - podcasts.itunes.apple.com
   - poshtestgallery.cloudapp.net
-  - practivate.adobe
   - practivate.adobe.com
-  - practivate.adobe.ipp
-  - practivate.adobe.newoa
-  - practivate.adobe.ntp
   - preprod-publicca.googleapis.com
   - probe.siri.apple.com
   - prod-controlbe.floonet.goog

@@ -1,6 +1,5 @@
 payload:
   - +.moscow
-  - +.psk
   - +.ru
   - +.su
   - +.tatar
@@ -51,7 +50,6 @@ payload:
   - +.ahilesva.info
   - +.alefbank.com
   - +.alfa.me
-  - +.alfabank.oavdo.amc
   - +.alfabank.st
   - +.algoritmika.org
   - +.alt-ad.mail.ru
