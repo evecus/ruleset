@@ -2,8 +2,8 @@ name: 统一规则-UI-Kernel同步
 
 on:
   workflow_dispatch:
- # schedule:
-   # - cron: "0 1 * * *"
+  schedule:
+    - cron: "0 1 * * *"
 
 permissions:
   contents: write
