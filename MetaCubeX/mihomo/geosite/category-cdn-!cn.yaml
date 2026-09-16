@@ -65,14 +65,17 @@ payload:
     - +.cloudflare-ipfs.com
     - +.imgix.com
     - +.imgix.net
-    - +.pagecdn.com
-    - +.pagecdn.io
+    - +.delvenetworks.com
+    - +.limelight.com
+    - +.lldns.net
+    - +.llnw-trials.com
+    - +.llnw.com
+    - +.llnw.net
+    - +.llnwd.net
+    - +.llnwi.net
     - +.quantil.com
     - +.stackpath.com
     - +.stackpath.dev
-    - +.vrcdn.cloud
-    - +.vrcdn.live
-    - +.vrcdn.video
     - +.fastly-edge.com
     - +.fastly-terrarium.com
     - +.fastly.com
@@ -83,14 +86,11 @@ payload:
     - +.esm.run
     - +.jsdelivr.com
     - +.jsdelivr.net
-    - +.delvenetworks.com
-    - +.limelight.com
-    - +.lldns.net
-    - +.llnw-trials.com
-    - +.llnw.com
-    - +.llnw.net
-    - +.llnwd.net
-    - +.llnwi.net
+    - +.pagecdn.com
+    - +.pagecdn.io
+    - +.vrcdn.cloud
+    - +.vrcdn.live
+    - +.vrcdn.video
     - +.ak1.net
     - +.aka-ai.com
     - +.aka-ai.net

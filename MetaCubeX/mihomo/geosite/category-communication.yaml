@@ -2,11 +2,31 @@ payload:
     - discord-attachments-uploads-prd.storage.googleapis.com
     - hammerandchisel.ssl.zendesk.com
     - +.botim.me
-    - +.viber.com
-    - +.viber.co
-    - +.viber.me
-    - +.vbcdn.com
-    - +.vbcdn.net
+    - +.fbmessenger.com
+    - +.m.me
+    - +.messenger.com
+    - +.nbabot.net
+    - +.pm.me
+    - +.proton.me
+    - +.protonmail.ch
+    - +.protonmail.com
+    - +.protonstatus.com
+    - +.protontech.ch
+    - +.protonvpn.ch
+    - +.protonvpn.com
+    - +.protonweb.com
+    - +.temp-mail.org
+    - +.wa.me
+    - +.whatsapp-plus.info
+    - +.whatsapp-plus.me
+    - +.whatsapp-plus.net
+    - +.whatsapp.cc
+    - +.whatsapp.com
+    - +.whatsapp.info
+    - +.whatsapp.net
+    - +.whatsapp.org
+    - +.whatsapp.tv
+    - +.whatsappbrand.com
     - +.dis.gd
     - +.discord.co
     - +.discord.com
@@ -33,15 +53,31 @@ payload:
     - +.watchanimeattheoffice.com
     - +.discordapp.io
     - +.discordcdn.com
-    - +.pm.me
-    - +.proton.me
-    - +.protonmail.ch
-    - +.protonmail.com
-    - +.protonstatus.com
-    - +.protontech.ch
-    - +.protonvpn.ch
-    - +.protonvpn.com
-    - +.protonweb.com
+    - +.freenode.net
+    - +.keybase.io
+    - +.keybaseapi.com
+    - +.linemobile.com
+    - +.lin.ee
+    - +.line-apps-beta.com
+    - +.line-apps-rc.com
+    - +.line-apps.com
+    - +.line-beta.me
+    - +.line-cdn.net
+    - +.line-scdn.net
+    - +.line.me
+    - +.line.biz
+    - +.linefriends.com
+    - +.linecorp.com
+    - +.nhncorp.jp
+    - +.linetv.tw
+    - +.linegame.jp
+    - +.gcld-line.com
+    - +.linemyshop.com
+    - +.lineshoppingseller.com
+    - +.mail.com
+    - +.ui-portal.de
+    - +.uicdn.com
+    - +.uimserv.net
     - +.signal.art
     - +.signal.group
     - +.signal.link
@@ -50,6 +86,23 @@ payload:
     - +.signal.org
     - +.signalusers.org
     - +.whispersystems.org
+    - +.clubhouse.com
+    - +.clubhouseapi.com
+    - +.joinclubhouse.com
+    - +.arewereadyyet.com
+    - +.cinny.in
+    - +.element.io
+    - +.fluffychat.im
+    - +.matrix.org
+    - +.matrix.to
+    - +.modular.im
+    - +.riot.im
+    - +.vector.im
+    - +.nicegram.app
+    - +.nicegram.cloud
+    - +.myteamspeak.com
+    - +.teamspeak.com
+    - +.teamspeak-services.com
     - +.cdn-telegram.org
     - +.comments.app
     - +.contest.com
@@ -71,22 +124,10 @@ payload:
     - +.toncenter.com
     - +.tx.me
     - +.usercontent.dev
-    - +.wa.me
-    - +.whatsapp-plus.info
-    - +.whatsapp-plus.me
-    - +.whatsapp-plus.net
-    - +.whatsapp.cc
-    - +.whatsapp.com
-    - +.whatsapp.info
-    - +.whatsapp.net
-    - +.whatsapp.org
-    - +.whatsapp.tv
-    - +.whatsappbrand.com
     - +.intercom.com
     - +.intercom.io
     - +.intercomassets.com
     - +.intercomcdn.com
-    - +.temp-mail.org
     - +.slack-core.com
     - +.slack-edge.com
     - +.slack-files.com
@@ -98,52 +139,11 @@ payload:
     - +.slackcertified.com
     - +.slackdemo.com
     - +.slackhq.com
-    - +.clubhouse.com
-    - +.clubhouseapi.com
-    - +.joinclubhouse.com
-    - +.freenode.net
-    - +.keybase.io
-    - +.keybaseapi.com
-    - +.mail.com
-    - +.ui-portal.de
-    - +.uicdn.com
-    - +.uimserv.net
-    - +.fbmessenger.com
-    - +.m.me
-    - +.messenger.com
-    - +.nbabot.net
-    - +.linemobile.com
-    - +.lin.ee
-    - +.line-apps-beta.com
-    - +.line-apps-rc.com
-    - +.line-apps.com
-    - +.line-beta.me
-    - +.line-cdn.net
-    - +.line-scdn.net
-    - +.line.me
-    - +.line.biz
-    - +.linefriends.com
-    - +.linecorp.com
-    - +.nhncorp.jp
-    - +.linetv.tw
-    - +.linegame.jp
-    - +.gcld-line.com
-    - +.linemyshop.com
-    - +.lineshoppingseller.com
-    - +.arewereadyyet.com
-    - +.cinny.in
-    - +.element.io
-    - +.fluffychat.im
-    - +.matrix.org
-    - +.matrix.to
-    - +.modular.im
-    - +.riot.im
-    - +.vector.im
-    - +.nicegram.app
-    - +.nicegram.cloud
-    - +.myteamspeak.com
-    - +.teamspeak.com
-    - +.teamspeak-services.com
+    - +.viber.com
+    - +.viber.co
+    - +.viber.me
+    - +.vbcdn.com
+    - +.vbcdn.net
     - +.linefriends.com.tw
     - +.line.naver.jp
     - +.s-bid.rmp.rakuten.com
