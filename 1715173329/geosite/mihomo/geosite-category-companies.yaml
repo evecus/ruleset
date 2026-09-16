@@ -475,6 +475,7 @@ payload:
   - +.amazonvideo.com
   - +.amazonvideodirect.com
   - +.amazonwebservices.cn
+  - +.amazonwebservices.com
   - +.amazonwebservices.com.cn
   - +.amazonworkdocs.cn
   - +.amazonworkdocs.com
@@ -520,6 +521,7 @@ payload:
   - +.anydesk.com
   - +.aodahl.com
   - +.aokwholesale.net
+  - +.aolcdn.com
   - +.aorus.com
   - +.aoruszone.cn
   - +.ap0le.com
@@ -3778,6 +3780,8 @@ payload:
   - +.hey.boo
   - +.heywire.com
   - +.hf-iphone.com
+  - +.hf.co
+  - +.hf.space
   - +.hh.by
   - +.hh.kz
   - +.hh.ru
@@ -3966,6 +3970,7 @@ payload:
   - +.httpwwwfacebook.com
   - +.htznr.li
   - +.hubblephone.com
+  - +.huggingface.co
   - +.hummingbird.ms
   - +.hwgo.com
   - +.hwslabs.com
@@ -5734,6 +5739,7 @@ payload:
   - +.ospray.org
   - +.ospserver.net
   - +.ouroath.com
+  - +.ouryahoo.com
   - +.out-app-purchase.com
   - +.outingsapp.com
   - +.outletbeatsshop.com
@@ -6130,6 +6136,8 @@ payload:
   - +.sayeasy.eu
   - +.saynow.com
   - +.sc-cdn.net
+  - +.sc-gw.com
+  - +.sc-static.net
   - +.scaleform.com
   - +.scartel.ru
   - +.scene7.com
@@ -7342,6 +7350,7 @@ payload:
   - +.yahoodns.net
   - +.yahoofinance.com
   - +.yahoohealth.com
+  - +.yahooinc.com
   - +.yahoomusic.com
   - +.yahoosandbox.com
   - +.yahoosportsbook.com
@@ -7369,6 +7378,7 @@ payload:
   - +.yandex.eu
   - +.yandex.fi
   - +.yandex.fr
+  - +.yandex.it
   - +.yandex.jobs
   - +.yandex.kg
   - +.yandex.kz
@@ -7683,7 +7693,6 @@ payload:
   - adv.rustore.ru
   - adv.vk.ru
   - advk.vk.ru
-  - afcs.dell.com
   - ai.google.dev
   - alkalicore-pa.clients6.google.com
   - alkalimakersuite-pa.clients6.google.com
@@ -7818,7 +7827,6 @@ payload:
   - client-teamviewer-com.trafficmanager.net
   - clientflow.apple.com
   - clientflow.apple.com.akadns.net
-  - clientperipherals.dell.com
   - clients1.google.com
   - clientservices.googleapis.com
   - cloudaicompanion.googleapis.com
@@ -7854,7 +7862,6 @@ payload:
   - cstat.apple.com
   - cstat.cdn-apple.com
   - ctldl.windowsupdate.com
-  - customization-cdn.dell.com
   - d1k2us671qcoau.cloudfront.net
   - d1v5ir2lpwr8os.cloudfront.net
   - d22qjgkvxw22r6.cloudfront.net
@@ -7869,7 +7876,6 @@ payload:
   - dc1-st.ksn.kaspersky-labs.com
   - dc1.ksn.kaspersky-labs.com
   - dd-cdn.origin-apple.com.akadns.net
-  - dds.dell.com
   - default.exp-tas.com
   - dejavu.apple.com
   - dell.my.site.com
@@ -7880,7 +7886,6 @@ payload:
   - dfp6rglgjqszk.cloudfront.net
   - dg-meta.video.google.com
   - discussionschinese.apple.com
-  - dl.dell.com
   - dl.google.com
   - dl.l.google.com
   - dmqdd6hw24ucf.cloudfront.net
@@ -7913,11 +7918,7 @@ payload:
   - dreamspark.download.prss.microsoft.com
   - dreamsparkuat.download.prss.microsoft.com
   - dtlgalleryint.cloudapp.net
-  - ea2cn-dev-outlet.dell.com
-  - ea2cn-prod-outlet.dell.com
-  - ea2cn-staging-outlet.dell.com
   - edge.geo.kaspersky.com
-  - emoi-cncdn.bing.com
   - entitlements-edge.itunes.apple.com
   - ereg.adobe.com
   - ereg.wip.adobe.com
@@ -7929,7 +7930,6 @@ payload:
   - f.c2r.ts.cdn.office.net
   - faronics.kayako.com
   - fbcdn-a.akamaihd.net
-  - fcs.dell.com
   - fides-pol.apple.com
   - firebase-settings.crashlytics.com
   - firebase.google.com
@@ -7949,16 +7949,10 @@ payload:
   - fonts.googleapis.com
   - fonts.gstatic.com
   - fpinit.itunes.apple.com
-  - fta.dell.com
-  - ftaapj.dell.com
-  - ftaemea.dell.com
-  - ftasitapj.dell.com
   - g0.gstatic.com
   - g1.gstatic.com
   - g2.gstatic.com
   - g3.gstatic.com
-  - gbxgateway-dev.dell.com
-  - gbxgateway.dell.com
   - gigabyte2.azureedge.net
   - github-api.arkoselabs.com
   - github-cloud.s3.amazonaws.com
@@ -8005,7 +7999,6 @@ payload:
   - hls.itunes.apple.com
   - hpefonts.s3.amazonaws.com
   - hpstore.corpmerchandise.com
-  - i.dell.com
   - i.pki.goog
   - images-cn-8.ssl-images-amazon.com
   - images-cn.ssl-images-amazon.com
@@ -8121,7 +8114,6 @@ payload:
   - myapp.itunes.apple.com
   - myvs.download.prss.microsoft.com
   - na1r.services.adobe.com
-  - nexus.dell.com
   - notary-submissions-prod.s3-accelerate.amazonaws.com
   - notary-submissions-prod.s3.us-west-2.amazonaws.com
   - notebooklm-pa.googleapis.com
@@ -8148,7 +8140,6 @@ payload:
   - osxapps.itunes.apple.com
   - osxapps.itunes.g.aaplimg.com
   - p-events-delivery.akamaized.net
-  - p.cdn.persaas.dell.com
   - p00.upd.kaspersky.com
   - p01.upd.kaspersky.com
   - p02.upd.kaspersky.com
@@ -8273,7 +8264,6 @@ payload:
   - sa78gs.wpc.edgecastcdn.net
   - safebrowsing-cache.google.com
   - safebrowsing.googleapis.com
-  - scene7-cdn.dell.com
   - scholar.google.ae
   - scholar.google.at
   - scholar.google.be
@@ -8372,12 +8362,8 @@ payload:
   - sh-pod2-smp-device.apple.com
   - shazam-insights.cdn-apple.com
   - shell.cdn.office.net
-  - si.cdn.dell.com
-  - sm.dell.com
   - smp-device-content.apple.com
   - sni1dcb6gl.wpc.edgecastcdn.net
-  - snp.cdn.dell.com
-  - snpi.dell.com
   - software.download.prss.microsoft.com
   - sp.itunes.apple.com
   - speedysub.music.apple.com
@@ -8416,7 +8402,6 @@ payload:
   - su.itunes.apple.com
   - support-china.apple-support.akadns.net
   - support.apple.com
-  - supportassist.dell.com
   - surface.download.prss.microsoft.com
   - surface.downloads.prss.microsoft.com
   - swallow-apple-com.v.aaplimg.com
@@ -8441,7 +8426,6 @@ payload:
   - tj-pod3-smp-device.apple.com
   - tools.google.com
   - top-staging.mail.ru
-  - tp.louisvuitton.com
   - tv.applemusic.com
   - universal-activity-service.itunes.apple.com
   - update.crashlytics.com
@@ -8574,13 +8558,10 @@ payload:
   - wwis-dubc1-vip98.adobe.com
   - wwis-dubc1-vip99.adobe.com
   - www-cdn.icloud.com.akadns.net
-  - www-csb.dell.com
   - www-google-analytics.l.google.com
   - www-googletagmanager.l.google.com
-  - www.amd.com
   - www.apple.com
   - www.apple.com.edgekey.net.globalredir.akadns.net
-  - www.dell.com
   - www.destinationurl.com
   - www.gstatic.com
   - www.microsoft.com

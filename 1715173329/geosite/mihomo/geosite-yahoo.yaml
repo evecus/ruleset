@@ -2,12 +2,14 @@ payload:
   - +.flickr
   - +.yahoo
   - +.ads.yahoo.com
+  - +.aolcdn.com
   - +.flic.kr
   - +.flickr.com
   - +.flickr.net
   - +.gemini.yahoo.com
   - +.maktoob.com
   - +.myguide.hk
+  - +.ouryahoo.com
   - +.staticflickr.com
   - +.techcrunch.com
   - +.yahoo-news.com.hk
@@ -164,6 +166,7 @@ payload:
   - +.yahoodns.net
   - +.yahoofinance.com
   - +.yahoohealth.com
+  - +.yahooinc.com
   - +.yahoomusic.com
   - +.yahoosandbox.com
   - +.yahoosportsbook.com

@@ -57,6 +57,9 @@ payload:
   - +.ac-pocketcamp.com
   - +.acesofthunder.net
   - +.activematter.game
+  - +.activision.com
+  - +.activisionblizzard.com
+  - +.activisionblizzardmedia.com
   - +.ads-pixiv.net
   - +.ads.youtube.com
   - +.adventuresbydisney.com
@@ -150,6 +153,7 @@ payload:
   - +.beforeigners.com
   - +.bejeweledstars.com
   - +.bejewled-stars.com
+  - +.benefitsforeveryworld.com
   - +.bestdori.com
   - +.beth.games
   - +.bethesda.net
@@ -197,9 +201,15 @@ payload:
   - +.bytedapm.com
   - +.callersbane.com
   - +.callhulu.com
+  - +.callofduty.com
+  - +.callofdutyendowment.com
+  - +.callofdutyendowment.org
+  - +.callofdutyleague.com
+  - +.callofdutymobile.com
   - +.camelot-europe.com
   - +.camelotherald.com
   - +.camelotherald.net
+  - +.candycrush.com
   - +.capitalgames.com
   - +.capturingreality.com
   - +.castro.fm
@@ -236,6 +246,7 @@ payload:
   - +.copy-manga.com
   - +.copy20.com
   - +.copy2000.online
+  - +.crashbandicoot.com
   - +.crossout.net
   - +.crsed.net
   - +.crunchyroll.com
@@ -269,12 +280,15 @@ payload:
   - +.daznservices.com
   - +.deadspacegame.com
   - +.deezer.com
+  - +.demonware.net
   - +.denfaminicogamer.jp
   - +.dengekionline.com
   - +.detpress.com
   - +.deviantart.com
   - +.deviantart.net
+  - +.diablo.com
   - +.diablo3.com
+  - +.diablo4.com
   - +.diabloimmortal.com
   - +.dialga.com
   - +.dice.se
@@ -462,6 +476,7 @@ payload:
   - +.espncdn.com
   - +.espnqa.com
   - +.esports.gg
+  - +.europeanwarzoneseries.com
   - +.excitebots.com
   - +.ext-twitch.tv
   - +.f1.com
@@ -571,6 +586,7 @@ payload:
   - +.gr-assets.com
   - +.greatgame.asia
   - +.gstore.val.manlaxy.com
+  - +.h264.io
   - +.hackyourconsole.com
   - +.haiwaikan.com
   - +.hayabusa.dev
@@ -635,6 +651,7 @@ payload:
   - +.heroesofthestorm.com
   - +.hibiki-cast.jp
   - +.hidive.com
+  - +.highmoonstudios.com
   - +.hikosen.co.jp
   - +.historyofdota.com
   - +.historyofdota.net
@@ -701,6 +718,7 @@ payload:
   - +.indazn.com
   - +.indaznlab.com
   - +.industrialtoys.com
+  - +.infinityward.com
   - +.inside-games.jp
   - +.insights-collector.gog.com
   - +.instituteofwar.org
@@ -757,6 +775,7 @@ payload:
   - +.kgisystems.com
   - +.kick.com
   - +.kinescopecdn.net
+  - +.king.com
   - +.kingkong.com.tw
   - +.kingkongapp.com
   - +.kinopoisk-ru.clstorage.net
@@ -987,6 +1006,8 @@ payload:
   - +.nflxvideo.net
   - +.nfsworld.com
   - +.ngeo.com
+  - +.nico.ms
+  - +.nicochannel.jp
   - +.nicodic.jp
   - +.nicomanga.jp
   - +.niconico.com
@@ -1183,6 +1204,7 @@ payload:
   - +.radiko-cf.com
   - +.radiko.jp
   - +.rateyourmusic.com
+  - +.ravensoftware.com
   - +.ravm.tv
   - +.rayark.download
   - +.rayark.net
@@ -1258,6 +1280,7 @@ payload:
   - +.rokutime.com
   - +.rowblocks.com
   - +.rowblox.com
+  - +.rsg.ms
   - +.rsg.sc
   - +.rstatic.net
   - +.rtbcdn.ru
@@ -1275,6 +1298,7 @@ payload:
   - +.searchlightpictures.com
   - +.seeurlpcl.com
   - +.sekai.colorfulpalette.org
+  - +.sekirothegame.com
   - +.sendvid.com
   - +.shadowcomplex.com
   - +.shadowverse-evolve.com
@@ -1283,6 +1307,7 @@ payload:
   - +.shops-disney.com
   - +.showtime.com
   - +.showtimeanytime.com
+  - +.sierragames.com
   - +.sih-db.com
   - +.sih.app
   - +.silicagame.com
@@ -1291,6 +1316,8 @@ payload:
   - +.simg.jp
   - +.skate2.com
   - +.sketchfab.com
+  - +.skylanders.com
+  - +.sledgehammergames.com
   - +.sling.com
   - +.slinginternational.com
   - +.smartstream.ne.jp
@@ -1301,6 +1328,7 @@ payload:
   - +.snkplaymore.info
   - +.snmc.io
   - +.snowmiku.com
+  - +.solidstate.com
   - +.sonematic.net
   - +.sonemic.com
   - +.sonyclassics.com
@@ -1334,6 +1362,7 @@ payload:
   - +.spotifyforvendors.com
   - +.spotifyjobs.com
   - +.spyjinx.com
+  - +.spyrothedragon.com
   - +.sqool.net
   - +.squadbusters.com
   - +.ssx3.com
@@ -1463,10 +1492,13 @@ payload:
   - +.tmdb.org
   - +.tnt-ea.com
   - +.tokyodisneyresort.jp
+  - +.tonyhawk.com
+  - +.tonyhawkthegame.com
   - +.tospotify.com
   - +.toy-people.com
   - +.tra-ww000-cp.akamaized.net
   - +.trbcdn.net
+  - +.treyarch.com
   - +.triokini.com
   - +.ttcdn-us.com
   - +.ttlivecdn.com
@@ -1575,6 +1607,7 @@ payload:
   - +.worldofwarcraft.com
   - +.worldofwarplanes.com
   - +.worldofwarships.com
+  - +.worldseriesofwarzone.com
   - +.wotblitz.com
   - +.wowsblitz.com
   - +.ws-blau.com
@@ -1954,6 +1987,7 @@ payload:
   - is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net
   - itunesconnect.apple.com
   - js-cdn.music.apple.com
+  - lastfm-img.freetls.fastly.net
   - lastfm.freetls.fastly.net
   - lazer.ppy.sh
   - lgcscc-hamivideo2.cdn.hinet.net
@@ -1985,6 +2019,7 @@ payload:
   - osu.ppy.sh
   - osxapps.itunes.apple.com
   - osxapps.itunes.g.aaplimg.com
+  - p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
   - p16-tiktokcdn-com.akamaized.net
   - pd-nk.itunes.apple.com
   - pd.itunes.apple.com
@@ -2076,7 +2111,6 @@ payload:
   - ubistatic8-a.akamaihd.net
   - ubistatic9-a.akamaihd.net
   - universal-activity-service.itunes.apple.com
-  - uplaypc-s-ubisoft.cdn.ubi.com
   - upp.itunes.apple.com
   - uts-api.itunes.apple.com
   - videos-rockstargames-com.akamaized.net

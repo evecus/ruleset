@@ -31,6 +31,7 @@ payload:
   - +.cueme.cn
   - +.dbbuilding.fun
   - +.deepseek.com
+  - +.deepseeksvc.com
   - +.diandianlife.top
   - +.doubao-dev.com
   - +.doubao.com
@@ -68,7 +69,6 @@ payload:
   - +.miaoda.cn
   - +.miaoyanai.com
   - +.minimaxi.com
-  - +.moonshot.ai
   - +.moonshot.cn
   - +.myparallelstory.com
   - +.n.cn
@@ -80,6 +80,7 @@ payload:
   - +.pixeldance.com
   - +.qianwen.aliyun.com
   - +.qianwen.com
+  - +.qianwenai.com
   - +.qwen.ai
   - +.qwenlm.ai
   - +.rwkv.cn
@@ -96,6 +97,7 @@ payload:
   - +.trae.cn
   - +.trae.com.cn
   - +.trae.guru
+  - +.workbuddy.cn
   - +.xiaoaiassist.com
   - +.xiaomimimo.com
   - +.xiezuocat.com

@@ -13,6 +13,9 @@ payload:
   - +.ac-pocketcamp.com
   - +.acesofthunder.net
   - +.activematter.game
+  - +.activision.com
+  - +.activisionblizzard.com
+  - +.activisionblizzardmedia.com
   - +.amiibo.com
   - +.anthemgame.com
   - +.anthemthegame.com
@@ -41,6 +44,7 @@ payload:
   - +.battlelog.com
   - +.bejeweledstars.com
   - +.bejewled-stars.com
+  - +.benefitsforeveryworld.com
   - +.beth.games
   - +.bethesda.net
   - +.bethesdagamestudios.com
@@ -60,9 +64,15 @@ payload:
   - +.brawlstars.com
   - +.brawlstarsgame.com
   - +.callersbane.com
+  - +.callofduty.com
+  - +.callofdutyendowment.com
+  - +.callofdutyendowment.org
+  - +.callofdutyleague.com
+  - +.callofdutymobile.com
   - +.camelot-europe.com
   - +.camelotherald.com
   - +.camelotherald.net
+  - +.candycrush.com
   - +.capitalgames.com
   - +.capturingreality.com
   - +.championshipseriesleague.com
@@ -77,6 +87,7 @@ payload:
   - +.commandandconquer.com
   - +.conquerwithcharacter.com
   - +.convrgencegame.com
+  - +.crashbandicoot.com
   - +.crossout.net
   - +.crsed.net
   - +.crysis.jp
@@ -92,7 +103,10 @@ payload:
   - +.dawngatechronicles.com
   - +.dayz.com
   - +.deadspacegame.com
+  - +.demonware.net
+  - +.diablo.com
   - +.diablo3.com
+  - +.diablo4.com
   - +.diabloimmortal.com
   - +.dialga.com
   - +.dice.se
@@ -152,6 +166,7 @@ payload:
   - +.epicgames.dev
   - +.epicgamescdn.com
   - +.escapefromtarkov.com
+  - +.europeanwarzoneseries.com
   - +.excitebots.com
   - +.fab.com
   - +.fabricmc.net
@@ -212,6 +227,7 @@ payload:
   - +.haydaygame.com
   - +.heroesofdragonage.com
   - +.heroesofthestorm.com
+  - +.highmoonstudios.com
   - +.historyofdota.com
   - +.historyofdota.net
   - +.historyofdota.org
@@ -225,6 +241,7 @@ payload:
   - +.hutpromos.com
   - +.hyprsense.com
   - +.industrialtoys.com
+  - +.infinityward.com
   - +.insights-collector.gog.com
   - +.instituteofwar.org
   - +.itch.io
@@ -232,6 +249,7 @@ payload:
   - +.joinsquad.com
   - +.joyjoy.net
   - +.kgisystems.com
+  - +.king.com
   - +.kirbysepicyarn.com
   - +.kirbysuperstarultra.com
   - +.kiwi.jp
@@ -454,6 +472,7 @@ payload:
   - +.quixel.com
   - +.quixel.se
   - +.radgametools.com
+  - +.ravensoftware.com
   - +.rayark.download
   - +.rayark.net
   - +.rblx.co
@@ -517,6 +536,7 @@ payload:
   - +.rockstarnorth.com
   - +.rowblocks.com
   - +.rowblox.com
+  - +.rsg.ms
   - +.rsg.sc
   - +.rstatic.net
   - +.ruinedking.com
@@ -525,7 +545,9 @@ payload:
   - +.seaofsolitude.com
   - +.seeurlpcl.com
   - +.sekai.colorfulpalette.org
+  - +.sekirothegame.com
   - +.shadowcomplex.com
+  - +.sierragames.com
   - +.sih-db.com
   - +.sih.app
   - +.silicagame.com
@@ -533,9 +555,12 @@ payload:
   - +.simcity.com
   - +.skate2.com
   - +.sketchfab.com
+  - +.skylanders.com
+  - +.sledgehammergames.com
   - +.snk-corp.co.jp
   - +.snk-corp.info
   - +.snkplaymore.info
+  - +.solidstate.com
   - +.sonyentertainmentnetwork.com
   - +.spearhead.kr
   - +.speedhunters.com
@@ -544,6 +569,7 @@ payload:
   - +.splatoon2tournament.com
   - +.spore.com
   - +.spyjinx.com
+  - +.spyrothedragon.com
   - +.squadbusters.com
   - +.ssx3.com
   - +.star-conflict.com
@@ -614,6 +640,9 @@ payload:
   - +.tiburon.com
   - +.titanfall.com
   - +.tnt-ea.com
+  - +.tonyhawk.com
+  - +.tonyhawkthegame.com
+  - +.treyarch.com
   - +.twinmotion.com
   - +.ubi.com
   - +.ubisoft.com
@@ -663,6 +692,7 @@ payload:
   - +.worldofwarcraft.com
   - +.worldofwarplanes.com
   - +.worldofwarships.com
+  - +.worldseriesofwarzone.com
   - +.wotblitz.com
   - +.wowsblitz.com
   - +.wtmobile.com
